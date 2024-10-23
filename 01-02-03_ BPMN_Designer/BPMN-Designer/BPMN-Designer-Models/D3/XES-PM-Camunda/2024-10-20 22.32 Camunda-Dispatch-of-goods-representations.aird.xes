@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.27 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<trace>
+		<event>
+			<string key="newValue" value="LaneSet[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="laneSets"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:laneSets"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.341+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="REMOVE"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="oldValue" value="StartEvent[TRANSIENT]"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="REMOVE"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.341+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="oldValue" value="StartEvent[TRANSIENT]"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="newValue" value="Dispatch of goods Computer Hardware Setup"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="LaneSet:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="LaneSet"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:57.941+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="newValue" value="Logistics"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Lane:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Lane"/>
+			<date key="time:timestamp" value="2024-10-20T21:45:04.813+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="newValue" value="Secretary"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Lane:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Lane"/>
+			<date key="time:timestamp" value="2024-10-20T21:45:11.551+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="MOVE"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="oldValue" value="1"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="newValue" value="Warehouse"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Lane:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Lane"/>
+			<date key="time:timestamp" value="2024-10-20T21:45:19.669+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="MOVE"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:29.786+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_uLn7oY8bEe-v648egk3nxQ"/>
+			<string key="oldValue" value="2"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.341+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_uLn7oo8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="newValue" value="Insure parcel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:45:27.942+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_U1x4QI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ship goods"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="StartEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_U1x4QI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="StartEvent"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:54.421+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:04.479+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_U1x4QI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:outgoing"/>
+			<string key="id" value="_U1x4QI8cEe-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_XHTO8I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_XHTO8I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:04.480+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:04.480+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:incoming"/>
+			<string key="id" value="_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_XHTO8I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_XHTO8I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:04.480+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="clarify shopment method"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:21.350+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="clarify shipment method"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:21.350+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="id" value="_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="oldValue" value="clarify shopment method"/>
+			<string key="class" value="Task"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:32.758+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:outgoing"/>
+			<string key="id" value="_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_bU_XYI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_bU_XYI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:32.758+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:32.758+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_bU_XYI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_bU_XYI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:32.758+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Special sanding?"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExclusiveGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:53.135+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:56.078+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_YOAYUI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_ezYw4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_ezYw4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:56.078+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:56.078+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_ezYw4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_ezYw4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:56.078+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Get 3 offers from logistic companies"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:12.286+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:24.134+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:24.134+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:24.134+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:24.134+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Yes"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_i-8yYI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:28.519+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:24.134+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_c3jWUI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:38.705+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:38.705+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:incoming"/>
+			<string key="id" value="_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:38.705+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="No"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lJ5nAI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:41.991+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:56.747+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:outgoing"/>
+			<string key="id" value="_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:56.747+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:56.747+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:56.747+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="if insurance necessary"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_n1-LsI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:04.877+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Write paclage label"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:15.989+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:50:56.747+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:outgoing"/>
+			<string key="id" value="_kjuX0I8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:20.863+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:20.863+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:20.863+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="always"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_rb8z4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:24.421+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:32.686+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_poWIQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_tMs_0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tMs_0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:32.686+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:32.686+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:incoming"/>
+			<string key="id" value="_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_tMs_0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tMs_0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:32.686+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:35.390+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_2NQ20I8bEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_tmfY0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tmfY0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:35.390+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:32.686+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:incoming"/>
+			<string key="id" value="_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_tmfY0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tmfY0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:35.390+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:48:49.220+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_zsRgwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:45.286+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_fpi80I8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_vE3bUI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_vE3bUI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:45.286+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:45.286+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_vE3bUI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_vE3bUI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:45.286+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.InclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:51.038+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="InclusiveGateway:outgoing"/>
+			<string key="id" value="_syX0QI8cEe-v648egk3nxQ"/>
+			<string key="class" value="InclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_v7uK0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="InclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_v7uK0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:51.038+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:45.286+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_v7uK0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_v7uK0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:51.038+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:55.293+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Package goods"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:02.365+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:49:32.758+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:outgoing"/>
+			<string key="id" value="_WrHpQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_yWJl4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_yWJl4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:07.230+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:07.230+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_yWJl4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_yWJl4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:07.230+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:55.293+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:18.142+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_uwGsQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_z-NI0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_z-NI0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:18.142+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:18.142+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_z-NI0I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_z-NI0I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:18.142+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:21.278+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_wkTNwI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_0cHz4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_0cHz4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:21.278+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:18.142+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_0cHz4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_0cHz4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:21.278+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:55.293+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Prepare for picking up goods"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:38.382+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:42.206+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_zTbGcI8cEe-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_3jtP4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_3jtP4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:42.206+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:42.206+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_3jtP4I8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_3jtP4I8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:42.206+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:51:55.293+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_1AWXwI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_38otQI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Shopment prepared"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="EndEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_38otQI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="EndEvent"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:52.077+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:44:35.340+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_rxpMgI8bEe-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:56.997+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_1gnWwI8cEe-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_5ww9UI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_5ww9UI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:56.997+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:56.997+02:00"/>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_38otQI8cEe-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:incoming"/>
+			<string key="id" value="_38otQI8cEe-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Camunda-Dispatch-of-goods/dispatch-of-goods.bpmn#_5ww9UI8cEe-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_5ww9UI8cEe-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T21:52:56.997+02:00"/>
+		</event>
+	</trace>
+</log>

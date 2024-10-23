@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_hVAq0Y71Ee-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_hVAq0I71Ee-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_AFofYI72Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HTXRYI72Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_o1qjYY72Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_I4cjYI73Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_NIXrAI74Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RgCO0I74Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_T8S14I74Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qZI2YI74Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_LstI0I75Ee-v648egk3nxQ" name="Start Event 1" outgoing="_U-NJYI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_Nbov0I75Ee-v648egk3nxQ" name="Task 1" outgoing="_TljUYI75Ee-v648egk3nxQ _r7x4YI75Ee-v648egk3nxQ" incoming="_U-NJYI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_Otk40I75Ee-v648egk3nxQ" name="Task 3" outgoing="_ldMrYI75Ee-v648egk3nxQ _z6Hn8I75Ee-v648egk3nxQ" incoming="_TljUYI75Ee-v648egk3nxQ _VXyHAI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_PjM5QI75Ee-v648egk3nxQ" name="Start Event 2" outgoing="_VXyHAI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TljUYI75Ee-v648egk3nxQ" name="Message Flow" targetRef="_Otk40I75Ee-v648egk3nxQ" sourceRef="_Nbov0I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_U-NJYI75Ee-v648egk3nxQ" targetRef="_Nbov0I75Ee-v648egk3nxQ" sourceRef="_LstI0I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VXyHAI75Ee-v648egk3nxQ" targetRef="_Otk40I75Ee-v648egk3nxQ" sourceRef="_PjM5QI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_Yg8QUI75Ee-v648egk3nxQ" name="Expanded Sub Process 1" outgoing="_l97Z4I75Ee-v648egk3nxQ" incoming="_ldMrYI75Ee-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:StartEvent" id="_bPh9gI75Ee-v648egk3nxQ" name="Start Event 3" outgoing="_fy9FYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:Task" id="_c3G_UI75Ee-v648egk3nxQ" name="Task 4" outgoing="_gQQFYI75Ee-v648egk3nxQ" incoming="_fy9FYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_elga0I75Ee-v648egk3nxQ" name="End Event 3" incoming="_gQQFYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_fy9FYI75Ee-v648egk3nxQ" targetRef="_c3G_UI75Ee-v648egk3nxQ" sourceRef="_bPh9gI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_gQQFYI75Ee-v648egk3nxQ" targetRef="_elga0I75Ee-v648egk3nxQ" sourceRef="_c3G_UI75Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_hlVpAI75Ee-v648egk3nxQ" name="Task 5" outgoing="_m6gW4I75Ee-v648egk3nxQ _pbyn4I75Ee-v648egk3nxQ" incoming="_l97Z4I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_iz2qkI75Ee-v648egk3nxQ" name="End Event 2" incoming="_m6gW4I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ldMrYI75Ee-v648egk3nxQ" targetRef="_Yg8QUI75Ee-v648egk3nxQ" sourceRef="_Otk40I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_l97Z4I75Ee-v648egk3nxQ" targetRef="_hlVpAI75Ee-v648egk3nxQ" sourceRef="_Yg8QUI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_m6gW4I75Ee-v648egk3nxQ" targetRef="_iz2qkI75Ee-v648egk3nxQ" sourceRef="_hlVpAI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_nkE4UI75Ee-v648egk3nxQ" name="Task 2" outgoing="_sTqM4I75Ee-v648egk3nxQ" incoming="_pbyn4I75Ee-v648egk3nxQ _r7x4YI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_pbyn4I75Ee-v648egk3nxQ" targetRef="_nkE4UI75Ee-v648egk3nxQ" sourceRef="_hlVpAI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_qUsl0I75Ee-v648egk3nxQ" name="End Event 1" incoming="_sTqM4I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_r7x4YI75Ee-v648egk3nxQ" targetRef="_nkE4UI75Ee-v648egk3nxQ" sourceRef="_Nbov0I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_sTqM4I75Ee-v648egk3nxQ" targetRef="_qUsl0I75Ee-v648egk3nxQ" sourceRef="_nkE4UI75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_tVCKUI75Ee-v648egk3nxQ" name="New Sub Process" incoming="_z6Hn8I75Ee-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:StartEvent" id="_ubmw0I75Ee-v648egk3nxQ" name="Start Event 4" outgoing="_yuWYYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_wC1NUI75Ee-v648egk3nxQ" name="End Event 4" incoming="_zFPOYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:Task" id="_xiRm0I75Ee-v648egk3nxQ" name="Task 6" outgoing="_zFPOYI75Ee-v648egk3nxQ" incoming="_yuWYYI75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_yuWYYI75Ee-v648egk3nxQ" targetRef="_xiRm0I75Ee-v648egk3nxQ" sourceRef="_ubmw0I75Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_zFPOYI75Ee-v648egk3nxQ" targetRef="_wC1NUI75Ee-v648egk3nxQ" sourceRef="_xiRm0I75Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_z6Hn8I75Ee-v648egk3nxQ" targetRef="_tVCKUI75Ee-v648egk3nxQ" sourceRef="_Otk40I75Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_0rASUI75Ee-v648egk3nxQ" name="End Event 5"/>
+    <laneSets id="_i7gHgI71Ee-v648egk3nxQ" name="Pool">
+      <lanes id="_i7gukI71Ee-v648egk3nxQ" name="" flowNodeRefs="_LstI0I75Ee-v648egk3nxQ _Nbov0I75Ee-v648egk3nxQ _nkE4UI75Ee-v648egk3nxQ _qUsl0I75Ee-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_i7gHgI71Ee-v648egk3nxZ" name="Pool2">
+      <lanes id="_i7gukI71Ee-v648egk3nxZ" name="Lane 1" flowNodeRefs="_PjM5QI75Ee-v648egk3nxQ _Otk40I75Ee-v648egk3nxQ _Yg8QUI75Ee-v648egk3nxQ _hlVpAI75Ee-v648egk3nxQ _iz2qkI75Ee-v648egk3nxQ"/>
+      <lanes id="_Q9no0I75Ee-v648egk3nxQ" name="Lane 2" flowNodeRefs="_tVCKUI75Ee-v648egk3nxQ _0rASUI75Ee-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

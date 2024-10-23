@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_QtC0MZGAEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_QtC0MJGAEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:Task" id="_ezlREJGAEe-th9jTEYG_eA" name="claim of claimant" outgoing="_hXtasJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_gjlPEJGAEe-th9jTEYG_eA" outgoing="_lKizIJGAEe-th9jTEYG_eA" incoming="_hXtasJGAEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_hB8mEJGAEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_hXtasJGAEe-th9jTEYG_eA" targetRef="_gjlPEJGAEe-th9jTEYG_eA" sourceRef="_ezlREJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_inuREJGAEe-th9jTEYG_eA" name="check if claimant is insured" outgoing="_sVJYoJGAEe-th9jTEYG_eA" incoming="_lKizIJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_lKizIJGAEe-th9jTEYG_eA" targetRef="_inuREJGAEe-th9jTEYG_eA" sourceRef="_gjlPEJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_rq3skJGAEe-th9jTEYG_eA" outgoing="_wEZ4oJGAEe-th9jTEYG_eA _4kJsIJGAEe-th9jTEYG_eA" incoming="_sVJYoJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_sVJYoJGAEe-th9jTEYG_eA" targetRef="_rq3skJGAEe-th9jTEYG_eA" sourceRef="_inuREJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_tAPkEJGAEe-th9jTEYG_eA" name="reject claim" outgoing="_Z91NoJGBEe-th9jTEYG_eA" incoming="_wEZ4oJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wEZ4oJGAEe-th9jTEYG_eA" name="not insured" targetRef="_tAPkEJGAEe-th9jTEYG_eA" sourceRef="_rq3skJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_1XwBkJGAEe-th9jTEYG_eA" name="accept claim" outgoing="__sx7sJGAEe-th9jTEYG_eA" incoming="_4kJsIJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_4kJsIJGAEe-th9jTEYG_eA" targetRef="_1XwBkJGAEe-th9jTEYG_eA" sourceRef="_rq3skJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_9AacEJGAEe-th9jTEYG_eA" name="evaluate severity of claim" outgoing="_A1tSoJGBEe-th9jTEYG_eA" incoming="__sx7sJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__sx7sJGAEe-th9jTEYG_eA" targetRef="_9AacEJGAEe-th9jTEYG_eA" sourceRef="_1XwBkJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_APoKEJGBEe-th9jTEYG_eA" outgoing="_Dx26sJGBEe-th9jTEYG_eA _IOk9oJGBEe-th9jTEYG_eA" incoming="_A1tSoJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_A1tSoJGBEe-th9jTEYG_eA" targetRef="_APoKEJGBEe-th9jTEYG_eA" sourceRef="_9AacEJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_Ban9kJGBEe-th9jTEYG_eA" name="send relevant forms" outgoing="_SNYwIJGBEe-th9jTEYG_eA" incoming="_Dx26sJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Dx26sJGBEe-th9jTEYG_eA" name="simple claim" targetRef="_Ban9kJGBEe-th9jTEYG_eA" sourceRef="_APoKEJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_FskT4JGBEe-th9jTEYG_eA" name="send relevant forms" outgoing="_SxydsJGBEe-th9jTEYG_eA" incoming="_IOk9oJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_IOk9oJGBEe-th9jTEYG_eA" targetRef="_FskT4JGBEe-th9jTEYG_eA" sourceRef="_APoKEJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_RjuIEJGBEe-th9jTEYG_eA" outgoing="_U8VpsJGBEe-th9jTEYG_eA" incoming="_SNYwIJGBEe-th9jTEYG_eA _SxydsJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_SNYwIJGBEe-th9jTEYG_eA" targetRef="_RjuIEJGBEe-th9jTEYG_eA" sourceRef="_Ban9kJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_SxydsJGBEe-th9jTEYG_eA" targetRef="_RjuIEJGBEe-th9jTEYG_eA" sourceRef="_FskT4JGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_TMKskJGBEe-th9jTEYG_eA" name="receive relevant forms" outgoing="_n_DFoJGBEe-th9jTEYG_eA" incoming="_U8VpsJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_U8VpsJGBEe-th9jTEYG_eA" targetRef="_TMKskJGBEe-th9jTEYG_eA" sourceRef="_RjuIEJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_YqSiIJGBEe-th9jTEYG_eA" name="claim rejected" incoming="_Z91NoJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Z91NoJGBEe-th9jTEYG_eA" targetRef="_YqSiIJGBEe-th9jTEYG_eA" sourceRef="_tAPkEJGAEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_jeqDoJGBEe-th9jTEYG_eA" name="check for completeness" outgoing="_vRnUUJGBEe-th9jTEYG_eA _4eMYoJGBEe-th9jTEYG_eA" incoming="_n_DFoJGBEe-th9jTEYG_eA _2nGUIJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_n_DFoJGBEe-th9jTEYG_eA" targetRef="_jeqDoJGBEe-th9jTEYG_eA" sourceRef="_TMKskJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_tmOwkJGBEe-th9jTEYG_eA" name="inform claimant" outgoing="_1293sJGBEe-th9jTEYG_eA" incoming="_vkOHQJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_u8uCYJGBEe-th9jTEYG_eA" outgoing="_vkOHQJGBEe-th9jTEYG_eA" incoming="_vRnUUJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vRnUUJGBEe-th9jTEYG_eA" targetRef="_u8uCYJGBEe-th9jTEYG_eA" sourceRef="_jeqDoJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vkOHQJGBEe-th9jTEYG_eA" targetRef="_tmOwkJGBEe-th9jTEYG_eA" sourceRef="_u8uCYJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_zoDJEJGBEe-th9jTEYG_eA" name="receive updated forms" outgoing="_2nGUIJGBEe-th9jTEYG_eA" incoming="_1293sJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_1293sJGBEe-th9jTEYG_eA" targetRef="_zoDJEJGBEe-th9jTEYG_eA" sourceRef="_tmOwkJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_2nGUIJGBEe-th9jTEYG_eA" targetRef="_jeqDoJGBEe-th9jTEYG_eA" sourceRef="_zoDJEJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_3MSE0JGBEe-th9jTEYG_eA" name="register claim" outgoing="_6cnNIJGBEe-th9jTEYG_eA" incoming="_4eMYoJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_4eMYoJGBEe-th9jTEYG_eA" targetRef="_3MSE0JGBEe-th9jTEYG_eA" sourceRef="_jeqDoJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_5JrloJGBEe-th9jTEYG_eA" name="claim accepted" incoming="_6cnNIJGBEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6cnNIJGBEe-th9jTEYG_eA" targetRef="_5JrloJGBEe-th9jTEYG_eA" sourceRef="_3MSE0JGBEe-th9jTEYG_eA"/>
+    <laneSets id="_Tc-lMJGAEe-th9jTEYG_eA" name="claimant">
+      <lanes id="_Tc-lMZGAEe-th9jTEYG_eA" flowNodeRefs="_ezlREJGAEe-th9jTEYG_eA">
+        <extensionValues id="_azdOEJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_azdOEZGBEe-th9jTEYG_eA" name="notification about rejected claim"/>
+        </extensionValues>
+        <extensionValues id="_fVX6EJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_fVX6EZGBEe-th9jTEYG_eA" name="filled relevant forms"/>
+        </extensionValues>
+        <extensionValues id="_7nEOEJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_7nEOEZGBEe-th9jTEYG_eA" name="information about incomplete forms"/>
+        </extensionValues>
+        <extensionValues id="__0TqkJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="__0TqkZGBEe-th9jTEYG_eA" name="relevant forms [accepted]"/>
+        </extensionValues>
+        <extensionValues id="_EQ81AJGCEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataStore" id="_EQ81AZGCEe-th9jTEYG_eA" name="claims management systems"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <laneSets id="_Tc-lMJGAEe-th9jTEYG_eQ" name="insurer">
+      <lanes id="_Tc-lMZGAEe-th9jTEYG_eQ" name="claims officer" flowNodeRefs="_gjlPEJGAEe-th9jTEYG_eA _inuREJGAEe-th9jTEYG_eA _rq3skJGAEe-th9jTEYG_eA _tAPkEJGAEe-th9jTEYG_eA _1XwBkJGAEe-th9jTEYG_eA _YqSiIJGBEe-th9jTEYG_eA _jeqDoJGBEe-th9jTEYG_eA _tmOwkJGBEe-th9jTEYG_eA _u8uCYJGBEe-th9jTEYG_eA _zoDJEJGBEe-th9jTEYG_eA _3MSE0JGBEe-th9jTEYG_eA _5JrloJGBEe-th9jTEYG_eA">
+        <extensionValues id="_lfXMkJGAEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_lfXMkZGAEe-th9jTEYG_eA" name="claim"/>
+        </extensionValues>
+        <extensionValues id="_oS9VkJGAEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_oS9VkZGAEe-th9jTEYG_eA" name="claim [checked]"/>
+        </extensionValues>
+        <extensionValues id="_yNpdEJGAEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataStore" id="_yNpdEZGAEe-th9jTEYG_eA" name="SAP"/>
+        </extensionValues>
+        <extensionValues id="_LmGTEJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_LmGTEZGBEe-th9jTEYG_eA" name="simple relevant forms"/>
+        </extensionValues>
+        <extensionValues id="_ObmgkJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_ObmgkZGBEe-th9jTEYG_eA" name="complex relevant forms"/>
+        </extensionValues>
+        <extensionValues id="_wsog0JGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataStore" id="_wspH4JGBEe-th9jTEYG_eA" name="SAP"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="_ddqnAJGAEe-th9jTEYG_eA" flowNodeRefs="_9AacEJGAEe-th9jTEYG_eA _APoKEJGBEe-th9jTEYG_eA _Ban9kJGBEe-th9jTEYG_eA _FskT4JGBEe-th9jTEYG_eA _RjuIEJGBEe-th9jTEYG_eA _TMKskJGBEe-th9jTEYG_eA">
+        <extensionValues id="_6ob4EJGAEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_6ob4EZGAEe-th9jTEYG_eA" name="claim [accepted]"/>
+        </extensionValues>
+        <extensionValues id="_JG3QgJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataStore" id="_JG33kJGBEe-th9jTEYG_eA" name="SAP"/>
+        </extensionValues>
+        <extensionValues id="_WZPskJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_WZPskZGBEe-th9jTEYG_eA" name="relevant forms"/>
+        </extensionValues>
+        <extensionValues id="_qgoRkJGBEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_qgoRkZGBEe-th9jTEYG_eA" name="updated forms"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_mof-4JGAEe-th9jTEYG_eA" sourceRef="_gjlPEJGAEe-th9jTEYG_eA" targetRef="_lfXMkZGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_nAbWsJGAEe-th9jTEYG_eA" sourceRef="_lfXMkZGAEe-th9jTEYG_eA" targetRef="_inuREJGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_ze6QoJGAEe-th9jTEYG_eA" sourceRef="_yNpdEZGAEe-th9jTEYG_eA" targetRef="_tAPkEJGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_0TBOIJGAEe-th9jTEYG_eA" sourceRef="_inuREJGAEe-th9jTEYG_eA" targetRef="_oS9VkZGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_0xJ7oJGAEe-th9jTEYG_eA" sourceRef="_oS9VkZGAEe-th9jTEYG_eA" targetRef="_tAPkEJGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_5XueIJGAEe-th9jTEYG_eA" sourceRef="_oS9VkZGAEe-th9jTEYG_eA" targetRef="_1XwBkJGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_8bIkwJGAEe-th9jTEYG_eA" sourceRef="_1XwBkJGAEe-th9jTEYG_eA" targetRef="_6ob4EZGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="__GxroJGAEe-th9jTEYG_eA" sourceRef="_6ob4EZGAEe-th9jTEYG_eA" targetRef="_9AacEJGAEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_KL8CMJGBEe-th9jTEYG_eA" sourceRef="_Ban9kJGBEe-th9jTEYG_eA" targetRef="_JG33kJGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_KiYMQJGBEe-th9jTEYG_eA" sourceRef="_JG33kJGBEe-th9jTEYG_eA" targetRef="_FskT4JGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_NjAEoJGBEe-th9jTEYG_eA" sourceRef="_Ban9kJGBEe-th9jTEYG_eA" targetRef="_LmGTEZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_QstnkJGBEe-th9jTEYG_eA" sourceRef="_FskT4JGBEe-th9jTEYG_eA" targetRef="_ObmgkZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_Xnm9IJGBEe-th9jTEYG_eA" sourceRef="_TMKskJGBEe-th9jTEYG_eA" targetRef="_WZPskZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_dXbmsJGBEe-th9jTEYG_eA" sourceRef="_tAPkEJGAEe-th9jTEYG_eA" targetRef="_azdOEZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_jA5woJGBEe-th9jTEYG_eA" sourceRef="_fVX6EZGBEe-th9jTEYG_eA" targetRef="_TMKskJGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_pw_kYJGBEe-th9jTEYG_eA" sourceRef="_WZPskZGBEe-th9jTEYG_eA" targetRef="_jeqDoJGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_tCBQQJGBEe-th9jTEYG_eA" sourceRef="_qgoRkZGBEe-th9jTEYG_eA" targetRef="_jeqDoJGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_x08zwJGBEe-th9jTEYG_eA" sourceRef="_wspH4JGBEe-th9jTEYG_eA" targetRef="_tmOwkJGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_-HuM8JGBEe-th9jTEYG_eA" sourceRef="_tmOwkJGBEe-th9jTEYG_eA" targetRef="_7nEOEZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_CR3SIJGCEe-th9jTEYG_eA" sourceRef="_jeqDoJGBEe-th9jTEYG_eA" targetRef="__0TqkZGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_C4sooJGCEe-th9jTEYG_eA" sourceRef="__0TqkZGBEe-th9jTEYG_eA" targetRef="_3MSE0JGBEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_GWassJGCEe-th9jTEYG_eA" sourceRef="_3MSE0JGBEe-th9jTEYG_eA" targetRef="_EQ81AZGCEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_H8B_oJGCEe-th9jTEYG_eA" sourceRef="_qgoRkZGBEe-th9jTEYG_eA" targetRef="_zoDJEJGBEe-th9jTEYG_eA"/>
+  </rootElements>
+</bpmn:Definitions>

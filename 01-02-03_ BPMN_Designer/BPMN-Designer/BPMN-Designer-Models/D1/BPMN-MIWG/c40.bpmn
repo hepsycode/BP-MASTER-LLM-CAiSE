@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_86K9EY8CEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_86K9EI8CEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_a-V-gI8HEe-v648egk3nxQ" name="candidate accept offer" outgoing="_-nsAEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_hSWTMI8HEe-v648egk3nxQ" name="send candidate contract" outgoing="_otaWkI8HEe-v648egk3nxQ" incoming="_n4ZaII8HEe-v648egk3nxQ _-nsAEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_iXcTAI8HEe-v648egk3nxQ" name="contract terms accepted" outgoing="_nfqxEI8HEe-v648egk3nxQ _u7qokI8HEe-v648egk3nxQ" incoming="_otaWkI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_mo_nwI8HEe-v648egk3nxQ" name="review terms of contract" outgoing="_n4ZaII8HEe-v648egk3nxQ" incoming="_nfqxEI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_nfqxEI8HEe-v648egk3nxQ" name="No" targetRef="_mo_nwI8HEe-v648egk3nxQ" sourceRef="_iXcTAI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_n4ZaII8HEe-v648egk3nxQ" targetRef="_hSWTMI8HEe-v648egk3nxQ" sourceRef="_mo_nwI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_otaWkI8HEe-v648egk3nxQ" targetRef="_iXcTAI8HEe-v648egk3nxQ" sourceRef="_hSWTMI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_trbvwI8HEe-v648egk3nxQ" name="Set signature on contract and notify responsible department" outgoing="_6b05EI8HEe-v648egk3nxQ" incoming="_u7qokI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_u7qokI8HEe-v648egk3nxQ" targetRef="_trbvwI8HEe-v648egk3nxQ" sourceRef="_iXcTAI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_0bXygI8HEe-v648egk3nxQ" name="Request preparations for a new employee" outgoing="__qEfkI8HEe-v648egk3nxQ" incoming="_6-AZEI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_37gRYI8HEe-v648egk3nxQ" name="Non-exclusive gateway" outgoing="_6-AZEI8HEe-v648egk3nxQ _O5VfEI8IEe-v648egk3nxQ" incoming="_6b05EI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6b05EI8HEe-v648egk3nxQ" targetRef="_37gRYI8HEe-v648egk3nxQ" sourceRef="_trbvwI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6-AZEI8HEe-v648egk3nxQ" targetRef="_0bXygI8HEe-v648egk3nxQ" sourceRef="_37gRYI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_8G7wAI8HEe-v648egk3nxQ" name="New employee in department X" outgoing="_WCkLkI8IEe-v648egk3nxQ" incoming="__qEfkI8HEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:SignalEventDefinition" id="_8WMUAI8HEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__qEfkI8HEe-v648egk3nxQ" targetRef="_8G7wAI8HEe-v648egk3nxQ" sourceRef="_0bXygI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_BWF8gI8IEe-v648egk3nxQ" name="Inform employee of company policies" outgoing="_PMymkI8IEe-v648egk3nxQ" incoming="_O5VfEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_FDrBgI8IEe-v648egk3nxQ" name="introduce employee to company mission, vision and value" outgoing="_PdulkI8IEe-v648egk3nxQ" incoming="_PMymkI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_K071gI8IEe-v648egk3nxQ" name="Perform training for time report sick leave and holidays" outgoing="_Rzm30I8IEe-v648egk3nxQ" incoming="_PdulkI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_O5VfEI8IEe-v648egk3nxQ" targetRef="_BWF8gI8IEe-v648egk3nxQ" sourceRef="_37gRYI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_PMymkI8IEe-v648egk3nxQ" targetRef="_FDrBgI8IEe-v648egk3nxQ" sourceRef="_BWF8gI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_PdulkI8IEe-v648egk3nxQ" targetRef="_K071gI8IEe-v648egk3nxQ" sourceRef="_FDrBgI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_QDzuII8IEe-v648egk3nxQ" name="Register for medical insurance" outgoing="_UTuEII8IEe-v648egk3nxQ" incoming="_Rzm30I8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Rzm30I8IEe-v648egk3nxQ" targetRef="_QDzuII8IEe-v648egk3nxQ" sourceRef="_K071gI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_Sr38kI8IEe-v648egk3nxQ" name="non-exclusive gateway" outgoing="_Z_8AEI8IEe-v648egk3nxQ" incoming="_UTuEII8IEe-v648egk3nxQ _WCkLkI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_UTuEII8IEe-v648egk3nxQ" targetRef="_Sr38kI8IEe-v648egk3nxQ" sourceRef="_QDzuII8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WCkLkI8IEe-v648egk3nxQ" targetRef="_Sr38kI8IEe-v648egk3nxQ" sourceRef="_8G7wAI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_XXWNMI8IEe-v648egk3nxQ" name="introduce new employee to the team" outgoing="_dU37kI8IEe-v648egk3nxQ" incoming="_Z_8AEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Z_8AEI8IEe-v648egk3nxQ" targetRef="_XXWNMI8IEe-v648egk3nxQ" sourceRef="_Sr38kI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_bFvKgI8IEe-v648egk3nxQ" name="perform trining for position" outgoing="_vhWTEI8IEe-v648egk3nxQ" incoming="_dU37kI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_dU37kI8IEe-v648egk3nxQ" targetRef="_bFvKgI8IEe-v648egk3nxQ" sourceRef="_XXWNMI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_h_yykI8IEe-v648egk3nxQ" name="non-exclusive gateway" outgoing="_v9YHwI8IEe-v648egk3nxQ _wrH-kI8IEe-v648egk3nxQ _xFrMkI8IEe-v648egk3nxQ" incoming="_vhWTEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_lOIW0I8IEe-v648egk3nxQ" name="imput from It ready" outgoing="_xrhroI8IEe-v648egk3nxQ" incoming="_v9YHwI8IEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_m_TZgI8IEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_ngDWII8IEe-v648egk3nxQ" name="Imput from payroll ready" outgoing="_yBy2kI8IEe-v648egk3nxQ" incoming="_wrH-kI8IEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_pyXXAI8IEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_qFzQYI8IEe-v648egk3nxQ" name="input from facilities ready" outgoing="_yXxGkI8IEe-v648egk3nxQ" incoming="_xFrMkI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_seGkgI8IEe-v648egk3nxQ" name="Mpm-exclusive gateway" outgoing="_7cX6oI8IEe-v648egk3nxQ" incoming="_xrhroI8IEe-v648egk3nxQ _yBy2kI8IEe-v648egk3nxQ _yXxGkI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vhWTEI8IEe-v648egk3nxQ" targetRef="_h_yykI8IEe-v648egk3nxQ" sourceRef="_bFvKgI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_v9YHwI8IEe-v648egk3nxQ" targetRef="_lOIW0I8IEe-v648egk3nxQ" sourceRef="_h_yykI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wrH-kI8IEe-v648egk3nxQ" targetRef="_ngDWII8IEe-v648egk3nxQ" sourceRef="_h_yykI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_xFrMkI8IEe-v648egk3nxQ" targetRef="_qFzQYI8IEe-v648egk3nxQ" sourceRef="_h_yykI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_xrhroI8IEe-v648egk3nxQ" targetRef="_seGkgI8IEe-v648egk3nxQ" sourceRef="_lOIW0I8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yBy2kI8IEe-v648egk3nxQ" targetRef="_seGkgI8IEe-v648egk3nxQ" sourceRef="_ngDWII8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yXxGkI8IEe-v648egk3nxQ" targetRef="_seGkgI8IEe-v648egk3nxQ" sourceRef="_qFzQYI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_1QoxII8IEe-v648egk3nxQ" name="Compile welcome package" outgoing="_7zwf4I8IEe-v648egk3nxQ" incoming="_7cX6oI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_3kwI0I8IEe-v648egk3nxQ" name="Give Employee welcome package" outgoing="_8LcAEI8IEe-v648egk3nxQ" incoming="_7zwf4I8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_6Zx1MI8IEe-v648egk3nxQ" name="end Event" incoming="_8LcAEI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7cX6oI8IEe-v648egk3nxQ" targetRef="_1QoxII8IEe-v648egk3nxQ" sourceRef="_seGkgI8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7zwf4I8IEe-v648egk3nxQ" targetRef="_3kwI0I8IEe-v648egk3nxQ" sourceRef="_1QoxII8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8LcAEI8IEe-v648egk3nxQ" targetRef="_6Zx1MI8IEe-v648egk3nxQ" sourceRef="_3kwI0I8IEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-nsAEI8IEe-v648egk3nxQ" targetRef="_hSWTMI8HEe-v648egk3nxQ" sourceRef="_a-V-gI8HEe-v648egk3nxQ"/>
+    <laneSets id="_UfV6wY8HEe-v648egk3nxQ" name="Money Bank">
+      <lanes id="_UfV6wo8HEe-v648egk3nxQ" name="HR Department" flowNodeRefs="_a-V-gI8HEe-v648egk3nxQ _hSWTMI8HEe-v648egk3nxQ _iXcTAI8HEe-v648egk3nxQ _mo_nwI8HEe-v648egk3nxQ _trbvwI8HEe-v648egk3nxQ _37gRYI8HEe-v648egk3nxQ _BWF8gI8IEe-v648egk3nxQ _FDrBgI8IEe-v648egk3nxQ _K071gI8IEe-v648egk3nxQ _QDzuII8IEe-v648egk3nxQ _Sr38kI8IEe-v648egk3nxQ">
+        <extensionValues id="_wKPUgI8HEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataStore" id="_wKPUgY8HEe-v648egk3nxQ" description="Employee Details"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="_ZI7VAI8HEe-v648egk3nxQ" name="Responsible Department" flowNodeRefs="_0bXygI8HEe-v648egk3nxQ _8G7wAI8HEe-v648egk3nxQ _XXWNMI8IEe-v648egk3nxQ _bFvKgI8IEe-v648egk3nxQ _h_yykI8IEe-v648egk3nxQ _lOIW0I8IEe-v648egk3nxQ _ngDWII8IEe-v648egk3nxQ _qFzQYI8IEe-v648egk3nxQ _seGkgI8IEe-v648egk3nxQ _1QoxII8IEe-v648egk3nxQ _3kwI0I8IEe-v648egk3nxQ _6Zx1MI8IEe-v648egk3nxQ"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_yxj8EI8HEe-v648egk3nxQ" sourceRef="_trbvwI8HEe-v648egk3nxQ" targetRef="_wKPUgY8HEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_-29AkI8HEe-v648egk3nxQ" sourceRef="_wKPUgY8HEe-v648egk3nxQ" targetRef="_8G7wAI8HEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_MHIGEZGNEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_MHIGEJGNEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="_gllHQJGNEe-th9jTEYG_eA" outgoing="_jcx94JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_hNRZYJGNEe-th9jTEYG_eA" name="hand description to secretary" outgoing="_rtFAIJGNEe-th9jTEYG_eA _wKnicJGNEe-th9jTEYG_eA" incoming="_jcx94JGNEe-th9jTEYG_eA" boundaryEventRefs="_k0hM4JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jcx94JGNEe-th9jTEYG_eA" targetRef="_hNRZYJGNEe-th9jTEYG_eA" sourceRef="_gllHQJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_k0hM4JGNEe-th9jTEYG_eA" name="one month" attachedToRef="_hNRZYJGNEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_oNBZwJGNEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:StartEvent" id="_qZpCUJGNEe-th9jTEYG_eA" name="description received" outgoing="_N9pGUJGOEe-th9jTEYG_eA" incoming="_rtFAIJGNEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_rA858JGNEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_rtFAIJGNEe-th9jTEYG_eA" name="description which was send" targetRef="_qZpCUJGNEe-th9jTEYG_eA" sourceRef="_hNRZYJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_u3l0UJGNEe-th9jTEYG_eA" name="check list" outgoing="_FvJa4JGOEe-th9jTEYG_eA" incoming="_wKnicJGNEe-th9jTEYG_eA _0u1UgJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wKnicJGNEe-th9jTEYG_eA" targetRef="_u3l0UJGNEe-th9jTEYG_eA" sourceRef="_hNRZYJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_w5mIUJGNEe-th9jTEYG_eA" name="enter description" outgoing="_OUh8UJGOEe-th9jTEYG_eA" incoming="_N9pGUJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_yaIuAJGNEe-th9jTEYG_eA" name="send list to teacher" outgoing="_0u1UgJGNEe-th9jTEYG_eA _7dzG4JGNEe-th9jTEYG_eA" incoming="_OUh8UJGOEe-th9jTEYG_eA" boundaryEventRefs="_MT46QJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0u1UgJGNEe-th9jTEYG_eA" name="list of student" targetRef="_u3l0UJGNEe-th9jTEYG_eA" sourceRef="_yaIuAJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_1lRNQJGNEe-th9jTEYG_eA" name="assign student from list to free courses" outgoing="_7yBDYJGNEe-th9jTEYG_eA" incoming="_7dzG4JGNEe-th9jTEYG_eA _-Zol4JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_5IeOQJGNEe-th9jTEYG_eA" name="rebook students" outgoing="_K7La4JGOEe-th9jTEYG_eA" incoming="_7yBDYJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_6569wJGNEe-th9jTEYG_eA" incoming="_K7La4JGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7dzG4JGNEe-th9jTEYG_eA" targetRef="_1lRNQJGNEe-th9jTEYG_eA" sourceRef="_yaIuAJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7yBDYJGNEe-th9jTEYG_eA" targetRef="_5IeOQJGNEe-th9jTEYG_eA" sourceRef="_1lRNQJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_8gnOwJGNEe-th9jTEYG_eA" name="hand list to secretary" outgoing="_-Zol4JGNEe-th9jTEYG_eA" incoming="_J5J9MJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-Zol4JGNEe-th9jTEYG_eA" targetRef="_1lRNQJGNEe-th9jTEYG_eA" sourceRef="_8gnOwJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="__kkH8JGNEe-th9jTEYG_eA" outgoing="_GhQ0UJGOEe-th9jTEYG_eA _HyXP0JGOEe-th9jTEYG_eA" incoming="_FvJa4JGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="__-PzQJGNEe-th9jTEYG_eA" outgoing="_J5J9MJGOEe-th9jTEYG_eA" incoming="_JQh28JGOEe-th9jTEYG_eA _JmzB4JGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_A65owJGOEe-th9jTEYG_eA" name="create empty list" outgoing="_JQh28JGOEe-th9jTEYG_eA" incoming="_GhQ0UJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_CUn0wJGOEe-th9jTEYG_eA" name="make list with students who are not takes" outgoing="_JmzB4JGOEe-th9jTEYG_eA" incoming="_HyXP0JGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FvJa4JGOEe-th9jTEYG_eA" targetRef="__kkH8JGNEe-th9jTEYG_eA" sourceRef="_u3l0UJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GhQ0UJGOEe-th9jTEYG_eA" name="number is under max" targetRef="_A65owJGOEe-th9jTEYG_eA" sourceRef="__kkH8JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HyXP0JGOEe-th9jTEYG_eA" name="number is over max" targetRef="_CUn0wJGOEe-th9jTEYG_eA" sourceRef="__kkH8JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JQh28JGOEe-th9jTEYG_eA" targetRef="__-PzQJGNEe-th9jTEYG_eA" sourceRef="_A65owJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JmzB4JGOEe-th9jTEYG_eA" targetRef="__-PzQJGNEe-th9jTEYG_eA" sourceRef="_CUn0wJGOEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_J5J9MJGOEe-th9jTEYG_eA" targetRef="_8gnOwJGNEe-th9jTEYG_eA" sourceRef="__-PzQJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_K7La4JGOEe-th9jTEYG_eA" targetRef="_6569wJGNEe-th9jTEYG_eA" sourceRef="_5IeOQJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_MT46QJGOEe-th9jTEYG_eA" name="1 week" attachedToRef="_yaIuAJGNEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_M4DXQJGOEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_N9pGUJGOEe-th9jTEYG_eA" targetRef="_w5mIUJGNEe-th9jTEYG_eA" sourceRef="_qZpCUJGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_OUh8UJGOEe-th9jTEYG_eA" targetRef="_yaIuAJGNEe-th9jTEYG_eA" sourceRef="_w5mIUJGNEe-th9jTEYG_eA"/>
+    <laneSets id="_NyW40ZGNEe-th9jTEYG_eA" name="TEACHER">
+      <lanes id="_NyXf4JGNEe-th9jTEYG_eA" flowNodeRefs="_gllHQJGNEe-th9jTEYG_eA _hNRZYJGNEe-th9jTEYG_eA _k0hM4JGNEe-th9jTEYG_eA _u3l0UJGNEe-th9jTEYG_eA _8gnOwJGNEe-th9jTEYG_eA __kkH8JGNEe-th9jTEYG_eA __-PzQJGNEe-th9jTEYG_eA _A65owJGOEe-th9jTEYG_eA _CUn0wJGOEe-th9jTEYG_eA">
+        <extensionValues id="_Y3MCwJGOEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:TextAnnotation" id="_Y3Mp0JGOEe-th9jTEYG_eA" text="take students of higher year"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <laneSets id="_NyW40ZGNEe-th9jTEYG_eQ" name="secretary">
+      <lanes id="_NyXf4JGNEe-th9jTEYG_eQ" flowNodeRefs="_qZpCUJGNEe-th9jTEYG_eA _w5mIUJGNEe-th9jTEYG_eA _yaIuAJGNEe-th9jTEYG_eA _1lRNQJGNEe-th9jTEYG_eA _5IeOQJGNEe-th9jTEYG_eA _6569wJGNEe-th9jTEYG_eA _MT46QJGOEe-th9jTEYG_eA"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_b89g4JGOEe-th9jTEYG_eA" sourceRef="_Y3Mp0JGOEe-th9jTEYG_eA" targetRef="_CUn0wJGOEe-th9jTEYG_eA"/>
+  </rootElements>
+</bpmn:Definitions>

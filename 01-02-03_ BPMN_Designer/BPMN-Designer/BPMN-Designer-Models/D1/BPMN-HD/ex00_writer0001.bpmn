@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_PJCVQY-HEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_PJCVQI-HEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="_BJmDgJF3Ee-th9jTEYG_eA" name="Online Application received" outgoing="_G_b1gJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_Dho48JF3Ee-th9jTEYG_eA" name="Evaluate the application" outgoing="_GZhsEJF3Ee-th9jTEYG_eA" incoming="_G_b1gJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_F4UccJF3Ee-th9jTEYG_eA" outgoing="_Lf8MQJF3Ee-th9jTEYG_eA _P7zTkJF3Ee-th9jTEYG_eA" incoming="_GZhsEJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GZhsEJF3Ee-th9jTEYG_eA" targetRef="_F4UccJF3Ee-th9jTEYG_eA" sourceRef="_Dho48JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_G_b1gJF3Ee-th9jTEYG_eA" targetRef="_Dho48JF3Ee-th9jTEYG_eA" sourceRef="_BJmDgJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_IZJacJF3Ee-th9jTEYG_eA" name="notify the customer by email" outgoing="_NWnaAJF3Ee-th9jTEYG_eA" incoming="_Lf8MQJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Lf8MQJF3Ee-th9jTEYG_eA" targetRef="_IZJacJF3Ee-th9jTEYG_eA" sourceRef="_F4UccJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_L7vXcJF3Ee-th9jTEYG_eA" name="Application rejected" incoming="_NWnaAJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_NWnaAJF3Ee-th9jTEYG_eA" targetRef="_L7vXcJF3Ee-th9jTEYG_eA" sourceRef="_IZJacJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_N-pqYJF3Ee-th9jTEYG_eA" name="Create a new bank account" outgoing="_Y8HdgJF3Ee-th9jTEYG_eA" incoming="_P7zTkJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_P7zTkJF3Ee-th9jTEYG_eA" targetRef="_N-pqYJF3Ee-th9jTEYG_eA" sourceRef="_F4UccJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_QgR5oJF3Ee-th9jTEYG_eA" outgoing="_ZcUAgJF3Ee-th9jTEYG_eA _ZzRvAJF3Ee-th9jTEYG_eA _aKi_gJF3Ee-th9jTEYG_eA" incoming="_Y8HdgJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_RQKecJF3Ee-th9jTEYG_eA" name="send a welcome pack in a letter" outgoing="_bfxGAJF3Ee-th9jTEYG_eA" incoming="_ZcUAgJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_UGqKcJF3Ee-th9jTEYG_eA" name="send a bank card in a letter" outgoing="_cK5GoJF3Ee-th9jTEYG_eA" incoming="_ZzRvAJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_XC3c4JF3Ee-th9jTEYG_eA" name="send a PIN number in a letter" outgoing="_cfePgJF3Ee-th9jTEYG_eA" incoming="_aKi_gJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Y8HdgJF3Ee-th9jTEYG_eA" targetRef="_QgR5oJF3Ee-th9jTEYG_eA" sourceRef="_N-pqYJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ZcUAgJF3Ee-th9jTEYG_eA" targetRef="_RQKecJF3Ee-th9jTEYG_eA" sourceRef="_QgR5oJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ZzRvAJF3Ee-th9jTEYG_eA" targetRef="_UGqKcJF3Ee-th9jTEYG_eA" sourceRef="_QgR5oJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_aKi_gJF3Ee-th9jTEYG_eA" targetRef="_XC3c4JF3Ee-th9jTEYG_eA" sourceRef="_QgR5oJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_bKxGYJF3Ee-th9jTEYG_eA" outgoing="_jL8ukJF3Ee-th9jTEYG_eA" incoming="_bfxGAJF3Ee-th9jTEYG_eA _cK5GoJF3Ee-th9jTEYG_eA _cfePgJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_bfxGAJF3Ee-th9jTEYG_eA" targetRef="_bKxGYJF3Ee-th9jTEYG_eA" sourceRef="_RQKecJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_cK5GoJF3Ee-th9jTEYG_eA" targetRef="_bKxGYJF3Ee-th9jTEYG_eA" sourceRef="_UGqKcJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_cfePgJF3Ee-th9jTEYG_eA" targetRef="_bKxGYJF3Ee-th9jTEYG_eA" sourceRef="_XC3c4JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_f8S7sJF3Ee-th9jTEYG_eA" name="A new bank account was created" incoming="_jL8ukJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jL8ukJF3Ee-th9jTEYG_eA" targetRef="_f8S7sJF3Ee-th9jTEYG_eA" sourceRef="_bKxGYJF3Ee-th9jTEYG_eA"/>
+    <laneSets id="_RSUV8I-HEe-th9jTEYG_eA">
+      <lanes id="_RSZOcI-HEe-th9jTEYG_eA" flowNodeRefs="_BJmDgJF3Ee-th9jTEYG_eA _Dho48JF3Ee-th9jTEYG_eA _F4UccJF3Ee-th9jTEYG_eA _IZJacJF3Ee-th9jTEYG_eA _L7vXcJF3Ee-th9jTEYG_eA _N-pqYJF3Ee-th9jTEYG_eA _QgR5oJF3Ee-th9jTEYG_eA _RQKecJF3Ee-th9jTEYG_eA _UGqKcJF3Ee-th9jTEYG_eA _XC3c4JF3Ee-th9jTEYG_eA _bKxGYJF3Ee-th9jTEYG_eA _f8S7sJF3Ee-th9jTEYG_eA"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_Tk7dwY8DEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_Tk7dwI8DEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_LC20YI8WEe-v648egk3nxQ" name="Job Vacancy" outgoing="_O92DQI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_NYl8sI8WEe-v648egk3nxQ" name="write description" outgoing="_UwjowI8WEe-v648egk3nxQ" incoming="_O92DQI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_O92DQI8WEe-v648egk3nxQ" targetRef="_NYl8sI8WEe-v648egk3nxQ" sourceRef="_LC20YI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_R2sfsI8WEe-v648egk3nxQ" name="Complete Advertisement" outgoing="_btRjQI8WEe-v648egk3nxQ" incoming="_UwjowI8WEe-v648egk3nxQ _dvR3QI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_UwjowI8WEe-v648egk3nxQ" targetRef="_R2sfsI8WEe-v648egk3nxQ" sourceRef="_NYl8sI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_Z41KII8WEe-v648egk3nxQ" name="Approve Advertisement" outgoing="_dOjIwI8WEe-v648egk3nxQ" incoming="_btRjQI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_btRjQI8WEe-v648egk3nxQ" targetRef="_Z41KII8WEe-v648egk3nxQ" sourceRef="_R2sfsI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_c1qusI8WEe-v648egk3nxQ" outgoing="_dvR3QI8WEe-v648egk3nxQ _jHAJ4I8WEe-v648egk3nxQ" incoming="_dOjIwI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_dOjIwI8WEe-v648egk3nxQ" targetRef="_c1qusI8WEe-v648egk3nxQ" sourceRef="_Z41KII8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_dvR3QI8WEe-v648egk3nxQ" name="No" targetRef="_R2sfsI8WEe-v648egk3nxQ" sourceRef="_c1qusI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_inrwoI8WEe-v648egk3nxQ" outgoing="_p2WWwI8WEe-v648egk3nxQ _qOE6QI8WEe-v648egk3nxQ" incoming="_jHAJ4I8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jHAJ4I8WEe-v648egk3nxQ" name="Yes" targetRef="_inrwoI8WEe-v648egk3nxQ" sourceRef="_c1qusI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_lp9O0I8WEe-v648egk3nxQ" name="Publish on homepage" outgoing="_23yMwI8WEe-v648egk3nxQ" incoming="_p2WWwI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BusinessRuleTask" id="_n7IAMI8WEe-v648egk3nxQ" name="Select other platforms" outgoing="_4alcQI8WEe-v648egk3nxQ" incoming="_qOE6QI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_p2WWwI8WEe-v648egk3nxQ" targetRef="_lp9O0I8WEe-v648egk3nxQ" sourceRef="_inrwoI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qOE6QI8WEe-v648egk3nxQ" targetRef="_n7IAMI8WEe-v648egk3nxQ" sourceRef="_inrwoI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_sV8lsI8WEe-v648egk3nxQ" name="Publish on other platform" outgoing="_35jLwI8WEe-v648egk3nxQ" incoming="_4alcQI8WEe-v648egk3nxQ">
+      <loopCharacteristics xsi:type="bpmn:MultiInstanceLoopCharacteristics" id="_xKQpQI8WEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_0Ej3MI8WEe-v648egk3nxQ" outgoing="_43zjwI8WEe-v648egk3nxQ" incoming="_23yMwI8WEe-v648egk3nxQ _35jLwI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_01x4wI8WEe-v648egk3nxQ" name="Vacancy advertisement" incoming="_43zjwI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_23yMwI8WEe-v648egk3nxQ" targetRef="_0Ej3MI8WEe-v648egk3nxQ" sourceRef="_lp9O0I8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_35jLwI8WEe-v648egk3nxQ" targetRef="_0Ej3MI8WEe-v648egk3nxQ" sourceRef="_sV8lsI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_4alcQI8WEe-v648egk3nxQ" targetRef="_sV8lsI8WEe-v648egk3nxQ" sourceRef="_n7IAMI8WEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_43zjwI8WEe-v648egk3nxQ" targetRef="_01x4wI8WEe-v648egk3nxQ" sourceRef="_0Ej3MI8WEe-v648egk3nxQ"/>
+    <laneSets id="_UznecY8DEe-v648egk3nxQ" name="Eu Bank">
+      <lanes id="_UzoFgI8DEe-v648egk3nxQ" name="Hiring Manager" flowNodeRefs="_LC20YI8WEe-v648egk3nxQ _NYl8sI8WEe-v648egk3nxQ _Z41KII8WEe-v648egk3nxQ _c1qusI8WEe-v648egk3nxQ">
+        <extensionValues id="_PoBosI8WEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_PoBosY8WEe-v648egk3nxQ" name="Description"/>
+        </extensionValues>
+        <partitionElement xsi:type="bpmn:InputOutputSpecification" id="_JRrxsI8WEe-v648egk3nxQ">
+          <dataInputs id="_JRrxsY8WEe-v648egk3nxQ" name="Role Required"/>
+          <dataInputs id="_esTgMI8WEe-v648egk3nxQ" name="Advertisement"/>
+        </partitionElement>
+      </lanes>
+      <lanes id="_GxPOMI8WEe-v648egk3nxQ" name="Recruitment" flowNodeRefs="_R2sfsI8WEe-v648egk3nxQ _inrwoI8WEe-v648egk3nxQ _lp9O0I8WEe-v648egk3nxQ _n7IAMI8WEe-v648egk3nxQ _sV8lsI8WEe-v648egk3nxQ _0Ej3MI8WEe-v648egk3nxQ _01x4wI8WEe-v648egk3nxQ">
+        <extensionValues id="_VnVfwI8WEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_VnVfwY8WEe-v648egk3nxQ" name="Advertisement"/>
+        </extensionValues>
+        <extensionValues id="_xzvrII8WEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_xzwSMI8WEe-v648egk3nxQ" name="Selected Platform"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_Q-tHwI8WEe-v648egk3nxQ" sourceRef="_NYl8sI8WEe-v648egk3nxQ" targetRef="_PoBosY8WEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_TqOS0I8WEe-v648egk3nxQ" sourceRef="_PoBosY8WEe-v648egk3nxQ" targetRef="_R2sfsI8WEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_YPoXsI8WEe-v648egk3nxQ" sourceRef="_R2sfsI8WEe-v648egk3nxQ" targetRef="_VnVfwY8WEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_gAKUwI8WEe-v648egk3nxQ" sourceRef="_Z41KII8WEe-v648egk3nxQ" targetRef="_esTgMI8WEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_g0HhQI8WEe-v648egk3nxQ" sourceRef="_VnVfwY8WEe-v648egk3nxQ" targetRef="_Z41KII8WEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

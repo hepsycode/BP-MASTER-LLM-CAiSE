@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_cf5qIY8CEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_cf5qII8CEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_YkUTcI8EEe-v648egk3nxQ" name="Receive Credit Card Information" outgoing="_fUwsgI8EEe-v648egk3nxQ" incoming="_x_mlkI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_cbbu8I8EEe-v648egk3nxQ" name="Take Payment" outgoing="_fv2GAI8EEe-v648egk3nxQ" incoming="_fUwsgI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_d3v78I8EEe-v648egk3nxQ" name="Send Result" outgoing="_z-KkAI8FEe-v648egk3nxQ" incoming="_fv2GAI8EEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_eFeO4I8EEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fUwsgI8EEe-v648egk3nxQ" targetRef="_cbbu8I8EEe-v648egk3nxQ" sourceRef="_YkUTcI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fv2GAI8EEe-v648egk3nxQ" targetRef="_d3v78I8EEe-v648egk3nxQ" sourceRef="_cbbu8I8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_ji6H8I8EEe-v648egk3nxQ" outgoing="_qIXZAI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_kBIVAI8EEe-v648egk3nxQ" name="Browse Products on Amazon" outgoing="_qe8tAI8EEe-v648egk3nxQ" incoming="_qIXZAI8EEe-v648egk3nxQ _r0ZdAI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_mHK0cI8EEe-v648egk3nxQ" name="Add Item to Card" outgoing="_q7GdgI8EEe-v648egk3nxQ" incoming="_qe8tAI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_oMrvcI8EEe-v648egk3nxQ" name="Done Shopping?" outgoing="_r0ZdAI8EEe-v648egk3nxQ _D75zEI8GEe-v648egk3nxQ" incoming="_q7GdgI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qIXZAI8EEe-v648egk3nxQ" targetRef="_kBIVAI8EEe-v648egk3nxQ" sourceRef="_ji6H8I8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qe8tAI8EEe-v648egk3nxQ" targetRef="_mHK0cI8EEe-v648egk3nxQ" sourceRef="_kBIVAI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_q7GdgI8EEe-v648egk3nxQ" targetRef="_oMrvcI8EEe-v648egk3nxQ" sourceRef="_mHK0cI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_r0ZdAI8EEe-v648egk3nxQ" name="No" targetRef="_kBIVAI8EEe-v648egk3nxQ" sourceRef="_oMrvcI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_ulAjcI8EEe-v648egk3nxQ" name="New Sub Process" outgoing="_CG8SAI8FEe-v648egk3nxQ _FwBRgI8FEe-v648egk3nxQ" incoming="_D75zEI8GEe-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_Hjv48I8FEe-v648egk3nxQ" name="Send Order" outgoing="_Jnq4gI8FEe-v648egk3nxQ _UqshEI8FEe-v648egk3nxQ" incoming="_6FLlkI8FEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_HxyU8I8FEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:EndEvent" id="_JPK48I8FEe-v648egk3nxQ" incoming="_Jnq4gI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_Jnq4gI8FEe-v648egk3nxQ" targetRef="_JPK48I8FEe-v648egk3nxQ" sourceRef="_Hjv48I8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ExclusiveGateway" id="_KrBy8I8FEe-v648egk3nxQ" name="Chackout payment accepted?" outgoing="_34RCEI8FEe-v648egk3nxQ _6FLlkI8FEe-v648egk3nxQ" incoming="_3BkDkI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ExclusiveGateway" id="_NIf68I8FEe-v648egk3nxQ" name="Retry" outgoing="_4qUxII8FEe-v648egk3nxQ _8mivEI8FEe-v648egk3nxQ" incoming="_34RCEI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_UqshEI8FEe-v648egk3nxQ" targetRef="_PXF5cI8FEe-v648egk3nxQ" sourceRef="_Hjv48I8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:StartEvent" id="_v04acI8FEe-v648egk3nxQ" outgoing="_wTykAI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_wTykAI8FEe-v648egk3nxQ" targetRef="_utKkcI8FEe-v648egk3nxQ" sourceRef="_v04acI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:Task" id="_utKkcI8FEe-v648egk3nxQ" name="Pay Order" outgoing="_x_mlkI8FEe-v648egk3nxQ _3BkDkI8FEe-v648egk3nxQ" incoming="_wTykAI8FEe-v648egk3nxQ _z-KkAI8FEe-v648egk3nxQ _4qUxII8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_3BkDkI8FEe-v648egk3nxQ" targetRef="_KrBy8I8FEe-v648egk3nxQ" sourceRef="_utKkcI8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_34RCEI8FEe-v648egk3nxQ" name="No" targetRef="_NIf68I8FEe-v648egk3nxQ" sourceRef="_KrBy8I8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_4qUxII8FEe-v648egk3nxQ" name="Yes" targetRef="_utKkcI8FEe-v648egk3nxQ" sourceRef="_NIf68I8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_6FLlkI8FEe-v648egk3nxQ" name="Yes" targetRef="_Hjv48I8FEe-v648egk3nxQ" sourceRef="_KrBy8I8FEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_7Rm8cI8FEe-v648egk3nxQ" incoming="_8mivEI8FEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:ErrorEventDefinition" id="_780coI8FEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_8mivEI8FEe-v648egk3nxQ" name="No" targetRef="_7Rm8cI8FEe-v648egk3nxQ" sourceRef="_NIf68I8FEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:EndEvent" id="_BH6d8I8FEe-v648egk3nxQ" incoming="_CG8SAI8FEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ErrorEventDefinition" id="_BcIacI8FEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_CG8SAI8FEe-v648egk3nxQ" targetRef="_BH6d8I8FEe-v648egk3nxQ" sourceRef="_ulAjcI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_Dl-b0I8FEe-v648egk3nxQ" name="Receive Items" outgoing="_GJC1gI8FEe-v648egk3nxQ" incoming="_FwBRgI8FEe-v648egk3nxQ _tdS4AI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_FQ9W8I8FEe-v648egk3nxQ" incoming="_GJC1gI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FwBRgI8FEe-v648egk3nxQ" targetRef="_Dl-b0I8FEe-v648egk3nxQ" sourceRef="_ulAjcI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GJC1gI8FEe-v648egk3nxQ" targetRef="_FQ9W8I8FEe-v648egk3nxQ" sourceRef="_Dl-b0I8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_PXF5cI8FEe-v648egk3nxQ" name="Receive Order" outgoing="_h7EyAI8FEe-v648egk3nxQ" incoming="_UqshEI8FEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_PvM3cI8FEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_cBDqoI8FEe-v648egk3nxQ" name="Pick Items" outgoing="_iW_5AI8FEe-v648egk3nxQ" incoming="_h7EyAI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_dEePcI8FEe-v648egk3nxQ" name="Place in bin" outgoing="_i6UogI8FEe-v648egk3nxQ" incoming="_iW_5AI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_eJIxcI8FEe-v648egk3nxQ" name="receive and package items" outgoing="_jd4BgI8FEe-v648egk3nxQ" incoming="_i6UogI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_gMSU8I8FEe-v648egk3nxQ" name="send to carrier dock" outgoing="_nORxAI8FEe-v648egk3nxQ _o8YRkI8FEe-v648egk3nxQ" incoming="_jd4BgI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_h7EyAI8FEe-v648egk3nxQ" targetRef="_cBDqoI8FEe-v648egk3nxQ" sourceRef="_PXF5cI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_iW_5AI8FEe-v648egk3nxQ" targetRef="_dEePcI8FEe-v648egk3nxQ" sourceRef="_cBDqoI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_i6UogI8FEe-v648egk3nxQ" targetRef="_eJIxcI8FEe-v648egk3nxQ" sourceRef="_dEePcI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jd4BgI8FEe-v648egk3nxQ" targetRef="_gMSU8I8FEe-v648egk3nxQ" sourceRef="_eJIxcI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_lJhrAI8FEe-v648egk3nxQ" name="Pick Items" outgoing="_sHjNEI8FEe-v648egk3nxQ" incoming="_nORxAI8FEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_lX43II8FEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_nORxAI8FEe-v648egk3nxQ" targetRef="_lJhrAI8FEe-v648egk3nxQ" sourceRef="_gMSU8I8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_ohlzAI8FEe-v648egk3nxQ" incoming="_o8YRkI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_o8YRkI8FEe-v648egk3nxQ" targetRef="_ohlzAI8FEe-v648egk3nxQ" sourceRef="_gMSU8I8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_prRX4I8FEe-v648egk3nxQ" name="Load Truck" outgoing="_siHpMI8FEe-v648egk3nxQ" incoming="_sHjNEI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_qtFaMI8FEe-v648egk3nxQ" name="Deliver Items" outgoing="_tdS4AI8FEe-v648egk3nxQ" incoming="_siHpMI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_sHjNEI8FEe-v648egk3nxQ" targetRef="_prRX4I8FEe-v648egk3nxQ" sourceRef="_lJhrAI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_siHpMI8FEe-v648egk3nxQ" targetRef="_qtFaMI8FEe-v648egk3nxQ" sourceRef="_prRX4I8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tdS4AI8FEe-v648egk3nxQ" targetRef="_Dl-b0I8FEe-v648egk3nxQ" sourceRef="_qtFaMI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_x_mlkI8FEe-v648egk3nxQ" name="Send Credit card Information" targetRef="_YkUTcI8EEe-v648egk3nxQ" sourceRef="_utKkcI8FEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_z-KkAI8FEe-v648egk3nxQ" targetRef="_utKkcI8FEe-v648egk3nxQ" sourceRef="_d3v78I8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_D75zEI8GEe-v648egk3nxQ" name="Yes" targetRef="_ulAjcI8EEe-v648egk3nxQ" sourceRef="_oMrvcI8EEe-v648egk3nxQ"/>
+    <laneSets id="_fq0G8Y8CEe-v648egk3nxQ" name="Credit Card Company">
+      <lanes id="_fq0G8o8CEe-v648egk3nxQ" flowNodeRefs="_YkUTcI8EEe-v648egk3nxQ _cbbu8I8EEe-v648egk3nxQ _d3v78I8EEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_fq0G8Y8CEe-v648egk3nxZ" name="Carrier">
+      <lanes id="_fq0G8o8CEe-v648egk3nxZ" flowNodeRefs="_lJhrAI8FEe-v648egk3nxQ _prRX4I8FEe-v648egk3nxQ _qtFaMI8FEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_fq0G8Y8CEe-v648egk3nxS" name="Customer">
+      <lanes id="_fq0G8o8CEe-v648egk3nxS" flowNodeRefs="_ji6H8I8EEe-v648egk3nxQ _kBIVAI8EEe-v648egk3nxQ _mHK0cI8EEe-v648egk3nxQ _oMrvcI8EEe-v648egk3nxQ _ulAjcI8EEe-v648egk3nxQ _BH6d8I8FEe-v648egk3nxQ _Dl-b0I8FEe-v648egk3nxQ _FQ9W8I8FEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_fq0G8Y8CEe-v648egk3nxP" name="Amazon">
+      <lanes id="_fq0G8o8CEe-v648egk3nxP" name="Picker" flowNodeRefs="_PXF5cI8FEe-v648egk3nxQ _cBDqoI8FEe-v648egk3nxQ _dEePcI8FEe-v648egk3nxQ"/>
+      <lanes id="_W-AAcI8FEe-v648egk3nxQ" name="Packager" flowNodeRefs="_eJIxcI8FEe-v648egk3nxQ _gMSU8I8FEe-v648egk3nxQ _ohlzAI8FEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_BTrsEY7kEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_BTrsEI7kEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_PWMIEI7lEe-v648egk3nxQ" name="Start Event" outgoing="_V89AsI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_RPgaII7lEe-v648egk3nxQ" name="Task 1" outgoing="_WYV8MI7lEe-v648egk3nxQ" incoming="_V89AsI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_SViOEI7lEe-v648egk3nxQ" name="Task 2" outgoing="_WxI2sI7lEe-v648egk3nxQ" incoming="_WYV8MI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_TUGvII7lEe-v648egk3nxQ" name="Task 3" outgoing="_XGpzsI7lEe-v648egk3nxQ" incoming="_WxI2sI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_UZEMEI7lEe-v648egk3nxQ" name="End Event" incoming="_XGpzsI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_V89AsI7lEe-v648egk3nxQ" targetRef="_RPgaII7lEe-v648egk3nxQ" sourceRef="_PWMIEI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WYV8MI7lEe-v648egk3nxQ" targetRef="_SViOEI7lEe-v648egk3nxQ" sourceRef="_RPgaII7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WxI2sI7lEe-v648egk3nxQ" targetRef="_TUGvII7lEe-v648egk3nxQ" sourceRef="_SViOEI7lEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_XGpzsI7lEe-v648egk3nxQ" targetRef="_UZEMEI7lEe-v648egk3nxQ" sourceRef="_TUGvII7lEe-v648egk3nxQ"/>
+    <laneSets id="_OwG_gI7lEe-v648egk3nxQ">
+      <lanes id="_OwG_gY7lEe-v648egk3nxQ" flowNodeRefs="_PWMIEI7lEe-v648egk3nxQ _RPgaII7lEe-v648egk3nxQ _SViOEI7lEe-v648egk3nxQ _TUGvII7lEe-v648egk3nxQ _UZEMEI7lEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

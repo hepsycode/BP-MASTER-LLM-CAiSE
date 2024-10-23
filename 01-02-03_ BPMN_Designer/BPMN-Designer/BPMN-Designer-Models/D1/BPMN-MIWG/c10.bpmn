@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_AIlhMY8AEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_AIlhMI8AEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_0rWMYI8AEe-v648egk3nxQ" name="Invoice Received" outgoing="_Ap0JgI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_08g04I8AEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_3AgF4I8AEe-v648egk3nxQ" name="Scan Invoice" outgoing="_BF5BgI8BEe-v648egk3nxQ _f953gI8BEe-v648egk3nxQ" incoming="_Ap0JgI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_4yVP4I8AEe-v648egk3nxQ" name="Archive original" outgoing="_CiW_gI8BEe-v648egk3nxQ" incoming="_BF5BgI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_7Mch4I8AEe-v648egk3nxQ" name="Approved to be assigned" outgoing="_C8TJgI8BEe-v648egk3nxQ" incoming="_CiW_gI8BEe-v648egk3nxQ _py4_oI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_7cAn4I8AEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_9q1P4I8AEe-v648egk3nxQ" name="Assign Approver" outgoing="_KNh7cI8BEe-v648egk3nxQ _qfzI8I8BEe-v648egk3nxQ" incoming="_C8TJgI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Ap0JgI8BEe-v648egk3nxQ" targetRef="_3AgF4I8AEe-v648egk3nxQ" sourceRef="_0rWMYI8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_BF5BgI8BEe-v648egk3nxQ" targetRef="_4yVP4I8AEe-v648egk3nxQ" sourceRef="_3AgF4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_CiW_gI8BEe-v648egk3nxQ" targetRef="_7Mch4I8AEe-v648egk3nxQ" sourceRef="_4yVP4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_C8TJgI8BEe-v648egk3nxQ" targetRef="_9q1P4I8AEe-v648egk3nxQ" sourceRef="_7Mch4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:InclusiveGateway" id="_Hx0G8I8BEe-v648egk3nxQ" outgoing="_T4wqoI8BEe-v648egk3nxQ _UguCgI8BEe-v648egk3nxQ" incoming="_KNh7cI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KNh7cI8BEe-v648egk3nxQ" targetRef="_Hx0G8I8BEe-v648egk3nxQ" sourceRef="_9q1P4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_L4fBYI8BEe-v648egk3nxQ" name="7 days" outgoing="_WoXrgI8BEe-v648egk3nxQ" incoming="_T4wqoI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_NulnYI8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_Mhwn4I8BEe-v648egk3nxQ" name="Invoice review needed" outgoing="_VId_AI8BEe-v648egk3nxQ" incoming="_UguCgI8BEe-v648egk3nxQ _11bkcI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_NOi1YI8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_RMc1YI8BEe-v648egk3nxQ" name="Review and document result" outgoing="_YJ8L8I8BEe-v648egk3nxQ _2YdZAI8BEe-v648egk3nxQ" incoming="_VId_AI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_T4wqoI8BEe-v648egk3nxQ" targetRef="_L4fBYI8BEe-v648egk3nxQ" sourceRef="_Hx0G8I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_UguCgI8BEe-v648egk3nxQ" targetRef="_Mhwn4I8BEe-v648egk3nxQ" sourceRef="_Hx0G8I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VId_AI8BEe-v648egk3nxQ" targetRef="_RMc1YI8BEe-v648egk3nxQ" sourceRef="_Mhwn4I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_WMWd4I8BEe-v648egk3nxQ" incoming="_WoXrgI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_XAw9YI8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WoXrgI8BEe-v648egk3nxQ" targetRef="_WMWd4I8BEe-v648egk3nxQ" sourceRef="_L4fBYI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_XjtSYI8BEe-v648egk3nxQ" incoming="_YJ8L8I8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_XzMf4I8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_YJ8L8I8BEe-v648egk3nxQ" targetRef="_XjtSYI8BEe-v648egk3nxQ" sourceRef="_RMc1YI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_Y7mSYI8BEe-v648egk3nxQ" name="Invoice Received" outgoing="_mW_ggI8BEe-v648egk3nxQ" incoming="_f953gI8BEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_ZOJa8I8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_f953gI8BEe-v648egk3nxQ" targetRef="_Y7mSYI8BEe-v648egk3nxQ" sourceRef="_3AgF4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_lI9nII8BEe-v648egk3nxQ" name="Assign Approver" outgoing="_py4_oI8BEe-v648egk3nxQ _yYzFgI8BEe-v648egk3nxQ" incoming="_mW_ggI8BEe-v648egk3nxQ _qfzI8I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_mW_ggI8BEe-v648egk3nxQ" targetRef="_lI9nII8BEe-v648egk3nxQ" sourceRef="_Y7mSYI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_py4_oI8BEe-v648egk3nxQ" targetRef="_7Mch4I8AEe-v648egk3nxQ" sourceRef="_lI9nII8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qfzI8I8BEe-v648egk3nxQ" targetRef="_lI9nII8BEe-v648egk3nxQ" sourceRef="_9q1P4I8AEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_xlGXsI8BEe-v648egk3nxQ" name="Approve Invoice" outgoing="_FxupEI8CEe-v648egk3nxQ" incoming="_yYzFgI8BEe-v648egk3nxQ _BmnTgI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yYzFgI8BEe-v648egk3nxQ" targetRef="_xlGXsI8BEe-v648egk3nxQ" sourceRef="_lI9nII8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_zRBG8I8BEe-v648egk3nxQ" name="Rechnung Karen" outgoing="_11bkcI8BEe-v648egk3nxQ __ff2AI8BEe-v648egk3nxQ" incoming="_2YdZAI8BEe-v648egk3nxQ _Gl-wgI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_11bkcI8BEe-v648egk3nxQ" targetRef="_Mhwn4I8BEe-v648egk3nxQ" sourceRef="_zRBG8I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_2YdZAI8BEe-v648egk3nxQ" targetRef="_zRBG8I8BEe-v648egk3nxQ" sourceRef="_RMc1YI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_6qyw4I8BEe-v648egk3nxQ" name="Review successful?" outgoing="_AL5B8I8CEe-v648egk3nxQ _BmnTgI8CEe-v648egk3nxQ" incoming="__ff2AI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_9KP14I8BEe-v648egk3nxQ" name="invoice not processed" incoming="_AL5B8I8CEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_-pT04I8BEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__ff2AI8BEe-v648egk3nxQ" targetRef="_6qyw4I8BEe-v648egk3nxQ" sourceRef="_zRBG8I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_AL5B8I8CEe-v648egk3nxQ" name="No" targetRef="_9KP14I8BEe-v648egk3nxQ" sourceRef="_6qyw4I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_BmnTgI8CEe-v648egk3nxQ" name="Yes" targetRef="_xlGXsI8BEe-v648egk3nxQ" sourceRef="_6qyw4I8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_Ei1NAI8CEe-v648egk3nxQ" name="Invoice approved?" outgoing="_Gl-wgI8CEe-v648egk3nxQ _J_tscI8CEe-v648egk3nxQ" incoming="_FxupEI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FxupEI8CEe-v648egk3nxQ" targetRef="_Ei1NAI8CEe-v648egk3nxQ" sourceRef="_xlGXsI8BEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Gl-wgI8CEe-v648egk3nxQ" name="No" targetRef="_zRBG8I8BEe-v648egk3nxQ" sourceRef="_Ei1NAI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_ICvCYI8CEe-v648egk3nxQ" name="Prepare Bank Transfer" outgoing="_MP_tAI8CEe-v648egk3nxQ" incoming="_J_tscI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_J_tscI8CEe-v648egk3nxQ" name="Yes" targetRef="_ICvCYI8CEe-v648egk3nxQ" sourceRef="_Ei1NAI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_K7bGwI8CEe-v648egk3nxQ" name="Archive Invoice" outgoing="_OeaFUI8CEe-v648egk3nxQ" incoming="_MP_tAI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_MP_tAI8CEe-v648egk3nxQ" targetRef="_K7bGwI8CEe-v648egk3nxQ" sourceRef="_ICvCYI8CEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_M0cd4I8CEe-v648egk3nxQ" name="Invoice processed" incoming="_OeaFUI8CEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_O3mBYI8CEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_OeaFUI8CEe-v648egk3nxQ" targetRef="_M0cd4I8CEe-v648egk3nxQ" sourceRef="_K7bGwI8CEe-v648egk3nxQ"/>
+    <laneSets id="_BgTiEY8AEe-v648egk3nxQ" name="Team-Assistant">
+      <lanes id="_BgTiEo8AEe-v648egk3nxQ" flowNodeRefs="_0rWMYI8AEe-v648egk3nxQ _3AgF4I8AEe-v648egk3nxQ _4yVP4I8AEe-v648egk3nxQ _7Mch4I8AEe-v648egk3nxQ _9q1P4I8AEe-v648egk3nxQ _Hx0G8I8BEe-v648egk3nxQ _L4fBYI8BEe-v648egk3nxQ _Mhwn4I8BEe-v648egk3nxQ _RMc1YI8BEe-v648egk3nxQ _WMWd4I8BEe-v648egk3nxQ _XjtSYI8BEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_BgTiEY8AEe-v648egk3nxZ" name="Process Engine - Invoice Receipt">
+      <lanes id="_BgTiEo8AEe-v648egk3nxZ" name="Team Assistant" flowNodeRefs="_Y7mSYI8BEe-v648egk3nxQ _lI9nII8BEe-v648egk3nxQ _zRBG8I8BEe-v648egk3nxQ _6qyw4I8BEe-v648egk3nxQ _9KP14I8BEe-v648egk3nxQ"/>
+      <lanes id="_vdaH4I8AEe-v648egk3nxQ" name="Approver" flowNodeRefs="_xlGXsI8BEe-v648egk3nxQ _Ei1NAI8CEe-v648egk3nxQ"/>
+      <lanes id="_xR6LYI8AEe-v648egk3nxQ" name="Accountant" flowNodeRefs="_ICvCYI8CEe-v648egk3nxQ _K7bGwI8CEe-v648egk3nxQ _M0cd4I8CEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

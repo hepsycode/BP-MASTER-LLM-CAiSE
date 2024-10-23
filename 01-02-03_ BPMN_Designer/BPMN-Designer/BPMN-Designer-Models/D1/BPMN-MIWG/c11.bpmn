@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_EITfEY8AEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_EITfEI8AEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_nlUC4I8DEe-v648egk3nxQ" name="Invoice received" outgoing="_trbFgI8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_qDQE8I8DEe-v648egk3nxQ" name="Assign Approver" outgoing="_wAzogI8DEe-v648egk3nxQ" incoming="_trbFgI8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_trbFgI8DEe-v648egk3nxQ" targetRef="_qDQE8I8DEe-v648egk3nxQ" sourceRef="_nlUC4I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_ugba4I8DEe-v648egk3nxQ" name="Approve Invoice" outgoing="_0WXTgI8DEe-v648egk3nxQ" incoming="_wAzogI8DEe-v648egk3nxQ _GmvTkI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wAzogI8DEe-v648egk3nxQ" targetRef="_ugba4I8DEe-v648egk3nxQ" sourceRef="_qDQE8I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_w2Hf4I8DEe-v648egk3nxQ" name="Invoice approved?" outgoing="_6Ef7AI8DEe-v648egk3nxQ _IiGNAI8EEe-v648egk3nxQ" incoming="_0WXTgI8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0WXTgI8DEe-v648egk3nxQ" targetRef="_w2Hf4I8DEe-v648egk3nxQ" sourceRef="_ugba4I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_18gx8I8DEe-v648egk3nxQ" name="Rechnung Klaren" outgoing="_GBvJEI8EEe-v648egk3nxQ" incoming="_6Ef7AI8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6Ef7AI8DEe-v648egk3nxQ" name="No" targetRef="_18gx8I8DEe-v648egk3nxQ" sourceRef="_w2Hf4I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_MU_P0I8EEe-v648egk3nxQ" name="Prepare Bank Transfer" outgoing="_N0TtgI8EEe-v648egk3nxQ" incoming="_IiGNAI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_NWfwII8EEe-v648egk3nxQ" name="Archive invoice" outgoing="_OMCRAI8EEe-v648egk3nxQ" incoming="_N0TtgI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_-c6FsI8DEe-v648egk3nxQ" name="Invoice processed" incoming="_OMCRAI8EEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_Ch8ocI8EEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:EndEvent" id="_Abvw8I8EEe-v648egk3nxQ" name="Invoice Not processed" incoming="_HkOPgI8EEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_CJ1qcI8EEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_DygRYI8EEe-v648egk3nxQ" name="Review successful?" outgoing="_GmvTkI8EEe-v648egk3nxQ _HkOPgI8EEe-v648egk3nxQ" incoming="_GBvJEI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GBvJEI8EEe-v648egk3nxQ" targetRef="_DygRYI8EEe-v648egk3nxQ" sourceRef="_18gx8I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GmvTkI8EEe-v648egk3nxQ" name="Yes" targetRef="_ugba4I8DEe-v648egk3nxQ" sourceRef="_DygRYI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HkOPgI8EEe-v648egk3nxQ" name="No" targetRef="_Abvw8I8EEe-v648egk3nxQ" sourceRef="_DygRYI8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_IiGNAI8EEe-v648egk3nxQ" name="Yes" targetRef="_MU_P0I8EEe-v648egk3nxQ" sourceRef="_w2Hf4I8DEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_N0TtgI8EEe-v648egk3nxQ" targetRef="_NWfwII8EEe-v648egk3nxQ" sourceRef="_MU_P0I8EEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_OMCRAI8EEe-v648egk3nxQ" targetRef="_-c6FsI8DEe-v648egk3nxQ" sourceRef="_NWfwII8EEe-v648egk3nxQ"/>
+    <laneSets id="_FS-icY8AEe-v648egk3nxQ">
+      <lanes id="_FS-ico8AEe-v648egk3nxQ" flowNodeRefs="_nlUC4I8DEe-v648egk3nxQ _qDQE8I8DEe-v648egk3nxQ _ugba4I8DEe-v648egk3nxQ _w2Hf4I8DEe-v648egk3nxQ _18gx8I8DEe-v648egk3nxQ _MU_P0I8EEe-v648egk3nxQ _NWfwII8EEe-v648egk3nxQ _-c6FsI8DEe-v648egk3nxQ _Abvw8I8EEe-v648egk3nxQ _DygRYI8EEe-v648egk3nxQ">
+        <extensionValues id="_r07d8I8DEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_r07d8Y8DEe-v648egk3nxQ" name="Approver"/>
+        </extensionValues>
+        <extensionValues id="_y2TO8I8DEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_y2TO8Y8DEe-v648egk3nxQ" name="Approved"/>
+        </extensionValues>
+        <extensionValues id="_4GrjcI8DEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_4GrjcY8DEe-v648egk3nxQ" name="clarifies"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_s_LDgI8DEe-v648egk3nxQ" sourceRef="_qDQE8I8DEe-v648egk3nxQ" targetRef="_r07d8Y8DEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_z03wAI8DEe-v648egk3nxQ" sourceRef="_ugba4I8DEe-v648egk3nxQ" targetRef="_y2TO8Y8DEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_5dN4kI8DEe-v648egk3nxQ" sourceRef="_18gx8I8DEe-v648egk3nxQ" targetRef="_4GrjcY8DEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

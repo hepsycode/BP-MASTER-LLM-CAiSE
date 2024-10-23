@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_hMGcEZGKEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_hMGcEJGKEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:Task" id="_BAe-QJGMEe-th9jTEYG_eA" name="Students" outgoing="_DC9MUJGMEe-th9jTEYG_eA _JxuKYJGMEe-th9jTEYG_eA" incoming="_HjNEYJGMEe-th9jTEYG_eA _Mj260JGMEe-th9jTEYG_eA _WMfB8JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_CLLPwJGMEe-th9jTEYG_eA" outgoing="_EpRC0JGMEe-th9jTEYG_eA" incoming="_DC9MUJGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_CfeEwJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_DC9MUJGMEe-th9jTEYG_eA" name="application" targetRef="_CLLPwJGMEe-th9jTEYG_eA" sourceRef="_BAe-QJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_Dl46QJGMEe-th9jTEYG_eA" name="generate pdf" outgoing="_HLiyUJGMEe-th9jTEYG_eA" incoming="_EpRC0JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_EpRC0JGMEe-th9jTEYG_eA" targetRef="_Dl46QJGMEe-th9jTEYG_eA" sourceRef="_CLLPwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_FU5ZwJGMEe-th9jTEYG_eA" name="PDF to sent to student" outgoing="_HjNEYJGMEe-th9jTEYG_eA" incoming="_HLiyUJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HLiyUJGMEe-th9jTEYG_eA" targetRef="_FU5ZwJGMEe-th9jTEYG_eA" sourceRef="_Dl46QJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HjNEYJGMEe-th9jTEYG_eA" name="request for digratise" targetRef="_BAe-QJGMEe-th9jTEYG_eA" sourceRef="_FU5ZwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_IphzQJGMEe-th9jTEYG_eA" name="information/documents recieved" outgoing="_jJLh4JGMEe-th9jTEYG_eA" incoming="_JxuKYJGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_I-93wJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JxuKYJGMEe-th9jTEYG_eA" targetRef="_IphzQJGMEe-th9jTEYG_eA" sourceRef="_BAe-QJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_LfpEwJGMEe-th9jTEYG_eA" name="send rejected" outgoing="_Mj260JGMEe-th9jTEYG_eA _ndhE4JGMEe-th9jTEYG_eA" incoming="_k1AKgJGMEe-th9jTEYG_eA _8yuH4JGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_L307QJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Mj260JGMEe-th9jTEYG_eA" name="rejection" targetRef="_BAe-QJGMEe-th9jTEYG_eA" sourceRef="_LfpEwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_UciHQJGMEe-th9jTEYG_eA" name="send admission" outgoing="_WMfB8JGMEe-th9jTEYG_eA _Box34JGNEe-th9jTEYG_eA" incoming="_8S-34JGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_7NdaQJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WMfB8JGMEe-th9jTEYG_eA" name="Admission" targetRef="_BAe-QJGMEe-th9jTEYG_eA" sourceRef="_UciHQJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_htr0QJGMEe-th9jTEYG_eA" name="review documents" outgoing="_kUHD8JGMEe-th9jTEYG_eA" incoming="_jJLh4JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jJLh4JGMEe-th9jTEYG_eA" targetRef="_htr0QJGMEe-th9jTEYG_eA" sourceRef="_IphzQJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_jygywJGMEe-th9jTEYG_eA" outgoing="_k1AKgJGMEe-th9jTEYG_eA _qr994JGMEe-th9jTEYG_eA" incoming="_kUHD8JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_kUHD8JGMEe-th9jTEYG_eA" targetRef="_jygywJGMEe-th9jTEYG_eA" sourceRef="_htr0QJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_k1AKgJGMEe-th9jTEYG_eA" targetRef="_LfpEwJGMEe-th9jTEYG_eA" sourceRef="_jygywJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_l67QwJGMEe-th9jTEYG_eA" name="application rejected" incoming="_ndhE4JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ndhE4JGMEe-th9jTEYG_eA" targetRef="_l67QwJGMEe-th9jTEYG_eA" sourceRef="_LfpEwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_oQVo8JGMEe-th9jTEYG_eA" name="forward documents to academic commitee" outgoing="_tKICYJGMEe-th9jTEYG_eA" incoming="_qr994JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qr994JGMEe-th9jTEYG_eA" targetRef="_oQVo8JGMEe-th9jTEYG_eA" sourceRef="_jygywJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_r6EvwJGMEe-th9jTEYG_eA" name="every two months" outgoing="_xlL4cJGMEe-th9jTEYG_eA" incoming="_tKICYJGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_sg1NwJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tKICYJGMEe-th9jTEYG_eA" targetRef="_r6EvwJGMEe-th9jTEYG_eA" sourceRef="_oQVo8JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_v166QJGMEe-th9jTEYG_eA" name="review application" outgoing="_z8iKUJGMEe-th9jTEYG_eA" incoming="_xlL4cJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_xlL4cJGMEe-th9jTEYG_eA" targetRef="_v166QJGMEe-th9jTEYG_eA" sourceRef="_r6EvwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_ydFJwJGMEe-th9jTEYG_eA" name="notify AD of the outcomes" outgoing="_1XK8UJGMEe-th9jTEYG_eA" incoming="_z8iKUJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_z8iKUJGMEe-th9jTEYG_eA" targetRef="_ydFJwJGMEe-th9jTEYG_eA" sourceRef="_v166QJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_0qdAQJGMEe-th9jTEYG_eA" outgoing="_3wmR0JGMEe-th9jTEYG_eA" incoming="_1XK8UJGMEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_06x7QJGMEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_1XK8UJGMEe-th9jTEYG_eA" targetRef="_0qdAQJGMEe-th9jTEYG_eA" sourceRef="_ydFJwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_2EtXwJGMEe-th9jTEYG_eA" name="review outcomes" outgoing="_6XJdUJGMEe-th9jTEYG_eA" incoming="_3wmR0JGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3wmR0JGMEe-th9jTEYG_eA" targetRef="_2EtXwJGMEe-th9jTEYG_eA" sourceRef="_0qdAQJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_5EIWQJGMEe-th9jTEYG_eA" outgoing="_8S-34JGMEe-th9jTEYG_eA _8yuH4JGMEe-th9jTEYG_eA" incoming="_6XJdUJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6XJdUJGMEe-th9jTEYG_eA" targetRef="_5EIWQJGMEe-th9jTEYG_eA" sourceRef="_2EtXwJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8S-34JGMEe-th9jTEYG_eA" name="student accepted" targetRef="_UciHQJGMEe-th9jTEYG_eA" sourceRef="_5EIWQJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8yuH4JGMEe-th9jTEYG_eA" name="student rejected" targetRef="_LfpEwJGMEe-th9jTEYG_eA" sourceRef="_5EIWQJGMEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_AXhEUJGNEe-th9jTEYG_eA" name="application rejected" incoming="_Box34JGNEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Box34JGNEe-th9jTEYG_eA" targetRef="_AXhEUJGNEe-th9jTEYG_eA" sourceRef="_UciHQJGMEe-th9jTEYG_eA"/>
+    <laneSets id="_m4R7wZGKEe-th9jTEYG_eA" name="Students">
+      <lanes id="_m4R7wpGKEe-th9jTEYG_eA" flowNodeRefs="_BAe-QJGMEe-th9jTEYG_eA"/>
+    </laneSets>
+    <laneSets id="_m4R7wZGKEe-th9jTEYG_eQ" name="University">
+      <lanes id="_m4R7wpGKEe-th9jTEYG_eQ" name="ACS" flowNodeRefs="_CLLPwJGMEe-th9jTEYG_eA _Dl46QJGMEe-th9jTEYG_eA _FU5ZwJGMEe-th9jTEYG_eA"/>
+      <lanes id="_Eas30JGLEe-th9jTEYG_eA" name="A0" flowNodeRefs="_IphzQJGMEe-th9jTEYG_eA _LfpEwJGMEe-th9jTEYG_eA _UciHQJGMEe-th9jTEYG_eA _htr0QJGMEe-th9jTEYG_eA _jygywJGMEe-th9jTEYG_eA _l67QwJGMEe-th9jTEYG_eA _oQVo8JGMEe-th9jTEYG_eA _0qdAQJGMEe-th9jTEYG_eA _2EtXwJGMEe-th9jTEYG_eA _5EIWQJGMEe-th9jTEYG_eA _AXhEUJGNEe-th9jTEYG_eA"/>
+      <lanes id="_FQGOwJGLEe-th9jTEYG_eA" name="AC" flowNodeRefs="_r6EvwJGMEe-th9jTEYG_eA _v166QJGMEe-th9jTEYG_eA _ydFJwJGMEe-th9jTEYG_eA"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,3447 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.27 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<trace>
+		<event>
+			<string key="newValue" value="LaneSet[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="laneSets"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:54:47.311+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:laneSets"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:54:47.311+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8Y77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_obsx8Y77Ee-v648egk3nxQ"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8Y77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Participant"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="LaneSet:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_obsx8Y77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="LaneSet"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:01.496+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="newValue" value="Pool"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="LaneSet:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="LaneSet"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:07.081+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:09.149+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[Lane[TRANSIENT]]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Lane 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Lane:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Lane"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:13.648+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Lane[TRANSIENT]"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="lanes"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.LaneSet"/>
+			<string key="eventType" value="MOVE"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:09.149+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="LaneSet:lanes"/>
+			<string key="id" value="_obsx8Y77Ee-v648egk3nxZ"/>
+			<string key="oldValue" value="1"/>
+			<string key="class" value="LaneSet"/>
+			<string key="value" value="[Lane[TRANSIENT]]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="newValue" value="Lane 1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Lane:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Lane"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:17.366+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Start Event Timer"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="StartEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="StartEvent"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:35.785+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="TimerEventDefinition[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="eventDefinitions"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:38.917+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:eventDefinitions"/>
+			<string key="id" value="_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Abstract Task 1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:49.584+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:53.976+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:outgoing"/>
+			<string key="id" value="_25WuUI77Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_7Tq9gI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_7Tq9gI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:53.976+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:53.976+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_7Tq9gI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_7Tq9gI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:53.977+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="User Task 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="UserTask:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="UserTask"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:08.616+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:12.550+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-EzoYI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_-EzoYI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:12.550+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:12.551+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="UserTask:incoming"/>
+			<string key="id" value="_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="class" value="UserTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-EzoYI77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_-EzoYI77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:12.551+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Service Task 3"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ServiceTask:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ServiceTask"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:23.160+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_AXI3YI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="End Event None 1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="EndEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_AXI3YI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="EndEvent"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:36.403+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:47.518+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="UserTask:outgoing"/>
+			<string key="id" value="_8o8HUI77Ee-v648egk3nxQ"/>
+			<string key="class" value="UserTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_DSSZ4I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_DSSZ4I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:47.518+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:47.518+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ServiceTask:incoming"/>
+			<string key="id" value="_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="class" value="ServiceTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_DSSZ4I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_DSSZ4I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:47.518+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:49.991+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ServiceTask:outgoing"/>
+			<string key="id" value="_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="class" value="ServiceTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Dp3zcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Dp3zcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:49.991+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:49.991+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_AXI3YI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:incoming"/>
+			<string key="id" value="_AXI3YI78Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Dp3zcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Dp3zcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:49.991+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Start Event Message"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="StartEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="StartEvent"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:02.585+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="MessageEventDefinition[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="eventDefinitions"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:09.597+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:eventDefinitions"/>
+			<string key="id" value="_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:12.550+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_53GR0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Hx_fYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Hx_fYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:17.687+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:17.687+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:incoming"/>
+			<string key="id" value="_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Hx_fYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Hx_fYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:17.687+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Parallel Gateway Divergence 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ParallelGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ParallelGateway"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:34.688+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:39.991+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:outgoing"/>
+			<string key="id" value="_EPea4I78Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_LGtYcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_LGtYcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:39.991+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:39.991+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:incoming"/>
+			<string key="id" value="_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_LGtYcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_LGtYcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:39.991+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Exclusive Gatevay Divergence 1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExclusiveGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<date key="time:timestamp" value="2024-10-20T17:58:55.806+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:01.206+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:outgoing"/>
+			<string key="id" value="_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_ORB_YI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_ORB_YI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:01.207+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:01.207+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_ORB_YI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_ORB_YI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:01.207+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Process[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:calledElementRef"/>
+			<string key="featureName" value="calledElementRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:11.875+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Call Activity Collapsed"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:22.280+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:30.039+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_SkAQcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_SkAQcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:30.039+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:30.039+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:incoming"/>
+			<string key="id" value="_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_SkAQcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_SkAQcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:30.039+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Process[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:calledElementRef"/>
+			<string key="featureName" value="calledElementRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:35.052+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Call Avtivity - Expanded"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:43.511+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Process[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:calledElementRef"/>
+			<string key="featureName" value="calledElementRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:52.588+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Call Activity Calling a Global Task"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="CallActivity:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="CallActivity"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:07.139+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:30.039+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_MCbZ0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Y5gZ8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Y5gZ8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:12.559+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:12.559+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:incoming"/>
+			<string key="id" value="_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Y5gZ8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Y5gZ8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:12.559+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:28.671+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:outgoing"/>
+			<string key="id" value="_P2xOII78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_bTJx4I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_bTJx4I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:28.671+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:28.671+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:incoming"/>
+			<string key="id" value="_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_bTJx4I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_bTJx4I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:28.671+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Exclusive Gateway Convergence 1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExclusiveGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<date key="time:timestamp" value="2024-10-20T18:00:46.054+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="End Event Message"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="EndEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="EndEvent"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:04.158+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="MessageEventDefinition[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="eventDefinitions"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:06.738+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:eventDefinitions"/>
+			<string key="id" value="_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:10.631+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:outgoing"/>
+			<string key="id" value="_TTz8wI78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_hjUvcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_hjUvcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:10.631+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:10.631+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_hjUvcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_hjUvcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:10.631+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.CallActivity"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:14.239+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="CallActivity:outgoing"/>
+			<string key="id" value="_V7CdsI78Ee-v648egk3nxQ"/>
+			<string key="class" value="CallActivity"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_iFu48I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="CallActivity[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_iFu48I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:14.239+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:10.631+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_iFu48I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_iFu48I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:14.239+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:20.607+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_cKiF0I78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_jCdm8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_jCdm8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:20.607+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:20.607+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:incoming"/>
+			<string key="id" value="_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_jCdm8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_jCdm8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:20.607+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:34.415+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:outgoing"/>
+			<string key="id" value="_fqm6UI78Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lGJV8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lGJV8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:34.415+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:47.518+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ServiceTask:incoming"/>
+			<string key="id" value="_-13R4I77Ee-v648egk3nxQ"/>
+			<string key="class" value="ServiceTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lGJV8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lGJV8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:34.415+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExtensionAttributeValue[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="extensionValues"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:44.789+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:extensionValues"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mpFIUI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="TextAnnotation[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExtensionAttributeValue:value"/>
+			<string key="featureName" value="value"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExtensionAttributeValue"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_mpFIUI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExtensionAttributeValue"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:44.790+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mpFvYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Text Annotation"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="TextAnnotation:text"/>
+			<string key="featureName" value="text"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.TextAnnotation"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_mpFvYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="TextAnnotation"/>
+			<date key="time:timestamp" value="2024-10-20T18:01:50.670+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_rom9YI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="User Task 5"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_rom9YI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:26.271+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:29.253+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_rom9YI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_rom9YI78Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_tRHzUY78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tRHzUY78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:29.253+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:29.253+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_tRHzUI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="UserTask:incoming"/>
+			<string key="id" value="_tRHzUI78Ee-v648egk3nxQ"/>
+			<string key="class" value="UserTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_tRHzUY78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tRHzUY78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:29.253+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:57:53.934+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_obsx8o77Ee-v648egk3nxZ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ParallelGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:59:01.206+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ParallelGateway:outgoing"/>
+			<string key="id" value="_I15MYI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ParallelGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_vvhvcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ParallelGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_vvhvcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:45.863+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:45.863+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_uYRBkI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="UserTask:incoming"/>
+			<string key="id" value="_uYRBkI78Ee-v648egk3nxQ"/>
+			<string key="class" value="UserTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_vvhvcI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_vvhvcI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:45.863+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Exclusive Gateway Divergence 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExclusiveGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:06.895+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="New Sub Process"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SubProcess:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SubProcess"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:18.387+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Collapsed Sub Process"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:18.387+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:name"/>
+			<string key="id" value="_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="oldValue" value="New Sub Process"/>
+			<string key="class" value="SubProcess"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExtensionAttributeValue[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="extensionValues"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:32.181+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:extensionValues"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_2pQAUI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Group[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExtensionAttributeValue:value"/>
+			<string key="featureName" value="value"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExtensionAttributeValue"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_2pQAUI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExtensionAttributeValue"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:32.181+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.UserTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:21.335+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_uYRBkI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="UserTask:outgoing"/>
+			<string key="id" value="_uYRBkI78Ee-v648egk3nxQ"/>
+			<string key="class" value="UserTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_9-AnYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="UserTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_9-AnYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:21.335+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:21.335+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_9-AnYI78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_9-AnYI78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:21.335+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:24.335+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-aoR8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_-aoR8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:24.335+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:24.335+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:incoming"/>
+			<string key="id" value="_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_-aoR8I78Ee-v648egk3nxQ"/>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_-aoR8I78Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:24.335+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Service Task 7"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ServiceTask:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ServiceTask"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:41.934+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:24.335+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_xF66oI78Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_B8X6YI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_B8X6YI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:48.007+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:48.007+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ServiceTask:incoming"/>
+			<string key="id" value="_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="class" value="ServiceTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_B8X6YI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_B8X6YI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:48.007+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExtensionAttributeValue[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="extensionValues"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:32.181+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:extensionValues"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Dh2DYI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="DataObject[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExtensionAttributeValue:value"/>
+			<string key="featureName" value="value"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExtensionAttributeValue"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Dh2DYI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExtensionAttributeValue"/>
+			<date key="time:timestamp" value="2024-10-20T18:04:58.646+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Dh2DYY79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Data Object"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="DataObject:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.DataObject"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Dh2DYY79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="DataObject"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:04.286+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Association[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="artifacts"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:11.970+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:artifacts"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Fg6YII79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="DataObject[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Association:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Association"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Fg6YII79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Association"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:11.970+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_Fg6YII79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Association:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Association"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_Fg6YII79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Association"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:11.971+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExtensionAttributeValue[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="extensionValues"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:03:32.181+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:extensionValues"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_G7SEYI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="DataStore[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExtensionAttributeValue:value"/>
+			<string key="featureName" value="value"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExtensionAttributeValue"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_G7SEYI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExtensionAttributeValue"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:21.446+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_G7SEYY79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Data Store Reference"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="DataStore:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.DataStore"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_G7SEYY79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="DataStore"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:30.142+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Association[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="artifacts"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:11.970+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:artifacts"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I3OzsI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Association:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Association"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_I3OzsI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Association"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:34.444+02:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_I3OzsI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="DataStore[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Association:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Association"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_I3OzsI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Association"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:34.444+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="New Sub Process"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SubProcess:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SubProcess"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:39.826+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="Sub Process - Expanded"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:39.826+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:name"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="oldValue" value="New Sub Process"/>
+			<string key="class" value="SubProcess"/>
+		</event>
+		<event>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:55.990+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:flowElements"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MEuDYI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Start Event Node 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="StartEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_MEuDYI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="StartEvent"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:00.526+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:55.990+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:flowElements"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Abstract Task 6"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Task:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Task"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:13.511+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:55.990+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:flowElements"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.StartEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:20.505+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_MEuDYI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="StartEvent:outgoing"/>
+			<string key="id" value="_MEuDYI79Ee-v648egk3nxQ"/>
+			<string key="class" value="StartEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_hm7AkI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="StartEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_hm7AkI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:20.505+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:20.505+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:incoming"/>
+			<string key="id" value="_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_hm7AkI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_hm7AkI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:20.505+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:55.990+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:flowElements"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_iNf4YI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="End Event None 3"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="EndEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_iNf4YI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="EndEvent"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:29.999+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:05:55.990+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:flowElements"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Task"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:40.394+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Task:outgoing"/>
+			<string key="id" value="_fz3HgI79Ee-v648egk3nxQ"/>
+			<string key="class" value="Task"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_kkmSoI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Task[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_kkmSoI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:40.394+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:40.394+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_iNf4YI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:incoming"/>
+			<string key="id" value="_iNf4YI79Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_kkmSoI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_kkmSoI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:40.394+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="Exclusive Gateway Convergence 2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="ExclusiveGateway:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<date key="time:timestamp" value="2024-10-20T18:08:56.230+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:18.127+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:outgoing"/>
+			<string key="id" value="_0lsNII78Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_qMcr8I79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_qMcr8I79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:18.127+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:18.127+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:incoming"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_qMcr8I79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_qMcr8I79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:18.127+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SubProcess"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:22.494+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="SubProcess:outgoing"/>
+			<string key="id" value="_JqjuEI79Ee-v648egk3nxQ"/>
+			<string key="class" value="SubProcess"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_q2GF4I79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="SubProcess[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_q2GF4I79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:22.494+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:22.494+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_q2GF4I79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_q2GF4I79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:22.495+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowNodeRefs"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Lane"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:02:18.294+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Lane:flowNodeRefs"/>
+			<string key="id" value="_0oKu0I77Ee-v648egk3nxQ"/>
+			<string key="class" value="Lane"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="TerminateEventDefinition[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="eventDefinitions"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:31.568+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:eventDefinitions"/>
+			<string key="id" value="_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="End Event Terminate"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="EndEvent:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="EndEvent"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:38.376+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ServiceTask"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:41.143+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ServiceTask:outgoing"/>
+			<string key="id" value="_AcZVYI79Ee-v648egk3nxQ"/>
+			<string key="class" value="ServiceTask"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_tn8icI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ServiceTask[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tn8icI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:41.143+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:22.494+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:incoming"/>
+			<string key="id" value="_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_tn8icI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_tn8icI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:41.143+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="flowElements"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.Process"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T17:56:24.373+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="Process:flowElements"/>
+			<string key="id" value="_mwxhMI77Ee-v648egk3nxQ"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="outgoing"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.ExclusiveGateway"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:49.398+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="ExclusiveGateway:outgoing"/>
+			<string key="id" value="_lZkLwI79Ee-v648egk3nxQ"/>
+			<string key="class" value="ExclusiveGateway"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_u2q_YI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="ExclusiveGateway[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:sourceRef"/>
+			<string key="featureName" value="sourceRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_u2q_YI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:49.398+02:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="SequenceFlow[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="incoming"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.EndEvent"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:49.398+02:00"/>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="concept:name" value="EndEvent:incoming"/>
+			<string key="id" value="_rwJTUI79Ee-v648egk3nxQ"/>
+			<string key="class" value="EndEvent"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/B10/b10.bpmn#_u2q_YI79Ee-v648egk3nxQ"/>
+			<string key="newValue" value="EndEvent[TRANSIENT]"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="SequenceFlow:targetRef"/>
+			<string key="featureName" value="targetRef"/>
+			<string key="resource" value="bpmn"/>
+			<string key="javaClass" value="org.obeonetwork.dsl.bpmn2.SequenceFlow"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="_u2q_YI79Ee-v648egk3nxQ"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="SequenceFlow"/>
+			<date key="time:timestamp" value="2024-10-20T18:09:49.398+02:00"/>
+		</event>
+	</trace>
+</log>

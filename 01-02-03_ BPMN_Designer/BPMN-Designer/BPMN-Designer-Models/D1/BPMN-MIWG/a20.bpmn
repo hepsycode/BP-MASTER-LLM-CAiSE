@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_ipZE0Y7qEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_ipZE0I7qEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_kxs1II7qEe-v648egk3nxQ" name="Start Event" outgoing="_nyDnwI7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_mQ6lII7qEe-v648egk3nxQ" name="Task 1" outgoing="_7l_FQI7qEe-v648egk3nxQ" incoming="_nyDnwI7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_nyDnwI7qEe-v648egk3nxQ" targetRef="_mQ6lII7qEe-v648egk3nxQ" sourceRef="_kxs1II7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_3tZqII7qEe-v648egk3nxQ" name="Split Flow" outgoing="_Cy9CQI7rEe-v648egk3nxQ _DLv8wI7rEe-v648egk3nxQ _Dl6JMI7rEe-v648egk3nxQ" incoming="_7l_FQI7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7l_FQI7qEe-v648egk3nxQ" targetRef="_3tZqII7qEe-v648egk3nxQ" sourceRef="_mQ6lII7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_8Q2AII7qEe-v648egk3nxQ" name="Task 2" outgoing="_LlUPwI7rEe-v648egk3nxQ" incoming="_Cy9CQI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_9HZ0sI7qEe-v648egk3nxQ" name="Task 3" outgoing="_IzK4QI7rEe-v648egk3nxQ" incoming="_DLv8wI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_-McKII7qEe-v648egk3nxQ" name="Task 4" outgoing="_JQ2SwI7rEe-v648egk3nxQ" incoming="_Dl6JMI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Cy9CQI7rEe-v648egk3nxQ" targetRef="_8Q2AII7qEe-v648egk3nxQ" sourceRef="_3tZqII7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_DLv8wI7rEe-v648egk3nxQ" targetRef="_9HZ0sI7qEe-v648egk3nxQ" sourceRef="_3tZqII7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Dl6JMI7rEe-v648egk3nxQ" targetRef="_-McKII7qEe-v648egk3nxQ" sourceRef="_3tZqII7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_HwFqoI7rEe-v648egk3nxQ" name="Merge Flow" outgoing="_LJnyQI7rEe-v648egk3nxQ" incoming="_IzK4QI7rEe-v648egk3nxQ _JQ2SwI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_IzK4QI7rEe-v648egk3nxQ" targetRef="_HwFqoI7rEe-v648egk3nxQ" sourceRef="_9HZ0sI7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JQ2SwI7rEe-v648egk3nxQ" targetRef="_HwFqoI7rEe-v648egk3nxQ" sourceRef="_-McKII7qEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_J1reII7rEe-v648egk3nxQ" name="End Event" incoming="_LJnyQI7rEe-v648egk3nxQ _LlUPwI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LJnyQI7rEe-v648egk3nxQ" targetRef="_J1reII7rEe-v648egk3nxQ" sourceRef="_HwFqoI7rEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LlUPwI7rEe-v648egk3nxQ" targetRef="_J1reII7rEe-v648egk3nxQ" sourceRef="_8Q2AII7qEe-v648egk3nxQ"/>
+    <laneSets id="_kEOrIY7qEe-v648egk3nxQ">
+      <lanes id="_kEPSMI7qEe-v648egk3nxQ" flowNodeRefs="_kxs1II7qEe-v648egk3nxQ _mQ6lII7qEe-v648egk3nxQ _3tZqII7qEe-v648egk3nxQ _8Q2AII7qEe-v648egk3nxQ _9HZ0sI7qEe-v648egk3nxQ _-McKII7qEe-v648egk3nxQ _HwFqoI7rEe-v648egk3nxQ _J1reII7rEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

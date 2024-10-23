@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_m1qpcZGGEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_m1qpcJGGEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:Task" id="_yon6IJGGEe-th9jTEYG_eA" name="customer" outgoing="_5WPosJGGEe-th9jTEYG_eA" incoming="_7DDIwJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_zlDGIJGGEe-th9jTEYG_eA" outgoing="_-MFWQJGGEe-th9jTEYG_eA" incoming="_5WPosJGGEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_z36YfZGGEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_5WPosJGGEe-th9jTEYG_eA" targetRef="_zlDGIJGGEe-th9jTEYG_eA" sourceRef="_yon6IJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_6Rl2oJGGEe-th9jTEYG_eA" outgoing="_7DDIwJGGEe-th9jTEYG_eA" incoming="_AHNmMJGHEe-th9jTEYG_eA _P5a6sJGHEe-th9jTEYG_eA _TStKsJGHEe-th9jTEYG_eA _knaMsJGHEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_6eQZoJGGEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7DDIwJGGEe-th9jTEYG_eA" targetRef="_yon6IJGGEe-th9jTEYG_eA" sourceRef="_6Rl2oJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_8pfiIJGGEe-th9jTEYG_eA" name="check documentation" outgoing="__YmzwJGGEe-th9jTEYG_eA" incoming="_-MFWQJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-MFWQJGGEe-th9jTEYG_eA" targetRef="_8pfiIJGGEe-th9jTEYG_eA" sourceRef="_zlDGIJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_-m1_oJGGEe-th9jTEYG_eA" outgoing="_AHNmMJGHEe-th9jTEYG_eA _Ddm6QJGHEe-th9jTEYG_eA" incoming="__YmzwJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__YmzwJGGEe-th9jTEYG_eA" targetRef="_-m1_oJGGEe-th9jTEYG_eA" sourceRef="_8pfiIJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_AHNmMJGHEe-th9jTEYG_eA" name="documentation incomplete" targetRef="_6Rl2oJGGEe-th9jTEYG_eA" sourceRef="_-m1_oJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_CHYHIJGHEe-th9jTEYG_eA" name="Register documentation" outgoing="_IP2hQJGHEe-th9jTEYG_eA" incoming="_Ddm6QJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Ddm6QJGHEe-th9jTEYG_eA" targetRef="_CHYHIJGHEe-th9jTEYG_eA" sourceRef="_-m1_oJGGEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_HOmfoJGHEe-th9jTEYG_eA" name="check insurance" outgoing="_KcdiwJGHEe-th9jTEYG_eA" incoming="_IP2hQJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_IP2hQJGHEe-th9jTEYG_eA" targetRef="_HOmfoJGHEe-th9jTEYG_eA" sourceRef="_CHYHIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_J0FUIJGHEe-th9jTEYG_eA" outgoing="_OFh7MJGHEe-th9jTEYG_eA _P5a6sJGHEe-th9jTEYG_eA" incoming="_KcdiwJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KcdiwJGHEe-th9jTEYG_eA" targetRef="_J0FUIJGHEe-th9jTEYG_eA" sourceRef="_HOmfoJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_MqbPIJGHEe-th9jTEYG_eA" name="Perform assessment" outgoing="_SfXpQJGHEe-th9jTEYG_eA" incoming="_OFh7MJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_OFh7MJGHEe-th9jTEYG_eA" name="insurance ok" targetRef="_MqbPIJGHEe-th9jTEYG_eA" sourceRef="_J0FUIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_P5a6sJGHEe-th9jTEYG_eA" name="insurance not ok" targetRef="_6Rl2oJGGEe-th9jTEYG_eA" sourceRef="_J0FUIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_RlrBIJGHEe-th9jTEYG_eA" outgoing="_TStKsJGHEe-th9jTEYG_eA _W1THsJGHEe-th9jTEYG_eA _aLMFcJGHEe-th9jTEYG_eA _ewSBQJGHEe-th9jTEYG_eA" incoming="_SfXpQJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_SfXpQJGHEe-th9jTEYG_eA" targetRef="_RlrBIJGHEe-th9jTEYG_eA" sourceRef="_MqbPIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TStKsJGHEe-th9jTEYG_eA" name="assessment not ok" targetRef="_6Rl2oJGGEe-th9jTEYG_eA" sourceRef="_RlrBIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_W1THsJGHEe-th9jTEYG_eA" sourceRef="_RlrBIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_aLMFcJGHEe-th9jTEYG_eA" sourceRef="_RlrBIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_audxoJGHEe-th9jTEYG_eA" name="garage" outgoing="_g61NQJGHEe-th9jTEYG_eA" incoming="_buymMJGHEe-th9jTEYG_eA _fSTJMJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_buymMJGHEe-th9jTEYG_eA" targetRef="_audxoJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_dQtr8JGHEe-th9jTEYG_eA" outgoing="_fSTJMJGHEe-th9jTEYG_eA _gaUhMJGHEe-th9jTEYG_eA" incoming="_ewSBQJGHEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_dlCWIJGHEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ewSBQJGHEe-th9jTEYG_eA" targetRef="_dQtr8JGHEe-th9jTEYG_eA" sourceRef="_RlrBIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fSTJMJGHEe-th9jTEYG_eA" targetRef="_audxoJGHEe-th9jTEYG_eA" sourceRef="_dQtr8JGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_fwzqIJGHEe-th9jTEYG_eA" outgoing="_jiXQMJGHEe-th9jTEYG_eA" incoming="_gaUhMJGHEe-th9jTEYG_eA _g61NQJGHEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_gIa44JGHEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_gaUhMJGHEe-th9jTEYG_eA" targetRef="_fwzqIJGHEe-th9jTEYG_eA" sourceRef="_dQtr8JGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_g61NQJGHEe-th9jTEYG_eA" targetRef="_fwzqIJGHEe-th9jTEYG_eA" sourceRef="_audxoJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_iRQNoJGHEe-th9jTEYG_eA" name="schedule payment" outgoing="_knaMsJGHEe-th9jTEYG_eA" incoming="_jiXQMJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jiXQMJGHEe-th9jTEYG_eA" targetRef="_iRQNoJGHEe-th9jTEYG_eA" sourceRef="_fwzqIJGHEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_knaMsJGHEe-th9jTEYG_eA" targetRef="_6Rl2oJGGEe-th9jTEYG_eA" sourceRef="_iRQNoJGHEe-th9jTEYG_eA"/>
+    <laneSets id="_opA2YZGGEe-th9jTEYG_eA" name="customer">
+      <lanes id="_opA2YpGGEe-th9jTEYG_eA" flowNodeRefs="_yon6IJGGEe-th9jTEYG_eA"/>
+    </laneSets>
+    <laneSets id="_opA2YZGGEe-th9jTEYG_eQ" name="insurance">
+      <lanes id="_opA2YpGGEe-th9jTEYG_eQ" name="notification Department" flowNodeRefs="_zlDGIJGGEe-th9jTEYG_eA _6Rl2oJGGEe-th9jTEYG_eA _8pfiIJGGEe-th9jTEYG_eA _-m1_oJGGEe-th9jTEYG_eA _CHYHIJGHEe-th9jTEYG_eA">
+        <extensionValues id="_EAwqoJGHEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_EAxRsJGHEe-th9jTEYG_eA"/>
+        </extensionValues>
+        <extensionValues id="_nMMdoJGHEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_nMNEsJGHEe-th9jTEYG_eA" name="letter to customer"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="_2WDOIJGGEe-th9jTEYG_eA" name="handling Department" flowNodeRefs="_HOmfoJGHEe-th9jTEYG_eA _J0FUIJGHEe-th9jTEYG_eA _MqbPIJGHEe-th9jTEYG_eA _RlrBIJGHEe-th9jTEYG_eA _dQtr8JGHEe-th9jTEYG_eA _fwzqIJGHEe-th9jTEYG_eA _iRQNoJGHEe-th9jTEYG_eA"/>
+    </laneSets>
+    <laneSets id="_opA2YZGGEe-th9jTEYG_eZ" name="garage">
+      <lanes id="_opA2YpGGEe-th9jTEYG_eZ" flowNodeRefs="_audxoJGHEe-th9jTEYG_eA"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_E_RhUJGHEe-th9jTEYG_eA" sourceRef="_zlDGIJGGEe-th9jTEYG_eA" targetRef="_EAxRsJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_FyYZQJGHEe-th9jTEYG_eA" sourceRef="_EAxRsJGHEe-th9jTEYG_eA" targetRef="_8pfiIJGGEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_Gj0dQJGHEe-th9jTEYG_eA" sourceRef="_EAxRsJGHEe-th9jTEYG_eA" targetRef="_CHYHIJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_I3cFsJGHEe-th9jTEYG_eA" sourceRef="_EAxRsJGHEe-th9jTEYG_eA" targetRef="_HOmfoJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_oz40MJGHEe-th9jTEYG_eA" sourceRef="_8pfiIJGGEe-th9jTEYG_eA" targetRef="_nMNEsJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_qolE8JGHEe-th9jTEYG_eA" sourceRef="_EAxRsJGHEe-th9jTEYG_eA" targetRef="_MqbPIJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_sRm4QJGHEe-th9jTEYG_eA" sourceRef="_HOmfoJGHEe-th9jTEYG_eA" targetRef="_nMNEsJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_taOtMJGHEe-th9jTEYG_eA" sourceRef="_MqbPIJGHEe-th9jTEYG_eA" targetRef="_nMNEsJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_uT6HMJGHEe-th9jTEYG_eA" sourceRef="_iRQNoJGHEe-th9jTEYG_eA" targetRef="_nMNEsJGHEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_zKfboJGHEe-th9jTEYG_eA" sourceRef="_nMNEsJGHEe-th9jTEYG_eA" targetRef="_6Rl2oJGGEe-th9jTEYG_eA"/>
+  </rootElements>
+</bpmn:Definitions>

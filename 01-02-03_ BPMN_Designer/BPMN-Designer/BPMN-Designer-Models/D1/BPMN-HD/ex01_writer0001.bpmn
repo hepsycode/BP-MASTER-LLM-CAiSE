@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_oWrHAZF3Ee-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_oWrHAJF3Ee-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="_rcav8JF3Ee-th9jTEYG_eA" name="credit card request received" outgoing="_1EqckJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_t_TjcJF3Ee-th9jTEYG_eA" name="Assess risk" outgoing="_1d1xkJF3Ee-th9jTEYG_eA" incoming="_1EqckJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_vY828JF3Ee-th9jTEYG_eA" outgoing="_11uGEJF3Ee-th9jTEYG_eA _2NtvUJF3Ee-th9jTEYG_eA" incoming="_1d1xkJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_v8gP8JF3Ee-th9jTEYG_eA" name="carry out an advanced risk assessment" outgoing="_6F3soJF3Ee-th9jTEYG_eA" incoming="_11uGEJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_yOwmcJF3Ee-th9jTEYG_eA" name="carry out a simple risk assessment" outgoing="_5pAxgJF3Ee-th9jTEYG_eA" incoming="_2NtvUJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_1EqckJF3Ee-th9jTEYG_eA" targetRef="_t_TjcJF3Ee-th9jTEYG_eA" sourceRef="_rcav8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_1d1xkJF3Ee-th9jTEYG_eA" targetRef="_vY828JF3Ee-th9jTEYG_eA" sourceRef="_t_TjcJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_11uGEJF3Ee-th9jTEYG_eA" targetRef="_v8gP8JF3Ee-th9jTEYG_eA" sourceRef="_vY828JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_2NtvUJF3Ee-th9jTEYG_eA" targetRef="_yOwmcJF3Ee-th9jTEYG_eA" sourceRef="_vY828JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_2yR08JF3Ee-th9jTEYG_eA" outgoing="_7NkUgJF3Ee-th9jTEYG_eA" incoming="_5pAxgJF3Ee-th9jTEYG_eA _6F3soJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_5pAxgJF3Ee-th9jTEYG_eA" targetRef="_2yR08JF3Ee-th9jTEYG_eA" sourceRef="_yOwmcJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6F3soJF3Ee-th9jTEYG_eA" targetRef="_2yR08JF3Ee-th9jTEYG_eA" sourceRef="_v8gP8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_6pxq8JF3Ee-th9jTEYG_eA" outgoing="_FOmUkJF4Ee-th9jTEYG_eA _FizqAJF4Ee-th9jTEYG_eA" incoming="_7NkUgJF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7NkUgJF3Ee-th9jTEYG_eA" targetRef="_6pxq8JF3Ee-th9jTEYG_eA" sourceRef="_2yR08JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_7r2L8JF3Ee-th9jTEYG_eA" name="notify costumer with the result of the assessment" outgoing="_GVd2AJF4Ee-th9jTEYG_eA" incoming="_FOmUkJF4Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="__Cia8JF3Ee-th9jTEYG_eA" name="organize disbursement" outgoing="_F4K2AJF4Ee-th9jTEYG_eA" incoming="_FizqAJF4Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_CefkcJF4Ee-th9jTEYG_eA" outgoing="_HMZeAJF4Ee-th9jTEYG_eA" incoming="_F4K2AJF4Ee-th9jTEYG_eA _GVd2AJF4Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_CzKz8JF4Ee-th9jTEYG_eA" name="credit card request accepted" incoming="_HMZeAJF4Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FOmUkJF4Ee-th9jTEYG_eA" targetRef="_7r2L8JF3Ee-th9jTEYG_eA" sourceRef="_6pxq8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FizqAJF4Ee-th9jTEYG_eA" targetRef="__Cia8JF3Ee-th9jTEYG_eA" sourceRef="_6pxq8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_F4K2AJF4Ee-th9jTEYG_eA" targetRef="_CefkcJF4Ee-th9jTEYG_eA" sourceRef="__Cia8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GVd2AJF4Ee-th9jTEYG_eA" targetRef="_CefkcJF4Ee-th9jTEYG_eA" sourceRef="_7r2L8JF3Ee-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HMZeAJF4Ee-th9jTEYG_eA" targetRef="_CzKz8JF4Ee-th9jTEYG_eA" sourceRef="_CefkcJF4Ee-th9jTEYG_eA"/>
+    <laneSets id="_qg-bYZF3Ee-th9jTEYG_eA">
+      <lanes id="_qg-bYpF3Ee-th9jTEYG_eA" flowNodeRefs="_rcav8JF3Ee-th9jTEYG_eA _t_TjcJF3Ee-th9jTEYG_eA _vY828JF3Ee-th9jTEYG_eA _v8gP8JF3Ee-th9jTEYG_eA _yOwmcJF3Ee-th9jTEYG_eA _2yR08JF3Ee-th9jTEYG_eA _6pxq8JF3Ee-th9jTEYG_eA _7r2L8JF3Ee-th9jTEYG_eA __Cia8JF3Ee-th9jTEYG_eA _CefkcJF4Ee-th9jTEYG_eA _CzKz8JF4Ee-th9jTEYG_eA"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

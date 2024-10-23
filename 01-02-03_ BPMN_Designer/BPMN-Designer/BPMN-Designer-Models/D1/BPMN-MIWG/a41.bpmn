@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_B-b3QY76Ee-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_B-b3QI76Ee-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:Task" id="_grPi0I76Ee-v648egk3nxQ" name="Task 1" outgoing="_m1xLYI76Ee-v648egk3nxQ _-OC5YI76Ee-v648egk3nxQ" incoming="_jy7FcI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_hrthUI76Ee-v648egk3nxQ" name="Start Event 1" outgoing="_jy7FcI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jy7FcI76Ee-v648egk3nxQ" targetRef="_grPi0I76Ee-v648egk3nxQ" sourceRef="_hrthUI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_koO80I76Ee-v648egk3nxQ" name="Task 3" outgoing="_3BYeYI76Ee-v648egk3nxQ _DOVjcI77Ee-v648egk3nxQ" incoming="_m1xLYI76Ee-v648egk3nxQ _qA31cI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_m1xLYI76Ee-v648egk3nxQ" targetRef="_koO80I76Ee-v648egk3nxQ" sourceRef="_grPi0I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_opa6UI76Ee-v648egk3nxQ" name="Start Event 2" outgoing="_qA31cI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qA31cI76Ee-v648egk3nxQ" targetRef="_koO80I76Ee-v648egk3nxQ" sourceRef="_opa6UI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_sRIn4I76Ee-v648egk3nxQ" name="New Sub Process" outgoing="_9RBQcI76Ee-v648egk3nxQ" incoming="_3BYeYI76Ee-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:StartEvent" id="_vQswUI76Ee-v648egk3nxQ" name="Start Event 3" outgoing="_1R6r4I76Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:Task" id="_xutD0I76Ee-v648egk3nxQ" name="Task 4" outgoing="_2KFC8I76Ee-v648egk3nxQ" incoming="_1R6r4I76Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_zhX7UI76Ee-v648egk3nxQ" name="End Event 3" incoming="_2KFC8I76Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_1R6r4I76Ee-v648egk3nxQ" targetRef="_xutD0I76Ee-v648egk3nxQ" sourceRef="_vQswUI76Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_2KFC8I76Ee-v648egk3nxQ" targetRef="_zhX7UI76Ee-v648egk3nxQ" sourceRef="_xutD0I76Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3BYeYI76Ee-v648egk3nxQ" targetRef="_sRIn4I76Ee-v648egk3nxQ" sourceRef="_koO80I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_31QLUI76Ee-v648egk3nxQ" name="Task 5" outgoing="_8U4_YI76Ee-v648egk3nxQ _Lfp5YI77Ee-v648egk3nxQ" incoming="_9RBQcI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_5663UI76Ee-v648egk3nxQ" name="Task 2" outgoing="__6UN8I76Ee-v648egk3nxQ" incoming="_8U4_YI76Ee-v648egk3nxQ _-OC5YI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8U4_YI76Ee-v648egk3nxQ" targetRef="_5663UI76Ee-v648egk3nxQ" sourceRef="_31QLUI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_9RBQcI76Ee-v648egk3nxQ" targetRef="_31QLUI76Ee-v648egk3nxQ" sourceRef="_sRIn4I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-OC5YI76Ee-v648egk3nxQ" targetRef="_5663UI76Ee-v648egk3nxQ" sourceRef="_grPi0I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_-x5NUI76Ee-v648egk3nxQ" name="End Event 1" incoming="__6UN8I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__6UN8I76Ee-v648egk3nxQ" targetRef="_-x5NUI76Ee-v648egk3nxQ" sourceRef="_5663UI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_B-ly0I77Ee-v648egk3nxQ" name="New Sub Process" outgoing="_MtZe4I77Ee-v648egk3nxQ" incoming="_DOVjcI77Ee-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:StartEvent" id="_EwIGUI77Ee-v648egk3nxQ" name="Start Event 4" outgoing="_MRhbMI77Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:Task" id="_GjPpwI77Ee-v648egk3nxQ" name="Task 6" outgoing="_L7lAYI77Ee-v648egk3nxQ" incoming="_MRhbMI77Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_H-9Z0I77Ee-v648egk3nxQ" name="End Event 4" incoming="_L7lAYI77Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_L7lAYI77Ee-v648egk3nxQ" targetRef="_H-9Z0I77Ee-v648egk3nxQ" sourceRef="_GjPpwI77Ee-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_MRhbMI77Ee-v648egk3nxQ" targetRef="_GjPpwI77Ee-v648egk3nxQ" sourceRef="_EwIGUI77Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_DOVjcI77Ee-v648egk3nxQ" targetRef="_B-ly0I77Ee-v648egk3nxQ" sourceRef="_koO80I76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_JNFZ0I77Ee-v648egk3nxQ" name="End Event 5" incoming="_MtZe4I77Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_KefXUI77Ee-v648egk3nxQ" name="End Event 2" incoming="_Lfp5YI77Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Lfp5YI77Ee-v648egk3nxQ" targetRef="_KefXUI77Ee-v648egk3nxQ" sourceRef="_31QLUI76Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_MtZe4I77Ee-v648egk3nxQ" targetRef="_JNFZ0I77Ee-v648egk3nxQ" sourceRef="_B-ly0I77Ee-v648egk3nxQ"/>
+    <laneSets id="_DbOlYY76Ee-v648egk3nxQ" name="Pool1">
+      <lanes id="_DbOlYo76Ee-v648egk3nxQ" name="Lane 1" flowNodeRefs="_grPi0I76Ee-v648egk3nxQ _hrthUI76Ee-v648egk3nxQ _5663UI76Ee-v648egk3nxQ _-x5NUI76Ee-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_DbOlYY76Ee-v648egk3nxZ" name="Pool 2">
+      <lanes id="_DbOlYo76Ee-v648egk3nxZ" name="Lane 2" flowNodeRefs="_koO80I76Ee-v648egk3nxQ _opa6UI76Ee-v648egk3nxQ _sRIn4I76Ee-v648egk3nxQ _31QLUI76Ee-v648egk3nxQ _KefXUI77Ee-v648egk3nxQ"/>
+      <lanes id="_MtZUUI76Ee-v648egk3nxQ" name="Lane 3" flowNodeRefs="_B-ly0I77Ee-v648egk3nxQ _JNFZ0I77Ee-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

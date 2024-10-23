@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_QIhoUY8DEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_QIhoUI8DEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_OIYNII8REe-v648egk3nxQ" name="Receive Travel Request" outgoing="_T8F4MI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_RzInoI8REe-v648egk3nxQ" name="Make flight and hotel offer" outgoing="_ZUtisI8REe-v648egk3nxQ" incoming="_T8F4MI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_T8F4MI8REe-v648egk3nxQ" targetRef="_RzInoI8REe-v648egk3nxQ" sourceRef="_OIYNII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EventBasedGateway" id="_YbvTUI8REe-v648egk3nxQ" outgoing="_cvY50I8REe-v648egk3nxQ _dO4SMI8REe-v648egk3nxQ _duipsI8REe-v648egk3nxQ" incoming="_ZUtisI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ZUtisI8REe-v648egk3nxQ" targetRef="_YbvTUI8REe-v648egk3nxQ" sourceRef="_RzInoI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_aYOOII8REe-v648egk3nxQ" name="Offer Approved" outgoing="_llKnsI8REe-v648egk3nxQ" incoming="_cvY50I8REe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_a7AyII8REe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_bawCII8REe-v648egk3nxQ" name="24 hours" outgoing="_9_qVwI8TEe-v648egk3nxQ" incoming="_dO4SMI8REe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_bwCVoI8REe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_cGFeII8REe-v648egk3nxQ" name="Cancel request" outgoing="_A8fTQI8UEe-v648egk3nxQ" incoming="_duipsI8REe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_cQmsEI8REe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_cvY50I8REe-v648egk3nxQ" targetRef="_aYOOII8REe-v648egk3nxQ" sourceRef="_YbvTUI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_dO4SMI8REe-v648egk3nxQ" targetRef="_bawCII8REe-v648egk3nxQ" sourceRef="_YbvTUI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_duipsI8REe-v648egk3nxQ" targetRef="_cGFeII8REe-v648egk3nxQ" sourceRef="_YbvTUI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_isOEoI8REe-v648egk3nxQ" name="Request Credit Card Information" outgoing="_du6gUI8VEe-v648egk3nxQ" incoming="_llKnsI8REe-v648egk3nxQ" boundaryEventRefs="_m_kJII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_llKnsI8REe-v648egk3nxQ" targetRef="_isOEoI8REe-v648egk3nxQ" sourceRef="_aYOOII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_m_kJII8REe-v648egk3nxQ" outgoing="_GZdSQI8UEe-v648egk3nxQ" attachedToRef="_isOEoI8REe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_nfJoII8REe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SendTask" id="_osSJoI8REe-v648egk3nxQ" name="Notify Customer Offer Exprired" outgoing="_FbUPAI8UEe-v648egk3nxQ" incoming="_9_qVwI8TEe-v648egk3nxQ _GZdSQI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_9_qVwI8TEe-v648egk3nxQ" targetRef="_osSJoI8REe-v648egk3nxQ" sourceRef="_bawCII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="__APpAI8TEe-v648egk3nxQ" name="Update Customer Record" outgoing="_DjGwMI8UEe-v648egk3nxQ" incoming="_A8fTQI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_A8fTQI8UEe-v648egk3nxQ" targetRef="__APpAI8TEe-v648egk3nxQ" sourceRef="_cGFeII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_B0qRYI8UEe-v648egk3nxQ" name="Request Cancelled" incoming="_DjGwMI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_DjGwMI8UEe-v648egk3nxQ" targetRef="_B0qRYI8UEe-v648egk3nxQ" sourceRef="__APpAI8TEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_D7R_oI8UEe-v648egk3nxQ" name="Offer expired" incoming="_FbUPAI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FbUPAI8UEe-v648egk3nxQ" targetRef="_D7R_oI8UEe-v648egk3nxQ" sourceRef="_osSJoI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GZdSQI8UEe-v648egk3nxQ" name="24 hours" targetRef="_osSJoI8REe-v648egk3nxQ" sourceRef="_m_kJII8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_OvH8sI8UEe-v648egk3nxQ" name="Make booking" outgoing="_hhrAQI8VEe-v648egk3nxQ _lrLMQI8VEe-v648egk3nxQ" incoming="_du6gUI8VEe-v648egk3nxQ">
+      <flowElements xsi:type="bpmn:StartEvent" id="_TeOwII8UEe-v648egk3nxQ" outgoing="_UyFksI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ParallelGateway" id="_UQvLII8UEe-v648egk3nxQ" outgoing="_dngGMI8UEe-v648egk3nxQ _gxxp0I8UEe-v648egk3nxQ" incoming="_UyFksI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_UyFksI8UEe-v648egk3nxQ" targetRef="_UQvLII8UEe-v648egk3nxQ" sourceRef="_TeOwII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ServiceTask" id="_V1SuII8UEe-v648egk3nxQ" name="Book Flight" outgoing="_nbB1wI8UEe-v648egk3nxQ" incoming="_dngGMI8UEe-v648egk3nxQ" boundaryEventRefs="_XjsJoI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:BoundaryEvent" id="_XjsJoI8UEe-v648egk3nxQ" outgoing="_cUgNQI8UEe-v648egk3nxQ" attachedToRef="_V1SuII8UEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:CompensateEventDefinition" id="_YpwZ0I8UEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:ServiceTask" id="_Z1YfcI8UEe-v648egk3nxQ" name="Cancel flight" incoming="_cUgNQI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_cUgNQI8UEe-v648egk3nxQ" name="flight" targetRef="_Z1YfcI8UEe-v648egk3nxQ" sourceRef="_XjsJoI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_dngGMI8UEe-v648egk3nxQ" targetRef="_V1SuII8UEe-v648egk3nxQ" sourceRef="_UQvLII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ServiceTask" id="_ek_CII8UEe-v648egk3nxQ" name="Book hotel" outgoing="_n85zwI8UEe-v648egk3nxQ" incoming="_gxxp0I8UEe-v648egk3nxQ" boundaryEventRefs="_h_lgwI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_gxxp0I8UEe-v648egk3nxQ" targetRef="_ek_CII8UEe-v648egk3nxQ" sourceRef="_UQvLII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:BoundaryEvent" id="_h_lgwI8UEe-v648egk3nxQ" outgoing="_lfWzQI8UEe-v648egk3nxQ" attachedToRef="_ek_CII8UEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:CompensateEventDefinition" id="_irhZsI8UEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:ServiceTask" id="_jyzK0I8UEe-v648egk3nxQ" name="Cancel hotel" incoming="_lfWzQI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_lfWzQI8UEe-v648egk3nxQ" name="hotel" targetRef="_jyzK0I8UEe-v648egk3nxQ" sourceRef="_h_lgwI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ParallelGateway" id="_momTQI8UEe-v648egk3nxQ" outgoing="_rroIQI8UEe-v648egk3nxQ" incoming="_nbB1wI8UEe-v648egk3nxQ _n85zwI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_nbB1wI8UEe-v648egk3nxQ" targetRef="_momTQI8UEe-v648egk3nxQ" sourceRef="_V1SuII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_n85zwI8UEe-v648egk3nxQ" targetRef="_momTQI8UEe-v648egk3nxQ" sourceRef="_ek_CII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_pwobMI8UEe-v648egk3nxQ" name="Travel booked" incoming="_rroIQI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_rroIQI8UEe-v648egk3nxQ" targetRef="_pwobMI8UEe-v648egk3nxQ" sourceRef="_momTQI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:StartEvent" id="_uu66II8UEe-v648egk3nxQ" name="Booking" outgoing="_0iQxwI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ParallelGateway" id="_zzLeMI8UEe-v648egk3nxQ" outgoing="_-J3lMI8UEe-v648egk3nxQ __KCBsI8UEe-v648egk3nxQ" incoming="_0iQxwI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_0iQxwI8UEe-v648egk3nxQ" targetRef="_zzLeMI8UEe-v648egk3nxQ" sourceRef="_uu66II8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_49TZsI8UEe-v648egk3nxQ" name="Hotel" outgoing="_BGZAsI8VEe-v648egk3nxQ" incoming="__KCBsI8UEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:CompensateEventDefinition" id="_5VyLII8UEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_6wHbII8UEe-v648egk3nxQ" name="Flight" outgoing="_AqKXsI8VEe-v648egk3nxQ" incoming="_-J3lMI8UEe-v648egk3nxQ">
+        <eventDefinitions xsi:type="bpmn:CompensateEventDefinition" id="_7cvQkI8UEe-v648egk3nxQ"/>
+      </flowElements>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_-J3lMI8UEe-v648egk3nxQ" targetRef="_6wHbII8UEe-v648egk3nxQ" sourceRef="_zzLeMI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="__KCBsI8UEe-v648egk3nxQ" targetRef="_49TZsI8UEe-v648egk3nxQ" sourceRef="_zzLeMI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:ParallelGateway" id="__-zGgI8UEe-v648egk3nxQ" outgoing="_CiBRMI8VEe-v648egk3nxQ" incoming="_AqKXsI8VEe-v648egk3nxQ _BGZAsI8VEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_AqKXsI8VEe-v648egk3nxQ" targetRef="__-zGgI8UEe-v648egk3nxQ" sourceRef="_6wHbII8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_BGZAsI8VEe-v648egk3nxQ" targetRef="__-zGgI8UEe-v648egk3nxQ" sourceRef="_49TZsI8UEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:EndEvent" id="_B2-JEI8VEe-v648egk3nxQ" incoming="_CiBRMI8VEe-v648egk3nxQ"/>
+      <flowElements xsi:type="bpmn:SequenceFlow" id="_CiBRMI8VEe-v648egk3nxQ" targetRef="_B2-JEI8VEe-v648egk3nxQ" sourceRef="__-zGgI8UEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_du6gUI8VEe-v648egk3nxQ" targetRef="_OvH8sI8UEe-v648egk3nxQ" sourceRef="_isOEoI8REe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_fgCfsI8VEe-v648egk3nxQ" name="Charge Credit Card" outgoing="_wr1dUI8VEe-v648egk3nxQ" incoming="_hhrAQI8VEe-v648egk3nxQ" boundaryEventRefs="_oMItII8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_hhrAQI8VEe-v648egk3nxQ" targetRef="_fgCfsI8VEe-v648egk3nxQ" sourceRef="_OvH8sI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_ikhkYI8VEe-v648egk3nxQ" name="Notify Failed Booking" outgoing="_ngDDMI8VEe-v648egk3nxQ" boundaryEventRefs="_kUMLMI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_kUMLMI8VEe-v648egk3nxQ" incoming="_lrLMQI8VEe-v648egk3nxQ" attachedToRef="_ikhkYI8VEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ErrorEventDefinition" id="_krhtII8VEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_lrLMQI8VEe-v648egk3nxQ" targetRef="_kUMLMI8VEe-v648egk3nxQ" sourceRef="_OvH8sI8UEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_mLNXMI8VEe-v648egk3nxQ" name="Failed Booking" incoming="_ngDDMI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ngDDMI8VEe-v648egk3nxQ" targetRef="_mLNXMI8VEe-v648egk3nxQ" sourceRef="_ikhkYI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_oMItII8VEe-v648egk3nxQ" outgoing="_rIYb0I8VEe-v648egk3nxQ" attachedToRef="_fgCfsI8VEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ErrorEventDefinition" id="_oqzmII8VEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="_pfQh4I8VEe-v648egk3nxQ" name="Booking" outgoing="_umKKQI8VEe-v648egk3nxQ" incoming="_rIYb0I8VEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:CompensateEventDefinition" id="_ptGwoI8VEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_rIYb0I8VEe-v648egk3nxQ" targetRef="_pfQh4I8VEe-v648egk3nxQ" sourceRef="_oMItII8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_sRZ5YI8VEe-v648egk3nxQ" name="Notify Failed Credit Transaction" outgoing="_13K5wI8VEe-v648egk3nxQ" incoming="_umKKQI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_umKKQI8VEe-v648egk3nxQ" targetRef="_sRZ5YI8VEe-v648egk3nxQ" sourceRef="_pfQh4I8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_vQuKMI8VEe-v648egk3nxQ" name="Confirm Booking" outgoing="_4NeCwI8VEe-v648egk3nxQ" incoming="_wr1dUI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wr1dUI8VEe-v648egk3nxQ" targetRef="_vQuKMI8VEe-v648egk3nxQ" sourceRef="_fgCfsI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_0QIDcI8VEe-v648egk3nxQ" name="Failed Credit Transaction" incoming="_13K5wI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_13K5wI8VEe-v648egk3nxQ" targetRef="_0QIDcI8VEe-v648egk3nxQ" sourceRef="_sRZ5YI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_2WItsI8VEe-v648egk3nxQ" name="Booking Confirmed" incoming="_4NeCwI8VEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_4NeCwI8VEe-v648egk3nxQ" targetRef="_2WItsI8VEe-v648egk3nxQ" sourceRef="_vQuKMI8VEe-v648egk3nxQ"/>
+    <laneSets id="_RXR6cY8DEe-v648egk3nxQ">
+      <lanes id="_RXR6co8DEe-v648egk3nxQ" flowNodeRefs="_OIYNII8REe-v648egk3nxQ _RzInoI8REe-v648egk3nxQ _YbvTUI8REe-v648egk3nxQ _aYOOII8REe-v648egk3nxQ _bawCII8REe-v648egk3nxQ _cGFeII8REe-v648egk3nxQ _isOEoI8REe-v648egk3nxQ _m_kJII8REe-v648egk3nxQ _osSJoI8REe-v648egk3nxQ __APpAI8TEe-v648egk3nxQ _B0qRYI8UEe-v648egk3nxQ _D7R_oI8UEe-v648egk3nxQ _OvH8sI8UEe-v648egk3nxQ _fgCfsI8VEe-v648egk3nxQ _ikhkYI8VEe-v648egk3nxQ _kUMLMI8VEe-v648egk3nxQ _mLNXMI8VEe-v648egk3nxQ _oMItII8VEe-v648egk3nxQ _pfQh4I8VEe-v648egk3nxQ _sRZ5YI8VEe-v648egk3nxQ _vQuKMI8VEe-v648egk3nxQ _0QIDcI8VEe-v648egk3nxQ _2WItsI8VEe-v648egk3nxQ">
+        <partitionElement xsi:type="bpmn:InputOutputSpecification" id="_Ui_gII8REe-v648egk3nxQ">
+          <dataInputs id="_Ui_gIY8REe-v648egk3nxQ" name="Travel Request"/>
+          <dataInputs id="_xcBkII8VEe-v648egk3nxQ" name="Itinerary"/>
+        </partitionElement>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_V3PWQI8REe-v648egk3nxQ" sourceRef="_Ui_gIY8REe-v648egk3nxQ" targetRef="_RzInoI8REe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_zHfAYI8VEe-v648egk3nxQ" sourceRef="_vQuKMI8VEe-v648egk3nxQ" targetRef="_xcBkII8VEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

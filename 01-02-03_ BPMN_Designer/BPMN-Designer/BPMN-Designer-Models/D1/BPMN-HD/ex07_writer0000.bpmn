@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_qFqIoZGIEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_qFqIoJGIEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:UserTask" id="_0oyJIJGIEe-th9jTEYG_eA" name="external expert" outgoing="_ag92QJGJEe-th9jTEYG_eA" incoming="_ZUmJwJGJEe-th9jTEYG_eA">
+      <loopCharacteristics xsi:type="bpmn:MultiInstanceLoopCharacteristics" id="_1KhkQJGIEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:StartEvent" id="_2HF6MJGIEe-th9jTEYG_eA" outgoing="_23PkwJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_2cPq0JGIEe-th9jTEYG_eA" outgoing="_8dro0JGIEe-th9jTEYG_eA _XEGt0JGJEe-th9jTEYG_eA" incoming="_23PkwJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_23PkwJGIEe-th9jTEYG_eA" targetRef="_2cPq0JGIEe-th9jTEYG_eA" sourceRef="_2HF6MJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_5tJa4JGIEe-th9jTEYG_eA" name="Interview workflow" outgoing="_9XMqwJGIEe-th9jTEYG_eA" incoming="_8dro0JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8dro0JGIEe-th9jTEYG_eA" targetRef="_5tJa4JGIEe-th9jTEYG_eA" sourceRef="_2cPq0JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_88LisJGIEe-th9jTEYG_eA" outgoing="_-SGMwJGIEe-th9jTEYG_eA" incoming="_9XMqwJGIEe-th9jTEYG_eA _P3mD0JGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_9XMqwJGIEe-th9jTEYG_eA" targetRef="_88LisJGIEe-th9jTEYG_eA" sourceRef="_5tJa4JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_98uZsJGIEe-th9jTEYG_eA" outgoing="_EC5twJGJEe-th9jTEYG_eA _OfxVQJGJEe-th9jTEYG_eA" incoming="_-SGMwJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-SGMwJGIEe-th9jTEYG_eA" targetRef="_98uZsJGIEe-th9jTEYG_eA" sourceRef="_88LisJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="__sfuMJGIEe-th9jTEYG_eA" name="files results" outgoing="_FsbQUJGJEe-th9jTEYG_eA" incoming="_EC5twJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_EC5twJGJEe-th9jTEYG_eA" targetRef="__sfuMJGIEe-th9jTEYG_eA" sourceRef="_98uZsJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_EfRgsJGJEe-th9jTEYG_eA" name="create report" outgoing="_LbfE4JGJEe-th9jTEYG_eA" incoming="_FsbQUJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FsbQUJGJEe-th9jTEYG_eA" targetRef="_EfRgsJGJEe-th9jTEYG_eA" sourceRef="__sfuMJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_GBT7MJGJEe-th9jTEYG_eA" outgoing="_MBiYQJGJEe-th9jTEYG_eA" incoming="_LbfE4JGJEe-th9jTEYG_eA _Nwd_QJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LbfE4JGJEe-th9jTEYG_eA" targetRef="_GBT7MJGJEe-th9jTEYG_eA" sourceRef="_EfRgsJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_LwrRwJGJEe-th9jTEYG_eA" incoming="_MBiYQJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_MBiYQJGJEe-th9jTEYG_eA" targetRef="_LwrRwJGJEe-th9jTEYG_eA" sourceRef="_GBT7MJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_MZe-MJGJEe-th9jTEYG_eA" name="filling a cheque" outgoing="_Nwd_QJGJEe-th9jTEYG_eA" incoming="_OfxVQJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Nwd_QJGJEe-th9jTEYG_eA" targetRef="_GBT7MJGJEe-th9jTEYG_eA" sourceRef="_MZe-MJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_OfxVQJGJEe-th9jTEYG_eA" targetRef="_MZe-MJGJEe-th9jTEYG_eA" sourceRef="_98uZsJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_Pde6sJGJEe-th9jTEYG_eA" outgoing="_P3mD0JGJEe-th9jTEYG_eA _VIbEQJGJEe-th9jTEYG_eA" incoming="_SAGBYJGJEe-th9jTEYG_eA _TqXK0JGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_P3mD0JGJEe-th9jTEYG_eA" targetRef="_88LisJGIEe-th9jTEYG_eA" sourceRef="_Pde6sJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_QtcGsJGJEe-th9jTEYG_eA" outgoing="_SAGBYJGJEe-th9jTEYG_eA" incoming="_ag92QJGJEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_RBqDMJGJEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_SAGBYJGJEe-th9jTEYG_eA" targetRef="_Pde6sJGJEe-th9jTEYG_eA" sourceRef="_QtcGsJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_SevFMJGJEe-th9jTEYG_eA" name="ask for review" outgoing="_TqXK0JGJEe-th9jTEYG_eA _ZUmJwJGJEe-th9jTEYG_eA" incoming="_WQAXYJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TqXK0JGJEe-th9jTEYG_eA" targetRef="_Pde6sJGJEe-th9jTEYG_eA" sourceRef="_SevFMJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_UpXJsJGJEe-th9jTEYG_eA" outgoing="_WQAXYJGJEe-th9jTEYG_eA" incoming="_VIbEQJGJEe-th9jTEYG_eA _XEGt0JGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VIbEQJGJEe-th9jTEYG_eA" targetRef="_UpXJsJGJEe-th9jTEYG_eA" sourceRef="_Pde6sJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_WQAXYJGJEe-th9jTEYG_eA" targetRef="_SevFMJGJEe-th9jTEYG_eA" sourceRef="_UpXJsJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_XEGt0JGJEe-th9jTEYG_eA" targetRef="_UpXJsJGJEe-th9jTEYG_eA" sourceRef="_2cPq0JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ZUmJwJGJEe-th9jTEYG_eA" targetRef="_0oyJIJGIEe-th9jTEYG_eA" sourceRef="_SevFMJGJEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ag92QJGJEe-th9jTEYG_eA" targetRef="_QtcGsJGJEe-th9jTEYG_eA" sourceRef="_0oyJIJGIEe-th9jTEYG_eA"/>
+    <laneSets id="_r4fYMZGIEe-th9jTEYG_eA" name="expert">
+      <lanes id="_r4fYMpGIEe-th9jTEYG_eA" flowNodeRefs="_0oyJIJGIEe-th9jTEYG_eA"/>
+    </laneSets>
+    <laneSets id="_r4fYMZGIEe-th9jTEYG_eQ" name="hospital">
+      <lanes id="_r4fYMpGIEe-th9jTEYG_eQ" name="quality assurance department (OA)" flowNodeRefs="_2HF6MJGIEe-th9jTEYG_eA _2cPq0JGIEe-th9jTEYG_eA _5tJa4JGIEe-th9jTEYG_eA _88LisJGIEe-th9jTEYG_eA _98uZsJGIEe-th9jTEYG_eA __sfuMJGIEe-th9jTEYG_eA _EfRgsJGJEe-th9jTEYG_eA _GBT7MJGJEe-th9jTEYG_eA _LwrRwJGJEe-th9jTEYG_eA"/>
+      <lanes id="_GhqPMJGJEe-th9jTEYG_eA" name="managing director" flowNodeRefs="_MZe-MJGJEe-th9jTEYG_eA _Pde6sJGJEe-th9jTEYG_eA _QtcGsJGJEe-th9jTEYG_eA _SevFMJGJEe-th9jTEYG_eA _UpXJsJGJEe-th9jTEYG_eA"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

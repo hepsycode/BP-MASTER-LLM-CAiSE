@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_KkUY4Y8DEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_KkUY4I8DEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_dDiegI8JEe-v648egk3nxQ" name="customer interested in bank offer" outgoing="_pkQ0II8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_obWrUI8JEe-v648egk3nxQ" name="interview customer" outgoing="_tBvnoI8JEe-v648egk3nxQ" incoming="_pkQ0II8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_pkQ0II8JEe-v648egk3nxQ" targetRef="_obWrUI8JEe-v648egk3nxQ" sourceRef="_dDiegI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_qiungI8JEe-v648egk3nxQ" name="Prove/Provide Identity" outgoing="_wYnc0I8JEe-v648egk3nxQ" incoming="_tBvnoI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tBvnoI8JEe-v648egk3nxQ" targetRef="_qiungI8JEe-v648egk3nxQ" sourceRef="_obWrUI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_t0sukI8JEe-v648egk3nxQ" name="Legal entity or individual?" outgoing="_yVKpEI8JEe-v648egk3nxQ _3rueEI8JEe-v648egk3nxQ" incoming="_wYnc0I8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wYnc0I8JEe-v648egk3nxQ" targetRef="_t0sukI8JEe-v648egk3nxQ" sourceRef="_qiungI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_w3ntAI8JEe-v648egk3nxQ" outgoing="_AR0KII8KEe-v648egk3nxQ" incoming="_yVKpEI8JEe-v648egk3nxQ _KeNFoI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yVKpEI8JEe-v648egk3nxQ" name="Individual person" targetRef="_w3ntAI8JEe-v648egk3nxQ" sourceRef="_t0sukI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_0FCrQI8JEe-v648egk3nxQ" name="document the identity of the economic owner" outgoing="_J3GCUI8KEe-v648egk3nxQ" incoming="_3rueEI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3rueEI8JEe-v648egk3nxQ" name="Legal Entity" targetRef="_0FCrQI8JEe-v648egk3nxQ" sourceRef="_t0sukI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_9BHOYI8JEe-v648egk3nxQ" name="Obtain supporting data and documents of the customer" outgoing="_EYfEkI8KEe-v648egk3nxQ" incoming="_AR0KII8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_AR0KII8KEe-v648egk3nxQ" targetRef="_9BHOYI8JEe-v648egk3nxQ" sourceRef="_w3ntAI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_Cn4CkI8KEe-v648egk3nxQ" name="check customer documents" outgoing="_RTXmoI8KEe-v648egk3nxQ" incoming="_EYfEkI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_EYfEkI8KEe-v648egk3nxQ" targetRef="_Cn4CkI8KEe-v648egk3nxQ" sourceRef="_9BHOYI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_Gf0kgI8KEe-v648egk3nxQ" name="Identity of the economic owner certifiable?" outgoing="_KeNFoI8KEe-v648egk3nxQ _iTdqkI8KEe-v648egk3nxQ" incoming="_J3GCUI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_J3GCUI8KEe-v648egk3nxQ" targetRef="_Gf0kgI8KEe-v648egk3nxQ" sourceRef="_0FCrQI8JEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KeNFoI8KEe-v648egk3nxQ" name="Yes" targetRef="_w3ntAI8JEe-v648egk3nxQ" sourceRef="_Gf0kgI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_PiDaAI8KEe-v648egk3nxQ" name="Data Complete?" outgoing="_VeProI8KEe-v648egk3nxQ _YVC5oI8KEe-v648egk3nxQ" incoming="_RTXmoI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RTXmoI8KEe-v648egk3nxQ" targetRef="_PiDaAI8KEe-v648egk3nxQ" sourceRef="_Cn4CkI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_S02ngI8KEe-v648egk3nxQ" name="Complete Data and documents" outgoing="_ehspII8KEe-v648egk3nxQ" incoming="_VeProI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VeProI8KEe-v648egk3nxQ" name="No" targetRef="_S02ngI8KEe-v648egk3nxQ" sourceRef="_PiDaAI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_X1QmUI8KEe-v648egk3nxQ" outgoing="_fHKtsI8KEe-v648egk3nxQ" incoming="_YVC5oI8KEe-v648egk3nxQ _ehspII8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_YVC5oI8KEe-v648egk3nxQ" name="Yes" targetRef="_X1QmUI8KEe-v648egk3nxQ" sourceRef="_PiDaAI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_Z-PFAI8KEe-v648egk3nxQ" name="copy, sign, and scan documents" outgoing="_ykV4EI8KEe-v648egk3nxQ" incoming="_fHKtsI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ehspII8KEe-v648egk3nxQ" targetRef="_X1QmUI8KEe-v648egk3nxQ" sourceRef="_S02ngI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fHKtsI8KEe-v648egk3nxQ" targetRef="_Z-PFAI8KEe-v648egk3nxQ" sourceRef="_X1QmUI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_grUBAI8KEe-v648egk3nxQ" name="end business relation" outgoing="_ki_dMI8KEe-v648egk3nxQ" incoming="_iTdqkI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_iTdqkI8KEe-v648egk3nxQ" name="No" targetRef="_grUBAI8KEe-v648egk3nxQ" sourceRef="_Gf0kgI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_jLYxEI8KEe-v648egk3nxQ" name="Business relation ended" incoming="_ki_dMI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ki_dMI8KEe-v648egk3nxQ" targetRef="_jLYxEI8KEe-v648egk3nxQ" sourceRef="_grUBAI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_vQwAYI8KEe-v648egk3nxQ" name="file documents in customer file" outgoing="_7O50cI8KEe-v648egk3nxQ" incoming="_ykV4EI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ykV4EI8KEe-v648egk3nxQ" targetRef="_vQwAYI8KEe-v648egk3nxQ" sourceRef="_Z-PFAI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_0E2BgI8KEe-v648egk3nxQ" outgoing="_7rPLII8KEe-v648egk3nxQ _HTVPoI8LEe-v648egk3nxQ" incoming="_7O50cI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_0865AI8KEe-v648egk3nxQ" name="Add personal Data" outgoing="_Tx5pII8LEe-v648egk3nxQ" incoming="_7rPLII8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7O50cI8KEe-v648egk3nxQ" targetRef="_0E2BgI8KEe-v648egk3nxQ" sourceRef="_vQwAYI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_7rPLII8KEe-v648egk3nxQ" targetRef="_0865AI8KEe-v648egk3nxQ" sourceRef="_0E2BgI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_Cal_EI8LEe-v648egk3nxQ" name="Perform know your customer (KYC) activities" outgoing="_UatVkI8LEe-v648egk3nxQ" incoming="_HTVPoI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HTVPoI8LEe-v648egk3nxQ" targetRef="_Cal_EI8LEe-v648egk3nxQ" sourceRef="_0E2BgI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_TSE5kI8LEe-v648egk3nxQ" outgoing="_ZQFJEI8LEe-v648egk3nxQ" incoming="_Tx5pII8LEe-v648egk3nxQ _UatVkI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Tx5pII8LEe-v648egk3nxQ" targetRef="_TSE5kI8LEe-v648egk3nxQ" sourceRef="_0865AI8KEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_UatVkI8LEe-v648egk3nxQ" targetRef="_TSE5kI8LEe-v648egk3nxQ" sourceRef="_Cal_EI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_VGuuEI8LEe-v648egk3nxQ" name="Perform risk assessment of the customer" outgoing="_neM0oI8LEe-v648egk3nxQ" incoming="_ZQFJEI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ZQFJEI8LEe-v648egk3nxQ" targetRef="_VGuuEI8LEe-v648egk3nxQ" sourceRef="_TSE5kI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_lkkZgI8LEe-v648egk3nxQ" name="Subject to approval" outgoing="_tyHCsI8LEe-v648egk3nxQ _vwv5oI8LEe-v648egk3nxQ" incoming="_neM0oI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_neM0oI8LEe-v648egk3nxQ" targetRef="_lkkZgI8LEe-v648egk3nxQ" sourceRef="_VGuuEI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_pNWeEI8LEe-v648egk3nxQ" name="Check risk and decide about approval" outgoing="_CMLTII8MEe-v648egk3nxQ" incoming="_tyHCsI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tyHCsI8LEe-v648egk3nxQ" name="Yes" targetRef="_pNWeEI8LEe-v648egk3nxQ" sourceRef="_lkkZgI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_vQY-kI8LEe-v648egk3nxQ" outgoing="_0cIqsI8LEe-v648egk3nxQ" incoming="_vwv5oI8LEe-v648egk3nxQ _C_hboI8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vwv5oI8LEe-v648egk3nxQ" name="No" targetRef="_vQY-kI8LEe-v648egk3nxQ" sourceRef="_lkkZgI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_yW_jII8LEe-v648egk3nxQ" name="document risk assessment" outgoing="_9iLCII8LEe-v648egk3nxQ" incoming="_0cIqsI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0cIqsI8LEe-v648egk3nxQ" targetRef="_yW_jII8LEe-v648egk3nxQ" sourceRef="_vQY-kI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_6zGMwI8LEe-v648egk3nxQ" name="check for connected clients" outgoing="_TDbkII8MEe-v648egk3nxQ" incoming="_9iLCII8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_9iLCII8LEe-v648egk3nxQ" targetRef="_6zGMwI8LEe-v648egk3nxQ" sourceRef="_yW_jII8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_BDE9EI8MEe-v648egk3nxQ" name="Approval" outgoing="_C_hboI8MEe-v648egk3nxQ _KMQvII8MEe-v648egk3nxQ" incoming="_CMLTII8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_CMLTII8MEe-v648egk3nxQ" targetRef="_BDE9EI8MEe-v648egk3nxQ" sourceRef="_pNWeEI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_C_hboI8MEe-v648egk3nxQ" name="Yes" targetRef="_vQY-kI8LEe-v648egk3nxQ" sourceRef="_BDE9EI8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_FcEWkI8MEe-v648egk3nxQ" name="Reject customer request" outgoing="_LFVFII8MEe-v648egk3nxQ" incoming="_KMQvII8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_HVZ2wI8MEe-v648egk3nxQ" name="No business relation created" incoming="_LFVFII8MEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:SignalEventDefinition" id="_HySnEI8MEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KMQvII8MEe-v648egk3nxQ" name="No" targetRef="_FcEWkI8MEe-v648egk3nxQ" sourceRef="_BDE9EI8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LFVFII8MEe-v648egk3nxQ" targetRef="_HVZ2wI8MEe-v648egk3nxQ" sourceRef="_FcEWkI8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_RQ7rwI8MEe-v648egk3nxQ" name="Create customer in the system" outgoing="_f1h9oI8MEe-v648egk3nxQ" incoming="_TDbkII8MEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TDbkII8MEe-v648egk3nxQ" targetRef="_RQ7rwI8MEe-v648egk3nxQ" sourceRef="_6zGMwI8LEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_cENBEI8MEe-v648egk3nxQ" name="identify determined and new customer created" incoming="_f1h9oI8MEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:SignalEventDefinition" id="_e6stEI8MEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_f1h9oI8MEe-v648egk3nxQ" targetRef="_cENBEI8MEe-v648egk3nxQ" sourceRef="_RQ7rwI8MEe-v648egk3nxQ"/>
+    <laneSets id="_L9VaQY8DEe-v648egk3nxQ" name="Bank">
+      <lanes id="_L9WBUI8DEe-v648egk3nxQ" name="Private Customer Account Manager" flowNodeRefs="_dDiegI8JEe-v648egk3nxQ _obWrUI8JEe-v648egk3nxQ _qiungI8JEe-v648egk3nxQ _t0sukI8JEe-v648egk3nxQ _w3ntAI8JEe-v648egk3nxQ _9BHOYI8JEe-v648egk3nxQ _Cn4CkI8KEe-v648egk3nxQ _PiDaAI8KEe-v648egk3nxQ _S02ngI8KEe-v648egk3nxQ _X1QmUI8KEe-v648egk3nxQ _Z-PFAI8KEe-v648egk3nxQ _vQwAYI8KEe-v648egk3nxQ _0E2BgI8KEe-v648egk3nxQ _0865AI8KEe-v648egk3nxQ _Cal_EI8LEe-v648egk3nxQ _TSE5kI8LEe-v648egk3nxQ _VGuuEI8LEe-v648egk3nxQ _lkkZgI8LEe-v648egk3nxQ _vQY-kI8LEe-v648egk3nxQ _yW_jII8LEe-v648egk3nxQ _6zGMwI8LEe-v648egk3nxQ _RQ7rwI8MEe-v648egk3nxQ _cENBEI8MEe-v648egk3nxQ">
+        <extensionValues id="_5J3QAI8JEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_5J33EI8JEe-v648egk3nxQ" name="ID document [for analysis]"/>
+        </extensionValues>
+        <extensionValues id="_MLqtAI8KEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_MLqtAY8KEe-v648egk3nxQ" name="ID document [analysed]"/>
+        </extensionValues>
+        <extensionValues id="_qXDGgI8KEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_qXDtkI8KEe-v648egk3nxQ" name="Id document [scanned]"/>
+        </extensionValues>
+        <extensionValues id="_3ZTb4I8KEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataStore" id="_3ZUC8I8KEe-v648egk3nxQ" name="Customer Data (temporary storage)"/>
+        </extensionValues>
+        <extensionValues id="_9yytgI8KEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_9yytgY8KEe-v648egk3nxQ" name="customer data [for KYC analysis]"/>
+        </extensionValues>
+        <extensionValues id="_aStqwI8LEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_aStqwY8LEe-v648egk3nxQ" name="Customer data [for risk assessment]"/>
+        </extensionValues>
+        <extensionValues id="_L8Z3EI8MEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_L8Z3EY8MEe-v648egk3nxQ" name="Customer data [with connected clients analysis]"/>
+        </extensionValues>
+        <extensionValues id="_WEL_YI8MEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataStore" id="_WEL_YY8MEe-v648egk3nxQ" name="Bank System"/>
+        </extensionValues>
+        <extensionValues id="_YcTGQI8MEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataStore" id="_YcTGQY8MEe-v648egk3nxQ" name="Customer Data (temporary storage)"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="_O5n9gI8JEe-v648egk3nxQ" name="Corporate Account Manager" flowNodeRefs="_0FCrQI8JEe-v648egk3nxQ _Gf0kgI8KEe-v648egk3nxQ _grUBAI8KEe-v648egk3nxQ _jLYxEI8KEe-v648egk3nxQ"/>
+      <lanes id="_RFUZAI8JEe-v648egk3nxQ" name="Head of Market Service" flowNodeRefs="_pNWeEI8LEe-v648egk3nxQ _BDE9EI8MEe-v648egk3nxQ _FcEWkI8MEe-v648egk3nxQ _HVZ2wI8MEe-v648egk3nxQ"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_8FLxoI8JEe-v648egk3nxQ" sourceRef="_qiungI8JEe-v648egk3nxQ" targetRef="_5J33EI8JEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_BEBDII8KEe-v648egk3nxQ" sourceRef="_5J33EI8JEe-v648egk3nxQ" targetRef="_9BHOYI8JEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_BxaUoI8KEe-v648egk3nxQ" sourceRef="_5J33EI8JEe-v648egk3nxQ" targetRef="_0FCrQI8JEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_E5hVEI8KEe-v648egk3nxQ" sourceRef="_5J33EI8JEe-v648egk3nxQ" targetRef="_Cn4CkI8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_O8J3oI8KEe-v648egk3nxQ" sourceRef="_Cn4CkI8KEe-v648egk3nxQ" targetRef="_MLqtAY8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_WP6ZII8KEe-v648egk3nxQ" sourceRef="_S02ngI8KEe-v648egk3nxQ" targetRef="_MLqtAY8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_c38dEI8KEe-v648egk3nxQ" sourceRef="_MLqtAY8KEe-v648egk3nxQ" targetRef="_Z-PFAI8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_uY3WII8KEe-v648egk3nxQ" sourceRef="_Z-PFAI8KEe-v648egk3nxQ" targetRef="_qXDtkI8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_xik5EI8KEe-v648egk3nxQ" sourceRef="_qXDtkI8KEe-v648egk3nxQ" targetRef="_vQwAYI8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_8SxsQI8KEe-v648egk3nxQ" sourceRef="_vQwAYI8KEe-v648egk3nxQ" targetRef="_3ZUC8I8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_9JbncI8KEe-v648egk3nxQ" sourceRef="_0865AI8KEe-v648egk3nxQ" targetRef="_3ZUC8I8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_BbIGII8LEe-v648egk3nxQ" sourceRef="_0865AI8KEe-v648egk3nxQ" targetRef="_9yytgY8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_IUvCQI8LEe-v648egk3nxQ" sourceRef="_9yytgY8KEe-v648egk3nxQ" targetRef="_Cal_EI8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_YSjw4I8LEe-v648egk3nxQ" sourceRef="_VGuuEI8LEe-v648egk3nxQ" targetRef="_3ZUC8I8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_dFc4II8LEe-v648egk3nxQ" sourceRef="_Cal_EI8LEe-v648egk3nxQ" targetRef="_aStqwY8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_drXooI8LEe-v648egk3nxQ" sourceRef="_aStqwY8LEe-v648egk3nxQ" targetRef="_VGuuEI8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_fV3bkI8LEe-v648egk3nxQ" sourceRef="_Cal_EI8LEe-v648egk3nxQ" targetRef="_3ZUC8I8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_snaKII8LEe-v648egk3nxQ" sourceRef="_aStqwY8LEe-v648egk3nxQ" targetRef="_pNWeEI8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_1LSPsI8LEe-v648egk3nxQ" sourceRef="_yW_jII8LEe-v648egk3nxQ" targetRef="_3ZUC8I8KEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_4L_noI8LEe-v648egk3nxQ" sourceRef="_aStqwY8LEe-v648egk3nxQ" targetRef="_yW_jII8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_-pDKoI8LEe-v648egk3nxQ" sourceRef="_aStqwY8LEe-v648egk3nxQ" targetRef="_6zGMwI8LEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_QLVVoI8MEe-v648egk3nxQ" sourceRef="_6zGMwI8LEe-v648egk3nxQ" targetRef="_L8Z3EY8MEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_TqCRII8MEe-v648egk3nxQ" sourceRef="_L8Z3EY8MEe-v648egk3nxQ" targetRef="_RQ7rwI8MEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_XzTzoI8MEe-v648egk3nxQ" sourceRef="_RQ7rwI8MEe-v648egk3nxQ" targetRef="_WEL_YY8MEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_bVF4UI8MEe-v648egk3nxQ" sourceRef="_YcTGQY8MEe-v648egk3nxQ" targetRef="_RQ7rwI8MEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_ZfvPUY8DEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_ZfvPUI8DEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_Gd2isI8XEe-v648egk3nxQ" name="Vacation Request Received" outgoing="_LLYo0I8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_JGTysI8XEe-v648egk3nxQ" name="Fetch Vacation Information" outgoing="_W-6hQI8XEe-v648egk3nxQ" incoming="_LLYo0I8XEe-v648egk3nxQ" boundaryEventRefs="_MCeB0I8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LLYo0I8XEe-v648egk3nxQ" targetRef="_JGTysI8XEe-v648egk3nxQ" sourceRef="_Gd2isI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_MCeB0I8XEe-v648egk3nxQ" outgoing="_P9iTwI8YEe-v648egk3nxQ" attachedToRef="_JGTysI8XEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ErrorEventDefinition" id="_M5nFMI8XEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:BusinessRuleTask" id="_VKyRMI8XEe-v648egk3nxQ" name="Vacation Approval" outgoing="_evgvwI8XEe-v648egk3nxQ" incoming="_W-6hQI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_W-6hQI8XEe-v648egk3nxQ" targetRef="_VKyRMI8XEe-v648egk3nxQ" sourceRef="_JGTysI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_de74sI8XEe-v648egk3nxQ" outgoing="_h6EnQI8XEe-v648egk3nxQ _lvqYwI8XEe-v648egk3nxQ _qxFrQI8XEe-v648egk3nxQ" incoming="_evgvwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_evgvwI8XEe-v648egk3nxQ" targetRef="_de74sI8XEe-v648egk3nxQ" sourceRef="_VKyRMI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_ftgCAI8XEe-v648egk3nxQ" name="Notify Employee of approval" outgoing="_wLsSwI8XEe-v648egk3nxQ" incoming="_h6EnQI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_h6EnQI8XEe-v648egk3nxQ" name="Approved" targetRef="_ftgCAI8XEe-v648egk3nxQ" sourceRef="_de74sI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_ihRxMI8XEe-v648egk3nxQ" name="Manually Approve Vacation" outgoing="_tVC1wI8XEe-v648egk3nxQ" incoming="_lvqYwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_lvqYwI8XEe-v648egk3nxQ" name="Manual Validation Required" targetRef="_ihRxMI8XEe-v648egk3nxQ" sourceRef="_de74sI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_oUwLsI8XEe-v648egk3nxQ" name="Notify Employee of Refusal" outgoing="_N1wu8I8YEe-v648egk3nxQ" incoming="_qxFrQI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qxFrQI8XEe-v648egk3nxQ" name="Refused" targetRef="_oUwLsI8XEe-v648egk3nxQ" sourceRef="_de74sI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_sVZ9sI8XEe-v648egk3nxQ" outgoing="_0yVtwI8XEe-v648egk3nxQ _8nlywI8XEe-v648egk3nxQ" incoming="_tVC1wI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tVC1wI8XEe-v648egk3nxQ" targetRef="_sVZ9sI8XEe-v648egk3nxQ" sourceRef="_ihRxMI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_uK6GwI8XEe-v648egk3nxQ" name="Update Remaining Vacation" outgoing="_G8ETQI8YEe-v648egk3nxQ" incoming="_wLsSwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wLsSwI8XEe-v648egk3nxQ" targetRef="_uK6GwI8XEe-v648egk3nxQ" sourceRef="_ftgCAI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_xZYN4I8XEe-v648egk3nxQ" name="Notify Employee of Approval" outgoing="_3o1ZwI8XEe-v648egk3nxQ" incoming="_0yVtwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0yVtwI8XEe-v648egk3nxQ" targetRef="_xZYN4I8XEe-v648egk3nxQ" sourceRef="_sVZ9sI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="_1cNxMI8XEe-v648egk3nxQ" name="Update Remaining Vacation" outgoing="_HX_aQI8YEe-v648egk3nxQ" incoming="_3o1ZwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3o1ZwI8XEe-v648egk3nxQ" targetRef="_1cNxMI8XEe-v648egk3nxQ" sourceRef="_xZYN4I8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SendTask" id="_5pTcsI8XEe-v648egk3nxQ" name="Notify Employee of Refusal" outgoing="_K-3aUI8YEe-v648egk3nxQ" incoming="_8nlywI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8nlywI8XEe-v648egk3nxQ" targetRef="_5pTcsI8XEe-v648egk3nxQ" sourceRef="_sVZ9sI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_BfjAMI8YEe-v648egk3nxQ" name="Vacation approved Automatically" incoming="_G8ETQI8YEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_D3HUgI8YEe-v648egk3nxQ" name="Vacation Approved by Manager" incoming="_HX_aQI8YEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_G8ETQI8YEe-v648egk3nxQ" targetRef="_BfjAMI8YEe-v648egk3nxQ" sourceRef="_uK6GwI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HX_aQI8YEe-v648egk3nxQ" targetRef="_D3HUgI8YEe-v648egk3nxQ" sourceRef="_1cNxMI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_Hw2mMI8YEe-v648egk3nxQ" name="Vacation Refused by Manager" incoming="_K-3aUI8YEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_K-3aUI8YEe-v648egk3nxQ" targetRef="_Hw2mMI8YEe-v648egk3nxQ" sourceRef="_5pTcsI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_MabZYI8YEe-v648egk3nxQ" name="Vacation Refused Automatically" incoming="_N1wu8I8YEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_N1wu8I8YEe-v648egk3nxQ" targetRef="_MabZYI8YEe-v648egk3nxQ" sourceRef="_oUwLsI8XEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_OdjHsI8YEe-v648egk3nxQ" name="Employee not found" incoming="_P9iTwI8YEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_P9iTwI8YEe-v648egk3nxQ" targetRef="_OdjHsI8YEe-v648egk3nxQ" sourceRef="_MCeB0I8XEe-v648egk3nxQ"/>
+    <laneSets id="_bFJt8Y8DEe-v648egk3nxQ">
+      <lanes id="_bFJt8o8DEe-v648egk3nxQ" flowNodeRefs="_Gd2isI8XEe-v648egk3nxQ _JGTysI8XEe-v648egk3nxQ _MCeB0I8XEe-v648egk3nxQ _VKyRMI8XEe-v648egk3nxQ _de74sI8XEe-v648egk3nxQ _ftgCAI8XEe-v648egk3nxQ _ihRxMI8XEe-v648egk3nxQ _oUwLsI8XEe-v648egk3nxQ _sVZ9sI8XEe-v648egk3nxQ _uK6GwI8XEe-v648egk3nxQ _xZYN4I8XEe-v648egk3nxQ _1cNxMI8XEe-v648egk3nxQ _5pTcsI8XEe-v648egk3nxQ _BfjAMI8YEe-v648egk3nxQ _D3HUgI8YEe-v648egk3nxQ _Hw2mMI8YEe-v648egk3nxQ _MabZYI8YEe-v648egk3nxQ _OdjHsI8YEe-v648egk3nxQ">
+        <extensionValues id="_Qx5lYI8XEe-v648egk3nxQ">
+          <value xsi:type="bpmn:DataObject" id="_Qx5lYY8XEe-v648egk3nxQ" name="Current Vacation Status"/>
+        </extensionValues>
+        <partitionElement xsi:type="bpmn:InputOutputSpecification" id="_NyOIMI8XEe-v648egk3nxQ">
+          <dataInputs id="_NyOIMY8XEe-v648egk3nxQ" name="Employee Badge Number"/>
+          <dataInputs id="_X-nDsI8XEe-v648egk3nxQ" name="Vacation Approval"/>
+          <dataInputs id="_ZwTDwI8XEe-v648egk3nxQ" name="Reason"/>
+        </partitionElement>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_P-E7wI8XEe-v648egk3nxQ" sourceRef="_NyOIMY8XEe-v648egk3nxQ" targetRef="_JGTysI8XEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_TA2wQI8XEe-v648egk3nxQ" sourceRef="_JGTysI8XEe-v648egk3nxQ" targetRef="_Qx5lYY8XEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_a8-SQI8XEe-v648egk3nxQ" sourceRef="_VKyRMI8XEe-v648egk3nxQ" targetRef="_X-nDsI8XEe-v648egk3nxQ"/>
+    <artifacts xsi:type="bpmn:Association" id="_baQrMI8XEe-v648egk3nxQ" sourceRef="_VKyRMI8XEe-v648egk3nxQ" targetRef="_ZwTDwI8XEe-v648egk3nxQ"/>
+  </rootElements>
+</bpmn:Definitions>

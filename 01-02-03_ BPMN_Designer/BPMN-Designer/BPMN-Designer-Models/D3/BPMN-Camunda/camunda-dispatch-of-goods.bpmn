@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_rxpMgY8bEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_rxpMgI8bEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:Task" id="_2NQ20I8bEe-v648egk3nxQ" name="Insure parcel" outgoing="_tmfY0I8cEe-v648egk3nxQ" incoming="_n1-LsI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_U1x4QI8cEe-v648egk3nxQ" name="ship goods" outgoing="_XHTO8I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_WrHpQI8cEe-v648egk3nxQ" outgoing="_bU_XYI8cEe-v648egk3nxQ _yWJl4I8cEe-v648egk3nxQ" incoming="_XHTO8I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_XHTO8I8cEe-v648egk3nxQ" targetRef="_WrHpQI8cEe-v648egk3nxQ" sourceRef="_U1x4QI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_YOAYUI8cEe-v648egk3nxQ" name="clarify shipment method" outgoing="_ezYw4I8cEe-v648egk3nxQ" incoming="_bU_XYI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_bU_XYI8cEe-v648egk3nxQ" targetRef="_YOAYUI8cEe-v648egk3nxQ" sourceRef="_WrHpQI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_c3jWUI8cEe-v648egk3nxQ" name="Special sanding?" outgoing="_i-8yYI8cEe-v648egk3nxQ _lJ5nAI8cEe-v648egk3nxQ" incoming="_ezYw4I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ezYw4I8cEe-v648egk3nxQ" targetRef="_c3jWUI8cEe-v648egk3nxQ" sourceRef="_YOAYUI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_fpi80I8cEe-v648egk3nxQ" name="Get 3 offers from logistic companies" outgoing="_vE3bUI8cEe-v648egk3nxQ" incoming="_i-8yYI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_i-8yYI8cEe-v648egk3nxQ" name="Yes" targetRef="_fpi80I8cEe-v648egk3nxQ" sourceRef="_c3jWUI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:InclusiveGateway" id="_kjuX0I8cEe-v648egk3nxQ" outgoing="_n1-LsI8cEe-v648egk3nxQ _rb8z4I8cEe-v648egk3nxQ" incoming="_lJ5nAI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_lJ5nAI8cEe-v648egk3nxQ" name="No" targetRef="_kjuX0I8cEe-v648egk3nxQ" sourceRef="_c3jWUI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_n1-LsI8cEe-v648egk3nxQ" name="if insurance necessary" targetRef="_2NQ20I8bEe-v648egk3nxQ" sourceRef="_kjuX0I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_poWIQI8cEe-v648egk3nxQ" name="Write paclage label" outgoing="_tMs_0I8cEe-v648egk3nxQ" incoming="_rb8z4I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_rb8z4I8cEe-v648egk3nxQ" name="always" targetRef="_poWIQI8cEe-v648egk3nxQ" sourceRef="_kjuX0I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:InclusiveGateway" id="_syX0QI8cEe-v648egk3nxQ" outgoing="_v7uK0I8cEe-v648egk3nxQ" incoming="_tMs_0I8cEe-v648egk3nxQ _tmfY0I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tMs_0I8cEe-v648egk3nxQ" targetRef="_syX0QI8cEe-v648egk3nxQ" sourceRef="_poWIQI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tmfY0I8cEe-v648egk3nxQ" targetRef="_syX0QI8cEe-v648egk3nxQ" sourceRef="_2NQ20I8bEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_uwGsQI8cEe-v648egk3nxQ" outgoing="_z-NI0I8cEe-v648egk3nxQ" incoming="_vE3bUI8cEe-v648egk3nxQ _v7uK0I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vE3bUI8cEe-v648egk3nxQ" targetRef="_uwGsQI8cEe-v648egk3nxQ" sourceRef="_fpi80I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_v7uK0I8cEe-v648egk3nxQ" targetRef="_uwGsQI8cEe-v648egk3nxQ" sourceRef="_syX0QI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_wkTNwI8cEe-v648egk3nxQ" name="Package goods" outgoing="_0cHz4I8cEe-v648egk3nxQ" incoming="_yWJl4I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yWJl4I8cEe-v648egk3nxQ" targetRef="_wkTNwI8cEe-v648egk3nxQ" sourceRef="_WrHpQI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_zTbGcI8cEe-v648egk3nxQ" outgoing="_3jtP4I8cEe-v648egk3nxQ" incoming="_z-NI0I8cEe-v648egk3nxQ _0cHz4I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_z-NI0I8cEe-v648egk3nxQ" targetRef="_zTbGcI8cEe-v648egk3nxQ" sourceRef="_uwGsQI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0cHz4I8cEe-v648egk3nxQ" targetRef="_zTbGcI8cEe-v648egk3nxQ" sourceRef="_wkTNwI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_1gnWwI8cEe-v648egk3nxQ" name="Prepare for picking up goods" outgoing="_5ww9UI8cEe-v648egk3nxQ" incoming="_3jtP4I8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3jtP4I8cEe-v648egk3nxQ" targetRef="_1gnWwI8cEe-v648egk3nxQ" sourceRef="_zTbGcI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_38otQI8cEe-v648egk3nxQ" name="Shopment prepared" incoming="_5ww9UI8cEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_5ww9UI8cEe-v648egk3nxQ" targetRef="_38otQI8cEe-v648egk3nxQ" sourceRef="_1gnWwI8cEe-v648egk3nxQ"/>
+    <laneSets id="_uLn7oY8bEe-v648egk3nxQ" name="Dispatch of goods Computer Hardware Setup">
+      <lanes id="_uLn7oo8bEe-v648egk3nxQ" name="Logistics" flowNodeRefs="_2NQ20I8bEe-v648egk3nxQ"/>
+      <lanes id="_zsRgwI8bEe-v648egk3nxQ" name="Secretary" flowNodeRefs="_U1x4QI8cEe-v648egk3nxQ _WrHpQI8cEe-v648egk3nxQ _YOAYUI8cEe-v648egk3nxQ _c3jWUI8cEe-v648egk3nxQ _fpi80I8cEe-v648egk3nxQ _kjuX0I8cEe-v648egk3nxQ _poWIQI8cEe-v648egk3nxQ _syX0QI8cEe-v648egk3nxQ _uwGsQI8cEe-v648egk3nxQ"/>
+      <lanes id="_1AWXwI8bEe-v648egk3nxQ" name="Warehouse" flowNodeRefs="_wkTNwI8cEe-v648egk3nxQ _zTbGcI8cEe-v648egk3nxQ _1gnWwI8cEe-v648egk3nxQ _38otQI8cEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

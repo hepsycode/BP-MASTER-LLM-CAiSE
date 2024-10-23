@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_EOaWAY8fEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_EOaWAI8fEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_HPzDYI8fEe-v648egk3nxQ" name="probable recourse detected" outgoing="_L4Wi4I8fEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_JpXi0I8fEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_KVsdUI8fEe-v648egk3nxQ" name="check case" outgoing="_RY1I4I8fEe-v648egk3nxQ" incoming="_L4Wi4I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_L4Wi4I8fEe-v648egk3nxQ" targetRef="_KVsdUI8fEe-v648egk3nxQ" sourceRef="_HPzDYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_MXFtUI8fEe-v648egk3nxQ" name="recourse possible?" outgoing="_RyT_4I8fEe-v648egk3nxQ _Upkg4I8fEe-v648egk3nxQ" incoming="_RY1I4I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_ONue0I8fEe-v648egk3nxQ" name="close case" outgoing="_RAL_YI8fEe-v648egk3nxQ" incoming="_RyT_4I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_PqCr0I8fEe-v648egk3nxQ" name="case closed" incoming="_RAL_YI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RAL_YI8fEe-v648egk3nxQ" targetRef="_PqCr0I8fEe-v648egk3nxQ" sourceRef="_ONue0I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RY1I4I8fEe-v648egk3nxQ" targetRef="_MXFtUI8fEe-v648egk3nxQ" sourceRef="_KVsdUI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RyT_4I8fEe-v648egk3nxQ" name="No" targetRef="_ONue0I8fEe-v648egk3nxQ" sourceRef="_MXFtUI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_S0JQUI8fEe-v648egk3nxQ" name="send request for payment" outgoing="_XMGIAI8fEe-v648egk3nxQ" incoming="_Upkg4I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Upkg4I8fEe-v648egk3nxQ" name="Yes" targetRef="_S0JQUI8fEe-v648egk3nxQ" sourceRef="_MXFtUI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_VgQ4UI8fEe-v648egk3nxQ" name="send reminder" outgoing="_Y6KzYI8fEe-v648egk3nxQ" incoming="_XMGIAI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_XMGIAI8fEe-v648egk3nxQ" targetRef="_VgQ4UI8fEe-v648egk3nxQ" sourceRef="_S0JQUI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EventBasedGateway" id="_YcCs8I8fEe-v648egk3nxQ" outgoing="_dg5G4I8fEe-v648egk3nxQ _d3K44I8fEe-v648egk3nxQ _eKF04I8fEe-v648egk3nxQ" incoming="_Y6KzYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Y6KzYI8fEe-v648egk3nxQ" targetRef="_YcCs8I8fEe-v648egk3nxQ" sourceRef="_VgQ4UI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_bRmk0I8fEe-v648egk3nxQ" name="disagreement letter received" outgoing="_qg4LYI8fEe-v648egk3nxQ" incoming="_dg5G4I8fEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_bgZ10I8fEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_b07UUI8fEe-v648egk3nxQ" name="reminder is due" outgoing="_zaGO0I8fEe-v648egk3nxQ" incoming="_d3K44I8fEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_cL9UQI8fEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_ctTt0I8fEe-v648egk3nxQ" name="money received" outgoing="_3V4H4I8fEe-v648egk3nxQ" incoming="_eKF04I8fEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_dBX5UI8fEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_dg5G4I8fEe-v648egk3nxQ" targetRef="_bRmk0I8fEe-v648egk3nxQ" sourceRef="_YcCs8I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_d3K44I8fEe-v648egk3nxQ" targetRef="_b07UUI8fEe-v648egk3nxQ" sourceRef="_YcCs8I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_eKF04I8fEe-v648egk3nxQ" targetRef="_ctTt0I8fEe-v648egk3nxQ" sourceRef="_YcCs8I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_mRG_UI8fEe-v648egk3nxQ" name="check reasoniong" outgoing="_q_jEYI8fEe-v648egk3nxQ" incoming="_qg4LYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_pmu3UI8fEe-v648egk3nxQ" name="OK?" outgoing="_ui4oQI8fEe-v648egk3nxQ _zycdYI8fEe-v648egk3nxQ" incoming="_q_jEYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qg4LYI8fEe-v648egk3nxQ" targetRef="_mRG_UI8fEe-v648egk3nxQ" sourceRef="_bRmk0I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_q_jEYI8fEe-v648egk3nxQ" targetRef="_pmu3UI8fEe-v648egk3nxQ" sourceRef="_mRG_UI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_rp_IgI8fEe-v648egk3nxQ" name="close case" outgoing="_vUtGwI8fEe-v648egk3nxQ" incoming="_ui4oQI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_tVwt0I8fEe-v648egk3nxQ" name="case closed" incoming="_vUtGwI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ui4oQI8fEe-v648egk3nxQ" name="Yes" targetRef="_rp_IgI8fEe-v648egk3nxQ" sourceRef="_pmu3UI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_vUtGwI8fEe-v648egk3nxQ" targetRef="_tVwt0I8fEe-v648egk3nxQ" sourceRef="_rp_IgI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_wAAGgI8fEe-v648egk3nxQ" name="hand over to collection agency" outgoing="_0jNL8I8fEe-v648egk3nxQ" incoming="_zaGO0I8fEe-v648egk3nxQ _zycdYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_yH5AEI8fEe-v648egk3nxQ" name="case open" incoming="_0jNL8I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_zaGO0I8fEe-v648egk3nxQ" targetRef="_wAAGgI8fEe-v648egk3nxQ" sourceRef="_b07UUI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_zycdYI8fEe-v648egk3nxQ" name="No" targetRef="_wAAGgI8fEe-v648egk3nxQ" sourceRef="_pmu3UI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0jNL8I8fEe-v648egk3nxQ" targetRef="_yH5AEI8fEe-v648egk3nxQ" sourceRef="_wAAGgI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_09hJYI8fEe-v648egk3nxQ" name="make booking" outgoing="_3oRfcI8fEe-v648egk3nxQ" incoming="_3V4H4I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_2I7MkI8fEe-v648egk3nxQ" name="close case" outgoing="_5TYWYI8fEe-v648egk3nxQ" incoming="_3oRfcI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3V4H4I8fEe-v648egk3nxQ" targetRef="_09hJYI8fEe-v648egk3nxQ" sourceRef="_ctTt0I8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3oRfcI8fEe-v648egk3nxQ" targetRef="_2I7MkI8fEe-v648egk3nxQ" sourceRef="_09hJYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_4BWt0I8fEe-v648egk3nxQ" name="case closed" incoming="_5TYWYI8fEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_5TYWYI8fEe-v648egk3nxQ" targetRef="_4BWt0I8fEe-v648egk3nxQ" sourceRef="_2I7MkI8fEe-v648egk3nxQ"/>
+    <laneSets id="_Gks38Y8fEe-v648egk3nxQ">
+      <lanes id="_Gks38o8fEe-v648egk3nxQ" flowNodeRefs="_HPzDYI8fEe-v648egk3nxQ _KVsdUI8fEe-v648egk3nxQ _MXFtUI8fEe-v648egk3nxQ _ONue0I8fEe-v648egk3nxQ _PqCr0I8fEe-v648egk3nxQ _S0JQUI8fEe-v648egk3nxQ _VgQ4UI8fEe-v648egk3nxQ _YcCs8I8fEe-v648egk3nxQ _bRmk0I8fEe-v648egk3nxQ _b07UUI8fEe-v648egk3nxQ _ctTt0I8fEe-v648egk3nxQ _mRG_UI8fEe-v648egk3nxQ _pmu3UI8fEe-v648egk3nxQ _rp_IgI8fEe-v648egk3nxQ _tVwt0I8fEe-v648egk3nxQ _wAAGgI8fEe-v648egk3nxQ _yH5AEI8fEe-v648egk3nxQ _09hJYI8fEe-v648egk3nxQ _2I7MkI8fEe-v648egk3nxQ _4BWt0I8fEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

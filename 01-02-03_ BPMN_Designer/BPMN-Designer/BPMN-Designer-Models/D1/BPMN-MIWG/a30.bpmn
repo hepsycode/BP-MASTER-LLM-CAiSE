@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_yMtdMY70Ee-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_yMtdMI70Ee-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:SubProcess" id="_21bUwI70Ee-v648egk3nxQ" name="Collapsed Sub-Process" outgoing="_FlRNUI71Ee-v648egk3nxQ _L5K0UI71Ee-v648egk3nxQ _VTbvUI71Ee-v648egk3nxQ" incoming="_9ukW0I70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_6WuRQI70Ee-v648egk3nxQ" name="Start Event" outgoing="_88v4UI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_76vowI70Ee-v648egk3nxQ" name="Task 1" outgoing="_9ukW0I70Ee-v648egk3nxQ" incoming="_88v4UI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_88v4UI70Ee-v648egk3nxQ" targetRef="_76vowI70Ee-v648egk3nxQ" sourceRef="_6WuRQI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_9ukW0I70Ee-v648egk3nxQ" targetRef="_21bUwI70Ee-v648egk3nxQ" sourceRef="_76vowI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_-N_dwI70Ee-v648egk3nxQ" name="Task 3" outgoing="_UiwgUI71Ee-v648egk3nxQ" boundaryEventRefs="_DyXFQI71Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="__ZwGQI70Ee-v648egk3nxQ" name="Task 2" outgoing="_VAb60I71Ee-v648egk3nxQ" incoming="_VTbvUI71Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_AgtHQI71Ee-v648egk3nxQ" name="Task 4" outgoing="_VoziYI71Ee-v648egk3nxQ" boundaryEventRefs="_CMWwwI71Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_CMWwwI71Ee-v648egk3nxQ" name="Buondary Intermediate Event Interrupting Escalation" incoming="_L5K0UI71Ee-v648egk3nxQ" attachedToRef="_AgtHQI71Ee-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:EscalationEventDefinition" id="_C9aaQI71Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_DyXFQI71Ee-v648egk3nxQ" name="Bounhdary Intermediate Event Non-Interrupting Message" incoming="_FlRNUI71Ee-v648egk3nxQ" attachedToRef="_-N_dwI70Ee-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_Ej5P4I71Ee-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FlRNUI71Ee-v648egk3nxQ" targetRef="_DyXFQI71Ee-v648egk3nxQ" sourceRef="_21bUwI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_L5K0UI71Ee-v648egk3nxQ" targetRef="_CMWwwI71Ee-v648egk3nxQ" sourceRef="_21bUwI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_R6Yv4I71Ee-v648egk3nxQ" name="End Event 1" incoming="_UiwgUI71Ee-v648egk3nxQ _VAb60I71Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_S7F-8I71Ee-v648egk3nxQ" name="End Event 2" incoming="_VoziYI71Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_UiwgUI71Ee-v648egk3nxQ" targetRef="_R6Yv4I71Ee-v648egk3nxQ" sourceRef="_-N_dwI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VAb60I71Ee-v648egk3nxQ" targetRef="_R6Yv4I71Ee-v648egk3nxQ" sourceRef="__ZwGQI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VTbvUI71Ee-v648egk3nxQ" targetRef="__ZwGQI70Ee-v648egk3nxQ" sourceRef="_21bUwI70Ee-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VoziYI71Ee-v648egk3nxQ" targetRef="_S7F-8I71Ee-v648egk3nxQ" sourceRef="_AgtHQI71Ee-v648egk3nxQ"/>
+    <laneSets id="_1SgJcI70Ee-v648egk3nxQ">
+      <lanes id="_1SgwgI70Ee-v648egk3nxQ" flowNodeRefs="_21bUwI70Ee-v648egk3nxQ _6WuRQI70Ee-v648egk3nxQ _76vowI70Ee-v648egk3nxQ _-N_dwI70Ee-v648egk3nxQ __ZwGQI70Ee-v648egk3nxQ _AgtHQI71Ee-v648egk3nxQ _CMWwwI71Ee-v648egk3nxQ _DyXFQI71Ee-v648egk3nxQ _R6Yv4I71Ee-v648egk3nxQ _S7F-8I71Ee-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_4HkJsY8CEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_4HkJsI8CEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_ShWZgI8GEe-v648egk3nxQ" name="Receive customer request" outgoing="_JbTlkI8HEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_ULsbcI8GEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:UserTask" id="_VGl9cI8GEe-v648egk3nxQ" name="Analyse customer request" outgoing="_YmJ0kI8GEe-v648egk3nxQ" incoming="_JbTlkI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_Xy82AI8GEe-v648egk3nxQ" name="Service Type" outgoing="_edYGoI8GEe-v648egk3nxQ _kri5EI8GEe-v648egk3nxQ _zArLkI8GEe-v648egk3nxQ" incoming="_YmJ0kI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_YmJ0kI8GEe-v648egk3nxQ" targetRef="_Xy82AI8GEe-v648egk3nxQ" sourceRef="_VGl9cI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_ZlApgI8GEe-v648egk3nxQ" name="Replace fridge" outgoing="_da_ckI8GEe-v648egk3nxQ" incoming="_edYGoI8GEe-v648egk3nxQ _o86AkI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_bhN3gI8GEe-v648egk3nxQ" name="Find Replaced" incoming="_da_ckI8GEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_buamAI8GEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_da_ckI8GEe-v648egk3nxQ" targetRef="_bhN3gI8GEe-v648egk3nxQ" sourceRef="_ZlApgI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_edYGoI8GEe-v648egk3nxQ" name="Warranty" targetRef="_ZlApgI8GEe-v648egk3nxQ" sourceRef="_Xy82AI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SubProcess" id="_gqSDEI8GEe-v648egk3nxQ" name="Perform emergency Repair" outgoing="_pzcnAI8GEe-v648egk3nxQ" incoming="_kri5EI8GEe-v648egk3nxQ _EOSHEI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_kri5EI8GEe-v648egk3nxQ" name="emergency Service" targetRef="_gqSDEI8GEe-v648egk3nxQ" sourceRef="_Xy82AI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_noWocI8GEe-v648egk3nxQ" name="successful?" outgoing="_o86AkI8GEe-v648egk3nxQ _s3OhEI8GEe-v648egk3nxQ" incoming="_pzcnAI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_o86AkI8GEe-v648egk3nxQ" name="No" targetRef="_ZlApgI8GEe-v648egk3nxQ" sourceRef="_noWocI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_pzcnAI8GEe-v648egk3nxQ" targetRef="_noWocI8GEe-v648egk3nxQ" sourceRef="_gqSDEI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_qWr28I8GEe-v648egk3nxQ" name="emergency repair completed" incoming="_s3OhEI8GEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="_qz1tAI8GEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_s3OhEI8GEe-v648egk3nxQ" name="Yes" targetRef="_qWr28I8GEe-v648egk3nxQ" sourceRef="_noWocI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_ulxGgI8GEe-v648egk3nxQ" name="Service level" outgoing="_362mkI8GEe-v648egk3nxQ _704zMI8GEe-v648egk3nxQ" incoming="_zArLkI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_zArLkI8GEe-v648egk3nxQ" name="Regular repair service" targetRef="_ulxGgI8GEe-v648egk3nxQ" sourceRef="_Xy82AI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_1bZhkI8GEe-v648egk3nxQ" name="Perform repair (premium level)" outgoing="_FxdKAI8HEe-v648egk3nxQ" incoming="_362mkI8GEe-v648egk3nxQ _-wBHkI8GEe-v648egk3nxQ" boundaryEventRefs="_CdISgI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_362mkI8GEe-v648egk3nxQ" name="premium" targetRef="_1bZhkI8GEe-v648egk3nxQ" sourceRef="_ulxGgI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_5e3XAI8GEe-v648egk3nxQ" name="Perform repair (standard level)" outgoing="_B07DAI8HEe-v648egk3nxQ" incoming="_704zMI8GEe-v648egk3nxQ" boundaryEventRefs="_9d1G8I8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_704zMI8GEe-v648egk3nxQ" name="standard" targetRef="_5e3XAI8GEe-v648egk3nxQ" sourceRef="_ulxGgI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_9d1G8I8GEe-v648egk3nxQ" outgoing="_-wBHkI8GEe-v648egk3nxQ" attachedToRef="_5e3XAI8GEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_92A9cI8GEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-wBHkI8GEe-v648egk3nxQ" targetRef="_1bZhkI8GEe-v648egk3nxQ" sourceRef="_9d1G8I8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="__dZyAI8GEe-v648egk3nxQ" name="repair completed" incoming="_B07DAI8HEe-v648egk3nxQ _FxdKAI8HEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TerminateEventDefinition" id="__tI3II8GEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_B07DAI8HEe-v648egk3nxQ" targetRef="__dZyAI8GEe-v648egk3nxQ" sourceRef="_5e3XAI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:BoundaryEvent" id="_CdISgI8HEe-v648egk3nxQ" name="2 hours" outgoing="_EOSHEI8HEe-v648egk3nxQ" attachedToRef="_1bZhkI8GEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_C1r8cI8HEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_EOSHEI8HEe-v648egk3nxQ" targetRef="_gqSDEI8GEe-v648egk3nxQ" sourceRef="_CdISgI8HEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_FxdKAI8HEe-v648egk3nxQ" targetRef="__dZyAI8GEe-v648egk3nxQ" sourceRef="_1bZhkI8GEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JbTlkI8HEe-v648egk3nxQ" targetRef="_VGl9cI8GEe-v648egk3nxQ" sourceRef="_ShWZgI8GEe-v648egk3nxQ"/>
+    <laneSets id="_5YvdsI8CEe-v648egk3nxQ">
+      <lanes id="_5YvdsY8CEe-v648egk3nxQ" flowNodeRefs="_ShWZgI8GEe-v648egk3nxQ _VGl9cI8GEe-v648egk3nxQ _Xy82AI8GEe-v648egk3nxQ _ZlApgI8GEe-v648egk3nxQ _bhN3gI8GEe-v648egk3nxQ _gqSDEI8GEe-v648egk3nxQ _noWocI8GEe-v648egk3nxQ _qWr28I8GEe-v648egk3nxQ _ulxGgI8GEe-v648egk3nxQ _1bZhkI8GEe-v648egk3nxQ _5e3XAI8GEe-v648egk3nxQ _9d1G8I8GEe-v648egk3nxQ __dZyAI8GEe-v648egk3nxQ _CdISgI8HEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

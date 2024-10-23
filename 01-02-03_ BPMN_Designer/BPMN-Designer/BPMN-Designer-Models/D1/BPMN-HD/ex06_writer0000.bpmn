@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_7Yc7kZGHEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_7Yc7kJGHEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="_DNaFoJGIEe-th9jTEYG_eA" name="Order Received" outgoing="_KdmVwJGIEe-th9jTEYG_eA" incoming="_HKMEQJGIEe-th9jTEYG_eA">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_Dh3SsJGIEe-th9jTEYG_eA"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_FP3soJGIEe-th9jTEYG_eA" name="client" outgoing="_HKMEQJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_HKMEQJGIEe-th9jTEYG_eA" targetRef="_DNaFoJGIEe-th9jTEYG_eA" sourceRef="_FP3soJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_J-19MJGIEe-th9jTEYG_eA" outgoing="_MSjsQJGIEe-th9jTEYG_eA _ONFfQJGIEe-th9jTEYG_eA _QTz7MJGIEe-th9jTEYG_eA" incoming="_KdmVwJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KdmVwJGIEe-th9jTEYG_eA" targetRef="_J-19MJGIEe-th9jTEYG_eA" sourceRef="_DNaFoJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_LDIEsJGIEe-th9jTEYG_eA" name="confirm order" outgoing="_edqKwJGIEe-th9jTEYG_eA" incoming="_MSjsQJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_MSjsQJGIEe-th9jTEYG_eA" name="order received by liferando" targetRef="_LDIEsJGIEe-th9jTEYG_eA" sourceRef="_J-19MJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_M48W0JGIEe-th9jTEYG_eA" name="print out order" outgoing="_faUAQJGIEe-th9jTEYG_eA" incoming="_ONFfQJGIEe-th9jTEYG_eA _edqKwJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ONFfQJGIEe-th9jTEYG_eA" name="received by website" targetRef="_M48W0JGIEe-th9jTEYG_eA" sourceRef="_J-19MJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_OveaoJGIEe-th9jTEYG_eA" name="write down ordernote" outgoing="_gFbZ0JGIEe-th9jTEYG_eA" incoming="_QTz7MJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_QTz7MJGIEe-th9jTEYG_eA" name="order by phone" targetRef="_OveaoJGIEe-th9jTEYG_eA" sourceRef="_J-19MJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_edqKwJGIEe-th9jTEYG_eA" targetRef="_M48W0JGIEe-th9jTEYG_eA" sourceRef="_LDIEsJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_fEZaoJGIEe-th9jTEYG_eA" outgoing="_jYS4wJGIEe-th9jTEYG_eA" incoming="_faUAQJGIEe-th9jTEYG_eA _gFbZ0JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_faUAQJGIEe-th9jTEYG_eA" targetRef="_fEZaoJGIEe-th9jTEYG_eA" sourceRef="_M48W0JGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_gFbZ0JGIEe-th9jTEYG_eA" targetRef="_fEZaoJGIEe-th9jTEYG_eA" sourceRef="_OveaoJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:Task" id="_gn0VMJGIEe-th9jTEYG_eA" name="attach order note to pin pinboard" outgoing="_kQcowJGIEe-th9jTEYG_eA" incoming="_jYS4wJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jYS4wJGIEe-th9jTEYG_eA" targetRef="_gn0VMJGIEe-th9jTEYG_eA" sourceRef="_fEZaoJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_jxsQMJGIEe-th9jTEYG_eA" incoming="_kQcowJGIEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_kQcowJGIEe-th9jTEYG_eA" targetRef="_jxsQMJGIEe-th9jTEYG_eA" sourceRef="_gn0VMJGIEe-th9jTEYG_eA"/>
+    <laneSets id="_9ymCwZGHEe-th9jTEYG_eA" name="client">
+      <lanes id="_9ymp0JGHEe-th9jTEYG_eA" flowNodeRefs="_FP3soJGIEe-th9jTEYG_eA"/>
+    </laneSets>
+    <laneSets id="_9ymCwZGHEe-th9jTEYG_eQ">
+      <lanes id="_9ymp0JGHEe-th9jTEYG_eQ" flowNodeRefs="_DNaFoJGIEe-th9jTEYG_eA _J-19MJGIEe-th9jTEYG_eA _LDIEsJGIEe-th9jTEYG_eA _M48W0JGIEe-th9jTEYG_eA _OveaoJGIEe-th9jTEYG_eA _fEZaoJGIEe-th9jTEYG_eA _gn0VMJGIEe-th9jTEYG_eA _jxsQMJGIEe-th9jTEYG_eA">
+        <extensionValues id="_IjW2oJGIEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_IjW2oZGIEe-th9jTEYG_eA" name="order"/>
+        </extensionValues>
+        <extensionValues id="_YkD6IJGIEe-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="_YkD6IZGIEe-th9jTEYG_eA" name="order [confirmed]"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="_Jj67wJGIEe-th9jTEYG_eA" sourceRef="_DNaFoJGIEe-th9jTEYG_eA" targetRef="_IjW2oZGIEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_WL5I4JGIEe-th9jTEYG_eA" sourceRef="_IjW2oZGIEe-th9jTEYG_eA" targetRef="_OveaoJGIEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_W8UgQJGIEe-th9jTEYG_eA" sourceRef="_IjW2oZGIEe-th9jTEYG_eA" targetRef="_M48W0JGIEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_Xi270JGIEe-th9jTEYG_eA" sourceRef="_IjW2oZGIEe-th9jTEYG_eA" targetRef="_LDIEsJGIEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_bXJFwJGIEe-th9jTEYG_eA" sourceRef="_LDIEsJGIEe-th9jTEYG_eA" targetRef="_YkD6IZGIEe-th9jTEYG_eA"/>
+    <artifacts xsi:type="bpmn:Association" id="_k2ofAJGIEe-th9jTEYG_eA" sourceRef="_YkD6IZGIEe-th9jTEYG_eA" targetRef="_M48W0JGIEe-th9jTEYG_eA"/>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_gEblMY8gEe-v648egk3nxQ">
+  <rootElements xsi:type="bpmn:Process" id="_gEblMI8gEe-v648egk3nxQ">
+    <flowElements xsi:type="bpmn:StartEvent" id="_zrj80I8gEe-v648egk3nxQ" name="Hunger noticed" outgoing="_3m5J8I8gEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ConditionalEventDefinition" id="_0JsqUI8gEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:Task" id="_2Ao90I8gEe-v648egk3nxQ" name="enter Restaurant" outgoing="_6AYw4I8gEe-v648egk3nxQ" incoming="_3m5J8I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3m5J8I8gEe-v648egk3nxQ" targetRef="_2Ao90I8gEe-v648egk3nxQ" sourceRef="_zrj80I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_4LV60I8gEe-v648egk3nxQ" name="choose dish" outgoing="_8rXJYI8gEe-v648egk3nxQ" incoming="_6AYw4I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6AYw4I8gEe-v648egk3nxQ" targetRef="_4LV60I8gEe-v648egk3nxQ" sourceRef="_2Ao90I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_6xI4YI8gEe-v648egk3nxQ" name="wait for fun" outgoing="_-dpmYI8gEe-v648egk3nxQ" incoming="_8rXJYI8gEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:ConditionalEventDefinition" id="_6-kQYI8gEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_8rXJYI8gEe-v648egk3nxQ" targetRef="_6xI4YI8gEe-v648egk3nxQ" sourceRef="_4LV60I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_9KLzYI8gEe-v648egk3nxQ" name="place order" outgoing="_CQ4AYI8hEe-v648egk3nxQ _NHY28I8hEe-v648egk3nxQ" incoming="_-dpmYI8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-dpmYI8gEe-v648egk3nxQ" targetRef="_9KLzYI8gEe-v648egk3nxQ" sourceRef="_6xI4YI8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="__8BB0I8gEe-v648egk3nxQ" name="Order Received" outgoing="_GQdbYI8hEe-v648egk3nxQ" incoming="_CQ4AYI8hEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_BC5xYI8hEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_CQ4AYI8hEe-v648egk3nxQ" targetRef="__8BB0I8gEe-v648egk3nxQ" sourceRef="_9KLzYI8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_ERRK0I8hEe-v648egk3nxQ" name="enter order" outgoing="_NrRnII8hEe-v648egk3nxQ" incoming="_GQdbYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_GQdbYI8hEe-v648egk3nxQ" targetRef="_ERRK0I8hEe-v648egk3nxQ" sourceRef="__8BB0I8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_G44tUI8hEe-v648egk3nxQ" name="Collect Money" outgoing="_LHv6cI8hEe-v648egk3nxQ _PyDGYI8hEe-v648egk3nxQ" incoming="_LkHtYI8hEe-v648egk3nxQ _NrRnII8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_JhV9UI8hEe-v648egk3nxQ" name="pay money" outgoing="_LkHtYI8hEe-v648egk3nxQ _TEZn8I8hEe-v648egk3nxQ" incoming="_LHv6cI8hEe-v648egk3nxQ _NHY28I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LHv6cI8hEe-v648egk3nxQ" targetRef="_JhV9UI8hEe-v648egk3nxQ" sourceRef="_G44tUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_LkHtYI8hEe-v648egk3nxQ" targetRef="_G44tUI8hEe-v648egk3nxQ" sourceRef="_JhV9UI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_NHY28I8hEe-v648egk3nxQ" targetRef="_JhV9UI8hEe-v648egk3nxQ" sourceRef="_9KLzYI8gEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_NrRnII8hEe-v648egk3nxQ" targetRef="_G44tUI8hEe-v648egk3nxQ" sourceRef="_ERRK0I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_OH2OYI8hEe-v648egk3nxQ" name="Set up buzzer" outgoing="_VZLuAI8hEe-v648egk3nxQ" incoming="_PyDGYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_PyDGYI8hEe-v648egk3nxQ" targetRef="_OH2OYI8hEe-v648egk3nxQ" sourceRef="_G44tUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_QkcMoI8hEe-v648egk3nxQ" name="Take buzzer" outgoing="_zmrnYI8hEe-v648egk3nxQ" incoming="_TEZn8I8hEe-v648egk3nxQ _W5wv8I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TEZn8I8hEe-v648egk3nxQ" targetRef="_QkcMoI8hEe-v648egk3nxQ" sourceRef="_JhV9UI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_T0-wUI8hEe-v648egk3nxQ" name="hand over buzzer" outgoing="_W5wv8I8hEe-v648egk3nxQ _pSrA8I8hEe-v648egk3nxQ" incoming="_VZLuAI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_VZLuAI8hEe-v648egk3nxQ" targetRef="_T0-wUI8hEe-v648egk3nxQ" sourceRef="_OH2OYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_W5wv8I8hEe-v648egk3nxQ" targetRef="_QkcMoI8hEe-v648egk3nxQ" sourceRef="_T0-wUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_YHUvQI8hEe-v648egk3nxQ" name="Inform chef" outgoing="_ce-E8I8hEe-v648egk3nxQ _oy2RYI8hEe-v648egk3nxQ" incoming="_pSrA8I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="_aMPNUI8hEe-v648egk3nxQ" name="Meal needed" outgoing="_fCdVYI8hEe-v648egk3nxQ" incoming="_ce-E8I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ce-E8I8hEe-v648egk3nxQ" targetRef="_aMPNUI8hEe-v648egk3nxQ" sourceRef="_YHUvQI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_dKg8UI8hEe-v648egk3nxQ" name="Prepare meal" outgoing="_Yatv4I8iEe-v648egk3nxQ" incoming="_fCdVYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fCdVYI8hEe-v648egk3nxQ" targetRef="_dKg8UI8hEe-v648egk3nxQ" sourceRef="_aMPNUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_fiC0YI8hEe-v648egk3nxQ" name="Place meal in hatch" outgoing="_lRUrYI8hEe-v648egk3nxQ" incoming="_Yatv4I8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_hWnwYI8hEe-v648egk3nxQ" name="Inform employee" outgoing="_k9RG8I8hEe-v648egk3nxQ _qmSk8I8hEe-v648egk3nxQ" incoming="_lRUrYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_im4eYI8hEe-v648egk3nxQ" name="Meal prepared" incoming="_k9RG8I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_k9RG8I8hEe-v648egk3nxQ" targetRef="_im4eYI8hEe-v648egk3nxQ" sourceRef="_hWnwYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_lRUrYI8hEe-v648egk3nxQ" targetRef="_hWnwYI8hEe-v648egk3nxQ" sourceRef="_fiC0YI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_mbYDsI8hEe-v648egk3nxQ" name="Meal Ready" outgoing="_tXh9gI8hEe-v648egk3nxQ" incoming="_oy2RYI8hEe-v648egk3nxQ _qmSk8I8hEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_oVxT0I8hEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_oy2RYI8hEe-v648egk3nxQ" targetRef="_mbYDsI8hEe-v648egk3nxQ" sourceRef="_YHUvQI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_pSrA8I8hEe-v648egk3nxQ" targetRef="_YHUvQI8hEe-v648egk3nxQ" sourceRef="_T0-wUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_qmSk8I8hEe-v648egk3nxQ" targetRef="_mbYDsI8hEe-v648egk3nxQ" sourceRef="_hWnwYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_rhGAUI8hEe-v648egk3nxQ" name="Set up buzzer" outgoing="_wCzQ8I8hEe-v648egk3nxQ _yzCj8I8hEe-v648egk3nxQ" incoming="_tXh9gI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_tXh9gI8hEe-v648egk3nxQ" targetRef="_rhGAUI8hEe-v648egk3nxQ" sourceRef="_mbYDsI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EventBasedGateway" id="_vkNQcI8hEe-v648egk3nxQ" outgoing="__L9ocI8hEe-v648egk3nxQ _JuZscI8iEe-v648egk3nxQ" incoming="_wCzQ8I8hEe-v648egk3nxQ _Kodg8I8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_wCzQ8I8hEe-v648egk3nxQ" targetRef="_vkNQcI8hEe-v648egk3nxQ" sourceRef="_rhGAUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_w-4esI8hEe-v648egk3nxQ" name="MEal Ready" outgoing="_1MUIcI8hEe-v648egk3nxQ" incoming="_yzCj8I8hEe-v648egk3nxQ _zmrnYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_yzCj8I8hEe-v648egk3nxQ" targetRef="_w-4esI8hEe-v648egk3nxQ" sourceRef="_rhGAUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_zmrnYI8hEe-v648egk3nxQ" targetRef="_w-4esI8hEe-v648egk3nxQ" sourceRef="_QkcMoI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_0IlakI8hEe-v648egk3nxQ" name="Get Meal" outgoing="_3yF34I8hEe-v648egk3nxQ _-cO0oI8hEe-v648egk3nxQ" incoming="_1MUIcI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_1MUIcI8hEe-v648egk3nxQ" targetRef="_0IlakI8hEe-v648egk3nxQ" sourceRef="_w-4esI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_2hhn4I8hEe-v648egk3nxQ" name="Eat Meal" outgoing="_6APKcI8hEe-v648egk3nxQ" incoming="_3yF34I8hEe-v648egk3nxQ _BikTcI8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_3yF34I8hEe-v648egk3nxQ" targetRef="_2hhn4I8hEe-v648egk3nxQ" sourceRef="_0IlakI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_4V8y4I8hEe-v648egk3nxQ" name="Not Hungry anymore" incoming="_6APKcI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_6APKcI8hEe-v648egk3nxQ" targetRef="_4V8y4I8hEe-v648egk3nxQ" sourceRef="_2hhn4I8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_8SGfYI8hEe-v648egk3nxQ" name="Guest appears" outgoing="_CL_q8I8iEe-v648egk3nxQ" incoming="_-cO0oI8hEe-v648egk3nxQ __L9ocI8hEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_8gW90I8hEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_-cO0oI8hEe-v648egk3nxQ" targetRef="_8SGfYI8hEe-v648egk3nxQ" sourceRef="_0IlakI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="__L9ocI8hEe-v648egk3nxQ" targetRef="_8SGfYI8hEe-v648egk3nxQ" sourceRef="_vkNQcI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="__y2pUI8hEe-v648egk3nxQ" name="Hand over meal" outgoing="_BikTcI8iEe-v648egk3nxQ _Er0jYI8iEe-v648egk3nxQ" incoming="_CL_q8I8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_BikTcI8iEe-v648egk3nxQ" targetRef="_2hhn4I8hEe-v648egk3nxQ" sourceRef="__y2pUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_CL_q8I8iEe-v648egk3nxQ" targetRef="__y2pUI8hEe-v648egk3nxQ" sourceRef="_8SGfYI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_C5EMUI8iEe-v648egk3nxQ" name="Order processed" incoming="_Er0jYI8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Er0jYI8iEe-v648egk3nxQ" targetRef="_C5EMUI8iEe-v648egk3nxQ" sourceRef="__y2pUI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:Task" id="_GColUI8iEe-v648egk3nxQ" name="call guest" outgoing="_Kodg8I8iEe-v648egk3nxQ _RCAc8I8iEe-v648egk3nxQ" incoming="_KGRZ4I8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_H5ziUI8iEe-v648egk3nxQ" name="5 minutes" outgoing="_KGRZ4I8iEe-v648egk3nxQ" incoming="_JuZscI8iEe-v648egk3nxQ">
+      <eventDefinitions xsi:type="bpmn:TimerEventDefinition" id="_JSZF4I8iEe-v648egk3nxQ"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_JuZscI8iEe-v648egk3nxQ" targetRef="_H5ziUI8iEe-v648egk3nxQ" sourceRef="_vkNQcI8hEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_KGRZ4I8iEe-v648egk3nxQ" targetRef="_GColUI8iEe-v648egk3nxQ" sourceRef="_H5ziUI8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Kodg8I8iEe-v648egk3nxQ" targetRef="_vkNQcI8hEe-v648egk3nxQ" sourceRef="_GColUI8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:ReceiveTask" id="_P74iYI8iEe-v648egk3nxQ" incoming="_RCAc8I8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_RCAc8I8iEe-v648egk3nxQ" targetRef="_P74iYI8iEe-v648egk3nxQ" sourceRef="_GColUI8iEe-v648egk3nxQ"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Yatv4I8iEe-v648egk3nxQ" targetRef="_fiC0YI8hEe-v648egk3nxQ" sourceRef="_dKg8UI8hEe-v648egk3nxQ"/>
+    <laneSets id="_hoCF8Y8gEe-v648egk3nxQ" name="Guest food consumption">
+      <lanes id="_hoCtAI8gEe-v648egk3nxQ" flowNodeRefs="_zrj80I8gEe-v648egk3nxQ _2Ao90I8gEe-v648egk3nxQ _4LV60I8gEe-v648egk3nxQ _6xI4YI8gEe-v648egk3nxQ _9KLzYI8gEe-v648egk3nxQ _JhV9UI8hEe-v648egk3nxQ _QkcMoI8hEe-v648egk3nxQ _w-4esI8hEe-v648egk3nxQ _0IlakI8hEe-v648egk3nxQ _2hhn4I8hEe-v648egk3nxQ _4V8y4I8hEe-v648egk3nxQ _P74iYI8iEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_hoCF8Y8gEe-v648egk3nxZ" name="Employee order processing">
+      <lanes id="_hoCtAI8gEe-v648egk3nxZ" flowNodeRefs="__8BB0I8gEe-v648egk3nxQ _ERRK0I8hEe-v648egk3nxQ _G44tUI8hEe-v648egk3nxQ _OH2OYI8hEe-v648egk3nxQ _T0-wUI8hEe-v648egk3nxQ _YHUvQI8hEe-v648egk3nxQ _mbYDsI8hEe-v648egk3nxQ _rhGAUI8hEe-v648egk3nxQ _vkNQcI8hEe-v648egk3nxQ _8SGfYI8hEe-v648egk3nxQ __y2pUI8hEe-v648egk3nxQ _C5EMUI8iEe-v648egk3nxQ _GColUI8iEe-v648egk3nxQ _H5ziUI8iEe-v648egk3nxQ"/>
+    </laneSets>
+    <laneSets id="_hoCF8Y8gEe-v648egk3nxS" name="chef meal preparation">
+      <lanes id="_hoCtAI8gEe-v648egk3nxS" flowNodeRefs="_aMPNUI8hEe-v648egk3nxQ _dKg8UI8hEe-v648egk3nxQ _fiC0YI8hEe-v648egk3nxQ _hWnwYI8hEe-v648egk3nxQ _im4eYI8hEe-v648egk3nxQ"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>
