@@ -1,0 +1,26 @@
+filename,word_combination,occurrences_dir1,occurrences_dir2,hallucination_ratio
+2024-10-23 23.18 Ex00_writer0001-representations.aird.xes,ADD,65,47,0.7230769230769231
+2024-10-23 23.18 Ex00_writer0001-representations.aird.xes,SET,35,35,1.0
+2024-10-23 23.18 Ex01_writer0001-representations.aird.xes,ADD,60,44,0.7333333333333333
+2024-10-23 23.18 Ex01_writer0001-representations.aird.xes,SET,31,31,1.0
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,ADD,69,46,0.6666666666666666
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,SET,58,49,0.8448275862068966
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,MOVE,1,0,0.0
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,ADD,141,99,0.7021276595744681
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,SET,136,116,0.8529411764705882
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,MOVE,1,0,0.0
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,ADD,115,76,0.6608695652173913
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,SET,77,66,0.8571428571428571
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,MOVE,1,0,0.0
+2024-10-24 00.07 Ex05_writer0013-representations.aird.xes,ADD,121,76,0.628099173553719
+2024-10-24 00.07 Ex05_writer0013-representations.aird.xes,SET,84,71,0.8452380952380952
+2024-10-24 00.07 Ex06_writer0000-representations.aird.xes,ADD,63,43,0.6825396825396826
+2024-10-24 00.07 Ex06_writer0000-representations.aird.xes,SET,47,43,0.9148936170212766
+2024-10-24 00.07 Ex07_writer0000-representations.aird.xes,ADD,94,63,0.6702127659574468
+2024-10-24 00.07 Ex07_writer0000-representations.aird.xes,SET,51,42,0.8235294117647058
+2024-10-24 00.30 Ex08_writer0000-representations.aird.xes,ADD,98,61,0.6224489795918368
+2024-10-24 00.30 Ex08_writer0000-representations.aird.xes,SET,58,50,0.8620689655172413
+2024-10-24 00.30 Ex09_writer0002-representations.aird.xes,ADD,110,75,0.6818181818181818
+2024-10-24 00.30 Ex09_writer0002-representations.aird.xes,SET,68,62,0.9117647058823529
+2024-10-24 00.37 Ex10_writer0000-representations.aird.xes,ADD,109,66,0.6055045871559633
+2024-10-24 00.37 Ex10_writer0000-representations.aird.xes,SET,55,47,0.8545454545454545

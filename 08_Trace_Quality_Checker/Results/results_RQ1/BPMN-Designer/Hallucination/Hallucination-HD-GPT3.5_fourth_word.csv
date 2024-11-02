@@ -1,0 +1,26 @@
+filename,word_combination,occurrences_dir1,occurrences_dir2,hallucination_ratio
+2024-10-23 23.18 Ex00_writer0001-representations.aird.xes,ADD,65,38,0.5846153846153846
+2024-10-23 23.18 Ex00_writer0001-representations.aird.xes,SET,35,32,0.9142857142857143
+2024-10-23 23.18 Ex01_writer0001-representations.aird.xes,ADD,60,55,0.9166666666666666
+2024-10-23 23.18 Ex01_writer0001-representations.aird.xes,SET,31,31,1.0
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,ADD,69,48,0.6956521739130435
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,SET,58,29,0.5
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,MOVE,1,0,0.0
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,ADD,141,52,0.36879432624113473
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,SET,136,39,0.2867647058823529
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,MOVE,1,0,0.0
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,ADD,115,42,0.3652173913043478
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,SET,77,35,0.45454545454545453
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,MOVE,1,0,0.0
+2024-10-24 00.07 Ex05_writer0013-representations.aird.xes,ADD,121,53,0.4380165289256198
+2024-10-24 00.07 Ex05_writer0013-representations.aird.xes,SET,84,40,0.47619047619047616
+2024-10-24 00.07 Ex06_writer0000-representations.aird.xes,ADD,63,45,0.7142857142857143
+2024-10-24 00.07 Ex06_writer0000-representations.aird.xes,SET,47,28,0.5957446808510638
+2024-10-24 00.07 Ex07_writer0000-representations.aird.xes,ADD,94,60,0.6382978723404256
+2024-10-24 00.07 Ex07_writer0000-representations.aird.xes,SET,51,39,0.7647058823529411
+2024-10-24 00.30 Ex08_writer0000-representations.aird.xes,ADD,98,30,0.30612244897959184
+2024-10-24 00.30 Ex08_writer0000-representations.aird.xes,SET,58,51,0.8793103448275862
+2024-10-24 00.30 Ex09_writer0002-representations.aird.xes,ADD,110,7,0.06363636363636363
+2024-10-24 00.30 Ex09_writer0002-representations.aird.xes,SET,68,33,0.4852941176470588
+2024-10-24 00.37 Ex10_writer0000-representations.aird.xes,ADD,109,49,0.44954128440366975
+2024-10-24 00.37 Ex10_writer0000-representations.aird.xes,SET,55,23,0.41818181818181815

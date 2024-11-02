@@ -1,0 +1,16 @@
+filename,word_combination,occurrences_dir1,occurrences_dir2,hallucination_ratio
+2024-10-20 15.15 A10-representations.aird.xes,event,37,23,0.6216216216216216
+2024-10-20 15.57 A20-representations.aird.xes,event,71,98,1.380281690140845
+2024-10-20 17.09 A30-representations.aird.xes,event,83,74,0.891566265060241
+2024-10-20 17.42 A40-representations.aird.xes,event,125,94,0.752
+2024-10-20 17.52 A41-representations.aird.xes,event,132,54,0.4090909090909091
+2024-10-20 18.10 B10-representations.aird.xes,event,221,84,0.38009049773755654
+2024-10-20 18.42 C10-representations.aird.xes,event,226,81,0.3584070796460177
+2024-10-20 18.56 C11-representations.aird.xes,event,113,88,0.7787610619469026
+2024-10-20 19.10 C20-representations.aird.xes,event,253,64,0.25296442687747034
+2024-10-20 19.17 C30-representations.aird.xes,event,138,76,0.5507246376811594
+2024-10-20 19.30 C40-representations.aird.xes,event,230,66,0.28695652173913044
+2024-10-20 19.55 C50-representations.aird.xes,event,385,122,0.3168831168831169
+2024-10-20 21.03 C60-representations.aird.xes,event,308,105,0.3409090909090909
+2024-10-20 21.10 C70-representations.aird.xes,event,133,303,2.2781954887218046
+2024-10-20 21.21 C80-representations.aird.xes,event,161,303,1.8819875776397517

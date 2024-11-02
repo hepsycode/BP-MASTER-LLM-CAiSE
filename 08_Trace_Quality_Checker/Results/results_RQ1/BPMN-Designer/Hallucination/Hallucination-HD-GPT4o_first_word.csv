@@ -1,0 +1,12 @@
+filename,word_combination,occurrences_dir1,occurrences_dir2,hallucination_ratio
+2024-10-23 23.18 Ex00_writer0001-representations.aird.xes,event,100,74,0.74
+2024-10-23 23.18 Ex01_writer0001-representations.aird.xes,event,91,87,0.9560439560439561
+2024-10-23 23.18 Ex02_writer0001-representations.aird.xes,event,128,65,0.5078125
+2024-10-23 23.18 Ex03_writer0001-representations.aird.xes,event,278,77,0.27697841726618705
+2024-10-23 23.18 Ex04_writer0008-representations.aird.xes,event,193,130,0.6735751295336787
+2024-10-24 00.07 Ex05_writer0013-representations.aird.xes,event,205,81,0.3951219512195122
+2024-10-24 00.07 Ex06_writer0000-representations.aird.xes,event,110,65,0.5909090909090909
+2024-10-24 00.07 Ex07_writer0000-representations.aird.xes,event,145,106,0.7310344827586207
+2024-10-24 00.30 Ex08_writer0000-representations.aird.xes,event,156,71,0.4551282051282051
+2024-10-24 00.30 Ex09_writer0002-representations.aird.xes,event,178,63,0.3539325842696629
+2024-10-24 00.37 Ex10_writer0000-representations.aird.xes,event,164,90,0.5487804878048781
