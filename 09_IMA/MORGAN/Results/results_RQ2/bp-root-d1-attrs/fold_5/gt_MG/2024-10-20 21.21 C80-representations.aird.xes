@@ -1,0 +1,5 @@
+event	Lane flowNodeRefs ADD
+event	SequenceFlow targetRef SET
+event	ServiceTask name SET
+event	ExclusiveGateway outgoing ADD
+event	DataInput name SET

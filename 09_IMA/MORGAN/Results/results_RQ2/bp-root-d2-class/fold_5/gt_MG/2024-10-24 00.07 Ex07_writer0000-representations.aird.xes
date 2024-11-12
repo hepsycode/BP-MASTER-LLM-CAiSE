@@ -1,0 +1,4 @@
+event ExclusiveGateway incoming ADD
+event Process laneSets ADD
+event Process flowElements ADD
+event SequenceFlow targetRef SET

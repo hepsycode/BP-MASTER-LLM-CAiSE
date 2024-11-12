@@ -1,0 +1,5 @@
+event SequenceFlow sourceRef SET
+event Task outgoing ADD
+event Task incoming ADD
+event SequenceFlow sourceRef SET
+event SequenceFlow targetRef SET

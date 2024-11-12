@@ -1,0 +1,3 @@
+event Process flowElements ADD
+event BoundaryEvent name SET
+event SequenceFlow targetRef SET

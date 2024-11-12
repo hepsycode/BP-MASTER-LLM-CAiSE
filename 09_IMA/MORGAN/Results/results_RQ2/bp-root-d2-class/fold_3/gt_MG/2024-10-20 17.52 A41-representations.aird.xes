@@ -1,0 +1,4 @@
+event EndEvent name SET
+event SubProcess outgoing ADD
+event Process flowElements ADD
+event EndEvent incoming ADD

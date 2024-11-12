@@ -1,0 +1,3 @@
+event SequenceFlow sourceRef SET
+event UserTask outgoing ADD
+event Process flowElements ADD

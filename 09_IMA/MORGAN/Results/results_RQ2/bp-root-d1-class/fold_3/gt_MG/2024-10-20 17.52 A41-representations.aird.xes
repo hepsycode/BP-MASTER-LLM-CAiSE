@@ -1,0 +1,4 @@
+event	SequenceFlow sourceRef SET
+event	Lane flowNodeRefs ADD
+event	SequenceFlow targetRef SET
+event	SequenceFlow sourceRef SET

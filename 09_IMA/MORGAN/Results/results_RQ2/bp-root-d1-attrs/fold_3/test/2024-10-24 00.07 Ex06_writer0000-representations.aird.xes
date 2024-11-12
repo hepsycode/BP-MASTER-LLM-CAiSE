@@ -1,0 +1,6 @@
+event SequenceFlow targetRef SET
+event Process flowElements ADD
+event Process laneSets ADD
+event Lane flowNodeRefs ADD
+event Process artifacts ADD
+event SequenceFlow sourceRef SET

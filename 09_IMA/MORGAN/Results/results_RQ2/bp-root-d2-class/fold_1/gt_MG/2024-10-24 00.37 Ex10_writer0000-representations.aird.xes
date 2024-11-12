@@ -1,0 +1,4 @@
+event IntermediateCatchEvent name SET
+event Process flowElements ADD
+event IntermediateCatchEvent incoming ADD
+event SequenceFlow sourceRef SET

@@ -1,0 +1,12 @@
+event SequenceFlow targetRef SET
+event  name SET
+event Process flowElements ADD
+event SequenceFlow sourceRef SET
+event EndEvent name SET
+event Task name SET
+event SubProcess outgoing ADD
+event SequenceFlow sourceRef SET
+event Process flowElements ADD
+event StartEvent outgoing ADD
+event Process flowElements ADD
+event SubProcess name SET

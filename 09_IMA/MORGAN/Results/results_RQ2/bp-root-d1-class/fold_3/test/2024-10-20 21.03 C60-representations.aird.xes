@@ -1,0 +1,3 @@
+event	SendTask incoming ADD
+event	Process artifacts ADD
+event	ServiceTask name SET

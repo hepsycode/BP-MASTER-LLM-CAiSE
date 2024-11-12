@@ -1,0 +1,6 @@
+event	Association sourceRef SET
+event	Lane flowNodeRefs ADD
+event	UserTask name SET
+event	Process flowElements ADD
+event	Association targetRef SET
+event	Association targetRef SET

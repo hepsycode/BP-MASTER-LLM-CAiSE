@@ -1,0 +1,4 @@
+event Association sourceRef SET
+event ExclusiveGateway outgoing ADD
+event Task name SET
+event SequenceFlow targetRef SET

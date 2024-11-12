@@ -1,0 +1,3 @@
+event SequenceFlow targetRef SET
+event Process flowElements ADD
+event ExclusiveGateway incoming ADD

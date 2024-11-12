@@ -1,0 +1,4 @@
+event Task outgoing ADD
+event Process laneSets ADD
+event SequenceFlow sourceRef SET
+event SequenceFlow targetRef SETevent Process flowElements ADD

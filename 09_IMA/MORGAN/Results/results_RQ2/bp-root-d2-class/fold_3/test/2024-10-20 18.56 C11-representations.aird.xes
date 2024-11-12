@@ -1,0 +1,4 @@
+event ExclusiveGateway incoming ADD
+event ExclusiveGateway outgoing ADD
+event SequenceFlow name SET
+event UserTask outgoing ADD
