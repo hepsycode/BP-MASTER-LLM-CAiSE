@@ -248,12 +248,12 @@ def running_rq2_experiment(type):
 
 
 def running_classes_experiment(type, classes):
-    list_co = [3,5,10]
-    list_cr = [0.2,0.5,0.8]
+    list_co = [10]
+    list_cr = [0.5]
+    for key, value in classes.items():
+        for cr in list_cr:
+            for co in list_co:
 
-    for cr in list_cr:
-        for co in list_co:
-            for key, value in classes.items():
 
             #du.create_cross_validation_folders(cf.XES_TRAIN_SRC, cf.CROSS_ROOT_STD, 5)
             #du.create_path_if_not_exists(cf.RESULTS_CROSS_FOLD)
@@ -295,7 +295,7 @@ def running_classes_experiment(type, classes):
                                                                                        train_data=train_data,
                                                                                        test_context=out_fold_test + file,
                                                                                        gt_context=out_fold_gt + file,
-                                                                                       n_items=co, type=type,classes=[key])
+                                                                                       n_items=co, type=type,classes=classes[key])
 
                             # Accumulate metrics
                             total_precision += pr
@@ -321,8 +321,8 @@ def running_classes_experiment(type, classes):
 if __name__ == "__main__":
     # du.merge_folders(folder1='IST-extension/XES-D1-MG/', folder2='IST-extension/XES-D2-GPT4-MG/',
     #                  result_folder='IST-extension/xes_mixed_dataset_08_ratio', ratio=0.8)
-    #du.parse_xes_traces('CAISE/Trace-BPMN', 'CAISE/parsed_BPMN', False)
-    classes = du.extract_categories("CAISE/Features.csv")
+    #du.parse_xes_traces('Datasets/Dataset_D1/BPMN_Designer', 'Datasets/D1_MG/', False)
+    classes = du.extract_categories("Datasets/Features.csv")
     running_classes_experiment("class",classes)
     #running_rq2_experiment("attrs")
 

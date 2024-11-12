@@ -6,12 +6,12 @@ import networkx as nx
 import re
 import config as cf
 import xml.etree.ElementTree as ET
-import tkinter as tk
-from jinja2 import Environment, FileSystemLoader
+
+
 import shutil
 import random
 import math
-import pandas as pd
+
 from tabulate import tabulate
 
 import matplotlib.pyplot as plt
@@ -274,12 +274,26 @@ def precision(predicted,actual):
         return 0
 
 
+def preprocess_lists(src_list):
+    out_list = []
+    for elem in src_list:
+        out_list.append(elem.split(',')[0])
+
+    return out_list
+
+
+
+
+
 def precision_cl(predicted, actual, specific_elements):
     if actual and predicted:
+
+        pr_actual= preprocess_lists(actual)
+        pr_pred = preprocess_lists(predicted)
         # If specific_elements is provided, filter predicted and actual lists based on it
         if specific_elements:
-            predicted = [value for value in predicted if value in specific_elements]
-            actual = [value for value in actual if value in specific_elements]
+            predicted = [value for value in pr_pred if value in specific_elements]
+            actual = [value for value in pr_actual if value in specific_elements]
 
         true_p = len([value for value in predicted if value in actual])
         false_p = len([value for value in predicted if value not in actual])
@@ -295,10 +309,12 @@ def precision_cl(predicted, actual, specific_elements):
 
 def recall_cl(predicted, actual, specific_elements):
     if actual and predicted:
+        rec_actual = preprocess_lists(actual)
+        rec_pred = preprocess_lists(predicted)
         # If specific_elements is provided, filter predicted and actual lists based on it
         if specific_elements:
-            predicted = [value for value in predicted if value in specific_elements]
-            actual = [value for value in actual if value in specific_elements]
+            predicted = [value for value in rec_pred if value in specific_elements]
+            actual = [value for value in rec_actual if value in specific_elements]
 
         true_p = len([value for value in predicted if value in actual])
         false_n = len([value for value in actual if value not in predicted])

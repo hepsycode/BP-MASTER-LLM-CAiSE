@@ -13,9 +13,9 @@ PARSED_DATA = "/test_xes_generated/"
 REC_DST = "recommendations/"
 
 # crossfold paths
-XES_TRAIN_SRC = "CAISE/Dataset_D2"
-CROSS_ROOT_STD = "CAISE/bp-root-d2-attrs/"
-RESULTS_CROSS_FOLD = "CAISE/results_bp_d2_attrs"
+XES_TRAIN_SRC = "Datasets/D1_MG/"
+CROSS_ROOT_STD = "Results/results_RQ2/bp-root-d1-class/"
+RESULTS_CROSS_FOLD = "Results"
 
 XES_TRAIN_CROSS_SRC = '/train/'
 XES_TEST_CROSS_SRC = '/test/'
