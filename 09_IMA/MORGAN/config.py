@@ -1,21 +1,21 @@
 # local path
-XES_TRAIN_SRC = "Datasets/Dataset_D2/"
-
+#XES_TRAIN_SRC = "IST-extension/xes_mixed_dataset_05_ratio"
+#XES_TRAIN_SRC = "XES-MORGAN-LLM-GPT4/"
 
 XES_TEST_SRC = "XES_original_test/"
 
 XES_TRAIN_DST = "train_MG/"
 DUMP_TRAIN = "preprocessed_train_data.pkl"
-XES_TEST_DST = "test_MG/"
+
 
 KB_TRAIN = "train.txt"
 PARSED_DATA = "/test_xes_generated/"
 REC_DST = "recommendations/"
 
 # crossfold paths
-
-CROSS_ROOT_STD = "gpt4-root/"
-RESULTS_CROSS_FOLD = "results_gpt4_attrs/"
+XES_TRAIN_SRC = "CAISE/Dataset_D2"
+CROSS_ROOT_STD = "CAISE/bp-root-d2-attrs/"
+RESULTS_CROSS_FOLD = "CAISE/results_bp_d2_attrs"
 
 XES_TRAIN_CROSS_SRC = '/train/'
 XES_TEST_CROSS_SRC = '/test/'
@@ -27,12 +27,17 @@ XES_TEST_CROSS_DST = '/test/'
 XES_GT_CROSS_DST = '/gt_MG/'
 
 # eclipse MER paths
-XES_SESSION_TRAIN_SRC = "d1_random_dataset/"
-XES_SESSION_TRAIN_DST = "train_session_MG/"
+
+
+#XES_TRAIN_SRC = "Demo_rome/xes_mixed_dataset_05_ratio"
+XES_SESSION_TRAIN_SRC = "Demo_rome/hepsy_d00_xes_pm/"
+XES_SESSION_TRAIN_DST = "Demo_rome/hepsy_parsed_manual/"
+
+XES_TEST_DST = "Demo_rome/test_MG/"
 
 # recommendation paramenters
 CUT_OFF = 10
-CONTEXT_RATIO = 0.2
+CONTEXT_RATIO = 0.5
 
 
 
