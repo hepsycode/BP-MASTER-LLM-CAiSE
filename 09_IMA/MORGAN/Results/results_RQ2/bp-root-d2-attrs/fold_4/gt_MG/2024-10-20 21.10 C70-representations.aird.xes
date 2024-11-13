@@ -1,0 +1,7 @@
+event StartEvent name SET
+event UserTask incoming ADD
+event UserTask incoming ADD
+event  name SET
+event DataObject name SET
+event Process flowElements ADD
+event SequenceFlow targetRef SET

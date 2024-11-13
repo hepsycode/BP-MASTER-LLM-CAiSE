@@ -1,0 +1,10 @@
+event Association sourceRef SET
+event Process flowElements ADD
+event Process flowElements ADD
+event Process flowElements ADD
+event SequenceFlow targetRef SET
+event  name SET
+event ExclusiveGateway incoming ADD
+event Process flowElements ADD
+event Process flowElements ADD
+event Process artifacts ADD

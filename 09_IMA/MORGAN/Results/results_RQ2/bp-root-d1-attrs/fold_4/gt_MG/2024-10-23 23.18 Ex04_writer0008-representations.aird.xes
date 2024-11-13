@@ -1,0 +1,6 @@
+event Task name SET
+event Process flowElements ADD
+event StartEvent outgoing ADD
+event Association targetRef SET
+event LaneSet lanes MOVE
+event SequenceFlow targetRef SET

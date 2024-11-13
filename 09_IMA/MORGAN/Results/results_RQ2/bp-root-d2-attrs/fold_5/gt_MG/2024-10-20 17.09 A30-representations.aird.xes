@@ -1,0 +1,4 @@
+event EndEvent incoming ADD
+event SequenceFlow targetRef SET
+event SubProcess name SET
+event Process flowElements ADD

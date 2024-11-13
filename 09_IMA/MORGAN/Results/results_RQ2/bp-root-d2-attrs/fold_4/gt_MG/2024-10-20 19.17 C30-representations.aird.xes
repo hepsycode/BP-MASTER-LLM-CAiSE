@@ -1,0 +1,7 @@
+event ExclusiveGateway incoming ADD
+event StartEvent outgoing ADD
+event Process flowElements ADD
+event Process flowElements ADD
+event SequenceFlow sourceRef SET
+event UserTask outgoing ADD
+event Process flowElements ADD

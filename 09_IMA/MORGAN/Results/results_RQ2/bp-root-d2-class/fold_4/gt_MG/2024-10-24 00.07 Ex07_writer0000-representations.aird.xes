@@ -1,0 +1,7 @@
+event  name SET
+event Process flowElements ADD
+event Process flowElements ADD
+event Task name SET
+event ParallelGateway outgoing ADD
+event Process flowElements ADD
+event Process flowElements ADD

@@ -1,0 +1,24 @@
+event Association targetRef SET
+event ExclusiveGateway outgoing ADD
+event Association sourceRef SET
+event Association targetRef SETevent Process laneSets ADD
+event SequenceFlow sourceRef SET
+event Association sourceRef SET
+event SequenceFlow sourceRef SET
+event DataObject name SET
+event Task outgoing ADD
+event Process flowElements ADD
+event ExclusiveGateway incoming ADD
+event  name SET
+event Task name SET
+event Association targetRef SET
+event SequenceFlow targetRef SET
+event Association sourceRef SET
+event SequenceFlow targetRef SET
+event Task incoming ADD
+event Association sourceRef SET
+event ExclusiveGateway outgoing ADD
+event Association targetRef SET
+event Process artifacts ADD
+event SequenceFlow sourceRef SET
+event Association sourceRef SET

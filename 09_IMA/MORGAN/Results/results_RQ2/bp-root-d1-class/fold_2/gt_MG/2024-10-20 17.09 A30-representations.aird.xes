@@ -1,0 +1,5 @@
+event	Task outgoing ADD
+event	Task incoming ADD
+event	BoundaryEvent attachedToRef SET
+event	SequenceFlow sourceRef SET
+event	Process flowElements ADD

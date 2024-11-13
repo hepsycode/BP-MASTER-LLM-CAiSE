@@ -1,0 +1,96 @@
+﻿class;feature;event;Elements;Type;Instance
+Process;laneSets;ADD;Flow objects ;Activity;Sub-process
+AdHocSubProcess;name;SET;Flow objects ;Activity;Sub-process
+AdHocSubProcess;flowElements;ADD;Flow objects ;Activity;Sub-process
+Association;sourceRef;SET;Connecting objects;Association;Association
+Association;targetRef;SET;Connecting objects;Association;Association
+BusinessRuleTask;name;SET;Flow objects ;Activity;Task
+CallActivity;calledElementRef;SET;Flow objects ;Activity;Call Activity
+CallActivity;name;SET;Flow objects ;Activity;Call Activity
+DataInput;name;SET;Artifacts;Data objects;Data objects
+DataObject;name;SET;Artifacts;Data objects;Data objects
+DataOutput;name;SET;Artifacts;Data objects;Data objects
+DataStore;name;SET;Artifacts;Data objects;Data objects
+EndEvent;name;SET;Flow objects ;Event;End event
+EndEvent;eventDefinitions;ADD;Flow objects ;Event;End event
+EndEvent;incoming;ADD;Flow objects ;Event;End event
+EndEvent;outgoing;ADD;Flow objects ;Event;End event
+ExtensionAttributeValue;value;SET;Flow objects ;Activity;Task
+InputOutputSpecification;dataInputs;ADD;Artifacts;Data objects;Data objects
+InputOutputSpecification;dataOutputs;ADD;Artifacts;Data objects;Data objects
+IntermediateCatchEvent;name;SET;Flow objects ;Event;Intermediate event
+IntermediateCatchEvent;eventDefinitions;ADD;Flow objects ;Event;Intermediate event
+IntermediateThrowEvent;name;SET;Flow objects ;Event;Intermediate event
+IntermediateThrowEvent;eventDefinitions;ADD;Flow objects ;Event;Intermediate event
+IntermediateThrowEvent;outgoing;ADD;Flow objects ;Event;Intermediate event
+Lane;flowNodeRefs;ADD;Swim lanes;Lane;Lane
+Lane;name;SET;Swim lanes;Lane;Lane
+Lane;extensionValues;ADD;Swim lanes;Lane;Lane
+Lane;partitionElement;SET;Swim lanes;Lane;Lane
+LaneSet;lanes;ADD;Swim lanes;Lane;Lane
+LaneSet;lanes;MOVE;Swim lanes;Lane;Lane
+LaneSet;name;SET;Swim lanes;Lane;Lane
+ManualTask;name;SET;Flow objects ;Activity;Task
+Process;flowElements;ADD;Flow objects ;Gateway;Gateway
+Process;artifacts;ADD;Flow objects ;Activity;Sub-process
+ReceiveTask;name;SET;Flow objects ;Activity;Task
+ScriptTask;name;SET;Flow objects ;Activity;Task
+SendTask;name;SET;Flow objects ;Activity;Task
+SendTask;outgoing;ADD;Flow objects ;Activity;Task
+SendTask;incoming;ADD;Flow objects ;Activity;Task
+SequenceFlow;sourceRef;SET;Connecting objects;Sequence Flow;Sequence Flow
+SequenceFlow;targetRef;SET;Connecting objects;Sequence Flow;Sequence Flow
+SequenceFlow;name;SET;Flow objects ;Activity;Task
+ServiceTask;name;SET;Flow objects ;Activity;Task
+ServiceTask;incoming;ADD;Flow objects ;Event;Start event
+StartEvent;name;SET;Flow objects ;Event;Start event
+StartEvent;outgoing;ADD;Flow objects ;Event;Start event
+StartEvent;eventDefinitions;ADD;Flow objects ;Activity;Sub-process
+SubProcess;name;SET;Flow objects ;Activity;Sub-process
+SubProcess;flowElements;ADD;Flow objects ;Activity;Sub-process
+SubProcess;extensionValues;ADD;Flow objects ;Activity;Task
+Task;name;SET;Flow objects ;Activity;Task
+Task;incoming;ADD;Flow objects ;Activity;Task
+Task;loopCharacteristics;SET;Artifacts;Annotation;Annotation
+TextAnnotation;text;SET;Flow objects ;Activity;Task
+UserTask;name;SET;Flow objects ;Activity;Task
+ExclusiveGateway;incoming;ADD;Flow objects ;Gateway;Gateway
+ExclusiveGateway;outgoing;ADD;Flow objects ;Gateway;Gateway
+ParallelGateway;incoming;ADD;Flow objects ;Gateway;Gateway
+ParallelGateway;outgoing;ADD;Flow objects ;Gateway;Gateway
+ComplexGateway;incoming;ADD;Flow objects ;Gateway;Gateway
+ComplexGateway;outgoing;ADD;Flow objects ;Gateway;Gateway
+EventBasedGateway;incoming;ADD;Flow objects ;Gateway;Gateway
+EventBasedGateway;outgoing;ADD;Flow objects ;Gateway;Gateway
+Task;outgoing;ADD;Flow objects ;Activity;Task
+ParallelGateway;name;SET;Flow objects ;Gateway;Gateway
+SubProcess;boundaryEventRefs;ADD;Flow objects ;Activity;Sub-process
+SubProcess;outgoing;ADD;Flow objects ;Activity;Sub-process
+SubProcess;incoming;ADD;Flow objects ;Activity;Sub-process
+BoundaryEvent;attachedToRef;SET;Flow objects ;Event;Intermediate event
+BoundaryEvent;eventDefinitions;ADD;Flow objects ;Event;Intermediate event
+BoundaryEvent;incoming;ADD;Flow objects ;Event;Intermediate event
+BoundaryEvent;name;SET;Flow objects ;Event;Intermediate event
+Task;boundaryEventRefs;ADD;Flow objects ;Activity;Task
+BoundaryEvent;outgoing;ADD;Flow objects ;Event;Intermediate event
+BusinessRuleTask;incoming;ADD;Flow objects ;Event;Intermediate event
+BusinessRuleTask;outgoing;ADD;Flow objects ;Event;Intermediate event
+DataStore;description;SET;Artifacts;Data objects;Data objects
+ExclusiveGateway;name;SET;Flow objects ;Gateway;Gateway
+InclusiveGateway;incoming;ADD;Flow objects ;Gateway;Gateway
+InclusiveGateway;outgoing;ADD;Flow objects ;Gateway;Gateway
+IntermediateCatchEvent;incoming;ADD;Flow objects ;Event;Intermediate event
+IntermediateCatchEvent;outgoing;ADD;Flow objects ;Event;Intermediate event
+IntermediateThrowEvent;incoming;ADD;Flow objects ;Event;Intermediate event
+SendTask;boundaryEventRefs;ADD;Flow objects ;Activity;Task
+ServiceTask;boundaryEventRefs;ADD;Flow objects ;Activity;Task
+ServiceTask;loopCharacteristics;SET;Flow objects ;Activity;Task
+ServiceTask;outgoing;ADD;Flow objects ;Activity;Task
+StartEvent;incoming;ADD;Flow objects ;Event;Start event
+SubProcess;boundaryEventRefs;ADD;Flow objects ;Activity;Sub-process
+SubProcess;incoming;ADD;Flow objects ;Activity;Sub-process
+UserTask;boundaryEventRefs;ADD;Flow objects ;Activity;Task
+UserTask;incoming;ADD;Flow objects ;Activity;Task
+UserTask;outgoing;ADD;Flow objects ;Activity;Task
+Process;name;SET;Flow objects ;Activity;Sub-process
+UserTask;loopCharacteristics;SET;Flow objects ;Activity;Task

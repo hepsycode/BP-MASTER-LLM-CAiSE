@@ -1,0 +1,21 @@
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event SendTask incoming ADD
+event  name SET
+event Association targetRef SETevent SequenceFlow sourceRef SET
+event Process flowElements ADD
+event Process flowElements ADD
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event Process flowElements ADD
+event ServiceTask incoming ADD
+event Process flowElements ADD
+event ServiceTask incoming ADD
+event SequenceFlow targetRef SET
+event SendTask outgoing ADD
+event EndEvent name SET
+event EndEvent name SET
+event Process flowElements ADD
+event Process flowElements ADD
+event ServiceTask outgoing ADD
+event SequenceFlow targetRef SET

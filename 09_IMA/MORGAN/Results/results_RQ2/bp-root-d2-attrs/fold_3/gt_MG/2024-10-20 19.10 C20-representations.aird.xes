@@ -1,0 +1,37 @@
+event SequenceFlow sourceRef SET
+event Process flowElements ADD
+event Process flowElements ADD
+event Task name SET
+event SequenceFlow targetRef SET
+event Process flowElements ADD
+event ExclusiveGateway outgoing ADD
+event SequenceFlow targetRef SET
+event ExclusiveGateway outgoing ADD
+event  name SET
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event SequenceFlow sourceRef SET
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event StartEvent outgoing ADD
+event Task outgoing ADD
+event Process flowElements ADD
+event Process laneSets ADD
+event  name SET
+event SequenceFlow sourceRef SET
+event ExclusiveGateway incoming ADD
+event SequenceFlow targetRef SET
+event Process flowElements ADD
+event Process flowElements ADD
+event Task name SET
+event Process flowElements ADD
+event SequenceFlow name SET
+event Task name SET
+event  name SET
+event IntermediateCatchEvent name SET
+event Task incoming ADD
+event Process flowElements ADD
+event StartEvent incoming ADD
+event EndEvent incoming ADD
+event Process flowElements ADD
+event SequenceFlow sourceRef SET

@@ -1,0 +1,7 @@
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event Lane extensionValues ADD
+event Task outgoing ADD
+event SequenceFlow sourceRef SET
+event ExclusiveGateway incoming ADD
+event SequenceFlow targetRef SET

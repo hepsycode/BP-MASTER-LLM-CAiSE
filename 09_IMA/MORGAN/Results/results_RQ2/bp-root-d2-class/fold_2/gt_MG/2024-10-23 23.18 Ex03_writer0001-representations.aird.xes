@@ -1,0 +1,4 @@
+event Task incoming ADD
+event SequenceFlow targetRef SET
+event Association sourceRef SET
+event SequenceFlow sourceRef SET

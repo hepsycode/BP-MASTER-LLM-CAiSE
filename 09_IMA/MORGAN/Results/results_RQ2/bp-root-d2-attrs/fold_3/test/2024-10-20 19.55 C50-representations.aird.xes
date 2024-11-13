@@ -1,0 +1,3 @@
+event SequenceFlow sourceRef SET
+event Association targetRef SET
+event SequenceFlow sourceRef SET

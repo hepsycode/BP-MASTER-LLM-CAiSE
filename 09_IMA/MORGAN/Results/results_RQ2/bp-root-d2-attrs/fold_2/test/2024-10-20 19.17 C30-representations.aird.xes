@@ -1,0 +1,5 @@
+event ExclusiveGateway name SET
+event SequenceFlow sourceRef SET
+event StartEvent outgoing ADD
+event ExclusiveGateway outgoing ADD
+event EndEvent name SET
