@@ -249,16 +249,13 @@ def running_rq2_experiment(type):
 
 def running_classes_experiment(type, classes):
     list_co = [10]
-    list_cr = [0.5]
+    list_cr = [0.8]
     for key, value in classes.items():
+
         for cr in list_cr:
             for co in list_co:
-
-
             #du.create_cross_validation_folders(cf.XES_TRAIN_SRC, cf.CROSS_ROOT_STD, 5)
             #du.create_path_if_not_exists(cf.RESULTS_CROSS_FOLD)
-
-
                 results_csv_path = f'{cf.RESULTS_CROSS_FOLD}/results_cat_{key}_{cr}_cutoff_{co}.csv'
 
                 # Open the CSV file in append mode, so we don't overwrite existing data
