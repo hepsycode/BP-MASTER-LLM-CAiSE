@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_uCK4UZuKEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="CarDamageClaimProcess_1">
+    <flowElements xsi:type="bpmn:StartEvent" id="StartEvent_ClaimSubmission" name="Claim Submission" outgoing="Flow_StartToCheck"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_CheckAndRegister" name="Check and Register Claim" outgoing="Flow_CheckToInsurance" incoming="Flow_StartToCheck"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_StartToCheck" targetRef="Task_CheckAndRegister" sourceRef="StartEvent_ClaimSubmission"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_CheckInsurance" name="Insurance Check" outgoing="Flow_InsuranceToAssessment" incoming="Flow_CheckToInsurance"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_PerformAssessment" name="Assessment" outgoing="Flow_AssessmentToDecision" incoming="Flow_InsuranceToAssessment"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="Task_AuthorizeRepairs" name="Authorize Repairs" outgoing="Flow_RepairsToPayment" incoming="Flow_PositiveAssessment"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="Task_SchedulePayment" name="Schedule Payment" outgoing="Flow_ToCustomerNotification" incoming="Flow_RepairsToPayment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_CheckToInsurance" targetRef="Task_CheckInsurance" sourceRef="Task_CheckAndRegister"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_InsuranceToAssessment" targetRef="Task_PerformAssessment" sourceRef="Task_CheckInsurance"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_AssessmentToDecision" sourceRef="Task_PerformAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_PositiveAssessment" targetRef="Task_AuthorizeRepairs" sourceRef="Gateway_AssessmentOutcome"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RepairsToPayment" targetRef="Task_SchedulePayment" sourceRef="Task_AuthorizeRepairs"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_SendLetter" name="Send Letter to Customer" outgoing="Flow_ToEndEvent" incoming="Flow_ToCustomerNotification"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndEvent_ProcessComplete" name="Process Complete" incoming="Flow_ToEndEvent"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_ToCustomerNotification" targetRef="Task_SendLetter" sourceRef="Task_SchedulePayment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_ToEndEvent" targetRef="EndEvent_ProcessComplete" sourceRef="Task_SendLetter"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="Gateway_AssessmentOutcome" outgoing="Flow_PositiveAssessment"/>
+    <laneSets id="LaneSet_Notification">
+      <lanes id="Lane_Notification" name="Notification Department" flowNodeRefs="Task_CheckAndRegister">
+        <extensionValues id="Extension_CheckClaim">
+          <value xsi:type="bpmn:DataObject" id="DataObject_ClaimDocument" name="Claim Document"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <laneSets id="LaneSet_Handling">
+      <lanes id="Lane_Handling" name="Handling Department" flowNodeRefs="Task_CheckInsurance Task_PerformAssessment Task_AuthorizeRepairs Task_SchedulePayment">
+        <extensionValues id="Extension_CheckInsurance">
+          <value xsi:type="bpmn:DataObject" id="DataObject_InsurancePolicy" name="Insurance Policy"/>
+        </extensionValues>
+        <extensionValues id="Extension_Assessment">
+          <value xsi:type="bpmn:DataObject" id="DataObject_AssessmentReport" name="Assessment Report"/>
+        </extensionValues>
+        <extensionValues id="Extension_Assessment">
+          <value xsi:type="bpmn:DataStore" id="DataStore_ClaimRecords" name="Claim Records" capacity="100"/>
+        </extensionValues>
+      </lanes>
+    </laneSets>
+    <laneSets id="LaneSet_Communication">
+      <lanes id="Lane_Communication" name="Customer Communication" flowNodeRefs="Task_SendLetter EndEvent_ProcessComplete"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

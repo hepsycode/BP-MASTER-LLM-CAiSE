@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_umS_MZwxEe-HluGUA8-bhw">
+  <rootElements xsi:type="bpmn:Process" id="_umS_MJwxEe-HluGUA8-bhw">
+    
+    <!-- Start Event: Online Application Submission -->
+    <flowElements xsi:type="bpmn:StartEvent" id="StartApplicationSubmission" name="Online Application Submitted" outgoing="RecordInSystem"/>
+
+    <!-- Task: Record Online Application in System -->
+    <flowElements xsi:type="bpmn:ServiceTask" id="RecordInSystem" name="Record Online Application" incoming="StartApplicationSubmission" outgoing="GeneratePDF"/>
+
+    <!-- Task: Generate PDF Document -->
+    <flowElements xsi:type="bpmn:ServiceTask" id="GeneratePDF" name="Generate PDF Document" incoming="RecordInSystem" outgoing="SendPDFToStudent"/>
+
+    <!-- Task: Send PDF to Student for Download -->
+    <flowElements xsi:type="bpmn:UserTask" id="SendPDFToStudent" name="Send PDF to Student" incoming="GeneratePDF" outgoing="ReceiveDocuments"/>
+
+    <!-- Intermediate Event: Wait for Student Documents by Post -->
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="ReceiveDocuments" name="Documents Received" incoming="SendPDFToStudent" outgoing="InitialAssessment"/>
+
+    <!-- Task: Initial Assessment by Admissions Office -->
+    <flowElements xsi:type="bpmn:UserTask" id="InitialAssessment" name="Initial Assessment" incoming="ReceiveDocuments" outgoing="CheckSufficientGrades"/>
+
+    <!-- Gateway: Check Sufficient Grades -->
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="CheckSufficientGrades" incoming="InitialAssessment" outgoing="rejectApplication sufficientGradesPassed"/>
+
+    <!-- Sequence Flow: Reject Application due to Insufficient Grades -->
+    <flowElements xsi:type="bpmn:SequenceFlow" id="rejectApplication" name="Insufficient Grades" sourceRef="CheckSufficientGrades" targetRef="RejectApplication"/>
+
+    <!-- Task: Reject Application -->
+    <flowElements xsi:type="bpmn:ServiceTask" id="RejectApplication" name="Send Rejection Email" incoming="rejectApplication" outgoing="EndRejected"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndRejected" name="Application Rejected" incoming="EndRejected"/>
+
+    <!-- Sequence Flow: Forward to Academic Committee if Grades Sufficient -->
+    <flowElements xsi:type="bpmn:SequenceFlow" id="sufficientGradesPassed" name="Sufficient Grades" sourceRef="CheckSufficientGrades" targetRef="ForwardToAcademicCommittee"/>
+
+    <!-- Task: Forward to Academic Committee for Review -->
+    <flowElements xsi:type="bpmn:UserTask" id="ForwardToAcademicCommittee" name="Forward to Academic Committee" incoming="sufficientGradesPassed" outgoing="AcademicReview"/>
+
+    <!-- Intermediate Event: Committee Review of Applications -->
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="AcademicReview" name="Committee Review Meeting" incoming="ForwardToAcademicCommittee" outgoing="ReviewSelectionOutcomes"/>
+
+    <!-- Task: Review Selection Outcomes by Admissions Office -->
+    <flowElements xsi:type="bpmn:UserTask" id="ReviewSelectionOutcomes" name="Review Selection Outcomes" incoming="AcademicReview" outgoing="SendFinalDecision"/>
+
+    <!-- Gateway: Send Final Decision to Candidate -->
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="SendFinalDecision" incoming="ReviewSelectionOutcomes" outgoing="FinalRejection FinalAdmission"/>
+    
+    <!-- Task: Send Rejection Email -->
+    <flowElements xsi:type="bpmn:ServiceTask" id="FinalRejection" name="Send Rejection Email" incoming="SendFinalDecision" outgoing="EndFinalRejection"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndFinalRejection" name="Final Decision - Rejection" incoming="EndFinalRejection"/>
+
+    <!-- Task: Send Admission Email -->
+    <flowElements xsi:type="bpmn:ServiceTask" id="FinalAdmission" name="Send Admission Email" incoming="SendFinalDecision" outgoing="EndFinalAdmission"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndFinalAdmission" name="Final Decision - Admission" incoming="EndFinalAdmission"/>
+
+    <!-- Lane Set: University Staff -->
+    <laneSets id="UniversityStaffLaneSet">
+      <lanes id="AdmissionsOffice" name="Admissions Office" flowNodeRefs="StartApplicationSubmission RecordInSystem GeneratePDF SendPDFToStudent ReceiveDocuments InitialAssessment CheckSufficientGrades RejectApplication ForwardToAcademicCommittee ReviewSelectionOutcomes SendFinalDecision FinalRejection FinalAdmission">
+      </lanes>
+      <lanes id="AcademicCommittee" name="Academic Committee" flowNodeRefs="AcademicReview">
+      </lanes>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_gP9v4ZuOEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="doctor_rating_process_workflow" isExecutable="true">
+    <flowElements xsi:type="bpmn:StartEvent" id="start_case" name="Start Doctor Rating Case" outgoing="flow1"/>
+    <flowElements xsi:type="bpmn:CallActivity" id="interview_process" name="Interview Patients" incoming="flow1"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow1" targetRef="interview_process" sourceRef="start_case"/>
+    <flowElements xsi:type="bpmn:UserTask" id="request_expert" name="Request Expert Review" outgoing="flow3"/>
+    <flowElements xsi:type="bpmn:ReceiveTask" id="review_expert" name="Wait for Expertise" outgoing="flow4" incoming="flow3">
+      <loopCharacteristics xsi:type="bpmn:MultiInstanceLoopCharacteristics" id="_n76rg5wpEe-th9jTEYG_eA" isSequential="true"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow3" targetRef="review_expert" sourceRef="request_expert"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow4" targetRef="send_expertise" sourceRef="review_expert"/>
+    <flowElements xsi:type="bpmn:UserTask" id="send_expertise" name="Forward Expertise to QA" incoming="flow4"/>
+    <flowElements xsi:type="bpmn:UserTask" id="receive_expertise" name="Receive Expertise from Director" outgoing="flow5"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow5" sourceRef="receive_expertise"/>
+    <flowElements xsi:type="bpmn:UserTask" id="file_results" name="File Interview and Expertise Results" outgoing="flow6"/>
+    <flowElements xsi:type="bpmn:UserTask" id="create_report" name="Create Report" outgoing="_q54RcJwpEe-th9jTEYG_eA" incoming="flow6"/>
+    <flowElements xsi:type="bpmn:UserTask" id="pay_expenses" name="Pay Expert Expenses"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow6" targetRef="create_report" sourceRef="file_results"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_o9L7QJwpEe-th9jTEYG_eA" name="end_case" incoming="_q54RcJwpEe-th9jTEYG_eA"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_q54RcJwpEe-th9jTEYG_eA" targetRef="_o9L7QJwpEe-th9jTEYG_eA" sourceRef="create_report"/>
+    <laneSets id="qa_laneSet">
+      <lanes id="qa_lane" name="Quality Assurance (QA) Specialist" flowNodeRefs="start_case interview_process receive_expertise file_results create_report _o9L7QJwpEe-th9jTEYG_eA">
+        <partitionElement xsi:type="bpmn:InputOutputSpecification" id="qa_partition"/>
+      </lanes>
+    </laneSets>
+    <laneSets id="director_laneSet">
+      <lanes id="director_lane" name="Director" flowNodeRefs="request_expert review_expert send_expertise pay_expenses">
+        <partitionElement xsi:type="bpmn:InputOutputSpecification" id="director_partition"/>
+      </lanes>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

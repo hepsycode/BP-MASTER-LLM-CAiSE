@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_UtnUcZz2Ee-HluGUA8-bhw">
+  <rootElements xsi:type="bpmn:Collaboration" id="collab1">
+    <participants id="supplierPool" name="Supplier Pool" processRef="supplierProcess"/>
+  </rootElements>
+  <rootElements xsi:type="bpmn:Process" id="supplierProcess" name="Supplier Process">
+    <flowElements xsi:type="bpmn:StartEvent" id="supplierStart" name="Offer Requested" outgoing="supplierPrepareOfferFlow"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="prepareOffer" name="Prepare Offer" outgoing="sendOfferFlow" incoming="supplierPrepareOfferFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="supplierPrepareOfferFlow" targetRef="prepareOffer" sourceRef="supplierStart"/>
+    <flowElements xsi:type="bpmn:SendTask" id="sendOffer" name="Send Offer" outgoing="waitForResponseFlow" incoming="sendOfferFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="sendOfferFlow" targetRef="sendOffer" sourceRef="prepareOffer"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="waitForResponseFlow" sourceRef="sendOffer"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="cancelOrderFlow" sourceRef="changeCheck"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="cancelOrderEnd" name="Order Canceled" incoming="cancelOrderEndFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="cancelOrderEndFlow" targetRef="cancelOrderEnd"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="processOrder" name="Process Order" outgoing="endOrderFlow" incoming="processOrderFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="processOrderFlow" targetRef="processOrder"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="endOrder" name="Order Processed" incoming="endOrderFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="endOrderFlow" targetRef="endOrder" sourceRef="processOrder"/>
+    <flowElements xsi:type="bpmn:UserTask" id="updateOrder" name="Update Order" outgoing="askConfirmationFlow" incoming="updateOrderFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="updateOrderFlow" targetRef="updateOrder" sourceRef="changeCheck"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="askConfirmationFlow" sourceRef="updateOrder"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="changeCounter" name="Order Change Counter" outgoing="updateOrderLimitReachedFlow"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="changeCheck" outgoing="cancelOrderFlow updateOrderFlow"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="cancelOrderAfterLimit" name="Order Canceled After Limit" incoming="updateOrderLimitReachedFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="updateOrderLimitReachedFlow" targetRef="cancelOrderAfterLimit" sourceRef="changeCounter"/>
+    <flowElements xsi:type="bpmn:StartEvent" id="retailerStart" name="Request Offer" outgoing="requestOfferFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="requestOfferFlow" targetRef="requestOffer" sourceRef="retailerStart"/>
+    <flowElements xsi:type="bpmn:UserTask" id="requestOffer" name="Request Offer" outgoing="receiveOfferFlow" incoming="requestOfferFlow"/>
+    <flowElements xsi:type="bpmn:ReceiveTask" id="receiveOffer" name="Receive Offer" incoming="receiveOfferFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="receiveOfferFlow" targetRef="receiveOffer" sourceRef="requestOffer"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="confirmOrder" name="Order Confirmation Sent" outgoing="orderConfirmFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="orderConfirmFlow" sourceRef="confirmOrder"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="changeOrder" name="Order Change Sent" outgoing="orderChangeFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="orderChangeFlow" sourceRef="changeOrder"/>
+    <flowElements xsi:type="bpmn:IntermediateThrowEvent" id="cancelOrder" name="Order Cancellation Sent" outgoing="orderCancelFlow"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="orderCancelFlow" sourceRef="cancelOrder"/>
+    <laneSets id="_W4Yi4Zz2Ee-HluGUA8-bhw">
+      <lanes id="_W4Yi4pz2Ee-HluGUA8-bhw" name="Supplier" flowNodeRefs="prepareOffer sendOffer processOrder updateOrder changeCheck"/>
+    </laneSets>
+    <laneSets id="_W4Yi4Zz2Ee-HluGUA8-bhZ">
+      <lanes id="_W4Yi4pz2Ee-HluGUA8-bhZ" name="Retailer" flowNodeRefs="requestOffer receiveOffer confirmOrder changeOrder cancelOrder"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

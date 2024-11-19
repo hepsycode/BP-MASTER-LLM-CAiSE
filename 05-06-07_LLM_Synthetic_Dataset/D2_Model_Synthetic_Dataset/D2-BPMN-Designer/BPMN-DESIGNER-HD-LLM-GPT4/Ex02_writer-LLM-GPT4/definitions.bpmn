@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_ZW1jEZioEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_ZW1jEJioEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="StartEvent_ClaimReceived" name="Claim Received" outgoing="Flow_ClaimToRegister"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_RegisterClaim" name="Register Claim" outgoing="Flow_RegisterToExamine" incoming="Flow_ClaimToRegister"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_ClaimToRegister" targetRef="Task_RegisterClaim" sourceRef="StartEvent_ClaimReceived"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_ExamineClaim" name="Examine Claim" outgoing="Flow_ExamineToRecommend" incoming="Flow_RegisterToExamine"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RegisterToExamine" targetRef="Task_ExamineClaim" sourceRef="Task_RegisterClaim"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_WriteRecommendation" name="Write Recommendation" outgoing="Flow_RecommendToCheck" incoming="Flow_ExamineToRecommend"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_ExamineToRecommend" targetRef="Task_WriteRecommendation" sourceRef="Task_ExamineClaim"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_CheckRecommendation" name="Check Recommendation" outgoing="Flow_CheckToDecision" incoming="Flow_RecommendToCheck"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RecommendToCheck" targetRef="Task_CheckRecommendation" sourceRef="Task_WriteRecommendation"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="Gateway_Decision" name="Is Recommendation OK?" outgoing="Flow_Yes Flow_No" incoming="Flow_CheckToDecision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_CheckToDecision" targetRef="Gateway_Decision" sourceRef="Task_CheckRecommendation"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_RepeatRecommendation" name="Repeat Recommendation" outgoing="Flow_RepeatToCheck" incoming="Flow_No"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_No" name="No" targetRef="Task_RepeatRecommendation" sourceRef="Gateway_Decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RepeatToCheck" sourceRef="Task_RepeatRecommendation"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndEvent_ClaimApproved" name="Claim Approved" incoming="Flow_Yes"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_Yes" name="Yes" targetRef="EndEvent_ClaimApproved" sourceRef="Gateway_Decision"/>
+    <laneSets id="_c3BsUJioEe-th9jTEYG_eA" name="Insurance Company">
+      <lanes id="_c3CTYJioEe-th9jTEYG_eA" name="Claims Officer" flowNodeRefs="StartEvent_ClaimReceived Task_RegisterClaim Task_ExamineClaim Task_WriteRecommendation">
+        <extensionValues id="_6g2jAJF4Ee-th9jTEYG_eA">
+          <value xsi:type="bpmn:DataObject" id="DataObject_Claim" name="Claim"/>
+        </extensionValues>
+        <extensionValues id="_6g2jAJF4Ee-th9jTEYG_eF">
+          <value xsi:type="bpmn:DataObject" id="DataObject_Recommendation" name="Recommendation"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="_c3CTYJioEe-th9jTEYG_eZ" name="Senior Claims Officer" flowNodeRefs="Task_CheckRecommendation Gateway_Decision"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="Association_ClaimToRegister" sourceRef="StartEvent_ClaimReceived" targetRef="DataObject_Claim"/>
+    <artifacts xsi:type="bpmn:Association" id="Association_RegisterToExamine" sourceRef="Task_RegisterClaim" targetRef="DataObject_Claim"/>
+    <artifacts xsi:type="bpmn:Association" id="Association_ExamineToRecommendation" sourceRef="Task_ExamineClaim" targetRef="DataObject_Recommendation"/>
+    <artifacts xsi:type="bpmn:Association" id="Association_RecommendationToCheck" sourceRef="Task_WriteRecommendation" targetRef="DataObject_Recommendation"/>
+  </rootElements>
+</bpmn:Definitions>
