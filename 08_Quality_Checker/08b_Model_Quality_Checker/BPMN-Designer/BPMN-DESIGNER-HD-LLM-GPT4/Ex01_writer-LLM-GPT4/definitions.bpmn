@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_33GHwZilEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_33GHwJilEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="StartEvent_CreditRequestReceived" name="Credit Request Received" outgoing="Flow_StartToRiskAssessment"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_AssessRisk" name="Assess Risk" outgoing="Flow_RiskToGateway" incoming="Flow_StartToRiskAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_StartToRiskAssessment" targetRef="Task_AssessRisk" sourceRef="StartEvent_CreditRequestReceived"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="Gateway_RiskDecision" name="Risk Above Threshold?" outgoing="Flow_GatewayToAdvancedAssessment Flow_GatewayToSimpleAssessment" incoming="Flow_RiskToGateway"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RiskToGateway" targetRef="Gateway_RiskDecision" sourceRef="Task_AssessRisk"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_AdvancedRiskAssessment" name="Advanced Risk Assessment" outgoing="Flow_AdvancedToNotification" incoming="Flow_GatewayToAdvancedAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_GatewayToAdvancedAssessment" targetRef="Task_AdvancedRiskAssessment" sourceRef="Gateway_RiskDecision"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_SimpleRiskAssessment" name="Simple Risk Assessment" outgoing="Flow_SimpleToNotification" incoming="Flow_GatewayToSimpleAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_GatewayToSimpleAssessment" targetRef="Task_SimpleRiskAssessment" sourceRef="Gateway_RiskDecision"/>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="Gateway_AssessmentCompletion" name="Assessment Complete?" outgoing="Flow_CompletionToNotification Flow_CompletionToDisbursement" incoming="Flow_AdvancedToNotification Flow_SimpleToNotification"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_AdvancedToNotification" targetRef="Gateway_AssessmentCompletion" sourceRef="Task_AdvancedRiskAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_SimpleToNotification" targetRef="Gateway_AssessmentCompletion" sourceRef="Task_SimpleRiskAssessment"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_NotifyCustomer" name="Notify Customer" outgoing="Flow_NotificationToEnd" incoming="Flow_CompletionToNotification"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_CompletionToNotification" targetRef="Task_NotifyCustomer" sourceRef="Gateway_AssessmentCompletion"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_OrganizeDisbursement" name="Organize Disbursement" outgoing="Flow_DisbursementToEnd" incoming="Flow_CompletionToDisbursement"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_CompletionToDisbursement" targetRef="Task_OrganizeDisbursement" sourceRef="Gateway_AssessmentCompletion"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndEvent_AssessmentCompleted" name="Assessment Completed" incoming="Flow_NotificationToEnd Flow_DisbursementToEnd"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_NotificationToEnd" targetRef="EndEvent_AssessmentCompleted" sourceRef="Task_NotifyCustomer"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_DisbursementToEnd" targetRef="EndEvent_AssessmentCompleted" sourceRef="Task_OrganizeDisbursement"/>
+    <laneSets id="_9D1SYZilEe-th9jTEYG_eA">
+      <lanes id="_9D1SYpilEe-th9jTEYG_eA" flowNodeRefs="StartEvent_CreditRequestReceived Task_AssessRisk Gateway_RiskDecision Task_AdvancedRiskAssessment Gateway_AssessmentCompletion Task_NotifyCustomer Task_OrganizeDisbursement EndEvent_AssessmentCompleted"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

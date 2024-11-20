@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_7-1awZt6Ee-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="TribunalCompensationProcess_1">
+    <flowElements xsi:type="bpmn:StartEvent" id="StartEvent_CompensationRequestReceived" name="Compensation Request Received" outgoing="Flow_RequestToRetrieveFile"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_RetrieveFile" name="Retrieve Premises File" outgoing="Flow_RetrieveToCheckCompliance" incoming="Flow_RequestToRetrieveFile"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RequestToRetrieveFile" targetRef="Task_RetrieveFile" sourceRef="StartEvent_CompensationRequestReceived"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_CheckCompliance" name="Check Request Compliance" outgoing="Flow_CheckToFeesCheck" incoming="Flow_RetrieveToCheckCompliance"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_RetrieveToCheckCompliance" targetRef="Task_CheckCompliance" sourceRef="Task_RetrieveFile"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="Gateway_FeesPaid" name="Fees Paid?" outgoing="Flow_FeesPaid Flow_FeesNotPaid" incoming="Flow_CheckToFeesCheck"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_CheckToFeesCheck" targetRef="Gateway_FeesPaid" sourceRef="Task_CheckCompliance"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_FeesPaid" targetRef="Task_SetHearingDate" sourceRef="Gateway_FeesPaid"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_SetHearingDate" name="Set Hearing Date" outgoing="Flow_ToEndEvent" incoming="Flow_FeesPaid"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_ToEndEvent" targetRef="EndEvent_ProcessComplete" sourceRef="Task_SetHearingDate"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_FeesNotPaid" targetRef="Task_ProduceFeesNotice" sourceRef="Gateway_FeesPaid"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_ProduceFeesNotice" name="Produce Fees Notice" outgoing="Flow_NoticeToWaitForFee" incoming="Flow_FeesNotPaid"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="IntermediateEvent_WaitForFee" name="Wait for Fee Payment" outgoing="Flow_WaitToRecheckCompliance" incoming="Flow_NoticeToWaitForFee"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_NoticeToWaitForFee" targetRef="IntermediateEvent_WaitForFee" sourceRef="Task_ProduceFeesNotice"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Task_RecheckDocumentCompliance" name="Recheck Document Compliance" incoming="Flow_WaitToRecheckCompliance"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="Flow_WaitToRecheckCompliance" targetRef="Task_RecheckDocumentCompliance" sourceRef="IntermediateEvent_WaitForFee"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="EndEvent_ProcessComplete" name="Process Complete" incoming="Flow_ToEndEvent"/>
+    <laneSets id="LaneSet_Tribunal" name="Tribunal">
+      <lanes id="Lane_Cashier" name="Cashier" flowNodeRefs="StartEvent_CompensationRequestReceived Task_RetrieveFile Task_CheckCompliance Gateway_FeesPaid Task_SetHearingDate Task_ProduceFeesNotice IntermediateEvent_WaitForFee EndEvent_ProcessComplete">
+        <extensionValues id="_gdI9BJz-Ee-HluGUA8-bhw">
+          <value xsi:type="bpmn:DataObject" id="DataObject_CompensationRequest" name="Compensation Request"/>
+        </extensionValues>
+        <extensionValues id="_gdI9Bpz-Ee-HluGUA8-bhw">
+          <value xsi:type="bpmn:DataObject" id="DataObject_FeesNotice" name="Fees Notice"/>
+        </extensionValues>
+        <extensionValues id="_gdI9CJz-Ee-HluGUA8-bhw">
+          <value xsi:type="bpmn:DataStoreReference" id="DataStore_PremisesFile" name="Premises File"/>
+        </extensionValues>
+      </lanes>
+      <lanes id="Lane_Owner" name="Owner"/>
+    </laneSets>
+    <artifacts xsi:type="bpmn:Association" id="Assoc_CompRequestToRetrieve" sourceRef="DataObject_CompensationRequest" targetRef="Task_RetrieveFile"/>
+    <artifacts xsi:type="bpmn:Association" id="Assoc_RetrieveToPremisesFile" sourceRef="Task_RetrieveFile" targetRef="DataStore_PremisesFile"/>
+    <artifacts xsi:type="bpmn:Association" id="Assoc_FeesNoticeToProduce" sourceRef="Task_ProduceFeesNotice" targetRef="DataObject_FeesNotice"/>
+  </rootElements>
+</bpmn:Definitions>

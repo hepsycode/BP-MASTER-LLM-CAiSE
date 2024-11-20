@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_gPlVYJuOEe-th9jTEYG_eA" selectedViews="_gRxtwJuOEe-th9jTEYG_eA" version="15.2.0.202303281325">
+    <semanticResources>definitions.bpmn</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_gRxtwJuOEe-th9jTEYG_eA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dVxMMJwpEe-th9jTEYG_eA" name="Ex07_writer0000-LLM-GPT4o" repPath="#_dVv-EJwpEe-th9jTEYG_eA" changeId="1730888825866">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']"/>
+        <target xmi:type="bpmn:Process" href="definitions.bpmn#doctor_rating_process_workflow"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_dVv-EJwpEe-th9jTEYG_eA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_dVxMMpwpEe-th9jTEYG_eA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_dVxMM5wpEe-th9jTEYG_eA" type="Sirius" element="_dVv-EJwpEe-th9jTEYG_eA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_dWbTgJwpEe-th9jTEYG_eA" type="2002" element="_dVxMNZwpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_dWbTg5wpEe-th9jTEYG_eA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_dWbThJwpEe-th9jTEYG_eA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_dWe945wpEe-th9jTEYG_eA" type="3008" element="_dVxzRJwpEe-th9jTEYG_eA">
+              <children xmi:type="notation:Node" xmi:id="_dWe95pwpEe-th9jTEYG_eA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_dWe955wpEe-th9jTEYG_eA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_dWfk8JwpEe-th9jTEYG_eA" type="3008" element="_dVxzR5wpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dWfk85wpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dWfk9JwpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dWfk9ZwpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dWfk9pwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dWfk8ZwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWfk8pwpEe-th9jTEYG_eA" x="31" y="34"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dWfk95wpEe-th9jTEYG_eA" type="3008" element="_dVyaU5wpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dWfk-pwpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dWfk-5wpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dWfk_JwpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dWfk_ZwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dWfk-JwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWfk-ZwpEe-th9jTEYG_eA" x="31" y="219"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dWfk_pwpEe-th9jTEYG_eA" type="3008" element="_dVyaV5wpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dWflAZwpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dWflApwpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dWflA5wpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dWflBJwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dWfk_5wpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWflAJwpEe-th9jTEYG_eA" x="270" y="219"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dWflBZwpEe-th9jTEYG_eA" type="3007" element="_dWVM4JwpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dWflCJwpEe-th9jTEYG_eA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_dWflCZwpEe-th9jTEYG_eA" x="31" y="8"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_dXCXgJwpEe-th9jTEYG_eA" type="3005" element="_dWWbAJwpEe-th9jTEYG_eA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_dXCXgZwpEe-th9jTEYG_eA" fontName="Ubuntu"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXCXgpwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dWflBpwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWflB5wpEe-th9jTEYG_eA" x="33" y="135" width="30" height="30"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_o9PloJwpEe-th9jTEYG_eA" type="3007" element="_o9NwcpwpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_o9Plo5wpEe-th9jTEYG_eA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_o9PlpJwpEe-th9jTEYG_eA" x="-1" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_o9doEJwpEe-th9jTEYG_eA" type="3005" element="_o9Nwc5wpEe-th9jTEYG_eA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_o9doEZwpEe-th9jTEYG_eA" fontName="Ubuntu"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o9doEpwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_o9PloZwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o9PlopwpEe-th9jTEYG_eA" x="568" y="214" width="30" height="30"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_dWe96JwpEe-th9jTEYG_eA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_dWe96ZwpEe-th9jTEYG_eA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_dWe96pwpEe-th9jTEYG_eA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dWe95JwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWe95ZwpEe-th9jTEYG_eA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_dWbThZwpEe-th9jTEYG_eA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_dWbThpwpEe-th9jTEYG_eA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dWbTgZwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWbTgpwpEe-th9jTEYG_eA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dWbTh5wpEe-th9jTEYG_eA" type="2002" element="_dVxzQZwpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_dWbTipwpEe-th9jTEYG_eA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_dWe94JwpEe-th9jTEYG_eA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_dXCXg5wpEe-th9jTEYG_eA" type="3008" element="_dWXCEJwpEe-th9jTEYG_eA">
+              <children xmi:type="notation:Node" xmi:id="_dXCXhpwpEe-th9jTEYG_eA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_dXCXh5wpEe-th9jTEYG_eA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_dXCXi5wpEe-th9jTEYG_eA" type="3008" element="_dWXCE5wpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dXC-kJwpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dXC-kZwpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dXC-kpwpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dXC-k5wpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dXCXjJwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXCXjZwpEe-th9jTEYG_eA" x="30" y="135"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dXC-lJwpEe-th9jTEYG_eA" type="3008" element="_dWXCF5wpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dXC-l5wpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dXC-mJwpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dXC-mZwpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dXC-mpwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dXC-lZwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-lpwpEe-th9jTEYG_eA" x="210" y="135"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dXC-m5wpEe-th9jTEYG_eA" type="3008" element="_dWYQMpwpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dXC-npwpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dXC-n5wpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dXC-oJwpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dXC-oZwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dXC-nJwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-nZwpEe-th9jTEYG_eA" x="426" y="135"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dXC-opwpEe-th9jTEYG_eA" type="3008" element="_dWYQNpwpEe-th9jTEYG_eA">
+                  <children xmi:type="notation:Node" xmi:id="_dXC-pZwpEe-th9jTEYG_eA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dXC-ppwpEe-th9jTEYG_eA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dXC-p5wpEe-th9jTEYG_eA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dXC-qJwpEe-th9jTEYG_eA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dXC-o5wpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-pJwpEe-th9jTEYG_eA" x="30" y="27"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_dXCXiJwpEe-th9jTEYG_eA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_dXCXiZwpEe-th9jTEYG_eA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_dXCXipwpEe-th9jTEYG_eA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dXCXhJwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXCXhZwpEe-th9jTEYG_eA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_dWe94ZwpEe-th9jTEYG_eA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_dWe94pwpEe-th9jTEYG_eA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dWbTiJwpEe-th9jTEYG_eA" fontColor="10560" fontName="Ubuntu" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWbTiZwpEe-th9jTEYG_eA" y="396"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_dVxMNJwpEe-th9jTEYG_eA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_dXC-qZwpEe-th9jTEYG_eA" type="4001" element="_dWZeUJwpEe-th9jTEYG_eA" source="_dXCXi5wpEe-th9jTEYG_eA" target="_dXC-lJwpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_dXC-rZwpEe-th9jTEYG_eA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-rpwpEe-th9jTEYG_eA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXC-r5wpEe-th9jTEYG_eA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-sJwpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXC-sZwpEe-th9jTEYG_eA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXC-spwpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dXC-qpwpEe-th9jTEYG_eA" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dXC-q5wpEe-th9jTEYG_eA" fontName="Ubuntu" fontHeight="8" italic="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXC-rJwpEe-th9jTEYG_eA" points="[0, -1, -60, -1]$[60, -1, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXDloJwpEe-th9jTEYG_eA" id="(1.0,0.5147058823529411)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXDloZwpEe-th9jTEYG_eA" id="(0.0,0.5147058823529411)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dXDlopwpEe-th9jTEYG_eA" type="4001" element="_dWaFZJwpEe-th9jTEYG_eA" source="_dXC-lJwpEe-th9jTEYG_eA" target="_dXC-m5wpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_dXDlppwpEe-th9jTEYG_eA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDlp5wpEe-th9jTEYG_eA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXDlqJwpEe-th9jTEYG_eA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDlqZwpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXDlqpwpEe-th9jTEYG_eA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDlq5wpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dXDlo5wpEe-th9jTEYG_eA" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dXDlpJwpEe-th9jTEYG_eA" fontName="Ubuntu" fontHeight="8" italic="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXDlpZwpEe-th9jTEYG_eA" points="[0, -1, -60, -1]$[60, -1, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXDlrJwpEe-th9jTEYG_eA" id="(1.0,0.5147058823529411)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXDlrZwpEe-th9jTEYG_eA" id="(0.0,0.5147058823529411)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dXDlrpwpEe-th9jTEYG_eA" type="4001" element="_dWaFaZwpEe-th9jTEYG_eA" source="_dWfk95wpEe-th9jTEYG_eA" target="_dWfk_pwpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_dXDlspwpEe-th9jTEYG_eA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDls5wpEe-th9jTEYG_eA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXDltJwpEe-th9jTEYG_eA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDltZwpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXDltpwpEe-th9jTEYG_eA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXDlt5wpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dXDlr5wpEe-th9jTEYG_eA" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dXDlsJwpEe-th9jTEYG_eA" fontName="Ubuntu" fontHeight="8" italic="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXDlsZwpEe-th9jTEYG_eA" points="[105, 0, -135, 0]$[165, 0, -75, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXEMsJwpEe-th9jTEYG_eA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXEMsZwpEe-th9jTEYG_eA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_q59J8JwpEe-th9jTEYG_eA" type="4001" element="_q55fnJwpEe-th9jTEYG_eA" source="_dWfk_pwpEe-th9jTEYG_eA" target="_o9PloJwpEe-th9jTEYG_eA">
+          <children xmi:type="notation:Node" xmi:id="_q59J9JwpEe-th9jTEYG_eA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q59J9ZwpEe-th9jTEYG_eA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q59J9pwpEe-th9jTEYG_eA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q59J95wpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q59J-JwpEe-th9jTEYG_eA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q59J-ZwpEe-th9jTEYG_eA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_q59J8ZwpEe-th9jTEYG_eA" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_q59J8pwpEe-th9jTEYG_eA" fontName="Ubuntu" fontHeight="8" italic="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q59J85wpEe-th9jTEYG_eA" points="[0, 0, -150, 36]$[75, 0, -75, 36]$[75, -36, -75, 0]$[150, -36, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q59J-pwpEe-th9jTEYG_eA" id="(1.0,0.6323529411764706)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q59J-5wpEe-th9jTEYG_eA" id="(0.0,0.4)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_dWascJwpEe-th9jTEYG_eA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_dWascZwpEe-th9jTEYG_eA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVxMNZwpEe-th9jTEYG_eA" childrenPresentation="VerticalStack">
+      <target xmi:type="bpmn:LaneSet" href="definitions.bpmn#qa_laneSet"/>
+      <semanticElements xmi:type="bpmn:LaneSet" href="definitions.bpmn#qa_laneSet"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVxMNpwpEe-th9jTEYG_eA" labelSize="12" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVxzRJwpEe-th9jTEYG_eA" name="Quality Assurance (QA) Specialist" width="120" height="30">
+        <target xmi:type="bpmn:Lane" href="definitions.bpmn#qa_lane"/>
+        <semanticElements xmi:type="bpmn:Lane" href="definitions.bpmn#qa_lane"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVxzRZwpEe-th9jTEYG_eA" labelSize="12" showIcon="false" labelColor="64,41,0" labelAlignment="LEFT" borderSize="3" borderSizeComputationExpression="3" borderColor="64,41,0" backgroundColor="255,249,225" foregroundColor="255,249,225">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVxzR5wpEe-th9jTEYG_eA" name=" &#xA; &#xA;Receive Expertise from Director">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#receive_expertise"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#receive_expertise"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dVyaUZwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVyaUJwpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVyaU5wpEe-th9jTEYG_eA" name=" &#xA; &#xA;File Interview and Expertise Results" outgoingEdges="_dWaFaZwpEe-th9jTEYG_eA">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#file_results"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#file_results"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dVyaVZwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVyaVJwpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVyaV5wpEe-th9jTEYG_eA" name=" &#xA; &#xA;Create Report" outgoingEdges="_q55fnJwpEe-th9jTEYG_eA" incomingEdges="_dWaFaZwpEe-th9jTEYG_eA">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#create_report"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#create_report"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dVzBYZwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVzBYJwpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_dWVM4JwpEe-th9jTEYG_eA" name="Start Doctor Rating Case" width="3" height="3">
+          <target xmi:type="bpmn:StartEvent" href="definitions.bpmn#start_case"/>
+          <semanticElements xmi:type="bpmn:StartEvent" href="definitions.bpmn#start_case"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_dWWbAJwpEe-th9jTEYG_eA" showIcon="false" labelColor="64,41,0" workspacePath="/org.obeonetwork.dsl.bpmn2.design/icons2/nodes/start-event/start.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subNodeMappings[name='StartEvent']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subNodeMappings[name='StartEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_o9NwcpwpEe-th9jTEYG_eA" name="end_case" incomingEdges="_q55fnJwpEe-th9jTEYG_eA" width="3" height="3">
+          <target xmi:type="bpmn:EndEvent" href="definitions.bpmn#_o9L7QJwpEe-th9jTEYG_eA"/>
+          <semanticElements xmi:type="bpmn:EndEvent" href="definitions.bpmn#_o9L7QJwpEe-th9jTEYG_eA"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_o9Nwc5wpEe-th9jTEYG_eA" showIcon="false" labelColor="64,41,0" workspacePath="/org.obeonetwork.dsl.bpmn2.design/icons2/nodes/end-event/end.svg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subNodeMappings[name='EndEvent']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subNodeMappings[name='EndEvent']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dVxzQZwpEe-th9jTEYG_eA" childrenPresentation="VerticalStack">
+      <target xmi:type="bpmn:LaneSet" href="definitions.bpmn#director_laneSet"/>
+      <semanticElements xmi:type="bpmn:LaneSet" href="definitions.bpmn#director_laneSet"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dVxzQpwpEe-th9jTEYG_eA" labelSize="12" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dWXCEJwpEe-th9jTEYG_eA" name="Director" width="120" height="30">
+        <target xmi:type="bpmn:Lane" href="definitions.bpmn#director_lane"/>
+        <semanticElements xmi:type="bpmn:Lane" href="definitions.bpmn#director_lane"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dWXCEZwpEe-th9jTEYG_eA" labelSize="12" showIcon="false" labelColor="64,41,0" labelAlignment="LEFT" borderSize="3" borderSizeComputationExpression="3" borderColor="64,41,0" backgroundColor="255,249,225" foregroundColor="255,249,225">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dWXCE5wpEe-th9jTEYG_eA" name=" &#xA; &#xA;Request Expert Review" outgoingEdges="_dWZeUJwpEe-th9jTEYG_eA">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#request_expert"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#request_expert"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dWXCFZwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dWXCFJwpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dWXCF5wpEe-th9jTEYG_eA" name=" &#xA; &#xA;Wait for Expertise" outgoingEdges="_dWaFZJwpEe-th9jTEYG_eA" incomingEdges="_dWZeUJwpEe-th9jTEYG_eA">
+          <target xmi:type="bpmn:ReceiveTask" href="definitions.bpmn#review_expert"/>
+          <semanticElements xmi:type="bpmn:ReceiveTask" href="definitions.bpmn#review_expert"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dWXCGZwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ReceiveTask']"/>
+          </decorations>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dWYQMJwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ActivitySequentialMultiInstanceMarker']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dWXCGJwpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dWYQMpwpEe-th9jTEYG_eA" name=" &#xA; &#xA;Forward Expertise to QA" incomingEdges="_dWaFZJwpEe-th9jTEYG_eA">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#send_expertise"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#send_expertise"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dWYQNJwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dWYQM5wpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dWYQNpwpEe-th9jTEYG_eA" name=" &#xA; &#xA;Pay Expert Expenses">
+          <target xmi:type="bpmn:UserTask" href="definitions.bpmn#pay_expenses"/>
+          <semanticElements xmi:type="bpmn:UserTask" href="definitions.bpmn#pay_expenses"/>
+          <decorations xmi:type="viewpoint:Decoration" uid="_dWYQOJwpEe-th9jTEYG_eA">
+            <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='UserTask']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dWYQN5wpEe-th9jTEYG_eA" labelSize="9" showIcon="false" labelColor="64,41,0" borderSize="1" borderSizeComputationExpression="1" borderColor="64,41,0" backgroundColor="255,243,171" foregroundColor="255,243,171">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@containerMappings[name='HorizontalLaneSet']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dWZeUJwpEe-th9jTEYG_eA" sourceNode="_dWXCE5wpEe-th9jTEYG_eA" targetNode="_dWXCF5wpEe-th9jTEYG_eA">
+      <target xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow3"/>
+      <semanticElements xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dWaFYJwpEe-th9jTEYG_eA" targetArrow="InputFillClosedArrow" size="2" routingStyle="manhattan" strokeColor="125,125,125">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dWaFYZwpEe-th9jTEYG_eA" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dWaFZJwpEe-th9jTEYG_eA" sourceNode="_dWXCF5wpEe-th9jTEYG_eA" targetNode="_dWYQMpwpEe-th9jTEYG_eA">
+      <target xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow4"/>
+      <semanticElements xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dWaFZZwpEe-th9jTEYG_eA" targetArrow="InputFillClosedArrow" size="2" routingStyle="manhattan" strokeColor="125,125,125">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dWaFZpwpEe-th9jTEYG_eA" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dWaFaZwpEe-th9jTEYG_eA" sourceNode="_dVyaU5wpEe-th9jTEYG_eA" targetNode="_dVyaV5wpEe-th9jTEYG_eA">
+      <target xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow6"/>
+      <semanticElements xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#flow6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dWaFapwpEe-th9jTEYG_eA" targetArrow="InputFillClosedArrow" size="2" routingStyle="manhattan" strokeColor="125,125,125">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dWaFa5wpEe-th9jTEYG_eA" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q55fnJwpEe-th9jTEYG_eA" sourceNode="_dVyaV5wpEe-th9jTEYG_eA" targetNode="_o9NwcpwpEe-th9jTEYG_eA">
+      <target xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#_q54RcJwpEe-th9jTEYG_eA"/>
+      <semanticElements xmi:type="bpmn:SequenceFlow" href="definitions.bpmn#_q54RcJwpEe-th9jTEYG_eA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q55fnZwpEe-th9jTEYG_eA" targetArrow="InputFillClosedArrow" size="2" routingStyle="manhattan" strokeColor="125,125,125">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q55fnpwpEe-th9jTEYG_eA" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='SequenceFlow']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_dVv-EZwpEe-th9jTEYG_eA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer"/>
+    <target xmi:type="bpmn:Process" href="definitions.bpmn#doctor_rating_process_workflow"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

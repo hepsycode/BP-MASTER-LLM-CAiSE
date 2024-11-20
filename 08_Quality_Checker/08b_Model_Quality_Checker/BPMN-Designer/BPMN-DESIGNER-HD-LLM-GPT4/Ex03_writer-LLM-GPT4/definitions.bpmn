@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_lXeMIZtVEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_lXeMIJtVEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="start_event" name="Claim Submitted" outgoing="flow_1"/>
+    <flowElements xsi:type="bpmn:UserTask" id="check_insurance" name="Check if Claimant is Insured" outgoing="flow_2" incoming="flow_1"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="insurance_decision" name="Insured?" outgoing="flow_3 flow_4" incoming="flow_2"/>
+    <flowElements xsi:type="bpmn:SendTask" id="rejection_notification" name="Send Rejection Notification" outgoing="flow_5" incoming="flow_4"/>
+    <flowElements xsi:type="bpmn:UserTask" id="severity_evaluation" name="Evaluate Claim Severity" outgoing="flow_6" incoming="flow_3"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="severity_decision" name="Simple or Complex Claim?" outgoing="flow_7 flow_8" incoming="flow_6"/>
+    <flowElements xsi:type="bpmn:SendTask" id="send_forms" name="Send Relevant Forms" outgoing="flow_9" incoming="flow_7"/>
+    <flowElements xsi:type="bpmn:UserTask" id="forms_completeness_check" name="Check Forms for Completeness" outgoing="flow_10 flow_11" incoming="flow_9"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="completeness_decision" name="Complete?" outgoing="flow_12 flow_13" incoming="flow_10"/>
+    <flowElements xsi:type="bpmn:SendTask" id="update_forms_notification" name="Request Updated Forms" outgoing="flow_14" incoming="flow_13"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="update_forms_received" name="Receive Updated Forms" outgoing="flow_15" incoming="flow_14"/>
+    <flowElements xsi:type="bpmn:ServiceTask" id="register_claim" name="Register Claim in CMS" outgoing="flow_16" incoming="flow_12"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="end_event" name="Claim Process Complete" incoming="flow_16"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_1" targetRef="check_insurance" sourceRef="start_event"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_2" targetRef="insurance_decision" sourceRef="check_insurance"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_3" name="Yes" targetRef="severity_evaluation" sourceRef="insurance_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_4" name="No" targetRef="rejection_notification" sourceRef="insurance_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_5" sourceRef="rejection_notification"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_6" targetRef="severity_decision" sourceRef="severity_evaluation"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_7" name="Simple" targetRef="send_forms" sourceRef="severity_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_8" name="Complex" sourceRef="severity_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_9" targetRef="forms_completeness_check" sourceRef="send_forms"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_10" targetRef="completeness_decision" sourceRef="forms_completeness_check"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_11" sourceRef="forms_completeness_check"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_12" name="Complete" targetRef="register_claim" sourceRef="completeness_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_13" name="Incomplete" targetRef="update_forms_notification" sourceRef="completeness_decision"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_14" targetRef="update_forms_received" sourceRef="update_forms_notification"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_15" sourceRef="update_forms_received"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="flow_16" targetRef="end_event" sourceRef="register_claim"/>
+    <laneSets id="claim_handling_laneSet" name="Claim Handling">
+      <lanes id="claims_officer_lane" name="Claims Officer" flowNodeRefs="start_event check_insurance forms_completeness_check update_forms_notification end_event">
+        <extensionValues id="claims_officer_extension">
+          <value xsi:type="bpmn:DataObject" id="claim_data" name="Claim Data"/>
+        </extensionValues>
+        <extensionValues id="claimant_data_inputs"/>
+      </lanes>
+      <lanes id="senior_claims_officer_lane" name="Senior Claims Officer" flowNodeRefs="severity_evaluation"/>
+      <lanes id="sap_system_lane" name="SAP System" flowNodeRefs="rejection_notification send_forms update_forms_received"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

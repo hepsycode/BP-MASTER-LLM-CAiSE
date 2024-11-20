@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_5GtjkZwpEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_5GtjkJwpEe-th9jTEYG_eA">
+    <flowElements xsi:type="bpmn:StartEvent" id="Start_Teacher" name="Provide Course Description" outgoing="_fqaOsJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Secretary_ReceiveDescription" name="Receive Course Descriptions from Teachers" outgoing="_gus9QJwxEe-HluGUA8-bhw" incoming="_fqaOsJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Enter_CourseInfo_CIS" name="Enter Course Information in CIS" outgoing="_hLiDMJwxEe-HluGUA8-bhw" incoming="_gus9QJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Teacher_ReceiveStudentList" name="Receive Student List" outgoing="_kFYlMJwxEe-HluGUA8-bhw" incoming="_hLiDMJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="Sec_Assign" name="Assign Students to Courses with Free Spots" outgoing="_moolEJwxEe-HluGUA8-bhw" incoming="_kfo4QJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_fqaOsJwxEe-HluGUA8-bhw" targetRef="Secretary_ReceiveDescription" sourceRef="Start_Teacher"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_gus9QJwxEe-HluGUA8-bhw" targetRef="Enter_CourseInfo_CIS" sourceRef="Secretary_ReceiveDescription"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_hLiDMJwxEe-HluGUA8-bhw" targetRef="Teacher_ReceiveStudentList" sourceRef="Enter_CourseInfo_CIS"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_hwHW8JwxEe-HluGUA8-bhw" name="Check Student List" outgoing="_kfo4QJwxEe-HluGUA8-bhw" incoming="_kFYlMJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_kFYlMJwxEe-HluGUA8-bhw" targetRef="_hwHW8JwxEe-HluGUA8-bhw" sourceRef="Teacher_ReceiveStudentList"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_kfo4QJwxEe-HluGUA8-bhw" targetRef="Sec_Assign" sourceRef="_hwHW8JwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_lLobkJwxEe-HluGUA8-bhw" name="Rebooking Complete" incoming="_moolEJwxEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_moolEJwxEe-HluGUA8-bhw" targetRef="_lLobkJwxEe-HluGUA8-bhw" sourceRef="Sec_Assign"/>
+    <laneSets id="_aMAekZwsEe-th9jTEYG_eA">
+      <lanes id="_aMBFoJwsEe-th9jTEYG_eA" flowNodeRefs="Start_Teacher Teacher_ReceiveStudentList _hwHW8JwxEe-HluGUA8-bhw"/>
+      <lanes id="_aMBFoJwsEe-th9jTEYG_eG" flowNodeRefs="Secretary_ReceiveDescription Enter_CourseInfo_CIS Sec_Assign _lLobkJwxEe-HluGUA8-bhw"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

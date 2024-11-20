@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_umS_MZwxEe-HluGUA8-bhw">
+  <rootElements xsi:type="bpmn:Process" id="_umS_MJwxEe-HluGUA8-bhw">
+    <flowElements xsi:type="bpmn:StartEvent" id="StartEvent_PhD_Application_a" name="Application Submitted" outgoing="_Gu4I8pxXEe-HluGUA8-bhw _PcFJoJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="RecordApplication" name="Record Application in System" outgoing="_Gu4I9ZxXEe-HluGUA8-bhw _So2AkJxXEe-HluGUA8-bhw" incoming="_Gu4I9JxXEe-HluGUA8-bhw _PcFJoJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="GeneratePDF" name="Generate Application PDF" outgoing="_Gu4I-JxXEe-HluGUA8-bhw _cZTOAJxXEe-HluGUA8-bhw" incoming="_Gu4I95xXEe-HluGUA8-bhw _So2AkJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="ReceiveDocuments" name="Receive Signed Documents" outgoing="_Gu4I-5xXEe-HluGUA8-bhw" incoming="_Gu4I-pxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="InitialAssessment" name="Initial Assessment of Application" outgoing="_Gu4I_pxXEe-HluGUA8-bhw _gzux8JxXEe-HluGUA8-bhw" incoming="_Gu4I_ZxXEe-HluGUA8-bhw _do2xYJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="CheckGrades" name="Are Grades Sufficient?" outgoing="_Gu4JAZxXEe-HluGUA8-bhw" incoming="_Gu4JAJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="RejectApplication" name="Send Rejection Notification" outgoing="_ljlMQJxXEe-HluGUA8-bhw" incoming="_Gu4JA5xXEe-HluGUA8-bhw _jla2cJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="ForwardToCommittee" name="Forward to Academic Committee" outgoing="_Gu4JBpxXEe-HluGUA8-bhw _mEHtgJxXEe-HluGUA8-bhw" incoming="_Gu4JBZxXEe-HluGUA8-bhw _ljlMQJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="CommitteeMeeting" name="Monthly Committee Meeting" outgoing="_Gu4JCZxXEe-HluGUA8-bhw _n9rQIJxXEe-HluGUA8-bhw" incoming="_Gu4JCJxXEe-HluGUA8-bhw _mEHtgJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="SelectionOutcome" name="Notify Admissions Office of Selection Outcome" outgoing="_Gu4JDJxXEe-HluGUA8-bhw _ox6JcJxXEe-HluGUA8-bhw" incoming="_Gu4JC5xXEe-HluGUA8-bhw _n9rQIJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:UserTask" id="SendFinalNotification" name="Send Admission or Rejection Notification" incoming="_Gu4JDpxXEe-HluGUA8-bhw _ox6JcJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_PcFJoJxXEe-HluGUA8-bhw" targetRef="RecordApplication" sourceRef="StartEvent_PhD_Application_a"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_So2AkJxXEe-HluGUA8-bhw" targetRef="GeneratePDF" sourceRef="RecordApplication"/>
+    <flowElements xsi:type="bpmn:IntermediateCatchEvent" id="_bx2zgJxXEe-HluGUA8-bhw" outgoing="_do2xYJxXEe-HluGUA8-bhw" incoming="_cZTOAJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_cZTOAJxXEe-HluGUA8-bhw" targetRef="_bx2zgJxXEe-HluGUA8-bhw" sourceRef="GeneratePDF"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_do2xYJxXEe-HluGUA8-bhw" targetRef="InitialAssessment" sourceRef="_bx2zgJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_gTB4oJxXEe-HluGUA8-bhw" outgoing="_jla2cJxXEe-HluGUA8-bhw" incoming="_gzux8JxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_gzux8JxXEe-HluGUA8-bhw" targetRef="_gTB4oJxXEe-HluGUA8-bhw" sourceRef="InitialAssessment"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_jla2cJxXEe-HluGUA8-bhw" targetRef="RejectApplication" sourceRef="_gTB4oJxXEe-HluGUA8-bhw"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ljlMQJxXEe-HluGUA8-bhw" targetRef="ForwardToCommittee" sourceRef="RejectApplication"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_mEHtgJxXEe-HluGUA8-bhw" targetRef="CommitteeMeeting" sourceRef="ForwardToCommittee"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_n9rQIJxXEe-HluGUA8-bhw" targetRef="SelectionOutcome" sourceRef="CommitteeMeeting"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_ox6JcJxXEe-HluGUA8-bhw" targetRef="SendFinalNotification" sourceRef="SelectionOutcome"/>
+    <laneSets id="UniversityStaffLaneSet">
+      <lanes id="General Lane" name="Admissions Office" flowNodeRefs="StartEvent_PhD_Application_a RecordApplication GeneratePDF InitialAssessment RejectApplication ForwardToCommittee CommitteeMeeting SelectionOutcome SendFinalNotification _bx2zgJxXEe-HluGUA8-bhw _gTB4oJxXEe-HluGUA8-bhw"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>

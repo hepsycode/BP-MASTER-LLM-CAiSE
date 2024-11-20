@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_tRcCkZijEe-th9jTEYG_eA">
+  <rootElements xsi:type="bpmn:Process" id="_Process_OpenBankAccount">
+    <flowElements xsi:type="bpmn:StartEvent" id="_StartEvent" name="Application Received" outgoing="_Seq1"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_EvaluateApplication" name="Evaluate Application" outgoing="_Seq2" incoming="_Seq1"/>
+    <flowElements xsi:type="bpmn:ExclusiveGateway" id="_ApprovalDecision" outgoing="_Seq3_Rejected _Seq3_Approved" incoming="_Seq2"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq1" targetRef="_EvaluateApplication" sourceRef="_StartEvent"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq2" targetRef="_ApprovalDecision" sourceRef="_EvaluateApplication"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq3_Rejected" name="Rejected" targetRef="_NotifyRejection" sourceRef="_ApprovalDecision"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_NotifyRejection" name="Notify Rejection" outgoing="_Seq4_End" incoming="_Seq3_Rejected"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_End_Rejection" name="Process Ends" incoming="_Seq4_End"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq4_End" targetRef="_End_Rejection" sourceRef="_NotifyRejection"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq3_Approved" name="Approved" targetRef="_CreateAccount" sourceRef="_ApprovalDecision"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_CreateAccount" name="Create Bank Account" outgoing="_Seq5_Welcome" incoming="_Seq3_Approved"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_SendWelcomePack" name="Send Welcome Pack" outgoing="_Seq6_BankCard" incoming="_Seq5_Welcome"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq5_Welcome" targetRef="_SendWelcomePack" sourceRef="_CreateAccount"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_SendBankCard" name="Send Bank Card" outgoing="_Seq7_PIN" incoming="_Seq6_BankCard"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq6_BankCard" targetRef="_SendBankCard" sourceRef="_SendWelcomePack"/>
+    <flowElements xsi:type="bpmn:UserTask" id="_SendPIN" name="Send PIN Number" outgoing="_Seq8_End" incoming="_Seq7_PIN"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq7_PIN" targetRef="_SendPIN" sourceRef="_SendBankCard"/>
+    <flowElements xsi:type="bpmn:EndEvent" id="_End_Approved" name="Process Ends" incoming="_Seq8_End"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_Seq8_End" targetRef="_End_Approved" sourceRef="_SendPIN"/>
+    <laneSets id="_wV7HQZijEe-th9jTEYG_eA">
+      <lanes id="_wV7uUJijEe-th9jTEYG_eA" flowNodeRefs="_StartEvent _EvaluateApplication _ApprovalDecision _NotifyRejection _End_Rejection _CreateAccount _SendWelcomePack _SendBankCard _SendPIN _End_Approved"/>
+    </laneSets>
+  </rootElements>
+</bpmn:Definitions>
