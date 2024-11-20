@@ -1,0 +1,4 @@
+event ParallelGateway incoming ADD
+event Process flowElements ADD
+event SequenceFlow targetRef SETevent Process flowElements ADD
+event SequenceFlow targetRef SET

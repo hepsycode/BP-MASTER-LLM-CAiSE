@@ -1,0 +1,5 @@
+event	Process flowElements ADD
+event	SequenceFlow sourceRef SET
+event	Lane flowNodeRefs ADD
+event	SubProcess outgoing ADD
+event	Lane flowNodeRefs ADD

@@ -1,0 +1,4 @@
+event SequenceFlow name SET
+event Process flowElements ADD
+event Association targetRef SET
+event Task name SET

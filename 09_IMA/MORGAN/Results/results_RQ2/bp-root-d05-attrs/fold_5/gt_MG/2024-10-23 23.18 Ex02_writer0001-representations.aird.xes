@@ -1,0 +1,2 @@
+event StartEvent incoming ADD
+event SequenceFlow targetRef SET

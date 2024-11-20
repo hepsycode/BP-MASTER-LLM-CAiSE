@@ -1,0 +1,5 @@
+event SequenceFlow sourceRef SET
+event Task incoming ADD
+event Association targetRef SETevent Task outgoing ADD
+event SequenceFlow targetRef SET
+event Process artifacts ADD

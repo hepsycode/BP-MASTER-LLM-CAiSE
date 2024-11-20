@@ -1,0 +1,9 @@
+event SequenceFlow targetRef SET
+event ServiceTask name SET
+event SendTask name SET
+event Association sourceRef SET
+event EndEvent name SET
+event  name SET
+event SequenceFlow sourceRef SET
+event BusinessRuleTask incoming ADD
+event Process flowElements ADD

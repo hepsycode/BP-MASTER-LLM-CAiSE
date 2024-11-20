@@ -1,0 +1,4 @@
+event Association targetRef SET
+event ServiceTask incoming ADD
+event Process artifacts ADD
+event ServiceTask name SET

@@ -1,0 +1,11 @@
+event SequenceFlow targetRef SET
+event DataObject name SET
+event ExclusiveGateway outgoing ADD
+event SequenceFlow sourceRef SET
+event Process flowElements ADD
+event ExclusiveGateway incoming ADD
+event Process artifacts ADD
+event Task outgoing ADD
+event SequenceFlow sourceRef SET
+event SequenceFlow sourceRef SET
+event  name SET

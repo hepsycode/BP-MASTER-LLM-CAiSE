@@ -1,0 +1,4 @@
+event Association targetRef SET
+event SequenceFlow targetRef SET
+event SequenceFlow sourceRef SET
+event DataObject name SET

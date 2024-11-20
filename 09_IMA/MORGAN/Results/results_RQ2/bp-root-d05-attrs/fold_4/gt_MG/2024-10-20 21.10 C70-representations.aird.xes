@@ -1,0 +1,13 @@
+event ParallelGateway incoming ADD
+event  name SET
+event Process artifacts ADD
+event Process flowElements ADD
+event Process artifacts ADD
+event Process flowElements ADD
+event Association sourceRef SET
+event SequenceFlow sourceRef SET
+event EndEvent incoming ADD
+event DataObject name SET
+event StartEvent outgoing ADD
+event Process artifacts ADD
+event Process flowElements ADD

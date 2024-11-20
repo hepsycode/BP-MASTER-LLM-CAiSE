@@ -1,0 +1,20 @@
+event Task name SET
+event Association targetRef SET
+event Process artifacts ADD
+event Process flowElements ADD
+event  name SET
+event  name SET
+event Process flowElements ADD
+event Process artifacts ADD
+event SequenceFlow targetRef SET
+event Task incoming ADD
+event Task outgoing ADD
+event Process flowElements ADD
+event Association targetRef SET
+event Task incoming ADD
+event Association targetRef SET
+event Association sourceRef SET
+event Process flowElements ADD
+event SequenceFlow targetRef SET
+event Process artifacts ADD
+event Process artifacts ADD
