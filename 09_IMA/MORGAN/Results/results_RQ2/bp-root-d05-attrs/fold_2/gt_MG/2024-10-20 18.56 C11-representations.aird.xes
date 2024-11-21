@@ -1,0 +1,7 @@
+event	Process artifacts ADD
+event	EndEvent eventDefinitions ADD
+event	DataObject name SET
+event	ExclusiveGateway name SET
+event	ExtensionAttributeValue value SET
+event	Lane extensionValues ADD
+event	Lane flowNodeRefs ADD

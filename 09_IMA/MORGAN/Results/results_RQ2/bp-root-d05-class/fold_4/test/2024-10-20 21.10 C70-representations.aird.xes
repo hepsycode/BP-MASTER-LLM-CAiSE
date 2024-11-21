@@ -1,0 +1,12 @@
+event UserTask name SET
+event Process flowElements ADD
+event SequenceFlow sourceRef SET
+event  name SET
+event Process artifacts ADD
+event Process flowElements ADD
+event SequenceFlow targetRef SET
+event Association sourceRef SET
+event Process flowElements ADD
+event SequenceFlow targetRef SET
+event DataObject name SET
+event Process flowElements ADD

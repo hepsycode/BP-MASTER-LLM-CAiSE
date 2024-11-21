@@ -1,0 +1,7 @@
+event SendTask incoming ADD
+event Process artifacts ADD
+event SequenceFlow sourceRef SET
+event Process flowElements ADD
+event SendTask outgoing ADD
+event SendTask outgoing ADD
+event SequenceFlow targetRef SET

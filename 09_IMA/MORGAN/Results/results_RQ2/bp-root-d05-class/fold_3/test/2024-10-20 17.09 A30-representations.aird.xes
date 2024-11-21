@@ -1,0 +1,4 @@
+event	SequenceFlow targetRef SET
+event	Process flowElements ADD
+event	BoundaryEvent eventDefinitions ADD
+event	Task outgoing ADD

@@ -316,12 +316,12 @@ def running_classes_experiment(type, classes):
                             print(f"Fold {fold}: No files to process.")
 
 if __name__ == "__main__":
-    # du.merge_folders(folder1='IST-extension/XES-D1-MG/', folder2='IST-extension/XES-D2-GPT4-MG/',
-    #                  result_folder='IST-extension/xes_mixed_dataset_08_ratio', ratio=0.8)
+    #du.merge_folders(folder1='Datasets/Dataset_D1/', folder2='Datasets/Dataset_D2/',
+                      #result_folder='Datasets/Dataset_Dm05', ratio=0.5)
     #du.parse_xes_traces('Datasets/Dataset_D1/BPMN_Designer', 'Datasets/D1_MG/', False)
-    classes = du.extract_categories("Datasets/Features.csv")
-    running_classes_experiment("class",classes)
-    #running_rq2_experiment("attrs")
+    #classes = du.extract_categories("Datasets/Features.csv")
+    #running_classes_experiment("class",classes)
+    running_rq2_experiment("class")
 
 
     #running_rq3_experiment("class")

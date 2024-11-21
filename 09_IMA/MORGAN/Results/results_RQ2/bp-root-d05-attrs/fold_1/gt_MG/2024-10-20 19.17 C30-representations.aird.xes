@@ -1,0 +1,5 @@
+event	UserTask outgoing ADD
+event	BoundaryEvent outgoing ADD
+event	UserTask boundaryEventRefs ADD
+event	SequenceFlow name SET
+event	EndEvent eventDefinitions ADD

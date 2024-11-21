@@ -1,0 +1,6 @@
+event	ExclusiveGateway incoming ADD
+event	Lane flowNodeRefs ADD
+event	Association targetRef SET
+event	SequenceFlow targetRef SET
+event	DataStore name SET
+event	ExclusiveGateway incoming ADD

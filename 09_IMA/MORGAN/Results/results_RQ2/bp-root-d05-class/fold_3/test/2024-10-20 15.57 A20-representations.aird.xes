@@ -1,0 +1,3 @@
+event	StartEvent outgoing ADD
+event	SequenceFlow targetRef SET
+event	Lane flowNodeRefs ADD
