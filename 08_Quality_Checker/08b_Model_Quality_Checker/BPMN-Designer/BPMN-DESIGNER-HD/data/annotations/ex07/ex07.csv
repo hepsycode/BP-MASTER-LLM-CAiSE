@@ -1,1745 +1,1745 @@
-File,Tag,Occurrences
-ex07_writer0000.bpmn,outgoing,16
-ex07_writer0000.bpmn,incoming,16
-ex07_writer0000.bpmn,sequenceFlow,16
-ex07_writer0000.bpmn,flowNodeRef,14
-ex07_writer0000.bpmn,task,4
-ex07_writer0000.bpmn,parallelGateway,4
-ex07_writer0000.bpmn,lane,2
-ex07_writer0000.bpmn,startEvent,2
-ex07_writer0000.bpmn,exclusiveGateway,2
-ex07_writer0000.bpmn,process,1
-ex07_writer0000.bpmn,laneSet,1
-ex07_writer0000.bpmn,endEvent,1
-ex07_writer0000.bpmn,messageEventDefinition,1
-ex07_writer0000.bpmn,subProcess,1
-ex07_writer0001.bpmn,flowNodeRef,23
-ex07_writer0001.bpmn,outgoing,17
-ex07_writer0001.bpmn,incoming,17
-ex07_writer0001.bpmn,sequenceFlow,17
-ex07_writer0001.bpmn,task,4
-ex07_writer0001.bpmn,parallelGateway,4
-ex07_writer0001.bpmn,lane,3
-ex07_writer0001.bpmn,intermediateCatchEvent,2
-ex07_writer0001.bpmn,process,1
-ex07_writer0001.bpmn,laneSet,1
-ex07_writer0001.bpmn,childLaneSet,1
-ex07_writer0001.bpmn,startEvent,1
-ex07_writer0001.bpmn,endEvent,1
-ex07_writer0001.bpmn,exclusiveGateway,1
-ex07_writer0001.bpmn,eventBasedGateway,1
-ex07_writer0001.bpmn,messageEventDefinition,1
-ex07_writer0001.bpmn,subProcess,1
-ex07_writer0001.bpmn,timerEventDefinition,1
-ex07_writer0002.bpmn,outgoing,13
-ex07_writer0002.bpmn,incoming,13
-ex07_writer0002.bpmn,sequenceFlow,13
-ex07_writer0002.bpmn,flowNodeRef,12
-ex07_writer0002.bpmn,task,6
-ex07_writer0002.bpmn,parallelGateway,4
-ex07_writer0002.bpmn,lane,2
-ex07_writer0002.bpmn,process,1
-ex07_writer0002.bpmn,laneSet,1
-ex07_writer0002.bpmn,startEvent,1
-ex07_writer0002.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0002.bpmn,endEvent,1
-ex07_writer0002.bpmn,textAnnotation,1
-ex07_writer0002.bpmn,text,1
-ex07_writer0002.bpmn,association,1
-ex07_writer0003.bpmn,outgoing,18
-ex07_writer0003.bpmn,incoming,18
-ex07_writer0003.bpmn,sequenceFlow,18
-ex07_writer0003.bpmn,flowNodeRef,16
-ex07_writer0003.bpmn,task,5
-ex07_writer0003.bpmn,parallelGateway,3
-ex07_writer0003.bpmn,lane,2
-ex07_writer0003.bpmn,intermediateCatchEvent,2
-ex07_writer0003.bpmn,messageEventDefinition,2
-ex07_writer0003.bpmn,process,1
-ex07_writer0003.bpmn,laneSet,1
-ex07_writer0003.bpmn,startEvent,1
-ex07_writer0003.bpmn,endEvent,1
-ex07_writer0003.bpmn,callActivity,1
-ex07_writer0003.bpmn,eventBasedGateway,1
-ex07_writer0003.bpmn,exclusiveGateway,1
-ex07_writer0003.bpmn,timerEventDefinition,1
-ex07_writer0003.bpmn,intermediateThrowEvent,1
-ex07_writer0005.bpmn,outgoing,19
-ex07_writer0005.bpmn,incoming,19
-ex07_writer0005.bpmn,sequenceFlow,19
-ex07_writer0005.bpmn,flowNodeRef,17
-ex07_writer0005.bpmn,task,5
-ex07_writer0005.bpmn,parallelGateway,4
-ex07_writer0005.bpmn,messageEventDefinition,3
-ex07_writer0005.bpmn,process,2
-ex07_writer0005.bpmn,lane,2
-ex07_writer0005.bpmn,intermediateThrowEvent,2
-ex07_writer0005.bpmn,intermediateCatchEvent,2
-ex07_writer0005.bpmn,laneSet,1
-ex07_writer0005.bpmn,startEvent,1
-ex07_writer0005.bpmn,endEvent,1
-ex07_writer0005.bpmn,subProcess,1
-ex07_writer0005.bpmn,eventBasedGateway,1
-ex07_writer0005.bpmn,timerEventDefinition,1
-ex07_writer0006.bpmn,flowNodeRef,20
-ex07_writer0006.bpmn,outgoing,17
-ex07_writer0006.bpmn,incoming,17
-ex07_writer0006.bpmn,sequenceFlow,17
-ex07_writer0006.bpmn,task,6
-ex07_writer0006.bpmn,parallelGateway,4
-ex07_writer0006.bpmn,lane,3
-ex07_writer0006.bpmn,intermediateCatchEvent,2
-ex07_writer0006.bpmn,process,1
-ex07_writer0006.bpmn,laneSet,1
-ex07_writer0006.bpmn,childLaneSet,1
-ex07_writer0006.bpmn,startEvent,1
-ex07_writer0006.bpmn,property,1
-ex07_writer0006.bpmn,messageEventDefinition,1
-ex07_writer0006.bpmn,dataObjectReference,1
-ex07_writer0006.bpmn,dataObject,1
-ex07_writer0006.bpmn,endEvent,1
-ex07_writer0006.bpmn,eventBasedGateway,1
-ex07_writer0006.bpmn,timerEventDefinition,1
-ex07_writer0007.bpmn,incoming,11
-ex07_writer0007.bpmn,outgoing,11
-ex07_writer0007.bpmn,sequenceFlow,11
-ex07_writer0007.bpmn,targetRef,10
-ex07_writer0007.bpmn,property,5
-ex07_writer0007.bpmn,dataInputAssociation,5
-ex07_writer0007.bpmn,sourceRef,5
-ex07_writer0007.bpmn,dataOutputAssociation,5
-ex07_writer0007.bpmn,dataObjectReference,5
-ex07_writer0007.bpmn,dataObject,5
-ex07_writer0007.bpmn,task,4
-ex07_writer0007.bpmn,messageEventDefinition,4
-ex07_writer0007.bpmn,process,2
-ex07_writer0007.bpmn,intermediateCatchEvent,2
-ex07_writer0007.bpmn,startEvent,2
-ex07_writer0007.bpmn,endEvent,2
-ex07_writer0007.bpmn,intermediateThrowEvent,2
-ex07_writer0007.bpmn,subProcess,1
-ex07_writer0007.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0007.bpmn,textAnnotation,1
-ex07_writer0007.bpmn,text,1
-ex07_writer0007.bpmn,association,1
-ex07_writer0008.bpmn,outgoing,19
-ex07_writer0008.bpmn,incoming,19
-ex07_writer0008.bpmn,sequenceFlow,19
-ex07_writer0008.bpmn,flowNodeRef,17
-ex07_writer0008.bpmn,task,5
-ex07_writer0008.bpmn,parallelGateway,4
-ex07_writer0008.bpmn,process,2
-ex07_writer0008.bpmn,lane,2
-ex07_writer0008.bpmn,messageEventDefinition,2
-ex07_writer0008.bpmn,intermediateCatchEvent,2
-ex07_writer0008.bpmn,laneSet,1
-ex07_writer0008.bpmn,startEvent,1
-ex07_writer0008.bpmn,endEvent,1
-ex07_writer0008.bpmn,intermediateThrowEvent,1
-ex07_writer0008.bpmn,eventBasedGateway,1
-ex07_writer0008.bpmn,subProcess,1
-ex07_writer0008.bpmn,exclusiveGateway,1
-ex07_writer0008.bpmn,timerEventDefinition,1
-ex07_writer0009.bpmn,flowNodeRef,13
-ex07_writer0009.bpmn,outgoing,12
-ex07_writer0009.bpmn,incoming,12
-ex07_writer0009.bpmn,sequenceFlow,12
-ex07_writer0009.bpmn,task,6
-ex07_writer0009.bpmn,messageEventDefinition,3
-ex07_writer0009.bpmn,lane,2
-ex07_writer0009.bpmn,endEvent,2
-ex07_writer0009.bpmn,exclusiveGateway,2
-ex07_writer0009.bpmn,process,1
-ex07_writer0009.bpmn,laneSet,1
-ex07_writer0009.bpmn,startEvent,1
-ex07_writer0009.bpmn,intermediateThrowEvent,1
-ex07_writer0009.bpmn,intermediateCatchEvent,1
-ex07_writer0010.bpmn,flowNodeRef,23
-ex07_writer0010.bpmn,outgoing,17
-ex07_writer0010.bpmn,incoming,17
-ex07_writer0010.bpmn,sequenceFlow,17
-ex07_writer0010.bpmn,task,4
-ex07_writer0010.bpmn,lane,3
-ex07_writer0010.bpmn,parallelGateway,3
-ex07_writer0010.bpmn,messageEventDefinition,3
-ex07_writer0010.bpmn,endEvent,2
-ex07_writer0010.bpmn,intermediateCatchEvent,2
-ex07_writer0010.bpmn,process,1
-ex07_writer0010.bpmn,laneSet,1
-ex07_writer0010.bpmn,childLaneSet,1
-ex07_writer0010.bpmn,startEvent,1
-ex07_writer0010.bpmn,eventBasedGateway,1
-ex07_writer0010.bpmn,subProcess,1
-ex07_writer0010.bpmn,exclusiveGateway,1
-ex07_writer0010.bpmn,intermediateThrowEvent,1
-ex07_writer0010.bpmn,timerEventDefinition,1
-ex07_writer0011.bpmn,flowNodeRef,14
-ex07_writer0011.bpmn,incoming,13
-ex07_writer0011.bpmn,outgoing,13
-ex07_writer0011.bpmn,sequenceFlow,13
-ex07_writer0011.bpmn,messageEventDefinition,5
-ex07_writer0011.bpmn,task,4
-ex07_writer0011.bpmn,endEvent,3
-ex07_writer0011.bpmn,lane,2
-ex07_writer0011.bpmn,parallelGateway,2
-ex07_writer0011.bpmn,startEvent,2
-ex07_writer0011.bpmn,process,1
-ex07_writer0011.bpmn,laneSet,1
-ex07_writer0011.bpmn,standardLoopCharacteristics,1
-ex07_writer0011.bpmn,subProcess,1
-ex07_writer0011.bpmn,intermediateCatchEvent,1
-ex07_writer0011.bpmn,intermediateThrowEvent,1
-ex07_writer0011.bpmn,textAnnotation,1
-ex07_writer0011.bpmn,text,1
-ex07_writer0011.bpmn,association,1
-ex07_writer0012.bpmn,outgoing,17
-ex07_writer0012.bpmn,incoming,17
-ex07_writer0012.bpmn,sequenceFlow,17
-ex07_writer0012.bpmn,flowNodeRef,15
-ex07_writer0012.bpmn,task,6
-ex07_writer0012.bpmn,parallelGateway,4
-ex07_writer0012.bpmn,lane,2
-ex07_writer0012.bpmn,process,1
-ex07_writer0012.bpmn,laneSet,1
-ex07_writer0012.bpmn,startEvent,1
-ex07_writer0012.bpmn,endEvent,1
-ex07_writer0012.bpmn,exclusiveGateway,1
-ex07_writer0012.bpmn,intermediateCatchEvent,1
-ex07_writer0012.bpmn,timerEventDefinition,1
-ex07_writer0012.bpmn,intermediateThrowEvent,1
-ex07_writer0012.bpmn,messageEventDefinition,1
-ex07_writer0013.bpmn,outgoing,18
-ex07_writer0013.bpmn,incoming,18
-ex07_writer0013.bpmn,sequenceFlow,18
-ex07_writer0013.bpmn,flowNodeRef,16
-ex07_writer0013.bpmn,task,6
-ex07_writer0013.bpmn,parallelGateway,4
-ex07_writer0013.bpmn,process,2
-ex07_writer0013.bpmn,lane,2
-ex07_writer0013.bpmn,intermediateCatchEvent,2
-ex07_writer0013.bpmn,laneSet,1
-ex07_writer0013.bpmn,startEvent,1
-ex07_writer0013.bpmn,endEvent,1
-ex07_writer0013.bpmn,eventBasedGateway,1
-ex07_writer0013.bpmn,messageEventDefinition,1
-ex07_writer0013.bpmn,timerEventDefinition,1
-ex07_writer0013.bpmn,subProcess,1
-ex07_writer0013.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0013.bpmn,textAnnotation,1
-ex07_writer0013.bpmn,text,1
-ex07_writer0013.bpmn,association,1
-ex07_writer0014.bpmn,flowNodeRef,27
-ex07_writer0014.bpmn,outgoing,20
-ex07_writer0014.bpmn,incoming,20
-ex07_writer0014.bpmn,sequenceFlow,20
-ex07_writer0014.bpmn,parallelGateway,4
-ex07_writer0014.bpmn,task,4
-ex07_writer0014.bpmn,messageEventDefinition,4
-ex07_writer0014.bpmn,lane,3
-ex07_writer0014.bpmn,intermediateThrowEvent,3
-ex07_writer0014.bpmn,intermediateCatchEvent,2
-ex07_writer0014.bpmn,process,1
-ex07_writer0014.bpmn,laneSet,1
-ex07_writer0014.bpmn,childLaneSet,1
-ex07_writer0014.bpmn,startEvent,1
-ex07_writer0014.bpmn,endEvent,1
-ex07_writer0014.bpmn,timerEventDefinition,1
-ex07_writer0014.bpmn,eventBasedGateway,1
-ex07_writer0014.bpmn,subProcess,1
-ex07_writer0014.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0014.bpmn,exclusiveGateway,1
-ex07_writer0016.bpmn,flowNodeRef,30
-ex07_writer0016.bpmn,incoming,17
-ex07_writer0016.bpmn,outgoing,17
-ex07_writer0016.bpmn,sequenceFlow,17
-ex07_writer0016.bpmn,lane,4
-ex07_writer0016.bpmn,parallelGateway,4
-ex07_writer0016.bpmn,task,3
-ex07_writer0016.bpmn,messageEventDefinition,3
-ex07_writer0016.bpmn,childLaneSet,2
-ex07_writer0016.bpmn,intermediateCatchEvent,2
-ex07_writer0016.bpmn,intermediateThrowEvent,2
-ex07_writer0016.bpmn,process,1
-ex07_writer0016.bpmn,laneSet,1
-ex07_writer0016.bpmn,eventBasedGateway,1
-ex07_writer0016.bpmn,timerEventDefinition,1
-ex07_writer0016.bpmn,subProcess,1
-ex07_writer0016.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0016.bpmn,endEvent,1
-ex07_writer0016.bpmn,startEvent,1
-ex07_writer0019.bpmn,flowNodeRef,24
-ex07_writer0019.bpmn,outgoing,19
-ex07_writer0019.bpmn,incoming,19
-ex07_writer0019.bpmn,sequenceFlow,19
-ex07_writer0019.bpmn,task,4
-ex07_writer0019.bpmn,parallelGateway,4
-ex07_writer0019.bpmn,lane,3
-ex07_writer0019.bpmn,messageEventDefinition,3
-ex07_writer0019.bpmn,intermediateCatchEvent,2
-ex07_writer0019.bpmn,intermediateThrowEvent,2
-ex07_writer0019.bpmn,process,1
-ex07_writer0019.bpmn,laneSet,1
-ex07_writer0019.bpmn,childLaneSet,1
-ex07_writer0019.bpmn,startEvent,1
-ex07_writer0019.bpmn,exclusiveGateway,1
-ex07_writer0019.bpmn,endEvent,1
-ex07_writer0019.bpmn,subProcess,1
-ex07_writer0019.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0019.bpmn,eventBasedGateway,1
-ex07_writer0019.bpmn,timerEventDefinition,1
-ex07_writer0020.bpmn,flowNodeRef,23
-ex07_writer0020.bpmn,outgoing,15
-ex07_writer0020.bpmn,incoming,15
-ex07_writer0020.bpmn,sequenceFlow,15
-ex07_writer0020.bpmn,task,6
-ex07_writer0020.bpmn,parallelGateway,4
-ex07_writer0020.bpmn,lane,3
-ex07_writer0020.bpmn,startEvent,2
-ex07_writer0020.bpmn,process,1
-ex07_writer0020.bpmn,laneSet,1
-ex07_writer0020.bpmn,childLaneSet,1
-ex07_writer0020.bpmn,messageEventDefinition,1
-ex07_writer0020.bpmn,intermediateCatchEvent,1
-ex07_writer0020.bpmn,timerEventDefinition,1
-ex07_writer0020.bpmn,endEvent,1
-ex07_writer0020.bpmn,textAnnotation,1
-ex07_writer0020.bpmn,text,1
-ex07_writer0020.bpmn,association,1
-ex07_writer0021.bpmn,sequenceFlow,13
-ex07_writer0021.bpmn,incoming,13
-ex07_writer0021.bpmn,outgoing,13
-ex07_writer0021.bpmn,flowNodeRef,11
-ex07_writer0021.bpmn,task,4
-ex07_writer0021.bpmn,parallelGateway,4
-ex07_writer0021.bpmn,lane,2
-ex07_writer0021.bpmn,process,1
-ex07_writer0021.bpmn,laneSet,1
-ex07_writer0021.bpmn,subProcess,1
-ex07_writer0021.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0021.bpmn,endEvent,1
-ex07_writer0021.bpmn,standardLoopCharacteristics,1
-ex07_writer0021.bpmn,startEvent,1
-ex07_writer0021.bpmn,textAnnotation,1
-ex07_writer0021.bpmn,text,1
-ex07_writer0021.bpmn,association,1
-ex07_writer0022.bpmn,outgoing,23
-ex07_writer0022.bpmn,incoming,23
-ex07_writer0022.bpmn,sequenceFlow,23
-ex07_writer0022.bpmn,flowNodeRef,20
-ex07_writer0022.bpmn,task,6
-ex07_writer0022.bpmn,parallelGateway,6
-ex07_writer0022.bpmn,messageEventDefinition,3
-ex07_writer0022.bpmn,lane,2
-ex07_writer0022.bpmn,intermediateCatchEvent,2
-ex07_writer0022.bpmn,intermediateThrowEvent,2
-ex07_writer0022.bpmn,process,1
-ex07_writer0022.bpmn,laneSet,1
-ex07_writer0022.bpmn,startEvent,1
-ex07_writer0022.bpmn,endEvent,1
-ex07_writer0022.bpmn,eventBasedGateway,1
-ex07_writer0022.bpmn,timerEventDefinition,1
-ex07_writer0022.bpmn,exclusiveGateway,1
-ex07_writer0023.bpmn,flowNodeRef,19
-ex07_writer0023.bpmn,outgoing,15
-ex07_writer0023.bpmn,incoming,15
-ex07_writer0023.bpmn,sequenceFlow,15
-ex07_writer0023.bpmn,messageEventDefinition,6
-ex07_writer0023.bpmn,startEvent,4
-ex07_writer0023.bpmn,task,4
-ex07_writer0023.bpmn,lane,3
-ex07_writer0023.bpmn,endEvent,3
-ex07_writer0023.bpmn,process,2
-ex07_writer0023.bpmn,parallelGateway,2
-ex07_writer0023.bpmn,intermediateCatchEvent,2
-ex07_writer0023.bpmn,laneSet,1
-ex07_writer0023.bpmn,childLaneSet,1
-ex07_writer0023.bpmn,subProcess,1
-ex07_writer0023.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0023.bpmn,intermediateThrowEvent,1
-ex07_writer0023.bpmn,eventBasedGateway,1
-ex07_writer0023.bpmn,timerEventDefinition,1
-ex07_writer0024.bpmn,incoming,20
-ex07_writer0024.bpmn,outgoing,20
-ex07_writer0024.bpmn,sequenceFlow,20
-ex07_writer0024.bpmn,flowNodeRef,18
-ex07_writer0024.bpmn,task,6
-ex07_writer0024.bpmn,parallelGateway,4
-ex07_writer0024.bpmn,messageEventDefinition,3
-ex07_writer0024.bpmn,lane,2
-ex07_writer0024.bpmn,endEvent,2
-ex07_writer0024.bpmn,intermediateCatchEvent,2
-ex07_writer0024.bpmn,textAnnotation,2
-ex07_writer0024.bpmn,text,2
-ex07_writer0024.bpmn,association,2
-ex07_writer0024.bpmn,process,1
-ex07_writer0024.bpmn,laneSet,1
-ex07_writer0024.bpmn,startEvent,1
-ex07_writer0024.bpmn,exclusiveGateway,1
-ex07_writer0024.bpmn,intermediateThrowEvent,1
-ex07_writer0024.bpmn,subProcess,1
-ex07_writer0024.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0024.bpmn,timerEventDefinition,1
-ex07_writer0025.bpmn,flowNodeRef,23
-ex07_writer0025.bpmn,incoming,17
-ex07_writer0025.bpmn,outgoing,17
-ex07_writer0025.bpmn,sequenceFlow,17
-ex07_writer0025.bpmn,messageEventDefinition,4
-ex07_writer0025.bpmn,lane,3
-ex07_writer0025.bpmn,intermediateThrowEvent,3
-ex07_writer0025.bpmn,task,3
-ex07_writer0025.bpmn,parallelGateway,3
-ex07_writer0025.bpmn,intermediateCatchEvent,2
-ex07_writer0025.bpmn,endEvent,2
-ex07_writer0025.bpmn,process,1
-ex07_writer0025.bpmn,laneSet,1
-ex07_writer0025.bpmn,childLaneSet,1
-ex07_writer0025.bpmn,eventBasedGateway,1
-ex07_writer0025.bpmn,timerEventDefinition,1
-ex07_writer0025.bpmn,startEvent,1
-ex07_writer0025.bpmn,callActivity,1
-ex07_writer0026.bpmn,incoming,18
-ex07_writer0026.bpmn,outgoing,18
-ex07_writer0026.bpmn,sequenceFlow,17
-ex07_writer0026.bpmn,flowNodeRef,16
-ex07_writer0026.bpmn,task,5
-ex07_writer0026.bpmn,parallelGateway,3
-ex07_writer0026.bpmn,messageEventDefinition,3
-ex07_writer0026.bpmn,lane,2
-ex07_writer0026.bpmn,endEvent,2
-ex07_writer0026.bpmn,intermediateCatchEvent,2
-ex07_writer0026.bpmn,process,1
-ex07_writer0026.bpmn,laneSet,1
-ex07_writer0026.bpmn,eventBasedGateway,1
-ex07_writer0026.bpmn,subProcess,1
-ex07_writer0026.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0026.bpmn,startEvent,1
-ex07_writer0026.bpmn,intermediateThrowEvent,1
-ex07_writer0027.bpmn,flowNodeRef,14
-ex07_writer0027.bpmn,outgoing,14
-ex07_writer0027.bpmn,incoming,14
-ex07_writer0027.bpmn,sequenceFlow,14
-ex07_writer0027.bpmn,task,6
-ex07_writer0027.bpmn,parallelGateway,3
-ex07_writer0027.bpmn,lane,2
-ex07_writer0027.bpmn,startEvent,2
-ex07_writer0027.bpmn,endEvent,2
-ex07_writer0027.bpmn,messageEventDefinition,2
-ex07_writer0027.bpmn,textAnnotation,2
-ex07_writer0027.bpmn,text,2
-ex07_writer0027.bpmn,association,2
-ex07_writer0027.bpmn,process,1
-ex07_writer0027.bpmn,laneSet,1
-ex07_writer0027.bpmn,standardLoopCharacteristics,1
-ex07_writer0027.bpmn,subProcess,1
-ex07_writer0027.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0028.bpmn,outgoing,12
-ex07_writer0028.bpmn,incoming,12
-ex07_writer0028.bpmn,sequenceFlow,12
-ex07_writer0028.bpmn,startEvent,5
-ex07_writer0028.bpmn,messageEventDefinition,5
-ex07_writer0028.bpmn,task,4
-ex07_writer0028.bpmn,endEvent,3
-ex07_writer0028.bpmn,exclusiveGateway,2
-ex07_writer0028.bpmn,process,1
-ex07_writer0028.bpmn,timerEventDefinition,1
-ex07_writer0029.bpmn,incoming,10
-ex07_writer0029.bpmn,outgoing,10
-ex07_writer0029.bpmn,sequenceFlow,10
-ex07_writer0029.bpmn,task,5
-ex07_writer0029.bpmn,messageEventDefinition,3
-ex07_writer0029.bpmn,textAnnotation,3
-ex07_writer0029.bpmn,text,3
-ex07_writer0029.bpmn,association,3
-ex07_writer0029.bpmn,process,2
-ex07_writer0029.bpmn,endEvent,2
-ex07_writer0029.bpmn,intermediateCatchEvent,2
-ex07_writer0029.bpmn,startEvent,2
-ex07_writer0029.bpmn,callActivity,1
-ex07_writer0029.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0029.bpmn,laneSet,1
-ex07_writer0029.bpmn,standardLoopCharacteristics,1
-ex07_writer0030.bpmn,incoming,20
-ex07_writer0030.bpmn,outgoing,20
-ex07_writer0030.bpmn,sequenceFlow,20
-ex07_writer0030.bpmn,flowNodeRef,18
-ex07_writer0030.bpmn,task,6
-ex07_writer0030.bpmn,parallelGateway,4
-ex07_writer0030.bpmn,messageEventDefinition,3
-ex07_writer0030.bpmn,intermediateCatchEvent,3
-ex07_writer0030.bpmn,lane,2
-ex07_writer0030.bpmn,process,1
-ex07_writer0030.bpmn,laneSet,1
-ex07_writer0030.bpmn,endEvent,1
-ex07_writer0030.bpmn,startEvent,1
-ex07_writer0030.bpmn,intermediateThrowEvent,1
-ex07_writer0030.bpmn,subProcess,1
-ex07_writer0030.bpmn,eventBasedGateway,1
-ex07_writer0030.bpmn,timerEventDefinition,1
-ex07_writer0031.bpmn,flowNodeRef,26
-ex07_writer0031.bpmn,outgoing,20
-ex07_writer0031.bpmn,incoming,20
-ex07_writer0031.bpmn,sequenceFlow,20
-ex07_writer0031.bpmn,task,7
-ex07_writer0031.bpmn,lane,4
-ex07_writer0031.bpmn,parallelGateway,3
-ex07_writer0031.bpmn,intermediateCatchEvent,3
-ex07_writer0031.bpmn,messageEventDefinition,2
-ex07_writer0031.bpmn,endEvent,2
-ex07_writer0031.bpmn,process,1
-ex07_writer0031.bpmn,laneSet,1
-ex07_writer0031.bpmn,childLaneSet,1
-ex07_writer0031.bpmn,startEvent,1
-ex07_writer0031.bpmn,timerEventDefinition,1
-ex07_writer0031.bpmn,subProcess,1
-ex07_writer0031.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0031.bpmn,eventBasedGateway,1
-ex07_writer0032.bpmn,outgoing,17
-ex07_writer0032.bpmn,incoming,17
-ex07_writer0032.bpmn,sequenceFlow,17
-ex07_writer0032.bpmn,flowNodeRef,16
-ex07_writer0032.bpmn,task,8
-ex07_writer0032.bpmn,parallelGateway,4
-ex07_writer0032.bpmn,lane,3
-ex07_writer0032.bpmn,messageEventDefinition,2
-ex07_writer0032.bpmn,process,1
-ex07_writer0032.bpmn,laneSet,1
-ex07_writer0032.bpmn,startEvent,1
-ex07_writer0032.bpmn,endEvent,1
-ex07_writer0032.bpmn,standardLoopCharacteristics,1
-ex07_writer0032.bpmn,intermediateThrowEvent,1
-ex07_writer0032.bpmn,intermediateCatchEvent,1
-ex07_writer0032.bpmn,textAnnotation,1
-ex07_writer0032.bpmn,text,1
-ex07_writer0032.bpmn,association,1
-ex07_writer0033.bpmn,flowNodeRef,32
-ex07_writer0033.bpmn,outgoing,25
-ex07_writer0033.bpmn,incoming,25
-ex07_writer0033.bpmn,sequenceFlow,24
-ex07_writer0033.bpmn,task,8
-ex07_writer0033.bpmn,parallelGateway,4
-ex07_writer0033.bpmn,exclusiveGateway,4
-ex07_writer0033.bpmn,messageEventDefinition,4
-ex07_writer0033.bpmn,lane,3
-ex07_writer0033.bpmn,endEvent,3
-ex07_writer0033.bpmn,process,1
-ex07_writer0033.bpmn,laneSet,1
-ex07_writer0033.bpmn,childLaneSet,1
-ex07_writer0033.bpmn,startEvent,1
-ex07_writer0033.bpmn,intermediateThrowEvent,1
-ex07_writer0033.bpmn,intermediateCatchEvent,1
-ex07_writer0034.bpmn,outgoing,17
-ex07_writer0034.bpmn,incoming,17
-ex07_writer0034.bpmn,sequenceFlow,17
-ex07_writer0034.bpmn,flowNodeRef,16
-ex07_writer0034.bpmn,task,5
-ex07_writer0034.bpmn,parallelGateway,3
-ex07_writer0034.bpmn,lane,2
-ex07_writer0034.bpmn,endEvent,2
-ex07_writer0034.bpmn,intermediateCatchEvent,2
-ex07_writer0034.bpmn,messageEventDefinition,2
-ex07_writer0034.bpmn,process,1
-ex07_writer0034.bpmn,laneSet,1
-ex07_writer0034.bpmn,startEvent,1
-ex07_writer0034.bpmn,exclusiveGateway,1
-ex07_writer0034.bpmn,eventBasedGateway,1
-ex07_writer0034.bpmn,timerEventDefinition,1
-ex07_writer0034.bpmn,callActivity,1
-ex07_writer0035.bpmn,incoming,16
-ex07_writer0035.bpmn,outgoing,16
-ex07_writer0035.bpmn,sequenceFlow,16
-ex07_writer0035.bpmn,flowNodeRef,15
-ex07_writer0035.bpmn,task,5
-ex07_writer0035.bpmn,parallelGateway,4
-ex07_writer0035.bpmn,lane,3
-ex07_writer0035.bpmn,messageEventDefinition,3
-ex07_writer0035.bpmn,intermediateCatchEvent,2
-ex07_writer0035.bpmn,process,1
-ex07_writer0035.bpmn,laneSet,1
-ex07_writer0035.bpmn,endEvent,1
-ex07_writer0035.bpmn,startEvent,1
-ex07_writer0035.bpmn,intermediateThrowEvent,1
-ex07_writer0035.bpmn,standardLoopCharacteristics,1
-ex07_writer0035.bpmn,subProcess,1
-ex07_writer0035.bpmn,textAnnotation,1
-ex07_writer0035.bpmn,text,1
-ex07_writer0035.bpmn,association,1
-ex07_writer0036.bpmn,flowNodeRef,22
-ex07_writer0036.bpmn,outgoing,16
-ex07_writer0036.bpmn,incoming,16
-ex07_writer0036.bpmn,sequenceFlow,16
-ex07_writer0036.bpmn,task,4
-ex07_writer0036.bpmn,parallelGateway,4
-ex07_writer0036.bpmn,lane,3
-ex07_writer0036.bpmn,intermediateCatchEvent,2
-ex07_writer0036.bpmn,textAnnotation,2
-ex07_writer0036.bpmn,text,2
-ex07_writer0036.bpmn,association,2
-ex07_writer0036.bpmn,process,1
-ex07_writer0036.bpmn,laneSet,1
-ex07_writer0036.bpmn,childLaneSet,1
-ex07_writer0036.bpmn,startEvent,1
-ex07_writer0036.bpmn,eventBasedGateway,1
-ex07_writer0036.bpmn,timerEventDefinition,1
-ex07_writer0036.bpmn,messageEventDefinition,1
-ex07_writer0036.bpmn,endEvent,1
-ex07_writer0036.bpmn,subProcess,1
-ex07_writer0036.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0037.bpmn,incoming,20
-ex07_writer0037.bpmn,outgoing,20
-ex07_writer0037.bpmn,sequenceFlow,20
-ex07_writer0037.bpmn,flowNodeRef,17
-ex07_writer0037.bpmn,task,7
-ex07_writer0037.bpmn,parallelGateway,3
-ex07_writer0037.bpmn,lane,2
-ex07_writer0037.bpmn,intermediateCatchEvent,2
-ex07_writer0037.bpmn,process,1
-ex07_writer0037.bpmn,laneSet,1
-ex07_writer0037.bpmn,exclusiveGateway,1
-ex07_writer0037.bpmn,eventBasedGateway,1
-ex07_writer0037.bpmn,timerEventDefinition,1
-ex07_writer0037.bpmn,messageEventDefinition,1
-ex07_writer0037.bpmn,endEvent,1
-ex07_writer0037.bpmn,startEvent,1
-ex07_writer0037.bpmn,subProcess,1
-ex07_writer0038.bpmn,incoming,19
-ex07_writer0038.bpmn,outgoing,19
-ex07_writer0038.bpmn,sequenceFlow,19
-ex07_writer0038.bpmn,flowNodeRef,17
-ex07_writer0038.bpmn,task,5
-ex07_writer0038.bpmn,parallelGateway,4
-ex07_writer0038.bpmn,lane,2
-ex07_writer0038.bpmn,intermediateCatchEvent,2
-ex07_writer0038.bpmn,messageEventDefinition,2
-ex07_writer0038.bpmn,process,1
-ex07_writer0038.bpmn,laneSet,1
-ex07_writer0038.bpmn,callActivity,1
-ex07_writer0038.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0038.bpmn,eventBasedGateway,1
-ex07_writer0038.bpmn,intermediateThrowEvent,1
-ex07_writer0038.bpmn,endEvent,1
-ex07_writer0038.bpmn,startEvent,1
-ex07_writer0038.bpmn,exclusiveGateway,1
-ex07_writer0038.bpmn,timerEventDefinition,1
-ex07_writer0039.bpmn,incoming,18
-ex07_writer0039.bpmn,outgoing,18
-ex07_writer0039.bpmn,sequenceFlow,18
-ex07_writer0039.bpmn,flowNodeRef,16
-ex07_writer0039.bpmn,task,4
-ex07_writer0039.bpmn,parallelGateway,4
-ex07_writer0039.bpmn,lane,2
-ex07_writer0039.bpmn,messageEventDefinition,2
-ex07_writer0039.bpmn,intermediateCatchEvent,2
-ex07_writer0039.bpmn,process,1
-ex07_writer0039.bpmn,laneSet,1
-ex07_writer0039.bpmn,exclusiveGateway,1
-ex07_writer0039.bpmn,intermediateThrowEvent,1
-ex07_writer0039.bpmn,eventBasedGateway,1
-ex07_writer0039.bpmn,timerEventDefinition,1
-ex07_writer0039.bpmn,subProcess,1
-ex07_writer0039.bpmn,standardLoopCharacteristics,1
-ex07_writer0039.bpmn,startEvent,1
-ex07_writer0039.bpmn,endEvent,1
-ex07_writer0040.bpmn,flowNodeRef,12
-ex07_writer0040.bpmn,outgoing,12
-ex07_writer0040.bpmn,incoming,12
-ex07_writer0040.bpmn,sequenceFlow,12
-ex07_writer0040.bpmn,task,3
-ex07_writer0040.bpmn,parallelGateway,3
-ex07_writer0040.bpmn,subProcess,3
-ex07_writer0040.bpmn,lane,2
-ex07_writer0040.bpmn,endEvent,2
-ex07_writer0040.bpmn,textAnnotation,2
-ex07_writer0040.bpmn,text,2
-ex07_writer0040.bpmn,association,2
-ex07_writer0040.bpmn,process,1
-ex07_writer0040.bpmn,laneSet,1
-ex07_writer0040.bpmn,startEvent,1
-ex07_writer0040.bpmn,standardLoopCharacteristics,1
-ex07_writer0040.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0041.bpmn,outgoing,19
-ex07_writer0041.bpmn,incoming,19
-ex07_writer0041.bpmn,sequenceFlow,19
-ex07_writer0041.bpmn,flowNodeRef,17
-ex07_writer0041.bpmn,task,7
-ex07_writer0041.bpmn,parallelGateway,4
-ex07_writer0041.bpmn,lane,2
-ex07_writer0041.bpmn,exclusiveGateway,2
-ex07_writer0041.bpmn,process,1
-ex07_writer0041.bpmn,laneSet,1
-ex07_writer0041.bpmn,startEvent,1
-ex07_writer0041.bpmn,endEvent,1
-ex07_writer0041.bpmn,subProcess,1
-ex07_writer0041.bpmn,intermediateCatchEvent,1
-ex07_writer0041.bpmn,timerEventDefinition,1
-ex07_writer0042.bpmn,incoming,17
-ex07_writer0042.bpmn,outgoing,17
-ex07_writer0042.bpmn,sequenceFlow,17
-ex07_writer0042.bpmn,flowNodeRef,15
-ex07_writer0042.bpmn,task,5
-ex07_writer0042.bpmn,parallelGateway,4
-ex07_writer0042.bpmn,lane,2
-ex07_writer0042.bpmn,intermediateCatchEvent,2
-ex07_writer0042.bpmn,process,1
-ex07_writer0042.bpmn,laneSet,1
-ex07_writer0042.bpmn,endEvent,1
-ex07_writer0042.bpmn,eventBasedGateway,1
-ex07_writer0042.bpmn,messageEventDefinition,1
-ex07_writer0042.bpmn,timerEventDefinition,1
-ex07_writer0042.bpmn,subProcess,1
-ex07_writer0042.bpmn,startEvent,1
-ex07_writer0043.bpmn,flowNodeRef,29
-ex07_writer0043.bpmn,incoming,20
-ex07_writer0043.bpmn,outgoing,20
-ex07_writer0043.bpmn,sequenceFlow,20
-ex07_writer0043.bpmn,task,8
-ex07_writer0043.bpmn,parallelGateway,4
-ex07_writer0043.bpmn,lane,3
-ex07_writer0043.bpmn,exclusiveGateway,2
-ex07_writer0043.bpmn,messageEventDefinition,2
-ex07_writer0043.bpmn,process,1
-ex07_writer0043.bpmn,laneSet,1
-ex07_writer0043.bpmn,childLaneSet,1
-ex07_writer0043.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0043.bpmn,standardLoopCharacteristics,1
-ex07_writer0043.bpmn,intermediateCatchEvent,1
-ex07_writer0043.bpmn,startEvent,1
-ex07_writer0043.bpmn,intermediateThrowEvent,1
-ex07_writer0043.bpmn,endEvent,1
-ex07_writer0043.bpmn,textAnnotation,1
-ex07_writer0043.bpmn,text,1
-ex07_writer0044.bpmn,flowNodeRef,11
-ex07_writer0044.bpmn,incoming,11
-ex07_writer0044.bpmn,outgoing,11
-ex07_writer0044.bpmn,sequenceFlow,11
-ex07_writer0044.bpmn,task,4
-ex07_writer0044.bpmn,parallelGateway,3
-ex07_writer0044.bpmn,lane,2
-ex07_writer0044.bpmn,endEvent,2
-ex07_writer0044.bpmn,process,1
-ex07_writer0044.bpmn,laneSet,1
-ex07_writer0044.bpmn,startEvent,1
-ex07_writer0044.bpmn,standardLoopCharacteristics,1
-ex07_writer0044.bpmn,subProcess,1
-ex07_writer0044.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0044.bpmn,textAnnotation,1
-ex07_writer0044.bpmn,text,1
-ex07_writer0044.bpmn,association,1
-ex07_writer0045.bpmn,flowNodeRef,24
-ex07_writer0045.bpmn,outgoing,18
-ex07_writer0045.bpmn,incoming,18
-ex07_writer0045.bpmn,sequenceFlow,18
-ex07_writer0045.bpmn,task,4
-ex07_writer0045.bpmn,parallelGateway,4
-ex07_writer0045.bpmn,lane,3
-ex07_writer0045.bpmn,messageEventDefinition,2
-ex07_writer0045.bpmn,intermediateCatchEvent,2
-ex07_writer0045.bpmn,process,1
-ex07_writer0045.bpmn,laneSet,1
-ex07_writer0045.bpmn,childLaneSet,1
-ex07_writer0045.bpmn,startEvent,1
-ex07_writer0045.bpmn,intermediateThrowEvent,1
-ex07_writer0045.bpmn,timerEventDefinition,1
-ex07_writer0045.bpmn,subProcess,1
-ex07_writer0045.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0045.bpmn,exclusiveGateway,1
-ex07_writer0045.bpmn,eventBasedGateway,1
-ex07_writer0045.bpmn,endEvent,1
-ex07_writer0047.bpmn,flowNodeRef,12
-ex07_writer0047.bpmn,outgoing,12
-ex07_writer0047.bpmn,incoming,12
-ex07_writer0047.bpmn,sequenceFlow,12
-ex07_writer0047.bpmn,task,4
-ex07_writer0047.bpmn,messageEventDefinition,4
-ex07_writer0047.bpmn,lane,2
-ex07_writer0047.bpmn,endEvent,2
-ex07_writer0047.bpmn,intermediateCatchEvent,2
-ex07_writer0047.bpmn,process,1
-ex07_writer0047.bpmn,laneSet,1
-ex07_writer0047.bpmn,startEvent,1
-ex07_writer0047.bpmn,parallelGateway,1
-ex07_writer0047.bpmn,standardLoopCharacteristics,1
-ex07_writer0047.bpmn,subProcess,1
-ex07_writer0047.bpmn,intermediateThrowEvent,1
-ex07_writer0048.bpmn,flowNodeRef,28
-ex07_writer0048.bpmn,outgoing,16
-ex07_writer0048.bpmn,incoming,16
-ex07_writer0048.bpmn,sequenceFlow,16
-ex07_writer0048.bpmn,task,5
-ex07_writer0048.bpmn,lane,4
-ex07_writer0048.bpmn,parallelGateway,4
-ex07_writer0048.bpmn,childLaneSet,2
-ex07_writer0048.bpmn,exclusiveGateway,2
-ex07_writer0048.bpmn,process,1
-ex07_writer0048.bpmn,laneSet,1
-ex07_writer0048.bpmn,startEvent,1
-ex07_writer0048.bpmn,subProcess,1
-ex07_writer0048.bpmn,endEvent,1
-ex07_writer0049.bpmn,outgoing,15
-ex07_writer0049.bpmn,incoming,15
-ex07_writer0049.bpmn,sequenceFlow,15
-ex07_writer0049.bpmn,flowNodeRef,14
-ex07_writer0049.bpmn,task,6
-ex07_writer0049.bpmn,parallelGateway,4
-ex07_writer0049.bpmn,process,3
-ex07_writer0049.bpmn,lane,2
-ex07_writer0049.bpmn,laneSet,1
-ex07_writer0049.bpmn,startEvent,1
-ex07_writer0049.bpmn,standardLoopCharacteristics,1
-ex07_writer0049.bpmn,subProcess,1
-ex07_writer0049.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0049.bpmn,endEvent,1
-ex07_writer0049.bpmn,intermediateThrowEvent,1
-ex07_writer0049.bpmn,messageEventDefinition,1
-ex07_writer0049.bpmn,textAnnotation,1
-ex07_writer0049.bpmn,text,1
-ex07_writer0049.bpmn,association,1
-ex07_writer0050.bpmn,flowNodeRef,36
-ex07_writer0050.bpmn,outgoing,20
-ex07_writer0050.bpmn,incoming,20
-ex07_writer0050.bpmn,sequenceFlow,20
-ex07_writer0050.bpmn,lane,4
-ex07_writer0050.bpmn,task,4
-ex07_writer0050.bpmn,parallelGateway,4
-ex07_writer0050.bpmn,messageEventDefinition,4
-ex07_writer0050.bpmn,intermediateCatchEvent,3
-ex07_writer0050.bpmn,childLaneSet,2
-ex07_writer0050.bpmn,intermediateThrowEvent,2
-ex07_writer0050.bpmn,process,1
-ex07_writer0050.bpmn,laneSet,1
-ex07_writer0050.bpmn,startEvent,1
-ex07_writer0050.bpmn,endEvent,1
-ex07_writer0050.bpmn,exclusiveGateway,1
-ex07_writer0050.bpmn,eventBasedGateway,1
-ex07_writer0050.bpmn,subProcess,1
-ex07_writer0050.bpmn,timerEventDefinition,1
-ex07_writer0051.bpmn,flowNodeRef,20
-ex07_writer0051.bpmn,incoming,13
-ex07_writer0051.bpmn,outgoing,13
-ex07_writer0051.bpmn,sequenceFlow,13
-ex07_writer0051.bpmn,targetRef,6
-ex07_writer0051.bpmn,task,5
-ex07_writer0051.bpmn,dataInputAssociation,4
-ex07_writer0051.bpmn,sourceRef,4
-ex07_writer0051.bpmn,lane,3
-ex07_writer0051.bpmn,parallelGateway,2
-ex07_writer0051.bpmn,startEvent,2
-ex07_writer0051.bpmn,dataOutputAssociation,2
-ex07_writer0051.bpmn,messageEventDefinition,2
-ex07_writer0051.bpmn,property,2
-ex07_writer0051.bpmn,dataObjectReference,2
-ex07_writer0051.bpmn,dataObject,2
-ex07_writer0051.bpmn,subProcess,2
-ex07_writer0051.bpmn,endEvent,2
-ex07_writer0051.bpmn,process,1
-ex07_writer0051.bpmn,laneSet,1
-ex07_writer0051.bpmn,childLaneSet,1
-ex07_writer0051.bpmn,standardLoopCharacteristics,1
-ex07_writer0051.bpmn,dataStoreReference,1
-ex07_writer0051.bpmn,intermediateCatchEvent,1
-ex07_writer0051.bpmn,timerEventDefinition,1
-ex07_writer0051.bpmn,intermediateThrowEvent,1
-ex07_writer0051.bpmn,textAnnotation,1
-ex07_writer0051.bpmn,text,1
-ex07_writer0051.bpmn,association,1
-ex07_writer0052.bpmn,outgoing,22
-ex07_writer0052.bpmn,sequenceFlow,22
-ex07_writer0052.bpmn,incoming,21
-ex07_writer0052.bpmn,flowNodeRef,20
-ex07_writer0052.bpmn,task,5
-ex07_writer0052.bpmn,messageEventDefinition,5
-ex07_writer0052.bpmn,intermediateCatchEvent,4
-ex07_writer0052.bpmn,endEvent,3
-ex07_writer0052.bpmn,parallelGateway,3
-ex07_writer0052.bpmn,process,2
-ex07_writer0052.bpmn,lane,2
-ex07_writer0052.bpmn,startEvent,2
-ex07_writer0052.bpmn,eventBasedGateway,2
-ex07_writer0052.bpmn,timerEventDefinition,2
-ex07_writer0052.bpmn,laneSet,1
-ex07_writer0052.bpmn,intermediateThrowEvent,1
-ex07_writer0052.bpmn,subProcess,1
-ex07_writer0052.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0053.bpmn,flowNodeRef,23
-ex07_writer0053.bpmn,outgoing,15
-ex07_writer0053.bpmn,incoming,15
-ex07_writer0053.bpmn,sequenceFlow,15
-ex07_writer0053.bpmn,task,5
-ex07_writer0053.bpmn,parallelGateway,4
-ex07_writer0053.bpmn,lane,3
-ex07_writer0053.bpmn,messageEventDefinition,2
-ex07_writer0053.bpmn,process,1
-ex07_writer0053.bpmn,laneSet,1
-ex07_writer0053.bpmn,childLaneSet,1
-ex07_writer0053.bpmn,startEvent,1
-ex07_writer0053.bpmn,endEvent,1
-ex07_writer0053.bpmn,standardLoopCharacteristics,1
-ex07_writer0053.bpmn,intermediateCatchEvent,1
-ex07_writer0053.bpmn,intermediateThrowEvent,1
-ex07_writer0053.bpmn,subProcess,1
-ex07_writer0053.bpmn,textAnnotation,1
-ex07_writer0053.bpmn,text,1
-ex07_writer0053.bpmn,association,1
-ex07_writer0054.bpmn,incoming,8
-ex07_writer0054.bpmn,outgoing,8
-ex07_writer0054.bpmn,sequenceFlow,8
-ex07_writer0054.bpmn,task,7
-ex07_writer0054.bpmn,parallelGateway,2
-ex07_writer0054.bpmn,process,1
-ex07_writer0054.bpmn,laneSet,1
-ex07_writer0054.bpmn,endEvent,1
-ex07_writer0054.bpmn,startEvent,1
-ex07_writer0055.bpmn,flowNodeRef,38
-ex07_writer0055.bpmn,outgoing,22
-ex07_writer0055.bpmn,incoming,22
-ex07_writer0055.bpmn,sequenceFlow,22
-ex07_writer0055.bpmn,task,10
-ex07_writer0055.bpmn,lane,4
-ex07_writer0055.bpmn,parallelGateway,4
-ex07_writer0055.bpmn,childLaneSet,2
-ex07_writer0055.bpmn,exclusiveGateway,2
-ex07_writer0055.bpmn,process,1
-ex07_writer0055.bpmn,laneSet,1
-ex07_writer0055.bpmn,startEvent,1
-ex07_writer0055.bpmn,subProcess,1
-ex07_writer0055.bpmn,endEvent,1
-ex07_writer0056.bpmn,outgoing,18
-ex07_writer0056.bpmn,incoming,18
-ex07_writer0056.bpmn,sequenceFlow,18
-ex07_writer0056.bpmn,flowNodeRef,16
-ex07_writer0056.bpmn,task,5
-ex07_writer0056.bpmn,parallelGateway,4
-ex07_writer0056.bpmn,lane,2
-ex07_writer0056.bpmn,intermediateCatchEvent,2
-ex07_writer0056.bpmn,timerEventDefinition,2
-ex07_writer0056.bpmn,process,1
-ex07_writer0056.bpmn,laneSet,1
-ex07_writer0056.bpmn,startEvent,1
-ex07_writer0056.bpmn,endEvent,1
-ex07_writer0056.bpmn,exclusiveGateway,1
-ex07_writer0056.bpmn,eventBasedGateway,1
-ex07_writer0056.bpmn,subProcess,1
-ex07_writer0058.bpmn,outgoing,16
-ex07_writer0058.bpmn,incoming,16
-ex07_writer0058.bpmn,sequenceFlow,16
-ex07_writer0058.bpmn,flowNodeRef,15
-ex07_writer0058.bpmn,parallelGateway,3
-ex07_writer0058.bpmn,messageEventDefinition,3
-ex07_writer0058.bpmn,lane,2
-ex07_writer0058.bpmn,task,2
-ex07_writer0058.bpmn,endEvent,2
-ex07_writer0058.bpmn,intermediateThrowEvent,2
-ex07_writer0058.bpmn,intermediateCatchEvent,2
-ex07_writer0058.bpmn,process,1
-ex07_writer0058.bpmn,laneSet,1
-ex07_writer0058.bpmn,startEvent,1
-ex07_writer0058.bpmn,exclusiveGateway,1
-ex07_writer0058.bpmn,timerEventDefinition,1
-ex07_writer0058.bpmn,subProcess,1
-ex07_writer0058.bpmn,eventBasedGateway,1
-ex07_writer0059.bpmn,outgoing,17
-ex07_writer0059.bpmn,incoming,17
-ex07_writer0059.bpmn,sequenceFlow,17
-ex07_writer0059.bpmn,flowNodeRef,14
-ex07_writer0059.bpmn,task,5
-ex07_writer0059.bpmn,parallelGateway,4
-ex07_writer0059.bpmn,subProcess,3
-ex07_writer0059.bpmn,lane,2
-ex07_writer0059.bpmn,startEvent,2
-ex07_writer0059.bpmn,endEvent,2
-ex07_writer0059.bpmn,process,1
-ex07_writer0059.bpmn,laneSet,1
-ex07_writer0059.bpmn,intermediateThrowEvent,1
-ex07_writer0059.bpmn,messageEventDefinition,1
-ex07_writer0059.bpmn,standardLoopCharacteristics,1
-ex07_writer0059.bpmn,intermediateCatchEvent,1
-ex07_writer0059.bpmn,timerEventDefinition,1
-ex07_writer0059.bpmn,textAnnotation,1
-ex07_writer0059.bpmn,text,1
-ex07_writer0059.bpmn,association,1
-ex07_writer0060.bpmn,outgoing,16
-ex07_writer0060.bpmn,incoming,16
-ex07_writer0060.bpmn,sequenceFlow,16
-ex07_writer0060.bpmn,flowNodeRef,14
-ex07_writer0060.bpmn,task,10
-ex07_writer0060.bpmn,targetRef,7
-ex07_writer0060.bpmn,parallelGateway,4
-ex07_writer0060.bpmn,dataOutputAssociation,4
-ex07_writer0060.bpmn,dataObjectReference,4
-ex07_writer0060.bpmn,dataObject,4
-ex07_writer0060.bpmn,property,3
-ex07_writer0060.bpmn,dataInputAssociation,3
-ex07_writer0060.bpmn,sourceRef,3
-ex07_writer0060.bpmn,process,2
-ex07_writer0060.bpmn,lane,2
-ex07_writer0060.bpmn,laneSet,1
-ex07_writer0060.bpmn,startEvent,1
-ex07_writer0060.bpmn,endEvent,1
-ex07_writer0060.bpmn,exclusiveGateway,1
-ex07_writer0061.bpmn,outgoing,15
-ex07_writer0061.bpmn,incoming,15
-ex07_writer0061.bpmn,sequenceFlow,15
-ex07_writer0061.bpmn,flowNodeRef,14
-ex07_writer0061.bpmn,messageEventDefinition,6
-ex07_writer0061.bpmn,task,4
-ex07_writer0061.bpmn,intermediateCatchEvent,3
-ex07_writer0061.bpmn,lane,2
-ex07_writer0061.bpmn,exclusiveGateway,2
-ex07_writer0061.bpmn,parallelGateway,2
-ex07_writer0061.bpmn,process,1
-ex07_writer0061.bpmn,laneSet,1
-ex07_writer0061.bpmn,startEvent,1
-ex07_writer0061.bpmn,intermediateThrowEvent,1
-ex07_writer0061.bpmn,endEvent,1
-ex07_writer0062.bpmn,outgoing,14
-ex07_writer0062.bpmn,incoming,14
-ex07_writer0062.bpmn,sequenceFlow,14
-ex07_writer0062.bpmn,task,7
-ex07_writer0062.bpmn,process,2
-ex07_writer0062.bpmn,startEvent,2
-ex07_writer0062.bpmn,messageEventDefinition,2
-ex07_writer0062.bpmn,intermediateCatchEvent,2
-ex07_writer0062.bpmn,exclusiveGateway,1
-ex07_writer0062.bpmn,eventBasedGateway,1
-ex07_writer0062.bpmn,timerEventDefinition,1
-ex07_writer0062.bpmn,endEvent,1
-ex07_writer0063.bpmn,incoming,13
-ex07_writer0063.bpmn,outgoing,13
-ex07_writer0063.bpmn,sequenceFlow,13
-ex07_writer0063.bpmn,flowNodeRef,12
-ex07_writer0063.bpmn,task,4
-ex07_writer0063.bpmn,parallelGateway,4
-ex07_writer0063.bpmn,lane,2
-ex07_writer0063.bpmn,process,1
-ex07_writer0063.bpmn,laneSet,1
-ex07_writer0063.bpmn,endEvent,1
-ex07_writer0063.bpmn,standardLoopCharacteristics,1
-ex07_writer0063.bpmn,intermediateThrowEvent,1
-ex07_writer0063.bpmn,messageEventDefinition,1
-ex07_writer0063.bpmn,subProcess,1
-ex07_writer0063.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0063.bpmn,startEvent,1
-ex07_writer0063.bpmn,textAnnotation,1
-ex07_writer0063.bpmn,text,1
-ex07_writer0063.bpmn,association,1
-ex07_writer0064.bpmn,incoming,18
-ex07_writer0064.bpmn,outgoing,18
-ex07_writer0064.bpmn,sequenceFlow,18
-ex07_writer0064.bpmn,flowNodeRef,14
-ex07_writer0064.bpmn,task,7
-ex07_writer0064.bpmn,intermediateCatchEvent,3
-ex07_writer0064.bpmn,lane,2
-ex07_writer0064.bpmn,parallelGateway,2
-ex07_writer0064.bpmn,messageEventDefinition,2
-ex07_writer0064.bpmn,process,1
-ex07_writer0064.bpmn,laneSet,1
-ex07_writer0064.bpmn,eventBasedGateway,1
-ex07_writer0064.bpmn,exclusiveGateway,1
-ex07_writer0064.bpmn,startEvent,1
-ex07_writer0064.bpmn,standardLoopCharacteristics,1
-ex07_writer0064.bpmn,timerEventDefinition,1
-ex07_writer0064.bpmn,endEvent,1
-ex07_writer0066.bpmn,incoming,18
-ex07_writer0066.bpmn,outgoing,18
-ex07_writer0066.bpmn,sequenceFlow,18
-ex07_writer0066.bpmn,flowNodeRef,15
-ex07_writer0066.bpmn,messageEventDefinition,5
-ex07_writer0066.bpmn,parallelGateway,3
-ex07_writer0066.bpmn,intermediateThrowEvent,3
-ex07_writer0066.bpmn,intermediateCatchEvent,3
-ex07_writer0066.bpmn,lane,2
-ex07_writer0066.bpmn,process,1
-ex07_writer0066.bpmn,laneSet,1
-ex07_writer0066.bpmn,endEvent,1
-ex07_writer0066.bpmn,eventBasedGateway,1
-ex07_writer0066.bpmn,task,1
-ex07_writer0066.bpmn,subProcess,1
-ex07_writer0066.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0066.bpmn,startEvent,1
-ex07_writer0066.bpmn,exclusiveGateway,1
-ex07_writer0066.bpmn,timerEventDefinition,1
-ex07_writer0067.bpmn,incoming,18
-ex07_writer0067.bpmn,outgoing,18
-ex07_writer0067.bpmn,sequenceFlow,18
-ex07_writer0067.bpmn,flowNodeRef,17
-ex07_writer0067.bpmn,task,5
-ex07_writer0067.bpmn,messageEventDefinition,3
-ex07_writer0067.bpmn,parallelGateway,3
-ex07_writer0067.bpmn,lane,2
-ex07_writer0067.bpmn,endEvent,2
-ex07_writer0067.bpmn,intermediateCatchEvent,2
-ex07_writer0067.bpmn,process,1
-ex07_writer0067.bpmn,laneSet,1
-ex07_writer0067.bpmn,startEvent,1
-ex07_writer0067.bpmn,exclusiveGateway,1
-ex07_writer0067.bpmn,intermediateThrowEvent,1
-ex07_writer0067.bpmn,eventBasedGateway,1
-ex07_writer0067.bpmn,timerEventDefinition,1
-ex07_writer0067.bpmn,subProcess,1
-ex07_writer0068.bpmn,outgoing,22
-ex07_writer0068.bpmn,incoming,22
-ex07_writer0068.bpmn,sequenceFlow,22
-ex07_writer0068.bpmn,flowNodeRef,19
-ex07_writer0068.bpmn,task,6
-ex07_writer0068.bpmn,parallelGateway,5
-ex07_writer0068.bpmn,process,2
-ex07_writer0068.bpmn,lane,2
-ex07_writer0068.bpmn,messageEventDefinition,2
-ex07_writer0068.bpmn,intermediateCatchEvent,2
-ex07_writer0068.bpmn,laneSet,1
-ex07_writer0068.bpmn,startEvent,1
-ex07_writer0068.bpmn,endEvent,1
-ex07_writer0068.bpmn,intermediateThrowEvent,1
-ex07_writer0068.bpmn,subProcess,1
-ex07_writer0068.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0068.bpmn,exclusiveGateway,1
-ex07_writer0068.bpmn,eventBasedGateway,1
-ex07_writer0068.bpmn,timerEventDefinition,1
-ex07_writer0069.bpmn,outgoing,19
-ex07_writer0069.bpmn,incoming,19
-ex07_writer0069.bpmn,sequenceFlow,19
-ex07_writer0069.bpmn,flowNodeRef,17
-ex07_writer0069.bpmn,task,5
-ex07_writer0069.bpmn,parallelGateway,4
-ex07_writer0069.bpmn,lane,2
-ex07_writer0069.bpmn,messageEventDefinition,2
-ex07_writer0069.bpmn,intermediateCatchEvent,2
-ex07_writer0069.bpmn,process,1
-ex07_writer0069.bpmn,laneSet,1
-ex07_writer0069.bpmn,startEvent,1
-ex07_writer0069.bpmn,exclusiveGateway,1
-ex07_writer0069.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0069.bpmn,eventBasedGateway,1
-ex07_writer0069.bpmn,intermediateThrowEvent,1
-ex07_writer0069.bpmn,subProcess,1
-ex07_writer0069.bpmn,endEvent,1
-ex07_writer0069.bpmn,timerEventDefinition,1
-ex07_writer0069.bpmn,textAnnotation,1
-ex07_writer0069.bpmn,text,1
-ex07_writer0069.bpmn,association,1
-ex07_writer0070.bpmn,outgoing,14
-ex07_writer0070.bpmn,incoming,14
-ex07_writer0070.bpmn,sequenceFlow,14
-ex07_writer0070.bpmn,flowNodeRef,13
-ex07_writer0070.bpmn,task,4
-ex07_writer0070.bpmn,messageEventDefinition,3
-ex07_writer0070.bpmn,lane,2
-ex07_writer0070.bpmn,intermediateCatchEvent,2
-ex07_writer0070.bpmn,exclusiveGateway,2
-ex07_writer0070.bpmn,endEvent,2
-ex07_writer0070.bpmn,process,1
-ex07_writer0070.bpmn,laneSet,1
-ex07_writer0070.bpmn,startEvent,1
-ex07_writer0070.bpmn,parallelGateway,1
-ex07_writer0070.bpmn,subProcess,1
-ex07_writer0071.bpmn,incoming,18
-ex07_writer0071.bpmn,outgoing,18
-ex07_writer0071.bpmn,sequenceFlow,18
-ex07_writer0071.bpmn,flowNodeRef,17
-ex07_writer0071.bpmn,task,5
-ex07_writer0071.bpmn,parallelGateway,3
-ex07_writer0071.bpmn,process,2
-ex07_writer0071.bpmn,lane,2
-ex07_writer0071.bpmn,endEvent,2
-ex07_writer0071.bpmn,intermediateCatchEvent,2
-ex07_writer0071.bpmn,messageEventDefinition,2
-ex07_writer0071.bpmn,laneSet,1
-ex07_writer0071.bpmn,exclusiveGateway,1
-ex07_writer0071.bpmn,timerEventDefinition,1
-ex07_writer0071.bpmn,intermediateThrowEvent,1
-ex07_writer0071.bpmn,startEvent,1
-ex07_writer0071.bpmn,callActivity,1
-ex07_writer0071.bpmn,eventBasedGateway,1
-ex07_writer0072.bpmn,flowNodeRef,29
-ex07_writer0072.bpmn,incoming,20
-ex07_writer0072.bpmn,outgoing,20
-ex07_writer0072.bpmn,sequenceFlow,20
-ex07_writer0072.bpmn,task,4
-ex07_writer0072.bpmn,messageEventDefinition,4
-ex07_writer0072.bpmn,parallelGateway,4
-ex07_writer0072.bpmn,lane,3
-ex07_writer0072.bpmn,intermediateThrowEvent,3
-ex07_writer0072.bpmn,intermediateCatchEvent,2
-ex07_writer0072.bpmn,process,1
-ex07_writer0072.bpmn,laneSet,1
-ex07_writer0072.bpmn,childLaneSet,1
-ex07_writer0072.bpmn,exclusiveGateway,1
-ex07_writer0072.bpmn,subProcess,1
-ex07_writer0072.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0072.bpmn,startEvent,1
-ex07_writer0072.bpmn,eventBasedGateway,1
-ex07_writer0072.bpmn,endEvent,1
-ex07_writer0072.bpmn,timerEventDefinition,1
-ex07_writer0072.bpmn,textAnnotation,1
-ex07_writer0072.bpmn,text,1
-ex07_writer0072.bpmn,association,1
-ex07_writer0073.bpmn,outgoing,19
-ex07_writer0073.bpmn,incoming,19
-ex07_writer0073.bpmn,sequenceFlow,19
-ex07_writer0073.bpmn,flowNodeRef,17
-ex07_writer0073.bpmn,task,5
-ex07_writer0073.bpmn,parallelGateway,4
-ex07_writer0073.bpmn,lane,3
-ex07_writer0073.bpmn,messageEventDefinition,2
-ex07_writer0073.bpmn,intermediateCatchEvent,2
-ex07_writer0073.bpmn,process,1
-ex07_writer0073.bpmn,laneSet,1
-ex07_writer0073.bpmn,startEvent,1
-ex07_writer0073.bpmn,endEvent,1
-ex07_writer0073.bpmn,intermediateThrowEvent,1
-ex07_writer0073.bpmn,timerEventDefinition,1
-ex07_writer0073.bpmn,exclusiveGateway,1
-ex07_writer0073.bpmn,callActivity,1
-ex07_writer0073.bpmn,eventBasedGateway,1
-ex07_writer0074.bpmn,flowNodeRef,13
-ex07_writer0074.bpmn,incoming,10
-ex07_writer0074.bpmn,outgoing,10
-ex07_writer0074.bpmn,sequenceFlow,10
-ex07_writer0074.bpmn,task,5
-ex07_writer0074.bpmn,startEvent,4
-ex07_writer0074.bpmn,endEvent,3
-ex07_writer0074.bpmn,messageEventDefinition,3
-ex07_writer0074.bpmn,process,2
-ex07_writer0074.bpmn,lane,2
-ex07_writer0074.bpmn,laneSet,1
-ex07_writer0074.bpmn,parallelGateway,1
-ex07_writer0074.bpmn,standardLoopCharacteristics,1
-ex07_writer0074.bpmn,subProcess,1
-ex07_writer0075.bpmn,flowNodeRef,28
-ex07_writer0075.bpmn,outgoing,17
-ex07_writer0075.bpmn,incoming,17
-ex07_writer0075.bpmn,sequenceFlow,17
-ex07_writer0075.bpmn,task,7
-ex07_writer0075.bpmn,lane,3
-ex07_writer0075.bpmn,parallelGateway,3
-ex07_writer0075.bpmn,endEvent,2
-ex07_writer0075.bpmn,intermediateCatchEvent,2
-ex07_writer0075.bpmn,timerEventDefinition,2
-ex07_writer0075.bpmn,process,1
-ex07_writer0075.bpmn,laneSet,1
-ex07_writer0075.bpmn,childLaneSet,1
-ex07_writer0075.bpmn,startEvent,1
-ex07_writer0075.bpmn,eventBasedGateway,1
-ex07_writer0075.bpmn,messageEventDefinition,1
-ex07_writer0075.bpmn,subProcess,1
-ex07_writer0076.bpmn,outgoing,14
-ex07_writer0076.bpmn,incoming,14
-ex07_writer0076.bpmn,sequenceFlow,14
-ex07_writer0076.bpmn,task,4
-ex07_writer0076.bpmn,messageEventDefinition,4
-ex07_writer0076.bpmn,startEvent,3
-ex07_writer0076.bpmn,intermediateCatchEvent,3
-ex07_writer0076.bpmn,endEvent,2
-ex07_writer0076.bpmn,timerEventDefinition,2
-ex07_writer0076.bpmn,intermediateThrowEvent,2
-ex07_writer0076.bpmn,textAnnotation,2
-ex07_writer0076.bpmn,text,2
-ex07_writer0076.bpmn,process,1
-ex07_writer0076.bpmn,exclusiveGateway,1
-ex07_writer0077.bpmn,outgoing,16
-ex07_writer0077.bpmn,incoming,16
-ex07_writer0077.bpmn,sequenceFlow,16
-ex07_writer0077.bpmn,flowNodeRef,15
-ex07_writer0077.bpmn,task,5
-ex07_writer0077.bpmn,parallelGateway,4
-ex07_writer0077.bpmn,lane,2
-ex07_writer0077.bpmn,intermediateCatchEvent,2
-ex07_writer0077.bpmn,process,1
-ex07_writer0077.bpmn,laneSet,1
-ex07_writer0077.bpmn,startEvent,1
-ex07_writer0077.bpmn,timerEventDefinition,1
-ex07_writer0077.bpmn,subProcess,1
-ex07_writer0077.bpmn,endEvent,1
-ex07_writer0077.bpmn,messageEventDefinition,1
-ex07_writer0077.bpmn,eventBasedGateway,1
-ex07_writer0078.bpmn,incoming,23
-ex07_writer0078.bpmn,outgoing,23
-ex07_writer0078.bpmn,sequenceFlow,23
-ex07_writer0078.bpmn,flowNodeRef,19
-ex07_writer0078.bpmn,task,6
-ex07_writer0078.bpmn,parallelGateway,6
-ex07_writer0078.bpmn,process,3
-ex07_writer0078.bpmn,lane,2
-ex07_writer0078.bpmn,intermediateCatchEvent,2
-ex07_writer0078.bpmn,endEvent,2
-ex07_writer0078.bpmn,messageEventDefinition,2
-ex07_writer0078.bpmn,startEvent,2
-ex07_writer0078.bpmn,laneSet,1
-ex07_writer0078.bpmn,exclusiveGateway,1
-ex07_writer0078.bpmn,eventBasedGateway,1
-ex07_writer0078.bpmn,timerEventDefinition,1
-ex07_writer0078.bpmn,subProcess,1
-ex07_writer0078.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0079.bpmn,flowNodeRef,13
-ex07_writer0079.bpmn,outgoing,12
-ex07_writer0079.bpmn,incoming,12
-ex07_writer0079.bpmn,sequenceFlow,12
-ex07_writer0079.bpmn,task,5
-ex07_writer0079.bpmn,lane,2
-ex07_writer0079.bpmn,parallelGateway,2
-ex07_writer0079.bpmn,intermediateCatchEvent,2
-ex07_writer0079.bpmn,messageEventDefinition,2
-ex07_writer0079.bpmn,endEvent,2
-ex07_writer0079.bpmn,process,1
-ex07_writer0079.bpmn,laneSet,1
-ex07_writer0079.bpmn,startEvent,1
-ex07_writer0079.bpmn,standardLoopCharacteristics,1
-ex07_writer0079.bpmn,callActivity,1
-ex07_writer0081.bpmn,outgoing,22
-ex07_writer0081.bpmn,incoming,22
-ex07_writer0081.bpmn,sequenceFlow,22
-ex07_writer0081.bpmn,flowNodeRef,19
-ex07_writer0081.bpmn,task,6
-ex07_writer0081.bpmn,parallelGateway,4
-ex07_writer0081.bpmn,lane,2
-ex07_writer0081.bpmn,exclusiveGateway,2
-ex07_writer0081.bpmn,intermediateCatchEvent,2
-ex07_writer0081.bpmn,messageEventDefinition,2
-ex07_writer0081.bpmn,process,1
-ex07_writer0081.bpmn,laneSet,1
-ex07_writer0081.bpmn,startEvent,1
-ex07_writer0081.bpmn,endEvent,1
-ex07_writer0081.bpmn,eventBasedGateway,1
-ex07_writer0081.bpmn,intermediateThrowEvent,1
-ex07_writer0081.bpmn,subProcess,1
-ex07_writer0081.bpmn,timerEventDefinition,1
-ex07_writer0083.bpmn,flowNodeRef,25
-ex07_writer0083.bpmn,outgoing,18
-ex07_writer0083.bpmn,incoming,18
-ex07_writer0083.bpmn,sequenceFlow,18
-ex07_writer0083.bpmn,task,4
-ex07_writer0083.bpmn,messageEventDefinition,4
-ex07_writer0083.bpmn,lane,3
-ex07_writer0083.bpmn,parallelGateway,3
-ex07_writer0083.bpmn,intermediateCatchEvent,3
-ex07_writer0083.bpmn,endEvent,2
-ex07_writer0083.bpmn,process,1
-ex07_writer0083.bpmn,laneSet,1
-ex07_writer0083.bpmn,childLaneSet,1
-ex07_writer0083.bpmn,startEvent,1
-ex07_writer0083.bpmn,exclusiveGateway,1
-ex07_writer0083.bpmn,eventBasedGateway,1
-ex07_writer0083.bpmn,intermediateThrowEvent,1
-ex07_writer0083.bpmn,subProcess,1
-ex07_writer0083.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0083.bpmn,timerEventDefinition,1
-ex07_writer0084.bpmn,flowNodeRef,26
-ex07_writer0084.bpmn,incoming,18
-ex07_writer0084.bpmn,outgoing,18
-ex07_writer0084.bpmn,sequenceFlow,18
-ex07_writer0084.bpmn,task,7
-ex07_writer0084.bpmn,lane,3
-ex07_writer0084.bpmn,endEvent,3
-ex07_writer0084.bpmn,parallelGateway,2
-ex07_writer0084.bpmn,intermediateCatchEvent,2
-ex07_writer0084.bpmn,process,1
-ex07_writer0084.bpmn,laneSet,1
-ex07_writer0084.bpmn,childLaneSet,1
-ex07_writer0084.bpmn,subProcess,1
-ex07_writer0084.bpmn,messageEventDefinition,1
-ex07_writer0084.bpmn,eventBasedGateway,1
-ex07_writer0084.bpmn,exclusiveGateway,1
-ex07_writer0084.bpmn,startEvent,1
-ex07_writer0084.bpmn,timerEventDefinition,1
-ex07_writer0085.bpmn,flowNodeRef,28
-ex07_writer0085.bpmn,incoming,19
-ex07_writer0085.bpmn,outgoing,19
-ex07_writer0085.bpmn,sequenceFlow,18
-ex07_writer0085.bpmn,task,7
-ex07_writer0085.bpmn,parallelGateway,4
-ex07_writer0085.bpmn,lane,3
-ex07_writer0085.bpmn,process,2
-ex07_writer0085.bpmn,intermediateCatchEvent,2
-ex07_writer0085.bpmn,messageEventDefinition,2
-ex07_writer0085.bpmn,endEvent,2
-ex07_writer0085.bpmn,laneSet,1
-ex07_writer0085.bpmn,childLaneSet,1
-ex07_writer0085.bpmn,subProcess,1
-ex07_writer0085.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0085.bpmn,standardLoopCharacteristics,1
-ex07_writer0085.bpmn,startEvent,1
-ex07_writer0085.bpmn,textAnnotation,1
-ex07_writer0085.bpmn,text,1
-ex07_writer0085.bpmn,association,1
-ex07_writer0086.bpmn,flowNodeRef,20
-ex07_writer0086.bpmn,outgoing,14
-ex07_writer0086.bpmn,incoming,14
-ex07_writer0086.bpmn,sequenceFlow,14
-ex07_writer0086.bpmn,task,5
-ex07_writer0086.bpmn,parallelGateway,4
-ex07_writer0086.bpmn,lane,3
-ex07_writer0086.bpmn,subProcess,2
-ex07_writer0086.bpmn,process,1
-ex07_writer0086.bpmn,laneSet,1
-ex07_writer0086.bpmn,childLaneSet,1
-ex07_writer0086.bpmn,startEvent,1
-ex07_writer0086.bpmn,standardLoopCharacteristics,1
-ex07_writer0086.bpmn,endEvent,1
-ex07_writer0086.bpmn,textAnnotation,1
-ex07_writer0086.bpmn,text,1
-ex07_writer0086.bpmn,association,1
-ex07_writer0087.bpmn,outgoing,19
-ex07_writer0087.bpmn,incoming,19
-ex07_writer0087.bpmn,sequenceFlow,19
-ex07_writer0087.bpmn,flowNodeRef,15
-ex07_writer0087.bpmn,task,6
-ex07_writer0087.bpmn,parallelGateway,3
-ex07_writer0087.bpmn,endEvent,3
-ex07_writer0087.bpmn,process,2
-ex07_writer0087.bpmn,lane,2
-ex07_writer0087.bpmn,startEvent,2
-ex07_writer0087.bpmn,targetRef,2
-ex07_writer0087.bpmn,intermediateCatchEvent,2
-ex07_writer0087.bpmn,messageEventDefinition,2
-ex07_writer0087.bpmn,subProcess,2
-ex07_writer0087.bpmn,laneSet,1
-ex07_writer0087.bpmn,property,1
-ex07_writer0087.bpmn,dataInputAssociation,1
-ex07_writer0087.bpmn,sourceRef,1
-ex07_writer0087.bpmn,dataOutputAssociation,1
-ex07_writer0087.bpmn,eventBasedGateway,1
-ex07_writer0087.bpmn,dataObjectReference,1
-ex07_writer0087.bpmn,dataObject,1
-ex07_writer0088.bpmn,flowNodeRef,22
-ex07_writer0088.bpmn,incoming,18
-ex07_writer0088.bpmn,outgoing,18
-ex07_writer0088.bpmn,sequenceFlow,18
-ex07_writer0088.bpmn,parallelGateway,4
-ex07_writer0088.bpmn,lane,3
-ex07_writer0088.bpmn,messageEventDefinition,3
-ex07_writer0088.bpmn,task,3
-ex07_writer0088.bpmn,intermediateThrowEvent,2
-ex07_writer0088.bpmn,intermediateCatchEvent,2
-ex07_writer0088.bpmn,process,1
-ex07_writer0088.bpmn,laneSet,1
-ex07_writer0088.bpmn,childLaneSet,1
-ex07_writer0088.bpmn,endEvent,1
-ex07_writer0088.bpmn,eventBasedGateway,1
-ex07_writer0088.bpmn,exclusiveGateway,1
-ex07_writer0088.bpmn,subProcess,1
-ex07_writer0088.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0088.bpmn,startEvent,1
-ex07_writer0088.bpmn,timerEventDefinition,1
-ex07_writer0089.bpmn,incoming,17
-ex07_writer0089.bpmn,outgoing,17
-ex07_writer0089.bpmn,sequenceFlow,17
-ex07_writer0089.bpmn,flowNodeRef,15
-ex07_writer0089.bpmn,task,4
-ex07_writer0089.bpmn,parallelGateway,4
-ex07_writer0089.bpmn,lane,2
-ex07_writer0089.bpmn,intermediateCatchEvent,2
-ex07_writer0089.bpmn,messageEventDefinition,2
-ex07_writer0089.bpmn,process,1
-ex07_writer0089.bpmn,laneSet,1
-ex07_writer0089.bpmn,eventBasedGateway,1
-ex07_writer0089.bpmn,timerEventDefinition,1
-ex07_writer0089.bpmn,intermediateThrowEvent,1
-ex07_writer0089.bpmn,subProcess,1
-ex07_writer0089.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0089.bpmn,startEvent,1
-ex07_writer0089.bpmn,endEvent,1
-ex07_writer0089.bpmn,association,1
-ex07_writer0089.bpmn,textAnnotation,1
-ex07_writer0089.bpmn,text,1
-ex07_writer0090.bpmn,outgoing,15
-ex07_writer0090.bpmn,incoming,15
-ex07_writer0090.bpmn,sequenceFlow,15
-ex07_writer0090.bpmn,flowNodeRef,14
-ex07_writer0090.bpmn,task,7
-ex07_writer0090.bpmn,parallelGateway,4
-ex07_writer0090.bpmn,lane,2
-ex07_writer0090.bpmn,multiInstanceLoopCharacteristics,2
-ex07_writer0090.bpmn,process,1
-ex07_writer0090.bpmn,laneSet,1
-ex07_writer0090.bpmn,startEvent,1
-ex07_writer0090.bpmn,standardLoopCharacteristics,1
-ex07_writer0090.bpmn,subProcess,1
-ex07_writer0090.bpmn,endEvent,1
-ex07_writer0091.bpmn,flowNodeRef,14
-ex07_writer0091.bpmn,outgoing,14
-ex07_writer0091.bpmn,incoming,14
-ex07_writer0091.bpmn,sequenceFlow,14
-ex07_writer0091.bpmn,task,7
-ex07_writer0091.bpmn,parallelGateway,3
-ex07_writer0091.bpmn,process,2
-ex07_writer0091.bpmn,lane,2
-ex07_writer0091.bpmn,endEvent,2
-ex07_writer0091.bpmn,laneSet,1
-ex07_writer0091.bpmn,startEvent,1
-ex07_writer0091.bpmn,subProcess,1
-ex07_writer0091.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0091.bpmn,exclusiveGateway,1
-ex07_writer0092.bpmn,outgoing,23
-ex07_writer0092.bpmn,incoming,23
-ex07_writer0092.bpmn,sequenceFlow,23
-ex07_writer0092.bpmn,flowNodeRef,20
-ex07_writer0092.bpmn,task,7
-ex07_writer0092.bpmn,exclusiveGateway,5
-ex07_writer0092.bpmn,lane,2
-ex07_writer0092.bpmn,intermediateCatchEvent,2
-ex07_writer0092.bpmn,messageEventDefinition,2
-ex07_writer0092.bpmn,parallelGateway,2
-ex07_writer0092.bpmn,process,1
-ex07_writer0092.bpmn,laneSet,1
-ex07_writer0092.bpmn,startEvent,1
-ex07_writer0092.bpmn,intermediateThrowEvent,1
-ex07_writer0092.bpmn,eventBasedGateway,1
-ex07_writer0092.bpmn,endEvent,1
-ex07_writer0092.bpmn,timerEventDefinition,1
-ex07_writer0093.bpmn,incoming,18
-ex07_writer0093.bpmn,outgoing,18
-ex07_writer0093.bpmn,sequenceFlow,17
-ex07_writer0093.bpmn,flowNodeRef,15
-ex07_writer0093.bpmn,targetRef,8
-ex07_writer0093.bpmn,dataObjectReference,5
-ex07_writer0093.bpmn,dataObject,5
-ex07_writer0093.bpmn,property,4
-ex07_writer0093.bpmn,dataInputAssociation,4
-ex07_writer0093.bpmn,sourceRef,4
-ex07_writer0093.bpmn,messageEventDefinition,4
-ex07_writer0093.bpmn,dataOutputAssociation,4
-ex07_writer0093.bpmn,task,4
-ex07_writer0093.bpmn,parallelGateway,3
-ex07_writer0093.bpmn,lane,2
-ex07_writer0093.bpmn,intermediateThrowEvent,2
-ex07_writer0093.bpmn,intermediateCatchEvent,2
-ex07_writer0093.bpmn,process,1
-ex07_writer0093.bpmn,laneSet,1
-ex07_writer0093.bpmn,subProcess,1
-ex07_writer0093.bpmn,exclusiveGateway,1
-ex07_writer0093.bpmn,startEvent,1
-ex07_writer0093.bpmn,endEvent,1
-ex07_writer0094.bpmn,incoming,18
-ex07_writer0094.bpmn,outgoing,18
-ex07_writer0094.bpmn,sequenceFlow,18
-ex07_writer0094.bpmn,flowNodeRef,16
-ex07_writer0094.bpmn,task,6
-ex07_writer0094.bpmn,parallelGateway,4
-ex07_writer0094.bpmn,lane,2
-ex07_writer0094.bpmn,messageEventDefinition,2
-ex07_writer0094.bpmn,intermediateCatchEvent,2
-ex07_writer0094.bpmn,process,1
-ex07_writer0094.bpmn,laneSet,1
-ex07_writer0094.bpmn,startEvent,1
-ex07_writer0094.bpmn,intermediateThrowEvent,1
-ex07_writer0094.bpmn,eventBasedGateway,1
-ex07_writer0094.bpmn,timerEventDefinition,1
-ex07_writer0094.bpmn,endEvent,1
-ex07_writer0095.bpmn,outgoing,12
-ex07_writer0095.bpmn,incoming,12
-ex07_writer0095.bpmn,sequenceFlow,12
-ex07_writer0095.bpmn,flowNodeRef,11
-ex07_writer0095.bpmn,parallelGateway,4
-ex07_writer0095.bpmn,task,3
-ex07_writer0095.bpmn,lane,2
-ex07_writer0095.bpmn,subProcess,2
-ex07_writer0095.bpmn,process,1
-ex07_writer0095.bpmn,laneSet,1
-ex07_writer0095.bpmn,startEvent,1
-ex07_writer0095.bpmn,standardLoopCharacteristics,1
-ex07_writer0095.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0095.bpmn,endEvent,1
-ex07_writer0095.bpmn,textAnnotation,1
-ex07_writer0095.bpmn,text,1
-ex07_writer0096.bpmn,flowNodeRef,13
-ex07_writer0096.bpmn,outgoing,13
-ex07_writer0096.bpmn,incoming,13
-ex07_writer0096.bpmn,sequenceFlow,13
-ex07_writer0096.bpmn,task,6
-ex07_writer0096.bpmn,lane,3
-ex07_writer0096.bpmn,parallelGateway,3
-ex07_writer0096.bpmn,endEvent,2
-ex07_writer0096.bpmn,process,1
-ex07_writer0096.bpmn,laneSet,1
-ex07_writer0096.bpmn,startEvent,1
-ex07_writer0096.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0096.bpmn,standardLoopCharacteristics,1
-ex07_writer0096.bpmn,subProcess,1
-ex07_writer0096.bpmn,messageEventDefinition,1
-ex07_writer0096.bpmn,textAnnotation,1
-ex07_writer0096.bpmn,text,1
-ex07_writer0096.bpmn,association,1
-ex07_writer0097.bpmn,flowNodeRef,26
-ex07_writer0097.bpmn,incoming,17
-ex07_writer0097.bpmn,outgoing,17
-ex07_writer0097.bpmn,sequenceFlow,17
-ex07_writer0097.bpmn,task,6
-ex07_writer0097.bpmn,messageEventDefinition,5
-ex07_writer0097.bpmn,intermediateCatchEvent,4
-ex07_writer0097.bpmn,lane,3
-ex07_writer0097.bpmn,endEvent,2
-ex07_writer0097.bpmn,parallelGateway,2
-ex07_writer0097.bpmn,process,1
-ex07_writer0097.bpmn,laneSet,1
-ex07_writer0097.bpmn,childLaneSet,1
-ex07_writer0097.bpmn,standardLoopCharacteristics,1
-ex07_writer0097.bpmn,startEvent,1
-ex07_writer0097.bpmn,intermediateThrowEvent,1
-ex07_writer0097.bpmn,timerEventDefinition,1
-ex07_writer0097.bpmn,textAnnotation,1
-ex07_writer0097.bpmn,text,1
-ex07_writer0097.bpmn,association,1
-ex07_writer0098.bpmn,flowNodeRef,16
-ex07_writer0098.bpmn,incoming,14
-ex07_writer0098.bpmn,outgoing,14
-ex07_writer0098.bpmn,sequenceFlow,14
-ex07_writer0098.bpmn,task,6
-ex07_writer0098.bpmn,targetRef,6
-ex07_writer0098.bpmn,messageEventDefinition,5
-ex07_writer0098.bpmn,startEvent,4
-ex07_writer0098.bpmn,dataOutputAssociation,4
-ex07_writer0098.bpmn,dataObjectReference,3
-ex07_writer0098.bpmn,dataObject,3
-ex07_writer0098.bpmn,process,2
-ex07_writer0098.bpmn,laneSet,2
-ex07_writer0098.bpmn,lane,2
-ex07_writer0098.bpmn,endEvent,2
-ex07_writer0098.bpmn,textAnnotation,2
-ex07_writer0098.bpmn,text,2
-ex07_writer0098.bpmn,association,2
-ex07_writer0098.bpmn,exclusiveGateway,2
-ex07_writer0098.bpmn,property,2
-ex07_writer0098.bpmn,dataInputAssociation,2
-ex07_writer0098.bpmn,sourceRef,2
-ex07_writer0098.bpmn,subProcess,1
-ex07_writer0098.bpmn,dataStoreReference,1
-ex07_writer0098.bpmn,intermediateCatchEvent,1
-ex07_writer0099.bpmn,incoming,19
-ex07_writer0099.bpmn,outgoing,19
-ex07_writer0099.bpmn,sequenceFlow,19
-ex07_writer0099.bpmn,task,6
-ex07_writer0099.bpmn,messageEventDefinition,6
-ex07_writer0099.bpmn,endEvent,3
-ex07_writer0099.bpmn,parallelGateway,3
-ex07_writer0099.bpmn,process,2
-ex07_writer0099.bpmn,intermediateCatchEvent,2
-ex07_writer0099.bpmn,startEvent,2
-ex07_writer0099.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0099.bpmn,intermediateThrowEvent,1
-ex07_writer0099.bpmn,exclusiveGateway,1
-ex07_writer0099.bpmn,eventBasedGateway,1
-ex07_writer0099.bpmn,timerEventDefinition,1
-ex07_writer0100.bpmn,outgoing,17
-ex07_writer0100.bpmn,incoming,17
-ex07_writer0100.bpmn,sequenceFlow,17
-ex07_writer0100.bpmn,flowNodeRef,15
-ex07_writer0100.bpmn,task,5
-ex07_writer0100.bpmn,parallelGateway,4
-ex07_writer0100.bpmn,lane,2
-ex07_writer0100.bpmn,exclusiveGateway,2
-ex07_writer0100.bpmn,process,1
-ex07_writer0100.bpmn,laneSet,1
-ex07_writer0100.bpmn,startEvent,1
-ex07_writer0100.bpmn,endEvent,1
-ex07_writer0100.bpmn,intermediateCatchEvent,1
-ex07_writer0100.bpmn,messageEventDefinition,1
-ex07_writer0100.bpmn,subProcess,1
-ex07_writer0100.bpmn,textAnnotation,1
-ex07_writer0100.bpmn,text,1
-ex07_writer0100.bpmn,association,1
-ex07_writer0101.bpmn,incoming,17
-ex07_writer0101.bpmn,outgoing,17
-ex07_writer0101.bpmn,sequenceFlow,17
-ex07_writer0101.bpmn,flowNodeRef,12
-ex07_writer0101.bpmn,task,4
-ex07_writer0101.bpmn,parallelGateway,3
-ex07_writer0101.bpmn,endEvent,3
-ex07_writer0101.bpmn,messageEventDefinition,3
-ex07_writer0101.bpmn,lane,2
-ex07_writer0101.bpmn,subProcess,2
-ex07_writer0101.bpmn,process,1
-ex07_writer0101.bpmn,laneSet,1
-ex07_writer0101.bpmn,standardLoopCharacteristics,1
-ex07_writer0101.bpmn,startEvent,1
-ex07_writer0101.bpmn,callActivity,1
-ex07_writer0101.bpmn,exclusiveGateway,1
-ex07_writer0101.bpmn,intermediateThrowEvent,1
-ex07_writer0101.bpmn,intermediateCatchEvent,1
-ex07_writer0101.bpmn,timerEventDefinition,1
-ex07_writer0101.bpmn,eventBasedGateway,1
-ex07_writer0101.bpmn,textAnnotation,1
-ex07_writer0101.bpmn,text,1
-ex07_writer0101.bpmn,association,1
-ex07_writer0102.bpmn,incoming,16
-ex07_writer0102.bpmn,outgoing,16
-ex07_writer0102.bpmn,sequenceFlow,16
-ex07_writer0102.bpmn,flowNodeRef,13
-ex07_writer0102.bpmn,task,6
-ex07_writer0102.bpmn,parallelGateway,4
-ex07_writer0102.bpmn,messageEventDefinition,3
-ex07_writer0102.bpmn,process,2
-ex07_writer0102.bpmn,lane,2
-ex07_writer0102.bpmn,standardLoopCharacteristics,2
-ex07_writer0102.bpmn,startEvent,2
-ex07_writer0102.bpmn,endEvent,2
-ex07_writer0102.bpmn,textAnnotation,2
-ex07_writer0102.bpmn,text,2
-ex07_writer0102.bpmn,association,2
-ex07_writer0102.bpmn,laneSet,1
-ex07_writer0102.bpmn,subProcess,1
-ex07_writer0102.bpmn,intermediateCatchEvent,1
-ex07_writer0103.bpmn,incoming,21
-ex07_writer0103.bpmn,outgoing,21
-ex07_writer0103.bpmn,sequenceFlow,21
-ex07_writer0103.bpmn,flowNodeRef,18
-ex07_writer0103.bpmn,task,10
-ex07_writer0103.bpmn,messageEventDefinition,6
-ex07_writer0103.bpmn,intermediateCatchEvent,3
-ex07_writer0103.bpmn,endEvent,3
-ex07_writer0103.bpmn,startEvent,3
-ex07_writer0103.bpmn,process,2
-ex07_writer0103.bpmn,lane,2
-ex07_writer0103.bpmn,exclusiveGateway,2
-ex07_writer0103.bpmn,laneSet,1
-ex07_writer0103.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0103.bpmn,timerEventDefinition,1
-ex07_writer0103.bpmn,intermediateThrowEvent,1
-ex07_writer0104.bpmn,outgoing,17
-ex07_writer0104.bpmn,incoming,17
-ex07_writer0104.bpmn,sequenceFlow,17
-ex07_writer0104.bpmn,flowNodeRef,16
-ex07_writer0104.bpmn,task,8
-ex07_writer0104.bpmn,parallelGateway,3
-ex07_writer0104.bpmn,lane,2
-ex07_writer0104.bpmn,process,1
-ex07_writer0104.bpmn,laneSet,1
-ex07_writer0104.bpmn,startEvent,1
-ex07_writer0104.bpmn,endEvent,1
-ex07_writer0104.bpmn,standardLoopCharacteristics,1
-ex07_writer0104.bpmn,subProcess,1
-ex07_writer0104.bpmn,exclusiveGateway,1
-ex07_writer0104.bpmn,intermediateCatchEvent,1
-ex07_writer0104.bpmn,timerEventDefinition,1
-ex07_writer0105.bpmn,outgoing,20
-ex07_writer0105.bpmn,incoming,20
-ex07_writer0105.bpmn,sequenceFlow,20
-ex07_writer0105.bpmn,flowNodeRef,18
-ex07_writer0105.bpmn,task,7
-ex07_writer0105.bpmn,parallelGateway,4
-ex07_writer0105.bpmn,messageEventDefinition,3
-ex07_writer0105.bpmn,lane,2
-ex07_writer0105.bpmn,intermediateCatchEvent,2
-ex07_writer0105.bpmn,endEvent,2
-ex07_writer0105.bpmn,process,1
-ex07_writer0105.bpmn,laneSet,1
-ex07_writer0105.bpmn,startEvent,1
-ex07_writer0105.bpmn,timerEventDefinition,1
-ex07_writer0105.bpmn,intermediateThrowEvent,1
-ex07_writer0105.bpmn,exclusiveGateway,1
-ex07_writer0106.bpmn,outgoing,20
-ex07_writer0106.bpmn,incoming,20
-ex07_writer0106.bpmn,sequenceFlow,20
-ex07_writer0106.bpmn,flowNodeRef,18
-ex07_writer0106.bpmn,task,6
-ex07_writer0106.bpmn,parallelGateway,4
-ex07_writer0106.bpmn,process,3
-ex07_writer0106.bpmn,messageEventDefinition,3
-ex07_writer0106.bpmn,lane,2
-ex07_writer0106.bpmn,intermediateThrowEvent,2
-ex07_writer0106.bpmn,intermediateCatchEvent,2
-ex07_writer0106.bpmn,laneSet,1
-ex07_writer0106.bpmn,startEvent,1
-ex07_writer0106.bpmn,endEvent,1
-ex07_writer0106.bpmn,subProcess,1
-ex07_writer0106.bpmn,multiInstanceLoopCharacteristics,1
-ex07_writer0106.bpmn,eventBasedGateway,1
-ex07_writer0106.bpmn,timerEventDefinition,1
+File,Tag,Occurrences,Category
+ex07_writer0000.bpmn,outgoing,16,Connecting Objects
+ex07_writer0000.bpmn,incoming,16,Connecting Objects
+ex07_writer0000.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0000.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0000.bpmn,task,4,Flow Objects
+ex07_writer0000.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0000.bpmn,lane,2,Swim Lanes
+ex07_writer0000.bpmn,startEvent,2,Flow Objects
+ex07_writer0000.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0000.bpmn,process,1,Uncategorized
+ex07_writer0000.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0000.bpmn,laneSet,1,Swim Lanes
+ex07_writer0000.bpmn,endEvent,1,Flow Objects
+ex07_writer0000.bpmn,subProcess,1,Flow Objects
+ex07_writer0001.bpmn,flowNodeRef,23,Uncategorized
+ex07_writer0001.bpmn,outgoing,17,Connecting Objects
+ex07_writer0001.bpmn,incoming,17,Connecting Objects
+ex07_writer0001.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0001.bpmn,task,4,Flow Objects
+ex07_writer0001.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0001.bpmn,lane,3,Swim Lanes
+ex07_writer0001.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0001.bpmn,process,1,Uncategorized
+ex07_writer0001.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0001.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0001.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0001.bpmn,laneSet,1,Swim Lanes
+ex07_writer0001.bpmn,startEvent,1,Flow Objects
+ex07_writer0001.bpmn,endEvent,1,Flow Objects
+ex07_writer0001.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0001.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0001.bpmn,subProcess,1,Flow Objects
+ex07_writer0002.bpmn,outgoing,13,Connecting Objects
+ex07_writer0002.bpmn,incoming,13,Connecting Objects
+ex07_writer0002.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0002.bpmn,flowNodeRef,12,Uncategorized
+ex07_writer0002.bpmn,task,6,Flow Objects
+ex07_writer0002.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0002.bpmn,lane,2,Swim Lanes
+ex07_writer0002.bpmn,process,1,Uncategorized
+ex07_writer0002.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0002.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0002.bpmn,text,1,Uncategorized
+ex07_writer0002.bpmn,laneSet,1,Swim Lanes
+ex07_writer0002.bpmn,startEvent,1,Flow Objects
+ex07_writer0002.bpmn,endEvent,1,Flow Objects
+ex07_writer0002.bpmn,association,1,Flow Objects
+ex07_writer0003.bpmn,outgoing,18,Connecting Objects
+ex07_writer0003.bpmn,incoming,18,Connecting Objects
+ex07_writer0003.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0003.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0003.bpmn,task,5,Flow Objects
+ex07_writer0003.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0003.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0003.bpmn,lane,2,Swim Lanes
+ex07_writer0003.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0003.bpmn,process,1,Uncategorized
+ex07_writer0003.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0003.bpmn,laneSet,1,Swim Lanes
+ex07_writer0003.bpmn,startEvent,1,Flow Objects
+ex07_writer0003.bpmn,endEvent,1,Flow Objects
+ex07_writer0003.bpmn,callActivity,1,Flow Objects
+ex07_writer0003.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0003.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0003.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0005.bpmn,outgoing,19,Connecting Objects
+ex07_writer0005.bpmn,incoming,19,Connecting Objects
+ex07_writer0005.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0005.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0005.bpmn,task,5,Flow Objects
+ex07_writer0005.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0005.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0005.bpmn,process,2,Uncategorized
+ex07_writer0005.bpmn,lane,2,Swim Lanes
+ex07_writer0005.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0005.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0005.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0005.bpmn,laneSet,1,Swim Lanes
+ex07_writer0005.bpmn,startEvent,1,Flow Objects
+ex07_writer0005.bpmn,endEvent,1,Flow Objects
+ex07_writer0005.bpmn,subProcess,1,Flow Objects
+ex07_writer0005.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0006.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0006.bpmn,outgoing,17,Connecting Objects
+ex07_writer0006.bpmn,incoming,17,Connecting Objects
+ex07_writer0006.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0006.bpmn,task,6,Flow Objects
+ex07_writer0006.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0006.bpmn,lane,3,Swim Lanes
+ex07_writer0006.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0006.bpmn,process,1,Uncategorized
+ex07_writer0006.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0006.bpmn,property,1,Uncategorized
+ex07_writer0006.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0006.bpmn,dataObjectReference,1,Uncategorized
+ex07_writer0006.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0006.bpmn,laneSet,1,Swim Lanes
+ex07_writer0006.bpmn,startEvent,1,Flow Objects
+ex07_writer0006.bpmn,endEvent,1,Flow Objects
+ex07_writer0006.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0006.bpmn,dataObject,1,Artifacts
+ex07_writer0007.bpmn,incoming,11,Connecting Objects
+ex07_writer0007.bpmn,outgoing,11,Connecting Objects
+ex07_writer0007.bpmn,sequenceFlow,11,Connecting Objects
+ex07_writer0007.bpmn,targetRef,10,Connecting Objects
+ex07_writer0007.bpmn,property,5,Uncategorized
+ex07_writer0007.bpmn,dataInputAssociation,5,Uncategorized
+ex07_writer0007.bpmn,dataOutputAssociation,5,Uncategorized
+ex07_writer0007.bpmn,dataObjectReference,5,Uncategorized
+ex07_writer0007.bpmn,sourceRef,5,Connecting Objects
+ex07_writer0007.bpmn,dataObject,5,Artifacts
+ex07_writer0007.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0007.bpmn,task,4,Flow Objects
+ex07_writer0007.bpmn,process,2,Uncategorized
+ex07_writer0007.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0007.bpmn,startEvent,2,Flow Objects
+ex07_writer0007.bpmn,endEvent,2,Flow Objects
+ex07_writer0007.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0007.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0007.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0007.bpmn,text,1,Uncategorized
+ex07_writer0007.bpmn,subProcess,1,Flow Objects
+ex07_writer0007.bpmn,association,1,Flow Objects
+ex07_writer0008.bpmn,outgoing,19,Connecting Objects
+ex07_writer0008.bpmn,incoming,19,Connecting Objects
+ex07_writer0008.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0008.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0008.bpmn,task,5,Flow Objects
+ex07_writer0008.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0008.bpmn,process,2,Uncategorized
+ex07_writer0008.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0008.bpmn,lane,2,Swim Lanes
+ex07_writer0008.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0008.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0008.bpmn,laneSet,1,Swim Lanes
+ex07_writer0008.bpmn,startEvent,1,Flow Objects
+ex07_writer0008.bpmn,endEvent,1,Flow Objects
+ex07_writer0008.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0008.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0008.bpmn,subProcess,1,Flow Objects
+ex07_writer0008.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0009.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0009.bpmn,outgoing,12,Connecting Objects
+ex07_writer0009.bpmn,incoming,12,Connecting Objects
+ex07_writer0009.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0009.bpmn,task,6,Flow Objects
+ex07_writer0009.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0009.bpmn,lane,2,Swim Lanes
+ex07_writer0009.bpmn,endEvent,2,Flow Objects
+ex07_writer0009.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0009.bpmn,process,1,Uncategorized
+ex07_writer0009.bpmn,laneSet,1,Swim Lanes
+ex07_writer0009.bpmn,startEvent,1,Flow Objects
+ex07_writer0009.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0009.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0010.bpmn,flowNodeRef,23,Uncategorized
+ex07_writer0010.bpmn,outgoing,17,Connecting Objects
+ex07_writer0010.bpmn,incoming,17,Connecting Objects
+ex07_writer0010.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0010.bpmn,task,4,Flow Objects
+ex07_writer0010.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0010.bpmn,lane,3,Swim Lanes
+ex07_writer0010.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0010.bpmn,endEvent,2,Flow Objects
+ex07_writer0010.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0010.bpmn,process,1,Uncategorized
+ex07_writer0010.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0010.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0010.bpmn,laneSet,1,Swim Lanes
+ex07_writer0010.bpmn,startEvent,1,Flow Objects
+ex07_writer0010.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0010.bpmn,subProcess,1,Flow Objects
+ex07_writer0010.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0010.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0011.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0011.bpmn,incoming,13,Connecting Objects
+ex07_writer0011.bpmn,outgoing,13,Connecting Objects
+ex07_writer0011.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0011.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0011.bpmn,task,4,Flow Objects
+ex07_writer0011.bpmn,endEvent,3,Flow Objects
+ex07_writer0011.bpmn,lane,2,Swim Lanes
+ex07_writer0011.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0011.bpmn,startEvent,2,Flow Objects
+ex07_writer0011.bpmn,process,1,Uncategorized
+ex07_writer0011.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0011.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0011.bpmn,text,1,Uncategorized
+ex07_writer0011.bpmn,laneSet,1,Swim Lanes
+ex07_writer0011.bpmn,subProcess,1,Flow Objects
+ex07_writer0011.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0011.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0011.bpmn,association,1,Flow Objects
+ex07_writer0012.bpmn,outgoing,17,Connecting Objects
+ex07_writer0012.bpmn,incoming,17,Connecting Objects
+ex07_writer0012.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0012.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0012.bpmn,task,6,Flow Objects
+ex07_writer0012.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0012.bpmn,lane,2,Swim Lanes
+ex07_writer0012.bpmn,process,1,Uncategorized
+ex07_writer0012.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0012.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0012.bpmn,laneSet,1,Swim Lanes
+ex07_writer0012.bpmn,startEvent,1,Flow Objects
+ex07_writer0012.bpmn,endEvent,1,Flow Objects
+ex07_writer0012.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0012.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0012.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0013.bpmn,outgoing,18,Connecting Objects
+ex07_writer0013.bpmn,incoming,18,Connecting Objects
+ex07_writer0013.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0013.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0013.bpmn,task,6,Flow Objects
+ex07_writer0013.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0013.bpmn,process,2,Uncategorized
+ex07_writer0013.bpmn,lane,2,Swim Lanes
+ex07_writer0013.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0013.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0013.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0013.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0013.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0013.bpmn,text,1,Uncategorized
+ex07_writer0013.bpmn,laneSet,1,Swim Lanes
+ex07_writer0013.bpmn,startEvent,1,Flow Objects
+ex07_writer0013.bpmn,endEvent,1,Flow Objects
+ex07_writer0013.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0013.bpmn,subProcess,1,Flow Objects
+ex07_writer0013.bpmn,association,1,Flow Objects
+ex07_writer0014.bpmn,flowNodeRef,27,Uncategorized
+ex07_writer0014.bpmn,outgoing,20,Connecting Objects
+ex07_writer0014.bpmn,incoming,20,Connecting Objects
+ex07_writer0014.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0014.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0014.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0014.bpmn,task,4,Flow Objects
+ex07_writer0014.bpmn,lane,3,Swim Lanes
+ex07_writer0014.bpmn,intermediateThrowEvent,3,Flow Objects
+ex07_writer0014.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0014.bpmn,process,1,Uncategorized
+ex07_writer0014.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0014.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0014.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0014.bpmn,laneSet,1,Swim Lanes
+ex07_writer0014.bpmn,startEvent,1,Flow Objects
+ex07_writer0014.bpmn,endEvent,1,Flow Objects
+ex07_writer0014.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0014.bpmn,subProcess,1,Flow Objects
+ex07_writer0014.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0016.bpmn,flowNodeRef,30,Uncategorized
+ex07_writer0016.bpmn,incoming,17,Connecting Objects
+ex07_writer0016.bpmn,outgoing,17,Connecting Objects
+ex07_writer0016.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0016.bpmn,lane,4,Swim Lanes
+ex07_writer0016.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0016.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0016.bpmn,task,3,Flow Objects
+ex07_writer0016.bpmn,childLaneSet,2,Uncategorized
+ex07_writer0016.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0016.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0016.bpmn,process,1,Uncategorized
+ex07_writer0016.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0016.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0016.bpmn,laneSet,1,Swim Lanes
+ex07_writer0016.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0016.bpmn,subProcess,1,Flow Objects
+ex07_writer0016.bpmn,endEvent,1,Flow Objects
+ex07_writer0016.bpmn,startEvent,1,Flow Objects
+ex07_writer0019.bpmn,flowNodeRef,24,Uncategorized
+ex07_writer0019.bpmn,outgoing,19,Connecting Objects
+ex07_writer0019.bpmn,incoming,19,Connecting Objects
+ex07_writer0019.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0019.bpmn,task,4,Flow Objects
+ex07_writer0019.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0019.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0019.bpmn,lane,3,Swim Lanes
+ex07_writer0019.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0019.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0019.bpmn,process,1,Uncategorized
+ex07_writer0019.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0019.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0019.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0019.bpmn,laneSet,1,Swim Lanes
+ex07_writer0019.bpmn,startEvent,1,Flow Objects
+ex07_writer0019.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0019.bpmn,endEvent,1,Flow Objects
+ex07_writer0019.bpmn,subProcess,1,Flow Objects
+ex07_writer0019.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0020.bpmn,flowNodeRef,23,Uncategorized
+ex07_writer0020.bpmn,outgoing,15,Connecting Objects
+ex07_writer0020.bpmn,incoming,15,Connecting Objects
+ex07_writer0020.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0020.bpmn,task,6,Flow Objects
+ex07_writer0020.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0020.bpmn,lane,3,Swim Lanes
+ex07_writer0020.bpmn,startEvent,2,Flow Objects
+ex07_writer0020.bpmn,process,1,Uncategorized
+ex07_writer0020.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0020.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0020.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0020.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0020.bpmn,text,1,Uncategorized
+ex07_writer0020.bpmn,laneSet,1,Swim Lanes
+ex07_writer0020.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0020.bpmn,endEvent,1,Flow Objects
+ex07_writer0020.bpmn,association,1,Flow Objects
+ex07_writer0021.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0021.bpmn,incoming,13,Connecting Objects
+ex07_writer0021.bpmn,outgoing,13,Connecting Objects
+ex07_writer0021.bpmn,flowNodeRef,11,Uncategorized
+ex07_writer0021.bpmn,task,4,Flow Objects
+ex07_writer0021.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0021.bpmn,lane,2,Swim Lanes
+ex07_writer0021.bpmn,process,1,Uncategorized
+ex07_writer0021.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0021.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0021.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0021.bpmn,text,1,Uncategorized
+ex07_writer0021.bpmn,laneSet,1,Swim Lanes
+ex07_writer0021.bpmn,subProcess,1,Flow Objects
+ex07_writer0021.bpmn,endEvent,1,Flow Objects
+ex07_writer0021.bpmn,startEvent,1,Flow Objects
+ex07_writer0021.bpmn,association,1,Flow Objects
+ex07_writer0022.bpmn,outgoing,23,Connecting Objects
+ex07_writer0022.bpmn,incoming,23,Connecting Objects
+ex07_writer0022.bpmn,sequenceFlow,23,Connecting Objects
+ex07_writer0022.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0022.bpmn,task,6,Flow Objects
+ex07_writer0022.bpmn,parallelGateway,6,Flow Objects
+ex07_writer0022.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0022.bpmn,lane,2,Swim Lanes
+ex07_writer0022.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0022.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0022.bpmn,process,1,Uncategorized
+ex07_writer0022.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0022.bpmn,laneSet,1,Swim Lanes
+ex07_writer0022.bpmn,startEvent,1,Flow Objects
+ex07_writer0022.bpmn,endEvent,1,Flow Objects
+ex07_writer0022.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0022.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0023.bpmn,flowNodeRef,19,Uncategorized
+ex07_writer0023.bpmn,outgoing,15,Connecting Objects
+ex07_writer0023.bpmn,incoming,15,Connecting Objects
+ex07_writer0023.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0023.bpmn,messageEventDefinition,6,Uncategorized
+ex07_writer0023.bpmn,startEvent,4,Flow Objects
+ex07_writer0023.bpmn,task,4,Flow Objects
+ex07_writer0023.bpmn,lane,3,Swim Lanes
+ex07_writer0023.bpmn,endEvent,3,Flow Objects
+ex07_writer0023.bpmn,process,2,Uncategorized
+ex07_writer0023.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0023.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0023.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0023.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0023.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0023.bpmn,laneSet,1,Swim Lanes
+ex07_writer0023.bpmn,subProcess,1,Flow Objects
+ex07_writer0023.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0023.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0024.bpmn,incoming,20,Connecting Objects
+ex07_writer0024.bpmn,outgoing,20,Connecting Objects
+ex07_writer0024.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0024.bpmn,flowNodeRef,18,Uncategorized
+ex07_writer0024.bpmn,task,6,Flow Objects
+ex07_writer0024.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0024.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0024.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0024.bpmn,text,2,Uncategorized
+ex07_writer0024.bpmn,lane,2,Swim Lanes
+ex07_writer0024.bpmn,endEvent,2,Flow Objects
+ex07_writer0024.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0024.bpmn,association,2,Flow Objects
+ex07_writer0024.bpmn,process,1,Uncategorized
+ex07_writer0024.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0024.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0024.bpmn,laneSet,1,Swim Lanes
+ex07_writer0024.bpmn,startEvent,1,Flow Objects
+ex07_writer0024.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0024.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0024.bpmn,subProcess,1,Flow Objects
+ex07_writer0025.bpmn,flowNodeRef,23,Uncategorized
+ex07_writer0025.bpmn,incoming,17,Connecting Objects
+ex07_writer0025.bpmn,outgoing,17,Connecting Objects
+ex07_writer0025.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0025.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0025.bpmn,lane,3,Swim Lanes
+ex07_writer0025.bpmn,intermediateThrowEvent,3,Flow Objects
+ex07_writer0025.bpmn,task,3,Flow Objects
+ex07_writer0025.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0025.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0025.bpmn,endEvent,2,Flow Objects
+ex07_writer0025.bpmn,process,1,Uncategorized
+ex07_writer0025.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0025.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0025.bpmn,laneSet,1,Swim Lanes
+ex07_writer0025.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0025.bpmn,startEvent,1,Flow Objects
+ex07_writer0025.bpmn,callActivity,1,Flow Objects
+ex07_writer0026.bpmn,incoming,18,Connecting Objects
+ex07_writer0026.bpmn,outgoing,18,Connecting Objects
+ex07_writer0026.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0026.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0026.bpmn,task,5,Flow Objects
+ex07_writer0026.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0026.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0026.bpmn,lane,2,Swim Lanes
+ex07_writer0026.bpmn,endEvent,2,Flow Objects
+ex07_writer0026.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0026.bpmn,process,1,Uncategorized
+ex07_writer0026.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0026.bpmn,laneSet,1,Swim Lanes
+ex07_writer0026.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0026.bpmn,subProcess,1,Flow Objects
+ex07_writer0026.bpmn,startEvent,1,Flow Objects
+ex07_writer0026.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0027.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0027.bpmn,outgoing,14,Connecting Objects
+ex07_writer0027.bpmn,incoming,14,Connecting Objects
+ex07_writer0027.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0027.bpmn,task,6,Flow Objects
+ex07_writer0027.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0027.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0027.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0027.bpmn,text,2,Uncategorized
+ex07_writer0027.bpmn,lane,2,Swim Lanes
+ex07_writer0027.bpmn,startEvent,2,Flow Objects
+ex07_writer0027.bpmn,endEvent,2,Flow Objects
+ex07_writer0027.bpmn,association,2,Flow Objects
+ex07_writer0027.bpmn,process,1,Uncategorized
+ex07_writer0027.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0027.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0027.bpmn,laneSet,1,Swim Lanes
+ex07_writer0027.bpmn,subProcess,1,Flow Objects
+ex07_writer0028.bpmn,outgoing,12,Connecting Objects
+ex07_writer0028.bpmn,incoming,12,Connecting Objects
+ex07_writer0028.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0028.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0028.bpmn,startEvent,5,Flow Objects
+ex07_writer0028.bpmn,task,4,Flow Objects
+ex07_writer0028.bpmn,endEvent,3,Flow Objects
+ex07_writer0028.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0028.bpmn,process,1,Uncategorized
+ex07_writer0028.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0029.bpmn,incoming,10,Connecting Objects
+ex07_writer0029.bpmn,outgoing,10,Connecting Objects
+ex07_writer0029.bpmn,sequenceFlow,10,Connecting Objects
+ex07_writer0029.bpmn,task,5,Flow Objects
+ex07_writer0029.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0029.bpmn,textAnnotation,3,Uncategorized
+ex07_writer0029.bpmn,text,3,Uncategorized
+ex07_writer0029.bpmn,association,3,Flow Objects
+ex07_writer0029.bpmn,process,2,Uncategorized
+ex07_writer0029.bpmn,endEvent,2,Flow Objects
+ex07_writer0029.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0029.bpmn,startEvent,2,Flow Objects
+ex07_writer0029.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0029.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0029.bpmn,laneSet,1,Swim Lanes
+ex07_writer0029.bpmn,callActivity,1,Flow Objects
+ex07_writer0030.bpmn,incoming,20,Connecting Objects
+ex07_writer0030.bpmn,outgoing,20,Connecting Objects
+ex07_writer0030.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0030.bpmn,flowNodeRef,18,Uncategorized
+ex07_writer0030.bpmn,task,6,Flow Objects
+ex07_writer0030.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0030.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0030.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0030.bpmn,lane,2,Swim Lanes
+ex07_writer0030.bpmn,process,1,Uncategorized
+ex07_writer0030.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0030.bpmn,laneSet,1,Swim Lanes
+ex07_writer0030.bpmn,endEvent,1,Flow Objects
+ex07_writer0030.bpmn,startEvent,1,Flow Objects
+ex07_writer0030.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0030.bpmn,subProcess,1,Flow Objects
+ex07_writer0030.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0031.bpmn,flowNodeRef,26,Uncategorized
+ex07_writer0031.bpmn,outgoing,20,Connecting Objects
+ex07_writer0031.bpmn,incoming,20,Connecting Objects
+ex07_writer0031.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0031.bpmn,task,7,Flow Objects
+ex07_writer0031.bpmn,lane,4,Swim Lanes
+ex07_writer0031.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0031.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0031.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0031.bpmn,endEvent,2,Flow Objects
+ex07_writer0031.bpmn,process,1,Uncategorized
+ex07_writer0031.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0031.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0031.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0031.bpmn,laneSet,1,Swim Lanes
+ex07_writer0031.bpmn,startEvent,1,Flow Objects
+ex07_writer0031.bpmn,subProcess,1,Flow Objects
+ex07_writer0031.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0032.bpmn,outgoing,17,Connecting Objects
+ex07_writer0032.bpmn,incoming,17,Connecting Objects
+ex07_writer0032.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0032.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0032.bpmn,task,8,Flow Objects
+ex07_writer0032.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0032.bpmn,lane,3,Swim Lanes
+ex07_writer0032.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0032.bpmn,process,1,Uncategorized
+ex07_writer0032.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0032.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0032.bpmn,text,1,Uncategorized
+ex07_writer0032.bpmn,laneSet,1,Swim Lanes
+ex07_writer0032.bpmn,startEvent,1,Flow Objects
+ex07_writer0032.bpmn,endEvent,1,Flow Objects
+ex07_writer0032.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0032.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0032.bpmn,association,1,Flow Objects
+ex07_writer0033.bpmn,flowNodeRef,32,Uncategorized
+ex07_writer0033.bpmn,outgoing,25,Connecting Objects
+ex07_writer0033.bpmn,incoming,25,Connecting Objects
+ex07_writer0033.bpmn,sequenceFlow,24,Connecting Objects
+ex07_writer0033.bpmn,task,8,Flow Objects
+ex07_writer0033.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0033.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0033.bpmn,exclusiveGateway,4,Flow Objects
+ex07_writer0033.bpmn,lane,3,Swim Lanes
+ex07_writer0033.bpmn,endEvent,3,Flow Objects
+ex07_writer0033.bpmn,process,1,Uncategorized
+ex07_writer0033.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0033.bpmn,laneSet,1,Swim Lanes
+ex07_writer0033.bpmn,startEvent,1,Flow Objects
+ex07_writer0033.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0033.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0034.bpmn,outgoing,17,Connecting Objects
+ex07_writer0034.bpmn,incoming,17,Connecting Objects
+ex07_writer0034.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0034.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0034.bpmn,task,5,Flow Objects
+ex07_writer0034.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0034.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0034.bpmn,lane,2,Swim Lanes
+ex07_writer0034.bpmn,endEvent,2,Flow Objects
+ex07_writer0034.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0034.bpmn,process,1,Uncategorized
+ex07_writer0034.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0034.bpmn,laneSet,1,Swim Lanes
+ex07_writer0034.bpmn,startEvent,1,Flow Objects
+ex07_writer0034.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0034.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0034.bpmn,callActivity,1,Flow Objects
+ex07_writer0035.bpmn,incoming,16,Connecting Objects
+ex07_writer0035.bpmn,outgoing,16,Connecting Objects
+ex07_writer0035.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0035.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0035.bpmn,task,5,Flow Objects
+ex07_writer0035.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0035.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0035.bpmn,lane,3,Swim Lanes
+ex07_writer0035.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0035.bpmn,process,1,Uncategorized
+ex07_writer0035.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0035.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0035.bpmn,text,1,Uncategorized
+ex07_writer0035.bpmn,laneSet,1,Swim Lanes
+ex07_writer0035.bpmn,endEvent,1,Flow Objects
+ex07_writer0035.bpmn,startEvent,1,Flow Objects
+ex07_writer0035.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0035.bpmn,subProcess,1,Flow Objects
+ex07_writer0035.bpmn,association,1,Flow Objects
+ex07_writer0036.bpmn,flowNodeRef,22,Uncategorized
+ex07_writer0036.bpmn,outgoing,16,Connecting Objects
+ex07_writer0036.bpmn,incoming,16,Connecting Objects
+ex07_writer0036.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0036.bpmn,task,4,Flow Objects
+ex07_writer0036.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0036.bpmn,lane,3,Swim Lanes
+ex07_writer0036.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0036.bpmn,text,2,Uncategorized
+ex07_writer0036.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0036.bpmn,association,2,Flow Objects
+ex07_writer0036.bpmn,process,1,Uncategorized
+ex07_writer0036.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0036.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0036.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0036.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0036.bpmn,laneSet,1,Swim Lanes
+ex07_writer0036.bpmn,startEvent,1,Flow Objects
+ex07_writer0036.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0036.bpmn,endEvent,1,Flow Objects
+ex07_writer0036.bpmn,subProcess,1,Flow Objects
+ex07_writer0037.bpmn,incoming,20,Connecting Objects
+ex07_writer0037.bpmn,outgoing,20,Connecting Objects
+ex07_writer0037.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0037.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0037.bpmn,task,7,Flow Objects
+ex07_writer0037.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0037.bpmn,lane,2,Swim Lanes
+ex07_writer0037.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0037.bpmn,process,1,Uncategorized
+ex07_writer0037.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0037.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0037.bpmn,laneSet,1,Swim Lanes
+ex07_writer0037.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0037.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0037.bpmn,endEvent,1,Flow Objects
+ex07_writer0037.bpmn,startEvent,1,Flow Objects
+ex07_writer0037.bpmn,subProcess,1,Flow Objects
+ex07_writer0038.bpmn,incoming,19,Connecting Objects
+ex07_writer0038.bpmn,outgoing,19,Connecting Objects
+ex07_writer0038.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0038.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0038.bpmn,task,5,Flow Objects
+ex07_writer0038.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0038.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0038.bpmn,lane,2,Swim Lanes
+ex07_writer0038.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0038.bpmn,process,1,Uncategorized
+ex07_writer0038.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0038.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0038.bpmn,laneSet,1,Swim Lanes
+ex07_writer0038.bpmn,callActivity,1,Flow Objects
+ex07_writer0038.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0038.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0038.bpmn,endEvent,1,Flow Objects
+ex07_writer0038.bpmn,startEvent,1,Flow Objects
+ex07_writer0038.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0039.bpmn,incoming,18,Connecting Objects
+ex07_writer0039.bpmn,outgoing,18,Connecting Objects
+ex07_writer0039.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0039.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0039.bpmn,task,4,Flow Objects
+ex07_writer0039.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0039.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0039.bpmn,lane,2,Swim Lanes
+ex07_writer0039.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0039.bpmn,process,1,Uncategorized
+ex07_writer0039.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0039.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0039.bpmn,laneSet,1,Swim Lanes
+ex07_writer0039.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0039.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0039.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0039.bpmn,subProcess,1,Flow Objects
+ex07_writer0039.bpmn,startEvent,1,Flow Objects
+ex07_writer0039.bpmn,endEvent,1,Flow Objects
+ex07_writer0040.bpmn,flowNodeRef,12,Uncategorized
+ex07_writer0040.bpmn,outgoing,12,Connecting Objects
+ex07_writer0040.bpmn,incoming,12,Connecting Objects
+ex07_writer0040.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0040.bpmn,task,3,Flow Objects
+ex07_writer0040.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0040.bpmn,subProcess,3,Flow Objects
+ex07_writer0040.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0040.bpmn,text,2,Uncategorized
+ex07_writer0040.bpmn,lane,2,Swim Lanes
+ex07_writer0040.bpmn,endEvent,2,Flow Objects
+ex07_writer0040.bpmn,association,2,Flow Objects
+ex07_writer0040.bpmn,process,1,Uncategorized
+ex07_writer0040.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0040.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0040.bpmn,laneSet,1,Swim Lanes
+ex07_writer0040.bpmn,startEvent,1,Flow Objects
+ex07_writer0041.bpmn,outgoing,19,Connecting Objects
+ex07_writer0041.bpmn,incoming,19,Connecting Objects
+ex07_writer0041.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0041.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0041.bpmn,task,7,Flow Objects
+ex07_writer0041.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0041.bpmn,lane,2,Swim Lanes
+ex07_writer0041.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0041.bpmn,process,1,Uncategorized
+ex07_writer0041.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0041.bpmn,laneSet,1,Swim Lanes
+ex07_writer0041.bpmn,startEvent,1,Flow Objects
+ex07_writer0041.bpmn,endEvent,1,Flow Objects
+ex07_writer0041.bpmn,subProcess,1,Flow Objects
+ex07_writer0041.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0042.bpmn,incoming,17,Connecting Objects
+ex07_writer0042.bpmn,outgoing,17,Connecting Objects
+ex07_writer0042.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0042.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0042.bpmn,task,5,Flow Objects
+ex07_writer0042.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0042.bpmn,lane,2,Swim Lanes
+ex07_writer0042.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0042.bpmn,process,1,Uncategorized
+ex07_writer0042.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0042.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0042.bpmn,laneSet,1,Swim Lanes
+ex07_writer0042.bpmn,endEvent,1,Flow Objects
+ex07_writer0042.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0042.bpmn,subProcess,1,Flow Objects
+ex07_writer0042.bpmn,startEvent,1,Flow Objects
+ex07_writer0043.bpmn,flowNodeRef,29,Uncategorized
+ex07_writer0043.bpmn,incoming,20,Connecting Objects
+ex07_writer0043.bpmn,outgoing,20,Connecting Objects
+ex07_writer0043.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0043.bpmn,task,8,Flow Objects
+ex07_writer0043.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0043.bpmn,lane,3,Swim Lanes
+ex07_writer0043.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0043.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0043.bpmn,process,1,Uncategorized
+ex07_writer0043.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0043.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0043.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0043.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0043.bpmn,text,1,Uncategorized
+ex07_writer0043.bpmn,laneSet,1,Swim Lanes
+ex07_writer0043.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0043.bpmn,startEvent,1,Flow Objects
+ex07_writer0043.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0043.bpmn,endEvent,1,Flow Objects
+ex07_writer0044.bpmn,flowNodeRef,11,Uncategorized
+ex07_writer0044.bpmn,incoming,11,Connecting Objects
+ex07_writer0044.bpmn,outgoing,11,Connecting Objects
+ex07_writer0044.bpmn,sequenceFlow,11,Connecting Objects
+ex07_writer0044.bpmn,task,4,Flow Objects
+ex07_writer0044.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0044.bpmn,lane,2,Swim Lanes
+ex07_writer0044.bpmn,endEvent,2,Flow Objects
+ex07_writer0044.bpmn,process,1,Uncategorized
+ex07_writer0044.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0044.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0044.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0044.bpmn,text,1,Uncategorized
+ex07_writer0044.bpmn,laneSet,1,Swim Lanes
+ex07_writer0044.bpmn,startEvent,1,Flow Objects
+ex07_writer0044.bpmn,subProcess,1,Flow Objects
+ex07_writer0044.bpmn,association,1,Flow Objects
+ex07_writer0045.bpmn,flowNodeRef,24,Uncategorized
+ex07_writer0045.bpmn,outgoing,18,Connecting Objects
+ex07_writer0045.bpmn,incoming,18,Connecting Objects
+ex07_writer0045.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0045.bpmn,task,4,Flow Objects
+ex07_writer0045.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0045.bpmn,lane,3,Swim Lanes
+ex07_writer0045.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0045.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0045.bpmn,process,1,Uncategorized
+ex07_writer0045.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0045.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0045.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0045.bpmn,laneSet,1,Swim Lanes
+ex07_writer0045.bpmn,startEvent,1,Flow Objects
+ex07_writer0045.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0045.bpmn,subProcess,1,Flow Objects
+ex07_writer0045.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0045.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0045.bpmn,endEvent,1,Flow Objects
+ex07_writer0047.bpmn,flowNodeRef,12,Uncategorized
+ex07_writer0047.bpmn,outgoing,12,Connecting Objects
+ex07_writer0047.bpmn,incoming,12,Connecting Objects
+ex07_writer0047.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0047.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0047.bpmn,task,4,Flow Objects
+ex07_writer0047.bpmn,lane,2,Swim Lanes
+ex07_writer0047.bpmn,endEvent,2,Flow Objects
+ex07_writer0047.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0047.bpmn,process,1,Uncategorized
+ex07_writer0047.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0047.bpmn,laneSet,1,Swim Lanes
+ex07_writer0047.bpmn,startEvent,1,Flow Objects
+ex07_writer0047.bpmn,parallelGateway,1,Flow Objects
+ex07_writer0047.bpmn,subProcess,1,Flow Objects
+ex07_writer0047.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0048.bpmn,flowNodeRef,28,Uncategorized
+ex07_writer0048.bpmn,outgoing,16,Connecting Objects
+ex07_writer0048.bpmn,incoming,16,Connecting Objects
+ex07_writer0048.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0048.bpmn,task,5,Flow Objects
+ex07_writer0048.bpmn,lane,4,Swim Lanes
+ex07_writer0048.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0048.bpmn,childLaneSet,2,Uncategorized
+ex07_writer0048.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0048.bpmn,process,1,Uncategorized
+ex07_writer0048.bpmn,laneSet,1,Swim Lanes
+ex07_writer0048.bpmn,startEvent,1,Flow Objects
+ex07_writer0048.bpmn,subProcess,1,Flow Objects
+ex07_writer0048.bpmn,endEvent,1,Flow Objects
+ex07_writer0049.bpmn,outgoing,15,Connecting Objects
+ex07_writer0049.bpmn,incoming,15,Connecting Objects
+ex07_writer0049.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0049.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0049.bpmn,task,6,Flow Objects
+ex07_writer0049.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0049.bpmn,process,3,Uncategorized
+ex07_writer0049.bpmn,lane,2,Swim Lanes
+ex07_writer0049.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0049.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0049.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0049.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0049.bpmn,text,1,Uncategorized
+ex07_writer0049.bpmn,laneSet,1,Swim Lanes
+ex07_writer0049.bpmn,startEvent,1,Flow Objects
+ex07_writer0049.bpmn,subProcess,1,Flow Objects
+ex07_writer0049.bpmn,endEvent,1,Flow Objects
+ex07_writer0049.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0049.bpmn,association,1,Flow Objects
+ex07_writer0050.bpmn,flowNodeRef,36,Uncategorized
+ex07_writer0050.bpmn,outgoing,20,Connecting Objects
+ex07_writer0050.bpmn,incoming,20,Connecting Objects
+ex07_writer0050.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0050.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0050.bpmn,lane,4,Swim Lanes
+ex07_writer0050.bpmn,task,4,Flow Objects
+ex07_writer0050.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0050.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0050.bpmn,childLaneSet,2,Uncategorized
+ex07_writer0050.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0050.bpmn,process,1,Uncategorized
+ex07_writer0050.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0050.bpmn,laneSet,1,Swim Lanes
+ex07_writer0050.bpmn,startEvent,1,Flow Objects
+ex07_writer0050.bpmn,endEvent,1,Flow Objects
+ex07_writer0050.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0050.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0050.bpmn,subProcess,1,Flow Objects
+ex07_writer0051.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0051.bpmn,incoming,13,Connecting Objects
+ex07_writer0051.bpmn,outgoing,13,Connecting Objects
+ex07_writer0051.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0051.bpmn,targetRef,6,Connecting Objects
+ex07_writer0051.bpmn,task,5,Flow Objects
+ex07_writer0051.bpmn,dataInputAssociation,4,Uncategorized
+ex07_writer0051.bpmn,sourceRef,4,Connecting Objects
+ex07_writer0051.bpmn,lane,3,Swim Lanes
+ex07_writer0051.bpmn,dataOutputAssociation,2,Uncategorized
+ex07_writer0051.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0051.bpmn,property,2,Uncategorized
+ex07_writer0051.bpmn,dataObjectReference,2,Uncategorized
+ex07_writer0051.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0051.bpmn,startEvent,2,Flow Objects
+ex07_writer0051.bpmn,subProcess,2,Flow Objects
+ex07_writer0051.bpmn,endEvent,2,Flow Objects
+ex07_writer0051.bpmn,dataObject,2,Artifacts
+ex07_writer0051.bpmn,process,1,Uncategorized
+ex07_writer0051.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0051.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0051.bpmn,dataStoreReference,1,Uncategorized
+ex07_writer0051.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0051.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0051.bpmn,text,1,Uncategorized
+ex07_writer0051.bpmn,laneSet,1,Swim Lanes
+ex07_writer0051.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0051.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0051.bpmn,association,1,Flow Objects
+ex07_writer0052.bpmn,outgoing,22,Connecting Objects
+ex07_writer0052.bpmn,sequenceFlow,22,Connecting Objects
+ex07_writer0052.bpmn,incoming,21,Connecting Objects
+ex07_writer0052.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0052.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0052.bpmn,task,5,Flow Objects
+ex07_writer0052.bpmn,intermediateCatchEvent,4,Flow Objects
+ex07_writer0052.bpmn,endEvent,3,Flow Objects
+ex07_writer0052.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0052.bpmn,process,2,Uncategorized
+ex07_writer0052.bpmn,timerEventDefinition,2,Uncategorized
+ex07_writer0052.bpmn,lane,2,Swim Lanes
+ex07_writer0052.bpmn,startEvent,2,Flow Objects
+ex07_writer0052.bpmn,eventBasedGateway,2,Flow Objects
+ex07_writer0052.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0052.bpmn,laneSet,1,Swim Lanes
+ex07_writer0052.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0052.bpmn,subProcess,1,Flow Objects
+ex07_writer0053.bpmn,flowNodeRef,23,Uncategorized
+ex07_writer0053.bpmn,outgoing,15,Connecting Objects
+ex07_writer0053.bpmn,incoming,15,Connecting Objects
+ex07_writer0053.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0053.bpmn,task,5,Flow Objects
+ex07_writer0053.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0053.bpmn,lane,3,Swim Lanes
+ex07_writer0053.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0053.bpmn,process,1,Uncategorized
+ex07_writer0053.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0053.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0053.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0053.bpmn,text,1,Uncategorized
+ex07_writer0053.bpmn,laneSet,1,Swim Lanes
+ex07_writer0053.bpmn,startEvent,1,Flow Objects
+ex07_writer0053.bpmn,endEvent,1,Flow Objects
+ex07_writer0053.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0053.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0053.bpmn,subProcess,1,Flow Objects
+ex07_writer0053.bpmn,association,1,Flow Objects
+ex07_writer0054.bpmn,incoming,8,Connecting Objects
+ex07_writer0054.bpmn,outgoing,8,Connecting Objects
+ex07_writer0054.bpmn,sequenceFlow,8,Connecting Objects
+ex07_writer0054.bpmn,task,7,Flow Objects
+ex07_writer0054.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0054.bpmn,process,1,Uncategorized
+ex07_writer0054.bpmn,laneSet,1,Swim Lanes
+ex07_writer0054.bpmn,endEvent,1,Flow Objects
+ex07_writer0054.bpmn,startEvent,1,Flow Objects
+ex07_writer0055.bpmn,flowNodeRef,38,Uncategorized
+ex07_writer0055.bpmn,outgoing,22,Connecting Objects
+ex07_writer0055.bpmn,incoming,22,Connecting Objects
+ex07_writer0055.bpmn,sequenceFlow,22,Connecting Objects
+ex07_writer0055.bpmn,task,10,Flow Objects
+ex07_writer0055.bpmn,lane,4,Swim Lanes
+ex07_writer0055.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0055.bpmn,childLaneSet,2,Uncategorized
+ex07_writer0055.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0055.bpmn,process,1,Uncategorized
+ex07_writer0055.bpmn,laneSet,1,Swim Lanes
+ex07_writer0055.bpmn,startEvent,1,Flow Objects
+ex07_writer0055.bpmn,subProcess,1,Flow Objects
+ex07_writer0055.bpmn,endEvent,1,Flow Objects
+ex07_writer0056.bpmn,outgoing,18,Connecting Objects
+ex07_writer0056.bpmn,incoming,18,Connecting Objects
+ex07_writer0056.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0056.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0056.bpmn,task,5,Flow Objects
+ex07_writer0056.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0056.bpmn,timerEventDefinition,2,Uncategorized
+ex07_writer0056.bpmn,lane,2,Swim Lanes
+ex07_writer0056.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0056.bpmn,process,1,Uncategorized
+ex07_writer0056.bpmn,laneSet,1,Swim Lanes
+ex07_writer0056.bpmn,startEvent,1,Flow Objects
+ex07_writer0056.bpmn,endEvent,1,Flow Objects
+ex07_writer0056.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0056.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0056.bpmn,subProcess,1,Flow Objects
+ex07_writer0058.bpmn,outgoing,16,Connecting Objects
+ex07_writer0058.bpmn,incoming,16,Connecting Objects
+ex07_writer0058.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0058.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0058.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0058.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0058.bpmn,lane,2,Swim Lanes
+ex07_writer0058.bpmn,task,2,Flow Objects
+ex07_writer0058.bpmn,endEvent,2,Flow Objects
+ex07_writer0058.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0058.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0058.bpmn,process,1,Uncategorized
+ex07_writer0058.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0058.bpmn,laneSet,1,Swim Lanes
+ex07_writer0058.bpmn,startEvent,1,Flow Objects
+ex07_writer0058.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0058.bpmn,subProcess,1,Flow Objects
+ex07_writer0058.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0059.bpmn,outgoing,17,Connecting Objects
+ex07_writer0059.bpmn,incoming,17,Connecting Objects
+ex07_writer0059.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0059.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0059.bpmn,task,5,Flow Objects
+ex07_writer0059.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0059.bpmn,subProcess,3,Flow Objects
+ex07_writer0059.bpmn,lane,2,Swim Lanes
+ex07_writer0059.bpmn,startEvent,2,Flow Objects
+ex07_writer0059.bpmn,endEvent,2,Flow Objects
+ex07_writer0059.bpmn,process,1,Uncategorized
+ex07_writer0059.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0059.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0059.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0059.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0059.bpmn,text,1,Uncategorized
+ex07_writer0059.bpmn,laneSet,1,Swim Lanes
+ex07_writer0059.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0059.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0059.bpmn,association,1,Flow Objects
+ex07_writer0060.bpmn,outgoing,16,Connecting Objects
+ex07_writer0060.bpmn,incoming,16,Connecting Objects
+ex07_writer0060.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0060.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0060.bpmn,task,10,Flow Objects
+ex07_writer0060.bpmn,targetRef,7,Connecting Objects
+ex07_writer0060.bpmn,dataOutputAssociation,4,Uncategorized
+ex07_writer0060.bpmn,dataObjectReference,4,Uncategorized
+ex07_writer0060.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0060.bpmn,dataObject,4,Artifacts
+ex07_writer0060.bpmn,property,3,Uncategorized
+ex07_writer0060.bpmn,dataInputAssociation,3,Uncategorized
+ex07_writer0060.bpmn,sourceRef,3,Connecting Objects
+ex07_writer0060.bpmn,process,2,Uncategorized
+ex07_writer0060.bpmn,lane,2,Swim Lanes
+ex07_writer0060.bpmn,laneSet,1,Swim Lanes
+ex07_writer0060.bpmn,startEvent,1,Flow Objects
+ex07_writer0060.bpmn,endEvent,1,Flow Objects
+ex07_writer0060.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0061.bpmn,outgoing,15,Connecting Objects
+ex07_writer0061.bpmn,incoming,15,Connecting Objects
+ex07_writer0061.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0061.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0061.bpmn,messageEventDefinition,6,Uncategorized
+ex07_writer0061.bpmn,task,4,Flow Objects
+ex07_writer0061.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0061.bpmn,lane,2,Swim Lanes
+ex07_writer0061.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0061.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0061.bpmn,process,1,Uncategorized
+ex07_writer0061.bpmn,laneSet,1,Swim Lanes
+ex07_writer0061.bpmn,startEvent,1,Flow Objects
+ex07_writer0061.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0061.bpmn,endEvent,1,Flow Objects
+ex07_writer0062.bpmn,outgoing,14,Connecting Objects
+ex07_writer0062.bpmn,incoming,14,Connecting Objects
+ex07_writer0062.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0062.bpmn,task,7,Flow Objects
+ex07_writer0062.bpmn,process,2,Uncategorized
+ex07_writer0062.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0062.bpmn,startEvent,2,Flow Objects
+ex07_writer0062.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0062.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0062.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0062.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0062.bpmn,endEvent,1,Flow Objects
+ex07_writer0063.bpmn,incoming,13,Connecting Objects
+ex07_writer0063.bpmn,outgoing,13,Connecting Objects
+ex07_writer0063.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0063.bpmn,flowNodeRef,12,Uncategorized
+ex07_writer0063.bpmn,task,4,Flow Objects
+ex07_writer0063.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0063.bpmn,lane,2,Swim Lanes
+ex07_writer0063.bpmn,process,1,Uncategorized
+ex07_writer0063.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0063.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0063.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0063.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0063.bpmn,text,1,Uncategorized
+ex07_writer0063.bpmn,laneSet,1,Swim Lanes
+ex07_writer0063.bpmn,endEvent,1,Flow Objects
+ex07_writer0063.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0063.bpmn,subProcess,1,Flow Objects
+ex07_writer0063.bpmn,startEvent,1,Flow Objects
+ex07_writer0063.bpmn,association,1,Flow Objects
+ex07_writer0064.bpmn,incoming,18,Connecting Objects
+ex07_writer0064.bpmn,outgoing,18,Connecting Objects
+ex07_writer0064.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0064.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0064.bpmn,task,7,Flow Objects
+ex07_writer0064.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0064.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0064.bpmn,lane,2,Swim Lanes
+ex07_writer0064.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0064.bpmn,process,1,Uncategorized
+ex07_writer0064.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0064.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0064.bpmn,laneSet,1,Swim Lanes
+ex07_writer0064.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0064.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0064.bpmn,startEvent,1,Flow Objects
+ex07_writer0064.bpmn,endEvent,1,Flow Objects
+ex07_writer0066.bpmn,incoming,18,Connecting Objects
+ex07_writer0066.bpmn,outgoing,18,Connecting Objects
+ex07_writer0066.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0066.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0066.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0066.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0066.bpmn,intermediateThrowEvent,3,Flow Objects
+ex07_writer0066.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0066.bpmn,lane,2,Swim Lanes
+ex07_writer0066.bpmn,process,1,Uncategorized
+ex07_writer0066.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0066.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0066.bpmn,laneSet,1,Swim Lanes
+ex07_writer0066.bpmn,endEvent,1,Flow Objects
+ex07_writer0066.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0066.bpmn,task,1,Flow Objects
+ex07_writer0066.bpmn,subProcess,1,Flow Objects
+ex07_writer0066.bpmn,startEvent,1,Flow Objects
+ex07_writer0066.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0067.bpmn,incoming,18,Connecting Objects
+ex07_writer0067.bpmn,outgoing,18,Connecting Objects
+ex07_writer0067.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0067.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0067.bpmn,task,5,Flow Objects
+ex07_writer0067.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0067.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0067.bpmn,lane,2,Swim Lanes
+ex07_writer0067.bpmn,endEvent,2,Flow Objects
+ex07_writer0067.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0067.bpmn,process,1,Uncategorized
+ex07_writer0067.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0067.bpmn,laneSet,1,Swim Lanes
+ex07_writer0067.bpmn,startEvent,1,Flow Objects
+ex07_writer0067.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0067.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0067.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0067.bpmn,subProcess,1,Flow Objects
+ex07_writer0068.bpmn,outgoing,22,Connecting Objects
+ex07_writer0068.bpmn,incoming,22,Connecting Objects
+ex07_writer0068.bpmn,sequenceFlow,22,Connecting Objects
+ex07_writer0068.bpmn,flowNodeRef,19,Uncategorized
+ex07_writer0068.bpmn,task,6,Flow Objects
+ex07_writer0068.bpmn,parallelGateway,5,Flow Objects
+ex07_writer0068.bpmn,process,2,Uncategorized
+ex07_writer0068.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0068.bpmn,lane,2,Swim Lanes
+ex07_writer0068.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0068.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0068.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0068.bpmn,laneSet,1,Swim Lanes
+ex07_writer0068.bpmn,startEvent,1,Flow Objects
+ex07_writer0068.bpmn,endEvent,1,Flow Objects
+ex07_writer0068.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0068.bpmn,subProcess,1,Flow Objects
+ex07_writer0068.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0068.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0069.bpmn,outgoing,19,Connecting Objects
+ex07_writer0069.bpmn,incoming,19,Connecting Objects
+ex07_writer0069.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0069.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0069.bpmn,task,5,Flow Objects
+ex07_writer0069.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0069.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0069.bpmn,lane,2,Swim Lanes
+ex07_writer0069.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0069.bpmn,process,1,Uncategorized
+ex07_writer0069.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0069.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0069.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0069.bpmn,text,1,Uncategorized
+ex07_writer0069.bpmn,laneSet,1,Swim Lanes
+ex07_writer0069.bpmn,startEvent,1,Flow Objects
+ex07_writer0069.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0069.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0069.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0069.bpmn,subProcess,1,Flow Objects
+ex07_writer0069.bpmn,endEvent,1,Flow Objects
+ex07_writer0069.bpmn,association,1,Flow Objects
+ex07_writer0070.bpmn,outgoing,14,Connecting Objects
+ex07_writer0070.bpmn,incoming,14,Connecting Objects
+ex07_writer0070.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0070.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0070.bpmn,task,4,Flow Objects
+ex07_writer0070.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0070.bpmn,lane,2,Swim Lanes
+ex07_writer0070.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0070.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0070.bpmn,endEvent,2,Flow Objects
+ex07_writer0070.bpmn,process,1,Uncategorized
+ex07_writer0070.bpmn,laneSet,1,Swim Lanes
+ex07_writer0070.bpmn,startEvent,1,Flow Objects
+ex07_writer0070.bpmn,parallelGateway,1,Flow Objects
+ex07_writer0070.bpmn,subProcess,1,Flow Objects
+ex07_writer0071.bpmn,incoming,18,Connecting Objects
+ex07_writer0071.bpmn,outgoing,18,Connecting Objects
+ex07_writer0071.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0071.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0071.bpmn,task,5,Flow Objects
+ex07_writer0071.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0071.bpmn,process,2,Uncategorized
+ex07_writer0071.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0071.bpmn,lane,2,Swim Lanes
+ex07_writer0071.bpmn,endEvent,2,Flow Objects
+ex07_writer0071.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0071.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0071.bpmn,laneSet,1,Swim Lanes
+ex07_writer0071.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0071.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0071.bpmn,startEvent,1,Flow Objects
+ex07_writer0071.bpmn,callActivity,1,Flow Objects
+ex07_writer0071.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0072.bpmn,flowNodeRef,29,Uncategorized
+ex07_writer0072.bpmn,incoming,20,Connecting Objects
+ex07_writer0072.bpmn,outgoing,20,Connecting Objects
+ex07_writer0072.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0072.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0072.bpmn,task,4,Flow Objects
+ex07_writer0072.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0072.bpmn,lane,3,Swim Lanes
+ex07_writer0072.bpmn,intermediateThrowEvent,3,Flow Objects
+ex07_writer0072.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0072.bpmn,process,1,Uncategorized
+ex07_writer0072.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0072.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0072.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0072.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0072.bpmn,text,1,Uncategorized
+ex07_writer0072.bpmn,laneSet,1,Swim Lanes
+ex07_writer0072.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0072.bpmn,subProcess,1,Flow Objects
+ex07_writer0072.bpmn,startEvent,1,Flow Objects
+ex07_writer0072.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0072.bpmn,endEvent,1,Flow Objects
+ex07_writer0072.bpmn,association,1,Flow Objects
+ex07_writer0073.bpmn,outgoing,19,Connecting Objects
+ex07_writer0073.bpmn,incoming,19,Connecting Objects
+ex07_writer0073.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0073.bpmn,flowNodeRef,17,Uncategorized
+ex07_writer0073.bpmn,task,5,Flow Objects
+ex07_writer0073.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0073.bpmn,lane,3,Swim Lanes
+ex07_writer0073.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0073.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0073.bpmn,process,1,Uncategorized
+ex07_writer0073.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0073.bpmn,laneSet,1,Swim Lanes
+ex07_writer0073.bpmn,startEvent,1,Flow Objects
+ex07_writer0073.bpmn,endEvent,1,Flow Objects
+ex07_writer0073.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0073.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0073.bpmn,callActivity,1,Flow Objects
+ex07_writer0073.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0074.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0074.bpmn,incoming,10,Connecting Objects
+ex07_writer0074.bpmn,outgoing,10,Connecting Objects
+ex07_writer0074.bpmn,sequenceFlow,10,Connecting Objects
+ex07_writer0074.bpmn,task,5,Flow Objects
+ex07_writer0074.bpmn,startEvent,4,Flow Objects
+ex07_writer0074.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0074.bpmn,endEvent,3,Flow Objects
+ex07_writer0074.bpmn,process,2,Uncategorized
+ex07_writer0074.bpmn,lane,2,Swim Lanes
+ex07_writer0074.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0074.bpmn,laneSet,1,Swim Lanes
+ex07_writer0074.bpmn,parallelGateway,1,Flow Objects
+ex07_writer0074.bpmn,subProcess,1,Flow Objects
+ex07_writer0075.bpmn,flowNodeRef,28,Uncategorized
+ex07_writer0075.bpmn,outgoing,17,Connecting Objects
+ex07_writer0075.bpmn,incoming,17,Connecting Objects
+ex07_writer0075.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0075.bpmn,task,7,Flow Objects
+ex07_writer0075.bpmn,lane,3,Swim Lanes
+ex07_writer0075.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0075.bpmn,timerEventDefinition,2,Uncategorized
+ex07_writer0075.bpmn,endEvent,2,Flow Objects
+ex07_writer0075.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0075.bpmn,process,1,Uncategorized
+ex07_writer0075.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0075.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0075.bpmn,laneSet,1,Swim Lanes
+ex07_writer0075.bpmn,startEvent,1,Flow Objects
+ex07_writer0075.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0075.bpmn,subProcess,1,Flow Objects
+ex07_writer0076.bpmn,outgoing,14,Connecting Objects
+ex07_writer0076.bpmn,incoming,14,Connecting Objects
+ex07_writer0076.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0076.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0076.bpmn,task,4,Flow Objects
+ex07_writer0076.bpmn,startEvent,3,Flow Objects
+ex07_writer0076.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0076.bpmn,timerEventDefinition,2,Uncategorized
+ex07_writer0076.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0076.bpmn,text,2,Uncategorized
+ex07_writer0076.bpmn,endEvent,2,Flow Objects
+ex07_writer0076.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0076.bpmn,process,1,Uncategorized
+ex07_writer0076.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0077.bpmn,outgoing,16,Connecting Objects
+ex07_writer0077.bpmn,incoming,16,Connecting Objects
+ex07_writer0077.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0077.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0077.bpmn,task,5,Flow Objects
+ex07_writer0077.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0077.bpmn,lane,2,Swim Lanes
+ex07_writer0077.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0077.bpmn,process,1,Uncategorized
+ex07_writer0077.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0077.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0077.bpmn,laneSet,1,Swim Lanes
+ex07_writer0077.bpmn,startEvent,1,Flow Objects
+ex07_writer0077.bpmn,subProcess,1,Flow Objects
+ex07_writer0077.bpmn,endEvent,1,Flow Objects
+ex07_writer0077.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0078.bpmn,incoming,23,Connecting Objects
+ex07_writer0078.bpmn,outgoing,23,Connecting Objects
+ex07_writer0078.bpmn,sequenceFlow,23,Connecting Objects
+ex07_writer0078.bpmn,flowNodeRef,19,Uncategorized
+ex07_writer0078.bpmn,task,6,Flow Objects
+ex07_writer0078.bpmn,parallelGateway,6,Flow Objects
+ex07_writer0078.bpmn,process,3,Uncategorized
+ex07_writer0078.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0078.bpmn,lane,2,Swim Lanes
+ex07_writer0078.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0078.bpmn,endEvent,2,Flow Objects
+ex07_writer0078.bpmn,startEvent,2,Flow Objects
+ex07_writer0078.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0078.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0078.bpmn,laneSet,1,Swim Lanes
+ex07_writer0078.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0078.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0078.bpmn,subProcess,1,Flow Objects
+ex07_writer0079.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0079.bpmn,outgoing,12,Connecting Objects
+ex07_writer0079.bpmn,incoming,12,Connecting Objects
+ex07_writer0079.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0079.bpmn,task,5,Flow Objects
+ex07_writer0079.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0079.bpmn,lane,2,Swim Lanes
+ex07_writer0079.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0079.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0079.bpmn,endEvent,2,Flow Objects
+ex07_writer0079.bpmn,process,1,Uncategorized
+ex07_writer0079.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0079.bpmn,laneSet,1,Swim Lanes
+ex07_writer0079.bpmn,startEvent,1,Flow Objects
+ex07_writer0079.bpmn,callActivity,1,Flow Objects
+ex07_writer0081.bpmn,outgoing,22,Connecting Objects
+ex07_writer0081.bpmn,incoming,22,Connecting Objects
+ex07_writer0081.bpmn,sequenceFlow,22,Connecting Objects
+ex07_writer0081.bpmn,flowNodeRef,19,Uncategorized
+ex07_writer0081.bpmn,task,6,Flow Objects
+ex07_writer0081.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0081.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0081.bpmn,lane,2,Swim Lanes
+ex07_writer0081.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0081.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0081.bpmn,process,1,Uncategorized
+ex07_writer0081.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0081.bpmn,laneSet,1,Swim Lanes
+ex07_writer0081.bpmn,startEvent,1,Flow Objects
+ex07_writer0081.bpmn,endEvent,1,Flow Objects
+ex07_writer0081.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0081.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0081.bpmn,subProcess,1,Flow Objects
+ex07_writer0083.bpmn,flowNodeRef,25,Uncategorized
+ex07_writer0083.bpmn,outgoing,18,Connecting Objects
+ex07_writer0083.bpmn,incoming,18,Connecting Objects
+ex07_writer0083.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0083.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0083.bpmn,task,4,Flow Objects
+ex07_writer0083.bpmn,lane,3,Swim Lanes
+ex07_writer0083.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0083.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0083.bpmn,endEvent,2,Flow Objects
+ex07_writer0083.bpmn,process,1,Uncategorized
+ex07_writer0083.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0083.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0083.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0083.bpmn,laneSet,1,Swim Lanes
+ex07_writer0083.bpmn,startEvent,1,Flow Objects
+ex07_writer0083.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0083.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0083.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0083.bpmn,subProcess,1,Flow Objects
+ex07_writer0084.bpmn,flowNodeRef,26,Uncategorized
+ex07_writer0084.bpmn,incoming,18,Connecting Objects
+ex07_writer0084.bpmn,outgoing,18,Connecting Objects
+ex07_writer0084.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0084.bpmn,task,7,Flow Objects
+ex07_writer0084.bpmn,lane,3,Swim Lanes
+ex07_writer0084.bpmn,endEvent,3,Flow Objects
+ex07_writer0084.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0084.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0084.bpmn,process,1,Uncategorized
+ex07_writer0084.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0084.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0084.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0084.bpmn,laneSet,1,Swim Lanes
+ex07_writer0084.bpmn,subProcess,1,Flow Objects
+ex07_writer0084.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0084.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0084.bpmn,startEvent,1,Flow Objects
+ex07_writer0085.bpmn,flowNodeRef,28,Uncategorized
+ex07_writer0085.bpmn,incoming,19,Connecting Objects
+ex07_writer0085.bpmn,outgoing,19,Connecting Objects
+ex07_writer0085.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0085.bpmn,task,7,Flow Objects
+ex07_writer0085.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0085.bpmn,lane,3,Swim Lanes
+ex07_writer0085.bpmn,process,2,Uncategorized
+ex07_writer0085.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0085.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0085.bpmn,endEvent,2,Flow Objects
+ex07_writer0085.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0085.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0085.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0085.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0085.bpmn,text,1,Uncategorized
+ex07_writer0085.bpmn,laneSet,1,Swim Lanes
+ex07_writer0085.bpmn,subProcess,1,Flow Objects
+ex07_writer0085.bpmn,startEvent,1,Flow Objects
+ex07_writer0085.bpmn,association,1,Flow Objects
+ex07_writer0086.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0086.bpmn,outgoing,14,Connecting Objects
+ex07_writer0086.bpmn,incoming,14,Connecting Objects
+ex07_writer0086.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0086.bpmn,task,5,Flow Objects
+ex07_writer0086.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0086.bpmn,lane,3,Swim Lanes
+ex07_writer0086.bpmn,subProcess,2,Flow Objects
+ex07_writer0086.bpmn,process,1,Uncategorized
+ex07_writer0086.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0086.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0086.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0086.bpmn,text,1,Uncategorized
+ex07_writer0086.bpmn,laneSet,1,Swim Lanes
+ex07_writer0086.bpmn,startEvent,1,Flow Objects
+ex07_writer0086.bpmn,endEvent,1,Flow Objects
+ex07_writer0086.bpmn,association,1,Flow Objects
+ex07_writer0087.bpmn,outgoing,19,Connecting Objects
+ex07_writer0087.bpmn,incoming,19,Connecting Objects
+ex07_writer0087.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0087.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0087.bpmn,task,6,Flow Objects
+ex07_writer0087.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0087.bpmn,endEvent,3,Flow Objects
+ex07_writer0087.bpmn,process,2,Uncategorized
+ex07_writer0087.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0087.bpmn,lane,2,Swim Lanes
+ex07_writer0087.bpmn,startEvent,2,Flow Objects
+ex07_writer0087.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0087.bpmn,subProcess,2,Flow Objects
+ex07_writer0087.bpmn,targetRef,2,Connecting Objects
+ex07_writer0087.bpmn,property,1,Uncategorized
+ex07_writer0087.bpmn,dataInputAssociation,1,Uncategorized
+ex07_writer0087.bpmn,dataOutputAssociation,1,Uncategorized
+ex07_writer0087.bpmn,dataObjectReference,1,Uncategorized
+ex07_writer0087.bpmn,laneSet,1,Swim Lanes
+ex07_writer0087.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0087.bpmn,sourceRef,1,Connecting Objects
+ex07_writer0087.bpmn,dataObject,1,Artifacts
+ex07_writer0088.bpmn,flowNodeRef,22,Uncategorized
+ex07_writer0088.bpmn,incoming,18,Connecting Objects
+ex07_writer0088.bpmn,outgoing,18,Connecting Objects
+ex07_writer0088.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0088.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0088.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0088.bpmn,lane,3,Swim Lanes
+ex07_writer0088.bpmn,task,3,Flow Objects
+ex07_writer0088.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0088.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0088.bpmn,process,1,Uncategorized
+ex07_writer0088.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0088.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0088.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0088.bpmn,laneSet,1,Swim Lanes
+ex07_writer0088.bpmn,endEvent,1,Flow Objects
+ex07_writer0088.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0088.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0088.bpmn,subProcess,1,Flow Objects
+ex07_writer0088.bpmn,startEvent,1,Flow Objects
+ex07_writer0089.bpmn,incoming,17,Connecting Objects
+ex07_writer0089.bpmn,outgoing,17,Connecting Objects
+ex07_writer0089.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0089.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0089.bpmn,task,4,Flow Objects
+ex07_writer0089.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0089.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0089.bpmn,lane,2,Swim Lanes
+ex07_writer0089.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0089.bpmn,process,1,Uncategorized
+ex07_writer0089.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0089.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0089.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0089.bpmn,text,1,Uncategorized
+ex07_writer0089.bpmn,laneSet,1,Swim Lanes
+ex07_writer0089.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0089.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0089.bpmn,subProcess,1,Flow Objects
+ex07_writer0089.bpmn,startEvent,1,Flow Objects
+ex07_writer0089.bpmn,endEvent,1,Flow Objects
+ex07_writer0089.bpmn,association,1,Flow Objects
+ex07_writer0090.bpmn,outgoing,15,Connecting Objects
+ex07_writer0090.bpmn,incoming,15,Connecting Objects
+ex07_writer0090.bpmn,sequenceFlow,15,Connecting Objects
+ex07_writer0090.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0090.bpmn,task,7,Flow Objects
+ex07_writer0090.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0090.bpmn,multiInstanceLoopCharacteristics,2,Uncategorized
+ex07_writer0090.bpmn,lane,2,Swim Lanes
+ex07_writer0090.bpmn,process,1,Uncategorized
+ex07_writer0090.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0090.bpmn,laneSet,1,Swim Lanes
+ex07_writer0090.bpmn,startEvent,1,Flow Objects
+ex07_writer0090.bpmn,subProcess,1,Flow Objects
+ex07_writer0090.bpmn,endEvent,1,Flow Objects
+ex07_writer0091.bpmn,flowNodeRef,14,Uncategorized
+ex07_writer0091.bpmn,outgoing,14,Connecting Objects
+ex07_writer0091.bpmn,incoming,14,Connecting Objects
+ex07_writer0091.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0091.bpmn,task,7,Flow Objects
+ex07_writer0091.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0091.bpmn,process,2,Uncategorized
+ex07_writer0091.bpmn,lane,2,Swim Lanes
+ex07_writer0091.bpmn,endEvent,2,Flow Objects
+ex07_writer0091.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0091.bpmn,laneSet,1,Swim Lanes
+ex07_writer0091.bpmn,startEvent,1,Flow Objects
+ex07_writer0091.bpmn,subProcess,1,Flow Objects
+ex07_writer0091.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0092.bpmn,outgoing,23,Connecting Objects
+ex07_writer0092.bpmn,incoming,23,Connecting Objects
+ex07_writer0092.bpmn,sequenceFlow,23,Connecting Objects
+ex07_writer0092.bpmn,flowNodeRef,20,Uncategorized
+ex07_writer0092.bpmn,task,7,Flow Objects
+ex07_writer0092.bpmn,exclusiveGateway,5,Flow Objects
+ex07_writer0092.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0092.bpmn,lane,2,Swim Lanes
+ex07_writer0092.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0092.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0092.bpmn,process,1,Uncategorized
+ex07_writer0092.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0092.bpmn,laneSet,1,Swim Lanes
+ex07_writer0092.bpmn,startEvent,1,Flow Objects
+ex07_writer0092.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0092.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0092.bpmn,endEvent,1,Flow Objects
+ex07_writer0093.bpmn,incoming,18,Connecting Objects
+ex07_writer0093.bpmn,outgoing,18,Connecting Objects
+ex07_writer0093.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0093.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0093.bpmn,targetRef,8,Connecting Objects
+ex07_writer0093.bpmn,dataObjectReference,5,Uncategorized
+ex07_writer0093.bpmn,dataObject,5,Artifacts
+ex07_writer0093.bpmn,property,4,Uncategorized
+ex07_writer0093.bpmn,dataInputAssociation,4,Uncategorized
+ex07_writer0093.bpmn,messageEventDefinition,4,Uncategorized
+ex07_writer0093.bpmn,dataOutputAssociation,4,Uncategorized
+ex07_writer0093.bpmn,task,4,Flow Objects
+ex07_writer0093.bpmn,sourceRef,4,Connecting Objects
+ex07_writer0093.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0093.bpmn,lane,2,Swim Lanes
+ex07_writer0093.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0093.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0093.bpmn,process,1,Uncategorized
+ex07_writer0093.bpmn,laneSet,1,Swim Lanes
+ex07_writer0093.bpmn,subProcess,1,Flow Objects
+ex07_writer0093.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0093.bpmn,startEvent,1,Flow Objects
+ex07_writer0093.bpmn,endEvent,1,Flow Objects
+ex07_writer0094.bpmn,incoming,18,Connecting Objects
+ex07_writer0094.bpmn,outgoing,18,Connecting Objects
+ex07_writer0094.bpmn,sequenceFlow,18,Connecting Objects
+ex07_writer0094.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0094.bpmn,task,6,Flow Objects
+ex07_writer0094.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0094.bpmn,messageEventDefinition,2,Uncategorized
+ex07_writer0094.bpmn,lane,2,Swim Lanes
+ex07_writer0094.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0094.bpmn,process,1,Uncategorized
+ex07_writer0094.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0094.bpmn,laneSet,1,Swim Lanes
+ex07_writer0094.bpmn,startEvent,1,Flow Objects
+ex07_writer0094.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0094.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0094.bpmn,endEvent,1,Flow Objects
+ex07_writer0095.bpmn,outgoing,12,Connecting Objects
+ex07_writer0095.bpmn,incoming,12,Connecting Objects
+ex07_writer0095.bpmn,sequenceFlow,12,Connecting Objects
+ex07_writer0095.bpmn,flowNodeRef,11,Uncategorized
+ex07_writer0095.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0095.bpmn,task,3,Flow Objects
+ex07_writer0095.bpmn,lane,2,Swim Lanes
+ex07_writer0095.bpmn,subProcess,2,Flow Objects
+ex07_writer0095.bpmn,process,1,Uncategorized
+ex07_writer0095.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0095.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0095.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0095.bpmn,text,1,Uncategorized
+ex07_writer0095.bpmn,laneSet,1,Swim Lanes
+ex07_writer0095.bpmn,startEvent,1,Flow Objects
+ex07_writer0095.bpmn,endEvent,1,Flow Objects
+ex07_writer0096.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0096.bpmn,outgoing,13,Connecting Objects
+ex07_writer0096.bpmn,incoming,13,Connecting Objects
+ex07_writer0096.bpmn,sequenceFlow,13,Connecting Objects
+ex07_writer0096.bpmn,task,6,Flow Objects
+ex07_writer0096.bpmn,lane,3,Swim Lanes
+ex07_writer0096.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0096.bpmn,endEvent,2,Flow Objects
+ex07_writer0096.bpmn,process,1,Uncategorized
+ex07_writer0096.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0096.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0096.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0096.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0096.bpmn,text,1,Uncategorized
+ex07_writer0096.bpmn,laneSet,1,Swim Lanes
+ex07_writer0096.bpmn,startEvent,1,Flow Objects
+ex07_writer0096.bpmn,subProcess,1,Flow Objects
+ex07_writer0096.bpmn,association,1,Flow Objects
+ex07_writer0097.bpmn,flowNodeRef,26,Uncategorized
+ex07_writer0097.bpmn,incoming,17,Connecting Objects
+ex07_writer0097.bpmn,outgoing,17,Connecting Objects
+ex07_writer0097.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0097.bpmn,task,6,Flow Objects
+ex07_writer0097.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0097.bpmn,intermediateCatchEvent,4,Flow Objects
+ex07_writer0097.bpmn,lane,3,Swim Lanes
+ex07_writer0097.bpmn,endEvent,2,Flow Objects
+ex07_writer0097.bpmn,parallelGateway,2,Flow Objects
+ex07_writer0097.bpmn,process,1,Uncategorized
+ex07_writer0097.bpmn,childLaneSet,1,Uncategorized
+ex07_writer0097.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0097.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0097.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0097.bpmn,text,1,Uncategorized
+ex07_writer0097.bpmn,laneSet,1,Swim Lanes
+ex07_writer0097.bpmn,startEvent,1,Flow Objects
+ex07_writer0097.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0097.bpmn,association,1,Flow Objects
+ex07_writer0098.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0098.bpmn,incoming,14,Connecting Objects
+ex07_writer0098.bpmn,outgoing,14,Connecting Objects
+ex07_writer0098.bpmn,sequenceFlow,14,Connecting Objects
+ex07_writer0098.bpmn,task,6,Flow Objects
+ex07_writer0098.bpmn,targetRef,6,Connecting Objects
+ex07_writer0098.bpmn,messageEventDefinition,5,Uncategorized
+ex07_writer0098.bpmn,dataOutputAssociation,4,Uncategorized
+ex07_writer0098.bpmn,startEvent,4,Flow Objects
+ex07_writer0098.bpmn,dataObjectReference,3,Uncategorized
+ex07_writer0098.bpmn,dataObject,3,Artifacts
+ex07_writer0098.bpmn,process,2,Uncategorized
+ex07_writer0098.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0098.bpmn,text,2,Uncategorized
+ex07_writer0098.bpmn,property,2,Uncategorized
+ex07_writer0098.bpmn,dataInputAssociation,2,Uncategorized
+ex07_writer0098.bpmn,laneSet,2,Swim Lanes
+ex07_writer0098.bpmn,lane,2,Swim Lanes
+ex07_writer0098.bpmn,endEvent,2,Flow Objects
+ex07_writer0098.bpmn,association,2,Flow Objects
+ex07_writer0098.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0098.bpmn,sourceRef,2,Connecting Objects
+ex07_writer0098.bpmn,dataStoreReference,1,Uncategorized
+ex07_writer0098.bpmn,subProcess,1,Flow Objects
+ex07_writer0098.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0099.bpmn,incoming,19,Connecting Objects
+ex07_writer0099.bpmn,outgoing,19,Connecting Objects
+ex07_writer0099.bpmn,sequenceFlow,19,Connecting Objects
+ex07_writer0099.bpmn,messageEventDefinition,6,Uncategorized
+ex07_writer0099.bpmn,task,6,Flow Objects
+ex07_writer0099.bpmn,endEvent,3,Flow Objects
+ex07_writer0099.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0099.bpmn,process,2,Uncategorized
+ex07_writer0099.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0099.bpmn,startEvent,2,Flow Objects
+ex07_writer0099.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0099.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0099.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0099.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0099.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0100.bpmn,outgoing,17,Connecting Objects
+ex07_writer0100.bpmn,incoming,17,Connecting Objects
+ex07_writer0100.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0100.bpmn,flowNodeRef,15,Uncategorized
+ex07_writer0100.bpmn,task,5,Flow Objects
+ex07_writer0100.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0100.bpmn,lane,2,Swim Lanes
+ex07_writer0100.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0100.bpmn,process,1,Uncategorized
+ex07_writer0100.bpmn,messageEventDefinition,1,Uncategorized
+ex07_writer0100.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0100.bpmn,text,1,Uncategorized
+ex07_writer0100.bpmn,laneSet,1,Swim Lanes
+ex07_writer0100.bpmn,startEvent,1,Flow Objects
+ex07_writer0100.bpmn,endEvent,1,Flow Objects
+ex07_writer0100.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0100.bpmn,subProcess,1,Flow Objects
+ex07_writer0100.bpmn,association,1,Flow Objects
+ex07_writer0101.bpmn,incoming,17,Connecting Objects
+ex07_writer0101.bpmn,outgoing,17,Connecting Objects
+ex07_writer0101.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0101.bpmn,flowNodeRef,12,Uncategorized
+ex07_writer0101.bpmn,task,4,Flow Objects
+ex07_writer0101.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0101.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0101.bpmn,endEvent,3,Flow Objects
+ex07_writer0101.bpmn,lane,2,Swim Lanes
+ex07_writer0101.bpmn,subProcess,2,Flow Objects
+ex07_writer0101.bpmn,process,1,Uncategorized
+ex07_writer0101.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0101.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0101.bpmn,textAnnotation,1,Uncategorized
+ex07_writer0101.bpmn,text,1,Uncategorized
+ex07_writer0101.bpmn,laneSet,1,Swim Lanes
+ex07_writer0101.bpmn,startEvent,1,Flow Objects
+ex07_writer0101.bpmn,callActivity,1,Flow Objects
+ex07_writer0101.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0101.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0101.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0101.bpmn,eventBasedGateway,1,Flow Objects
+ex07_writer0101.bpmn,association,1,Flow Objects
+ex07_writer0102.bpmn,incoming,16,Connecting Objects
+ex07_writer0102.bpmn,outgoing,16,Connecting Objects
+ex07_writer0102.bpmn,sequenceFlow,16,Connecting Objects
+ex07_writer0102.bpmn,flowNodeRef,13,Uncategorized
+ex07_writer0102.bpmn,task,6,Flow Objects
+ex07_writer0102.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0102.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0102.bpmn,process,2,Uncategorized
+ex07_writer0102.bpmn,standardLoopCharacteristics,2,Uncategorized
+ex07_writer0102.bpmn,textAnnotation,2,Uncategorized
+ex07_writer0102.bpmn,text,2,Uncategorized
+ex07_writer0102.bpmn,lane,2,Swim Lanes
+ex07_writer0102.bpmn,startEvent,2,Flow Objects
+ex07_writer0102.bpmn,endEvent,2,Flow Objects
+ex07_writer0102.bpmn,association,2,Flow Objects
+ex07_writer0102.bpmn,laneSet,1,Swim Lanes
+ex07_writer0102.bpmn,subProcess,1,Flow Objects
+ex07_writer0102.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0103.bpmn,incoming,21,Connecting Objects
+ex07_writer0103.bpmn,outgoing,21,Connecting Objects
+ex07_writer0103.bpmn,sequenceFlow,21,Connecting Objects
+ex07_writer0103.bpmn,flowNodeRef,18,Uncategorized
+ex07_writer0103.bpmn,task,10,Flow Objects
+ex07_writer0103.bpmn,messageEventDefinition,6,Uncategorized
+ex07_writer0103.bpmn,intermediateCatchEvent,3,Flow Objects
+ex07_writer0103.bpmn,endEvent,3,Flow Objects
+ex07_writer0103.bpmn,startEvent,3,Flow Objects
+ex07_writer0103.bpmn,process,2,Uncategorized
+ex07_writer0103.bpmn,lane,2,Swim Lanes
+ex07_writer0103.bpmn,exclusiveGateway,2,Flow Objects
+ex07_writer0103.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0103.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0103.bpmn,laneSet,1,Swim Lanes
+ex07_writer0103.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0104.bpmn,outgoing,17,Connecting Objects
+ex07_writer0104.bpmn,incoming,17,Connecting Objects
+ex07_writer0104.bpmn,sequenceFlow,17,Connecting Objects
+ex07_writer0104.bpmn,flowNodeRef,16,Uncategorized
+ex07_writer0104.bpmn,task,8,Flow Objects
+ex07_writer0104.bpmn,parallelGateway,3,Flow Objects
+ex07_writer0104.bpmn,lane,2,Swim Lanes
+ex07_writer0104.bpmn,process,1,Uncategorized
+ex07_writer0104.bpmn,standardLoopCharacteristics,1,Uncategorized
+ex07_writer0104.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0104.bpmn,laneSet,1,Swim Lanes
+ex07_writer0104.bpmn,startEvent,1,Flow Objects
+ex07_writer0104.bpmn,endEvent,1,Flow Objects
+ex07_writer0104.bpmn,subProcess,1,Flow Objects
+ex07_writer0104.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0104.bpmn,intermediateCatchEvent,1,Flow Objects
+ex07_writer0105.bpmn,outgoing,20,Connecting Objects
+ex07_writer0105.bpmn,incoming,20,Connecting Objects
+ex07_writer0105.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0105.bpmn,flowNodeRef,18,Uncategorized
+ex07_writer0105.bpmn,task,7,Flow Objects
+ex07_writer0105.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0105.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0105.bpmn,lane,2,Swim Lanes
+ex07_writer0105.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0105.bpmn,endEvent,2,Flow Objects
+ex07_writer0105.bpmn,process,1,Uncategorized
+ex07_writer0105.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0105.bpmn,laneSet,1,Swim Lanes
+ex07_writer0105.bpmn,startEvent,1,Flow Objects
+ex07_writer0105.bpmn,intermediateThrowEvent,1,Flow Objects
+ex07_writer0105.bpmn,exclusiveGateway,1,Flow Objects
+ex07_writer0106.bpmn,outgoing,20,Connecting Objects
+ex07_writer0106.bpmn,incoming,20,Connecting Objects
+ex07_writer0106.bpmn,sequenceFlow,20,Connecting Objects
+ex07_writer0106.bpmn,flowNodeRef,18,Uncategorized
+ex07_writer0106.bpmn,task,6,Flow Objects
+ex07_writer0106.bpmn,parallelGateway,4,Flow Objects
+ex07_writer0106.bpmn,process,3,Uncategorized
+ex07_writer0106.bpmn,messageEventDefinition,3,Uncategorized
+ex07_writer0106.bpmn,lane,2,Swim Lanes
+ex07_writer0106.bpmn,intermediateThrowEvent,2,Flow Objects
+ex07_writer0106.bpmn,intermediateCatchEvent,2,Flow Objects
+ex07_writer0106.bpmn,multiInstanceLoopCharacteristics,1,Uncategorized
+ex07_writer0106.bpmn,timerEventDefinition,1,Uncategorized
+ex07_writer0106.bpmn,laneSet,1,Swim Lanes
+ex07_writer0106.bpmn,startEvent,1,Flow Objects
+ex07_writer0106.bpmn,endEvent,1,Flow Objects
+ex07_writer0106.bpmn,subProcess,1,Flow Objects
+ex07_writer0106.bpmn,eventBasedGateway,1,Flow Objects

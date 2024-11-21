@@ -1,1558 +1,1558 @@
-File,Tag,Occurrences
-ex06_writer0000.bpmn,incoming,9
-ex06_writer0000.bpmn,outgoing,9
-ex06_writer0000.bpmn,sequenceFlow,9
-ex06_writer0000.bpmn,targetRef,6
-ex06_writer0000.bpmn,task,4
-ex06_writer0000.bpmn,dataInputAssociation,4
-ex06_writer0000.bpmn,sourceRef,4
-ex06_writer0000.bpmn,property,3
-ex06_writer0000.bpmn,process,2
-ex06_writer0000.bpmn,dataOutputAssociation,2
-ex06_writer0000.bpmn,dataObjectReference,2
-ex06_writer0000.bpmn,dataObject,2
-ex06_writer0000.bpmn,exclusiveGateway,2
-ex06_writer0000.bpmn,endEvent,1
-ex06_writer0000.bpmn,startEvent,1
-ex06_writer0000.bpmn,messageEventDefinition,1
-ex06_writer0001.bpmn,flowNodeRef,9
-ex06_writer0001.bpmn,targetRef,9
-ex06_writer0001.bpmn,outgoing,8
-ex06_writer0001.bpmn,incoming,8
-ex06_writer0001.bpmn,sequenceFlow,8
-ex06_writer0001.bpmn,dataOutputAssociation,5
-ex06_writer0001.bpmn,task,4
-ex06_writer0001.bpmn,dataInputAssociation,4
-ex06_writer0001.bpmn,sourceRef,4
-ex06_writer0001.bpmn,dataObjectReference,4
-ex06_writer0001.bpmn,dataObject,4
-ex06_writer0001.bpmn,lane,3
-ex06_writer0001.bpmn,startEvent,3
-ex06_writer0001.bpmn,messageEventDefinition,3
-ex06_writer0001.bpmn,property,2
-ex06_writer0001.bpmn,process,1
-ex06_writer0001.bpmn,laneSet,1
-ex06_writer0001.bpmn,endEvent,1
-ex06_writer0001.bpmn,exclusiveGateway,1
-ex06_writer0001.bpmn,dataStoreReference,1
-ex06_writer0002.bpmn,incoming,10
-ex06_writer0002.bpmn,outgoing,10
-ex06_writer0002.bpmn,sequenceFlow,10
-ex06_writer0002.bpmn,task,4
-ex06_writer0002.bpmn,targetRef,3
-ex06_writer0002.bpmn,exclusiveGateway,3
-ex06_writer0002.bpmn,dataOutputAssociation,2
-ex06_writer0002.bpmn,process,1
-ex06_writer0002.bpmn,property,1
-ex06_writer0002.bpmn,dataInputAssociation,1
-ex06_writer0002.bpmn,sourceRef,1
-ex06_writer0002.bpmn,endEvent,1
-ex06_writer0002.bpmn,startEvent,1
-ex06_writer0002.bpmn,dataObjectReference,1
-ex06_writer0002.bpmn,dataObject,1
-ex06_writer0003.bpmn,incoming,12
-ex06_writer0003.bpmn,outgoing,12
-ex06_writer0003.bpmn,sequenceFlow,12
-ex06_writer0003.bpmn,targetRef,9
-ex06_writer0003.bpmn,task,7
-ex06_writer0003.bpmn,dataOutputAssociation,6
-ex06_writer0003.bpmn,property,3
-ex06_writer0003.bpmn,dataInputAssociation,3
-ex06_writer0003.bpmn,sourceRef,3
-ex06_writer0003.bpmn,startEvent,3
-ex06_writer0003.bpmn,messageEventDefinition,3
-ex06_writer0003.bpmn,dataObjectReference,2
-ex06_writer0003.bpmn,dataObject,2
-ex06_writer0003.bpmn,exclusiveGateway,2
-ex06_writer0003.bpmn,process,1
-ex06_writer0003.bpmn,endEvent,1
-ex06_writer0003.bpmn,dataStoreReference,1
-ex06_writer0005.bpmn,incoming,12
-ex06_writer0005.bpmn,outgoing,12
-ex06_writer0005.bpmn,sequenceFlow,12
-ex06_writer0005.bpmn,targetRef,10
-ex06_writer0005.bpmn,dataInputAssociation,5
-ex06_writer0005.bpmn,sourceRef,5
-ex06_writer0005.bpmn,dataOutputAssociation,5
-ex06_writer0005.bpmn,task,4
-ex06_writer0005.bpmn,dataObjectReference,4
-ex06_writer0005.bpmn,dataObject,4
-ex06_writer0005.bpmn,property,3
-ex06_writer0005.bpmn,intermediateCatchEvent,3
-ex06_writer0005.bpmn,messageEventDefinition,3
-ex06_writer0005.bpmn,exclusiveGateway,2
-ex06_writer0005.bpmn,process,1
-ex06_writer0005.bpmn,eventBasedGateway,1
-ex06_writer0005.bpmn,dataStoreReference,1
-ex06_writer0005.bpmn,startEvent,1
-ex06_writer0006.bpmn,incoming,12
-ex06_writer0006.bpmn,outgoing,12
-ex06_writer0006.bpmn,sequenceFlow,12
-ex06_writer0006.bpmn,task,7
-ex06_writer0006.bpmn,exclusiveGateway,3
-ex06_writer0006.bpmn,process,1
-ex06_writer0006.bpmn,startEvent,1
-ex06_writer0007.bpmn,outgoing,13
-ex06_writer0007.bpmn,incoming,13
-ex06_writer0007.bpmn,sequenceFlow,13
-ex06_writer0007.bpmn,flowNodeRef,12
-ex06_writer0007.bpmn,targetRef,8
-ex06_writer0007.bpmn,task,7
-ex06_writer0007.bpmn,dataOutputAssociation,6
-ex06_writer0007.bpmn,property,2
-ex06_writer0007.bpmn,dataInputAssociation,2
-ex06_writer0007.bpmn,sourceRef,2
-ex06_writer0007.bpmn,exclusiveGateway,2
-ex06_writer0007.bpmn,dataObjectReference,2
-ex06_writer0007.bpmn,dataObject,2
-ex06_writer0007.bpmn,process,1
-ex06_writer0007.bpmn,laneSet,1
-ex06_writer0007.bpmn,lane,1
-ex06_writer0007.bpmn,startEvent,1
-ex06_writer0007.bpmn,dataStoreReference,1
-ex06_writer0007.bpmn,parallelGateway,1
-ex06_writer0007.bpmn,endEvent,1
-ex06_writer0008.bpmn,incoming,13
-ex06_writer0008.bpmn,outgoing,13
-ex06_writer0008.bpmn,sequenceFlow,13
-ex06_writer0008.bpmn,targetRef,6
-ex06_writer0008.bpmn,task,4
-ex06_writer0008.bpmn,property,3
-ex06_writer0008.bpmn,dataInputAssociation,3
-ex06_writer0008.bpmn,sourceRef,3
-ex06_writer0008.bpmn,dataOutputAssociation,3
-ex06_writer0008.bpmn,intermediateCatchEvent,3
-ex06_writer0008.bpmn,messageEventDefinition,3
-ex06_writer0008.bpmn,dataObjectReference,2
-ex06_writer0008.bpmn,dataObject,2
-ex06_writer0008.bpmn,exclusiveGateway,2
-ex06_writer0008.bpmn,process,1
-ex06_writer0008.bpmn,endEvent,1
-ex06_writer0008.bpmn,startEvent,1
-ex06_writer0008.bpmn,eventBasedGateway,1
-ex06_writer0008.bpmn,dataStoreReference,1
-ex06_writer0009.bpmn,incoming,13
-ex06_writer0009.bpmn,outgoing,13
-ex06_writer0009.bpmn,sequenceFlow,13
-ex06_writer0009.bpmn,task,7
-ex06_writer0009.bpmn,targetRef,6
-ex06_writer0009.bpmn,dataInputAssociation,4
-ex06_writer0009.bpmn,sourceRef,4
-ex06_writer0009.bpmn,dataObjectReference,4
-ex06_writer0009.bpmn,dataObject,4
-ex06_writer0009.bpmn,property,3
-ex06_writer0009.bpmn,exclusiveGateway,3
-ex06_writer0009.bpmn,dataOutputAssociation,2
-ex06_writer0009.bpmn,process,1
-ex06_writer0009.bpmn,endEvent,1
-ex06_writer0009.bpmn,startEvent,1
-ex06_writer0010.bpmn,incoming,12
-ex06_writer0010.bpmn,outgoing,12
-ex06_writer0010.bpmn,sequenceFlow,12
-ex06_writer0010.bpmn,targetRef,9
-ex06_writer0010.bpmn,dataOutputAssociation,5
-ex06_writer0010.bpmn,dataInputAssociation,4
-ex06_writer0010.bpmn,sourceRef,4
-ex06_writer0010.bpmn,messageEventDefinition,4
-ex06_writer0010.bpmn,property,3
-ex06_writer0010.bpmn,intermediateCatchEvent,3
-ex06_writer0010.bpmn,dataObjectReference,3
-ex06_writer0010.bpmn,dataObject,3
-ex06_writer0010.bpmn,task,2
-ex06_writer0010.bpmn,process,1
-ex06_writer0010.bpmn,endEvent,1
-ex06_writer0010.bpmn,eventBasedGateway,1
-ex06_writer0010.bpmn,exclusiveGateway,1
-ex06_writer0010.bpmn,parallelGateway,1
-ex06_writer0010.bpmn,dataStoreReference,1
-ex06_writer0010.bpmn,startEvent,1
-ex06_writer0010.bpmn,intermediateThrowEvent,1
-ex06_writer0011.bpmn,incoming,13
-ex06_writer0011.bpmn,outgoing,13
-ex06_writer0011.bpmn,sequenceFlow,13
-ex06_writer0011.bpmn,task,7
-ex06_writer0011.bpmn,targetRef,5
-ex06_writer0011.bpmn,dataOutputAssociation,3
-ex06_writer0011.bpmn,exclusiveGateway,3
-ex06_writer0011.bpmn,dataInputAssociation,2
-ex06_writer0011.bpmn,sourceRef,2
-ex06_writer0011.bpmn,dataObjectReference,2
-ex06_writer0011.bpmn,dataObject,2
-ex06_writer0011.bpmn,process,1
-ex06_writer0011.bpmn,property,1
-ex06_writer0011.bpmn,endEvent,1
-ex06_writer0011.bpmn,startEvent,1
-ex06_writer0011.bpmn,dataStoreReference,1
-ex06_writer0012.bpmn,incoming,12
-ex06_writer0012.bpmn,outgoing,12
-ex06_writer0012.bpmn,sequenceFlow,12
-ex06_writer0012.bpmn,task,6
-ex06_writer0012.bpmn,dataOutputAssociation,3
-ex06_writer0012.bpmn,targetRef,3
-ex06_writer0012.bpmn,exclusiveGateway,3
-ex06_writer0012.bpmn,dataObjectReference,2
-ex06_writer0012.bpmn,dataObject,2
-ex06_writer0012.bpmn,process,1
-ex06_writer0012.bpmn,endEvent,1
-ex06_writer0012.bpmn,startEvent,1
-ex06_writer0012.bpmn,dataStoreReference,1
-ex06_writer0013.bpmn,sequenceFlow,13
-ex06_writer0013.bpmn,incoming,13
-ex06_writer0013.bpmn,outgoing,13
-ex06_writer0013.bpmn,task,7
-ex06_writer0013.bpmn,targetRef,4
-ex06_writer0013.bpmn,exclusiveGateway,3
-ex06_writer0013.bpmn,dataOutputAssociation,3
-ex06_writer0013.bpmn,process,2
-ex06_writer0013.bpmn,laneSet,1
-ex06_writer0013.bpmn,dataObjectReference,1
-ex06_writer0013.bpmn,dataObject,1
-ex06_writer0013.bpmn,dataStoreReference,1
-ex06_writer0013.bpmn,endEvent,1
-ex06_writer0013.bpmn,property,1
-ex06_writer0013.bpmn,dataInputAssociation,1
-ex06_writer0013.bpmn,sourceRef,1
-ex06_writer0013.bpmn,startEvent,1
-ex06_writer0014.bpmn,outgoing,13
-ex06_writer0014.bpmn,incoming,13
-ex06_writer0014.bpmn,sequenceFlow,13
-ex06_writer0014.bpmn,targetRef,12
-ex06_writer0014.bpmn,task,7
-ex06_writer0014.bpmn,dataObjectReference,6
-ex06_writer0014.bpmn,dataObject,6
-ex06_writer0014.bpmn,dataOutputAssociation,6
-ex06_writer0014.bpmn,dataInputAssociation,6
-ex06_writer0014.bpmn,sourceRef,6
-ex06_writer0014.bpmn,property,4
-ex06_writer0014.bpmn,exclusiveGateway,3
-ex06_writer0014.bpmn,process,1
-ex06_writer0014.bpmn,laneSet,1
-ex06_writer0014.bpmn,startEvent,1
-ex06_writer0014.bpmn,endEvent,1
-ex06_writer0016.bpmn,incoming,10
-ex06_writer0016.bpmn,outgoing,10
-ex06_writer0016.bpmn,sequenceFlow,10
-ex06_writer0016.bpmn,task,4
-ex06_writer0016.bpmn,targetRef,3
-ex06_writer0016.bpmn,exclusiveGateway,3
-ex06_writer0016.bpmn,dataOutputAssociation,2
-ex06_writer0016.bpmn,process,1
-ex06_writer0016.bpmn,property,1
-ex06_writer0016.bpmn,dataInputAssociation,1
-ex06_writer0016.bpmn,sourceRef,1
-ex06_writer0016.bpmn,endEvent,1
-ex06_writer0016.bpmn,startEvent,1
-ex06_writer0016.bpmn,dataObjectReference,1
-ex06_writer0016.bpmn,dataObject,1
-ex06_writer0017.bpmn,incoming,13
-ex06_writer0017.bpmn,outgoing,13
-ex06_writer0017.bpmn,sequenceFlow,13
-ex06_writer0017.bpmn,task,7
-ex06_writer0017.bpmn,targetRef,5
-ex06_writer0017.bpmn,dataObjectReference,4
-ex06_writer0017.bpmn,dataObject,4
-ex06_writer0017.bpmn,dataOutputAssociation,3
-ex06_writer0017.bpmn,exclusiveGateway,3
-ex06_writer0017.bpmn,property,2
-ex06_writer0017.bpmn,dataInputAssociation,2
-ex06_writer0017.bpmn,sourceRef,2
-ex06_writer0017.bpmn,process,1
-ex06_writer0017.bpmn,endEvent,1
-ex06_writer0017.bpmn,startEvent,1
-ex06_writer0019.bpmn,incoming,13
-ex06_writer0019.bpmn,outgoing,13
-ex06_writer0019.bpmn,sequenceFlow,13
-ex06_writer0019.bpmn,targetRef,12
-ex06_writer0019.bpmn,task,7
-ex06_writer0019.bpmn,dataOutputAssociation,6
-ex06_writer0019.bpmn,dataInputAssociation,6
-ex06_writer0019.bpmn,sourceRef,6
-ex06_writer0019.bpmn,dataObjectReference,6
-ex06_writer0019.bpmn,dataObject,6
-ex06_writer0019.bpmn,property,4
-ex06_writer0019.bpmn,exclusiveGateway,2
-ex06_writer0019.bpmn,process,1
-ex06_writer0019.bpmn,endEvent,1
-ex06_writer0019.bpmn,startEvent,1
-ex06_writer0019.bpmn,parallelGateway,1
-ex06_writer0020.bpmn,incoming,10
-ex06_writer0020.bpmn,outgoing,10
-ex06_writer0020.bpmn,sequenceFlow,10
-ex06_writer0020.bpmn,task,4
-ex06_writer0020.bpmn,targetRef,4
-ex06_writer0020.bpmn,dataOutputAssociation,3
-ex06_writer0020.bpmn,exclusiveGateway,3
-ex06_writer0020.bpmn,dataObjectReference,3
-ex06_writer0020.bpmn,dataObject,3
-ex06_writer0020.bpmn,process,1
-ex06_writer0020.bpmn,property,1
-ex06_writer0020.bpmn,dataInputAssociation,1
-ex06_writer0020.bpmn,sourceRef,1
-ex06_writer0020.bpmn,endEvent,1
-ex06_writer0020.bpmn,startEvent,1
-ex06_writer0020.bpmn,dataStoreReference,1
-ex06_writer0021.bpmn,outgoing,13
-ex06_writer0021.bpmn,sequenceFlow,13
-ex06_writer0021.bpmn,incoming,13
-ex06_writer0021.bpmn,task,4
-ex06_writer0021.bpmn,intermediateCatchEvent,3
-ex06_writer0021.bpmn,messageEventDefinition,3
-ex06_writer0021.bpmn,exclusiveGateway,2
-ex06_writer0021.bpmn,process,1
-ex06_writer0021.bpmn,startEvent,1
-ex06_writer0021.bpmn,eventBasedGateway,1
-ex06_writer0021.bpmn,endEvent,1
-ex06_writer0022.bpmn,outgoing,13
-ex06_writer0022.bpmn,incoming,13
-ex06_writer0022.bpmn,sequenceFlow,13
-ex06_writer0022.bpmn,targetRef,7
-ex06_writer0022.bpmn,dataOutputAssociation,5
-ex06_writer0022.bpmn,task,4
-ex06_writer0022.bpmn,exclusiveGateway,3
-ex06_writer0022.bpmn,intermediateCatchEvent,3
-ex06_writer0022.bpmn,messageEventDefinition,3
-ex06_writer0022.bpmn,property,2
-ex06_writer0022.bpmn,dataInputAssociation,2
-ex06_writer0022.bpmn,sourceRef,2
-ex06_writer0022.bpmn,dataObjectReference,2
-ex06_writer0022.bpmn,dataObject,2
-ex06_writer0022.bpmn,process,1
-ex06_writer0022.bpmn,startEvent,1
-ex06_writer0022.bpmn,endEvent,1
-ex06_writer0022.bpmn,dataStoreReference,1
-ex06_writer0023.bpmn,incoming,13
-ex06_writer0023.bpmn,outgoing,13
-ex06_writer0023.bpmn,sequenceFlow,13
-ex06_writer0023.bpmn,task,7
-ex06_writer0023.bpmn,targetRef,3
-ex06_writer0023.bpmn,exclusiveGateway,3
-ex06_writer0023.bpmn,dataOutputAssociation,2
-ex06_writer0023.bpmn,process,1
-ex06_writer0023.bpmn,property,1
-ex06_writer0023.bpmn,dataInputAssociation,1
-ex06_writer0023.bpmn,sourceRef,1
-ex06_writer0023.bpmn,endEvent,1
-ex06_writer0023.bpmn,startEvent,1
-ex06_writer0023.bpmn,dataObjectReference,1
-ex06_writer0023.bpmn,dataObject,1
-ex06_writer0024.bpmn,flowNodeRef,10
-ex06_writer0024.bpmn,incoming,9
-ex06_writer0024.bpmn,outgoing,9
-ex06_writer0024.bpmn,sequenceFlow,9
-ex06_writer0024.bpmn,targetRef,5
-ex06_writer0024.bpmn,task,4
-ex06_writer0024.bpmn,dataOutputAssociation,3
-ex06_writer0024.bpmn,startEvent,3
-ex06_writer0024.bpmn,messageEventDefinition,3
-ex06_writer0024.bpmn,dataInputAssociation,2
-ex06_writer0024.bpmn,sourceRef,2
-ex06_writer0024.bpmn,dataObjectReference,2
-ex06_writer0024.bpmn,dataObject,2
-ex06_writer0024.bpmn,eventBasedGateway,2
-ex06_writer0024.bpmn,process,1
-ex06_writer0024.bpmn,laneSet,1
-ex06_writer0024.bpmn,lane,1
-ex06_writer0024.bpmn,endEvent,1
-ex06_writer0024.bpmn,property,1
-ex06_writer0024.bpmn,dataStoreReference,1
-ex06_writer0025.bpmn,incoming,12
-ex06_writer0025.bpmn,outgoing,12
-ex06_writer0025.bpmn,sequenceFlow,12
-ex06_writer0025.bpmn,targetRef,11
-ex06_writer0025.bpmn,dataOutputAssociation,7
-ex06_writer0025.bpmn,task,4
-ex06_writer0025.bpmn,property,4
-ex06_writer0025.bpmn,dataInputAssociation,4
-ex06_writer0025.bpmn,sourceRef,4
-ex06_writer0025.bpmn,dataObjectReference,4
-ex06_writer0025.bpmn,dataObject,4
-ex06_writer0025.bpmn,intermediateCatchEvent,3
-ex06_writer0025.bpmn,messageEventDefinition,3
-ex06_writer0025.bpmn,process,1
-ex06_writer0025.bpmn,startEvent,1
-ex06_writer0025.bpmn,eventBasedGateway,1
-ex06_writer0025.bpmn,parallelGateway,1
-ex06_writer0025.bpmn,exclusiveGateway,1
-ex06_writer0025.bpmn,dataStoreReference,1
-ex06_writer0026.bpmn,incoming,13
-ex06_writer0026.bpmn,outgoing,13
-ex06_writer0026.bpmn,sequenceFlow,13
-ex06_writer0026.bpmn,targetRef,8
-ex06_writer0026.bpmn,task,7
-ex06_writer0026.bpmn,property,4
-ex06_writer0026.bpmn,dataInputAssociation,4
-ex06_writer0026.bpmn,sourceRef,4
-ex06_writer0026.bpmn,dataOutputAssociation,4
-ex06_writer0026.bpmn,dataObjectReference,4
-ex06_writer0026.bpmn,dataObject,4
-ex06_writer0026.bpmn,exclusiveGateway,3
-ex06_writer0026.bpmn,process,1
-ex06_writer0026.bpmn,endEvent,1
-ex06_writer0026.bpmn,startEvent,1
-ex06_writer0026.bpmn,dataStoreReference,1
-ex06_writer0027.bpmn,incoming,12
-ex06_writer0027.bpmn,outgoing,12
-ex06_writer0027.bpmn,sequenceFlow,12
-ex06_writer0027.bpmn,task,4
-ex06_writer0027.bpmn,targetRef,3
-ex06_writer0027.bpmn,intermediateCatchEvent,3
-ex06_writer0027.bpmn,messageEventDefinition,3
-ex06_writer0027.bpmn,dataOutputAssociation,2
-ex06_writer0027.bpmn,exclusiveGateway,2
-ex06_writer0027.bpmn,process,1
-ex06_writer0027.bpmn,property,1
-ex06_writer0027.bpmn,dataInputAssociation,1
-ex06_writer0027.bpmn,sourceRef,1
-ex06_writer0027.bpmn,startEvent,1
-ex06_writer0027.bpmn,eventBasedGateway,1
-ex06_writer0027.bpmn,dataObjectReference,1
-ex06_writer0027.bpmn,dataObject,1
-ex06_writer0028.bpmn,outgoing,10
-ex06_writer0028.bpmn,incoming,10
-ex06_writer0028.bpmn,sequenceFlow,10
-ex06_writer0028.bpmn,task,5
-ex06_writer0028.bpmn,targetRef,4
-ex06_writer0028.bpmn,dataObjectReference,4
-ex06_writer0028.bpmn,dataObject,4
-ex06_writer0028.bpmn,dataOutputAssociation,3
-ex06_writer0028.bpmn,exclusiveGateway,2
-ex06_writer0028.bpmn,process,1
-ex06_writer0028.bpmn,startEvent,1
-ex06_writer0028.bpmn,messageEventDefinition,1
-ex06_writer0028.bpmn,endEvent,1
-ex06_writer0028.bpmn,property,1
-ex06_writer0028.bpmn,dataInputAssociation,1
-ex06_writer0028.bpmn,sourceRef,1
-ex06_writer0029.bpmn,outgoing,8
-ex06_writer0029.bpmn,targetRef,8
-ex06_writer0029.bpmn,incoming,8
-ex06_writer0029.bpmn,sequenceFlow,8
-ex06_writer0029.bpmn,dataOutputAssociation,5
-ex06_writer0029.bpmn,task,4
-ex06_writer0029.bpmn,startEvent,3
-ex06_writer0029.bpmn,property,3
-ex06_writer0029.bpmn,dataInputAssociation,3
-ex06_writer0029.bpmn,sourceRef,3
-ex06_writer0029.bpmn,messageEventDefinition,2
-ex06_writer0029.bpmn,dataObjectReference,2
-ex06_writer0029.bpmn,dataObject,2
-ex06_writer0029.bpmn,process,1
-ex06_writer0029.bpmn,endEvent,1
-ex06_writer0029.bpmn,exclusiveGateway,1
-ex06_writer0029.bpmn,dataStoreReference,1
-ex06_writer0030.bpmn,incoming,13
-ex06_writer0030.bpmn,outgoing,13
-ex06_writer0030.bpmn,sequenceFlow,13
-ex06_writer0030.bpmn,targetRef,12
-ex06_writer0030.bpmn,task,7
-ex06_writer0030.bpmn,dataOutputAssociation,6
-ex06_writer0030.bpmn,dataInputAssociation,6
-ex06_writer0030.bpmn,sourceRef,6
-ex06_writer0030.bpmn,dataObjectReference,6
-ex06_writer0030.bpmn,dataObject,6
-ex06_writer0030.bpmn,property,4
-ex06_writer0030.bpmn,exclusiveGateway,3
-ex06_writer0030.bpmn,process,1
-ex06_writer0030.bpmn,endEvent,1
-ex06_writer0030.bpmn,startEvent,1
-ex06_writer0031.bpmn,outgoing,12
-ex06_writer0031.bpmn,incoming,12
-ex06_writer0031.bpmn,sequenceFlow,12
-ex06_writer0031.bpmn,task,7
-ex06_writer0031.bpmn,exclusiveGateway,2
-ex06_writer0031.bpmn,process,1
-ex06_writer0031.bpmn,startEvent,1
-ex06_writer0031.bpmn,messageEventDefinition,1
-ex06_writer0031.bpmn,endEvent,1
-ex06_writer0032.bpmn,targetRef,14
-ex06_writer0032.bpmn,incoming,13
-ex06_writer0032.bpmn,outgoing,13
-ex06_writer0032.bpmn,sequenceFlow,13
-ex06_writer0032.bpmn,task,7
-ex06_writer0032.bpmn,property,7
-ex06_writer0032.bpmn,dataInputAssociation,7
-ex06_writer0032.bpmn,sourceRef,7
-ex06_writer0032.bpmn,dataOutputAssociation,7
-ex06_writer0032.bpmn,exclusiveGateway,3
-ex06_writer0032.bpmn,dataObjectReference,3
-ex06_writer0032.bpmn,dataObject,3
-ex06_writer0032.bpmn,process,1
-ex06_writer0032.bpmn,laneSet,1
-ex06_writer0032.bpmn,endEvent,1
-ex06_writer0032.bpmn,dataStoreReference,1
-ex06_writer0032.bpmn,startEvent,1
-ex06_writer0032.bpmn,messageEventDefinition,1
-ex06_writer0033.bpmn,incoming,10
-ex06_writer0033.bpmn,outgoing,10
-ex06_writer0033.bpmn,sequenceFlow,10
-ex06_writer0033.bpmn,task,5
-ex06_writer0033.bpmn,targetRef,4
-ex06_writer0033.bpmn,dataObjectReference,4
-ex06_writer0033.bpmn,dataObject,4
-ex06_writer0033.bpmn,dataOutputAssociation,3
-ex06_writer0033.bpmn,exclusiveGateway,2
-ex06_writer0033.bpmn,process,1
-ex06_writer0033.bpmn,endEvent,1
-ex06_writer0033.bpmn,startEvent,1
-ex06_writer0033.bpmn,messageEventDefinition,1
-ex06_writer0033.bpmn,property,1
-ex06_writer0033.bpmn,dataInputAssociation,1
-ex06_writer0033.bpmn,sourceRef,1
-ex06_writer0034.bpmn,incoming,13
-ex06_writer0034.bpmn,outgoing,13
-ex06_writer0034.bpmn,sequenceFlow,13
-ex06_writer0034.bpmn,task,7
-ex06_writer0034.bpmn,dataOutputAssociation,3
-ex06_writer0034.bpmn,targetRef,3
-ex06_writer0034.bpmn,dataObjectReference,3
-ex06_writer0034.bpmn,dataObject,3
-ex06_writer0034.bpmn,exclusiveGateway,2
-ex06_writer0034.bpmn,process,1
-ex06_writer0034.bpmn,endEvent,1
-ex06_writer0034.bpmn,startEvent,1
-ex06_writer0034.bpmn,parallelGateway,1
-ex06_writer0035.bpmn,incoming,13
-ex06_writer0035.bpmn,outgoing,13
-ex06_writer0035.bpmn,sequenceFlow,13
-ex06_writer0035.bpmn,targetRef,11
-ex06_writer0035.bpmn,dataObjectReference,9
-ex06_writer0035.bpmn,dataObject,9
-ex06_writer0035.bpmn,task,7
-ex06_writer0035.bpmn,dataOutputAssociation,7
-ex06_writer0035.bpmn,dataInputAssociation,4
-ex06_writer0035.bpmn,sourceRef,4
-ex06_writer0035.bpmn,property,3
-ex06_writer0035.bpmn,exclusiveGateway,2
-ex06_writer0035.bpmn,dataStoreReference,2
-ex06_writer0035.bpmn,process,1
-ex06_writer0035.bpmn,endEvent,1
-ex06_writer0035.bpmn,startEvent,1
-ex06_writer0035.bpmn,parallelGateway,1
-ex06_writer0036.bpmn,outgoing,10
-ex06_writer0036.bpmn,incoming,10
-ex06_writer0036.bpmn,sequenceFlow,10
-ex06_writer0036.bpmn,targetRef,5
-ex06_writer0036.bpmn,task,4
-ex06_writer0036.bpmn,dataOutputAssociation,3
-ex06_writer0036.bpmn,exclusiveGateway,3
-ex06_writer0036.bpmn,dataInputAssociation,2
-ex06_writer0036.bpmn,sourceRef,2
-ex06_writer0036.bpmn,dataObjectReference,2
-ex06_writer0036.bpmn,dataObject,2
-ex06_writer0036.bpmn,process,1
-ex06_writer0036.bpmn,startEvent,1
-ex06_writer0036.bpmn,endEvent,1
-ex06_writer0036.bpmn,property,1
-ex06_writer0036.bpmn,dataStoreReference,1
-ex06_writer0037.bpmn,incoming,12
-ex06_writer0037.bpmn,outgoing,12
-ex06_writer0037.bpmn,sequenceFlow,12
-ex06_writer0037.bpmn,task,7
-ex06_writer0037.bpmn,targetRef,7
-ex06_writer0037.bpmn,dataInputAssociation,4
-ex06_writer0037.bpmn,sourceRef,4
-ex06_writer0037.bpmn,multiInstanceLoopCharacteristics,4
-ex06_writer0037.bpmn,dataObjectReference,3
-ex06_writer0037.bpmn,dataObject,3
-ex06_writer0037.bpmn,property,3
-ex06_writer0037.bpmn,dataOutputAssociation,3
-ex06_writer0037.bpmn,textAnnotation,3
-ex06_writer0037.bpmn,text,3
-ex06_writer0037.bpmn,association,3
-ex06_writer0037.bpmn,parallelGateway,2
-ex06_writer0037.bpmn,process,1
-ex06_writer0037.bpmn,endEvent,1
-ex06_writer0037.bpmn,startEvent,1
-ex06_writer0038.bpmn,incoming,10
-ex06_writer0038.bpmn,outgoing,10
-ex06_writer0038.bpmn,sequenceFlow,10
-ex06_writer0038.bpmn,targetRef,9
-ex06_writer0038.bpmn,dataInputAssociation,5
-ex06_writer0038.bpmn,sourceRef,5
-ex06_writer0038.bpmn,property,4
-ex06_writer0038.bpmn,dataOutputAssociation,4
-ex06_writer0038.bpmn,dataObjectReference,4
-ex06_writer0038.bpmn,dataObject,4
-ex06_writer0038.bpmn,task,3
-ex06_writer0038.bpmn,exclusiveGateway,3
-ex06_writer0038.bpmn,messageEventDefinition,2
-ex06_writer0038.bpmn,process,1
-ex06_writer0038.bpmn,endEvent,1
-ex06_writer0038.bpmn,dataStoreReference,1
-ex06_writer0038.bpmn,startEvent,1
-ex06_writer0038.bpmn,intermediateThrowEvent,1
-ex06_writer0039.bpmn,incoming,9
-ex06_writer0039.bpmn,outgoing,9
-ex06_writer0039.bpmn,sequenceFlow,9
-ex06_writer0039.bpmn,targetRef,7
-ex06_writer0039.bpmn,task,4
-ex06_writer0039.bpmn,property,4
-ex06_writer0039.bpmn,dataInputAssociation,4
-ex06_writer0039.bpmn,sourceRef,4
-ex06_writer0039.bpmn,dataObjectReference,4
-ex06_writer0039.bpmn,dataObject,4
-ex06_writer0039.bpmn,dataOutputAssociation,3
-ex06_writer0039.bpmn,startEvent,3
-ex06_writer0039.bpmn,exclusiveGateway,2
-ex06_writer0039.bpmn,process,1
-ex06_writer0039.bpmn,endEvent,1
-ex06_writer0040.bpmn,outgoing,10
-ex06_writer0040.bpmn,incoming,10
-ex06_writer0040.bpmn,sequenceFlow,10
-ex06_writer0040.bpmn,targetRef,5
-ex06_writer0040.bpmn,task,4
-ex06_writer0040.bpmn,dataOutputAssociation,3
-ex06_writer0040.bpmn,dataObjectReference,3
-ex06_writer0040.bpmn,dataObject,3
-ex06_writer0040.bpmn,exclusiveGateway,3
-ex06_writer0040.bpmn,dataInputAssociation,2
-ex06_writer0040.bpmn,sourceRef,2
-ex06_writer0040.bpmn,process,1
-ex06_writer0040.bpmn,startEvent,1
-ex06_writer0040.bpmn,messageEventDefinition,1
-ex06_writer0040.bpmn,property,1
-ex06_writer0040.bpmn,endEvent,1
-ex06_writer0041.bpmn,incoming,13
-ex06_writer0041.bpmn,outgoing,13
-ex06_writer0041.bpmn,sequenceFlow,13
-ex06_writer0041.bpmn,task,4
-ex06_writer0041.bpmn,targetRef,4
-ex06_writer0041.bpmn,dataOutputAssociation,3
-ex06_writer0041.bpmn,intermediateCatchEvent,3
-ex06_writer0041.bpmn,messageEventDefinition,3
-ex06_writer0041.bpmn,exclusiveGateway,2
-ex06_writer0041.bpmn,process,1
-ex06_writer0041.bpmn,endEvent,1
-ex06_writer0041.bpmn,property,1
-ex06_writer0041.bpmn,dataInputAssociation,1
-ex06_writer0041.bpmn,sourceRef,1
-ex06_writer0041.bpmn,startEvent,1
-ex06_writer0041.bpmn,eventBasedGateway,1
-ex06_writer0041.bpmn,dataStoreReference,1
-ex06_writer0041.bpmn,dataObjectReference,1
-ex06_writer0041.bpmn,dataObject,1
-ex06_writer0042.bpmn,incoming,12
-ex06_writer0042.bpmn,outgoing,12
-ex06_writer0042.bpmn,sequenceFlow,12
-ex06_writer0042.bpmn,targetRef,10
-ex06_writer0042.bpmn,task,7
-ex06_writer0042.bpmn,dataInputAssociation,7
-ex06_writer0042.bpmn,sourceRef,7
-ex06_writer0042.bpmn,property,5
-ex06_writer0042.bpmn,dataObjectReference,5
-ex06_writer0042.bpmn,dataObject,5
-ex06_writer0042.bpmn,dataOutputAssociation,3
-ex06_writer0042.bpmn,startEvent,3
-ex06_writer0042.bpmn,exclusiveGateway,2
-ex06_writer0042.bpmn,process,1
-ex06_writer0042.bpmn,endEvent,1
-ex06_writer0043.bpmn,incoming,10
-ex06_writer0043.bpmn,outgoing,10
-ex06_writer0043.bpmn,sequenceFlow,10
-ex06_writer0043.bpmn,targetRef,7
-ex06_writer0043.bpmn,task,4
-ex06_writer0043.bpmn,dataInputAssociation,4
-ex06_writer0043.bpmn,sourceRef,4
-ex06_writer0043.bpmn,property,3
-ex06_writer0043.bpmn,dataOutputAssociation,3
-ex06_writer0043.bpmn,exclusiveGateway,3
-ex06_writer0043.bpmn,dataObjectReference,3
-ex06_writer0043.bpmn,dataObject,3
-ex06_writer0043.bpmn,process,1
-ex06_writer0043.bpmn,endEvent,1
-ex06_writer0043.bpmn,startEvent,1
-ex06_writer0044.bpmn,outgoing,13
-ex06_writer0044.bpmn,incoming,13
-ex06_writer0044.bpmn,sequenceFlow,13
-ex06_writer0044.bpmn,task,4
-ex06_writer0044.bpmn,intermediateCatchEvent,3
-ex06_writer0044.bpmn,messageEventDefinition,3
-ex06_writer0044.bpmn,exclusiveGateway,2
-ex06_writer0044.bpmn,process,1
-ex06_writer0044.bpmn,laneSet,1
-ex06_writer0044.bpmn,startEvent,1
-ex06_writer0044.bpmn,eventBasedGateway,1
-ex06_writer0044.bpmn,endEvent,1
-ex06_writer0045.bpmn,incoming,13
-ex06_writer0045.bpmn,outgoing,13
-ex06_writer0045.bpmn,sequenceFlow,13
-ex06_writer0045.bpmn,targetRef,9
-ex06_writer0045.bpmn,task,7
-ex06_writer0045.bpmn,dataOutputAssociation,5
-ex06_writer0045.bpmn,dataInputAssociation,4
-ex06_writer0045.bpmn,sourceRef,4
-ex06_writer0045.bpmn,dataObjectReference,4
-ex06_writer0045.bpmn,dataObject,4
-ex06_writer0045.bpmn,property,3
-ex06_writer0045.bpmn,exclusiveGateway,3
-ex06_writer0045.bpmn,process,1
-ex06_writer0045.bpmn,endEvent,1
-ex06_writer0045.bpmn,startEvent,1
-ex06_writer0047.bpmn,outgoing,10
-ex06_writer0047.bpmn,incoming,10
-ex06_writer0047.bpmn,sequenceFlow,10
-ex06_writer0047.bpmn,targetRef,9
-ex06_writer0047.bpmn,dataInputAssociation,5
-ex06_writer0047.bpmn,sourceRef,5
-ex06_writer0047.bpmn,dataObjectReference,5
-ex06_writer0047.bpmn,dataObject,5
-ex06_writer0047.bpmn,task,4
-ex06_writer0047.bpmn,property,4
-ex06_writer0047.bpmn,dataOutputAssociation,4
-ex06_writer0047.bpmn,exclusiveGateway,3
-ex06_writer0047.bpmn,process,1
-ex06_writer0047.bpmn,startEvent,1
-ex06_writer0047.bpmn,messageEventDefinition,1
-ex06_writer0047.bpmn,endEvent,1
-ex06_writer0047.bpmn,dataStoreReference,1
-ex06_writer0048.bpmn,incoming,10
-ex06_writer0048.bpmn,outgoing,10
-ex06_writer0048.bpmn,sequenceFlow,10
-ex06_writer0048.bpmn,targetRef,8
-ex06_writer0048.bpmn,dataInputAssociation,5
-ex06_writer0048.bpmn,sourceRef,5
-ex06_writer0048.bpmn,task,4
-ex06_writer0048.bpmn,property,4
-ex06_writer0048.bpmn,dataObjectReference,4
-ex06_writer0048.bpmn,dataObject,4
-ex06_writer0048.bpmn,dataOutputAssociation,3
-ex06_writer0048.bpmn,exclusiveGateway,3
-ex06_writer0048.bpmn,process,1
-ex06_writer0048.bpmn,endEvent,1
-ex06_writer0048.bpmn,startEvent,1
-ex06_writer0048.bpmn,dataStoreReference,1
-ex06_writer0049.bpmn,incoming,10
-ex06_writer0049.bpmn,outgoing,10
-ex06_writer0049.bpmn,sequenceFlow,10
-ex06_writer0049.bpmn,targetRef,5
-ex06_writer0049.bpmn,task,4
-ex06_writer0049.bpmn,dataOutputAssociation,3
-ex06_writer0049.bpmn,exclusiveGateway,3
-ex06_writer0049.bpmn,property,2
-ex06_writer0049.bpmn,dataInputAssociation,2
-ex06_writer0049.bpmn,sourceRef,2
-ex06_writer0049.bpmn,dataObjectReference,2
-ex06_writer0049.bpmn,dataObject,2
-ex06_writer0049.bpmn,process,1
-ex06_writer0049.bpmn,endEvent,1
-ex06_writer0049.bpmn,startEvent,1
-ex06_writer0050.bpmn,targetRef,10
-ex06_writer0050.bpmn,outgoing,9
-ex06_writer0050.bpmn,incoming,9
-ex06_writer0050.bpmn,sequenceFlow,9
-ex06_writer0050.bpmn,dataInputAssociation,6
-ex06_writer0050.bpmn,sourceRef,6
-ex06_writer0050.bpmn,dataObjectReference,6
-ex06_writer0050.bpmn,dataObject,6
-ex06_writer0050.bpmn,task,4
-ex06_writer0050.bpmn,property,4
-ex06_writer0050.bpmn,dataOutputAssociation,4
-ex06_writer0050.bpmn,exclusiveGateway,2
-ex06_writer0050.bpmn,process,1
-ex06_writer0050.bpmn,startEvent,1
-ex06_writer0050.bpmn,messageEventDefinition,1
-ex06_writer0050.bpmn,endEvent,1
-ex06_writer0050.bpmn,dataStoreReference,1
-ex06_writer0052.bpmn,incoming,9
-ex06_writer0052.bpmn,outgoing,9
-ex06_writer0052.bpmn,sequenceFlow,9
-ex06_writer0052.bpmn,task,4
-ex06_writer0052.bpmn,targetRef,2
-ex06_writer0052.bpmn,exclusiveGateway,2
-ex06_writer0052.bpmn,process,1
-ex06_writer0052.bpmn,dataOutputAssociation,1
-ex06_writer0052.bpmn,endEvent,1
-ex06_writer0052.bpmn,startEvent,1
-ex06_writer0052.bpmn,property,1
-ex06_writer0052.bpmn,dataInputAssociation,1
-ex06_writer0052.bpmn,sourceRef,1
-ex06_writer0052.bpmn,dataObjectReference,1
-ex06_writer0052.bpmn,dataObject,1
-ex06_writer0053.bpmn,outgoing,9
-ex06_writer0053.bpmn,targetRef,9
-ex06_writer0053.bpmn,incoming,9
-ex06_writer0053.bpmn,sequenceFlow,9
-ex06_writer0053.bpmn,dataOutputAssociation,5
-ex06_writer0053.bpmn,task,4
-ex06_writer0053.bpmn,dataInputAssociation,4
-ex06_writer0053.bpmn,sourceRef,4
-ex06_writer0053.bpmn,dataObjectReference,4
-ex06_writer0053.bpmn,dataObject,4
-ex06_writer0053.bpmn,property,3
-ex06_writer0053.bpmn,exclusiveGateway,2
-ex06_writer0053.bpmn,process,1
-ex06_writer0053.bpmn,startEvent,1
-ex06_writer0053.bpmn,messageEventDefinition,1
-ex06_writer0053.bpmn,endEvent,1
-ex06_writer0053.bpmn,dataStoreReference,1
-ex06_writer0054.bpmn,incoming,12
-ex06_writer0054.bpmn,outgoing,12
-ex06_writer0054.bpmn,sequenceFlow,12
-ex06_writer0054.bpmn,task,7
-ex06_writer0054.bpmn,targetRef,3
-ex06_writer0054.bpmn,dataOutputAssociation,2
-ex06_writer0054.bpmn,parallelGateway,2
-ex06_writer0054.bpmn,process,1
-ex06_writer0054.bpmn,property,1
-ex06_writer0054.bpmn,dataInputAssociation,1
-ex06_writer0054.bpmn,sourceRef,1
-ex06_writer0054.bpmn,endEvent,1
-ex06_writer0054.bpmn,startEvent,1
-ex06_writer0054.bpmn,dataObjectReference,1
-ex06_writer0054.bpmn,dataObject,1
-ex06_writer0054.bpmn,exclusiveGateway,1
-ex06_writer0055.bpmn,incoming,10
-ex06_writer0055.bpmn,outgoing,10
-ex06_writer0055.bpmn,sequenceFlow,10
-ex06_writer0055.bpmn,task,4
-ex06_writer0055.bpmn,targetRef,4
-ex06_writer0055.bpmn,dataOutputAssociation,3
-ex06_writer0055.bpmn,exclusiveGateway,3
-ex06_writer0055.bpmn,dataObjectReference,2
-ex06_writer0055.bpmn,dataObject,2
-ex06_writer0055.bpmn,process,1
-ex06_writer0055.bpmn,property,1
-ex06_writer0055.bpmn,dataInputAssociation,1
-ex06_writer0055.bpmn,sourceRef,1
-ex06_writer0055.bpmn,endEvent,1
-ex06_writer0055.bpmn,startEvent,1
-ex06_writer0055.bpmn,dataStoreReference,1
-ex06_writer0056.bpmn,outgoing,13
-ex06_writer0056.bpmn,incoming,13
-ex06_writer0056.bpmn,sequenceFlow,13
-ex06_writer0056.bpmn,task,7
-ex06_writer0056.bpmn,exclusiveGateway,3
-ex06_writer0056.bpmn,process,1
-ex06_writer0056.bpmn,startEvent,1
-ex06_writer0056.bpmn,messageEventDefinition,1
-ex06_writer0056.bpmn,endEvent,1
-ex06_writer0058.bpmn,outgoing,13
-ex06_writer0058.bpmn,incoming,13
-ex06_writer0058.bpmn,sequenceFlow,13
-ex06_writer0058.bpmn,task,7
-ex06_writer0058.bpmn,targetRef,5
-ex06_writer0058.bpmn,dataInputAssociation,3
-ex06_writer0058.bpmn,sourceRef,3
-ex06_writer0058.bpmn,exclusiveGateway,3
-ex06_writer0058.bpmn,property,2
-ex06_writer0058.bpmn,dataOutputAssociation,2
-ex06_writer0058.bpmn,dataObjectReference,2
-ex06_writer0058.bpmn,dataObject,2
-ex06_writer0058.bpmn,process,1
-ex06_writer0058.bpmn,startEvent,1
-ex06_writer0058.bpmn,endEvent,1
-ex06_writer0058.bpmn,dataStoreReference,1
-ex06_writer0059.bpmn,outgoing,8
-ex06_writer0059.bpmn,incoming,8
-ex06_writer0059.bpmn,targetRef,8
-ex06_writer0059.bpmn,sequenceFlow,8
-ex06_writer0059.bpmn,dataInputAssociation,6
-ex06_writer0059.bpmn,sourceRef,6
-ex06_writer0059.bpmn,dataObjectReference,5
-ex06_writer0059.bpmn,dataObject,5
-ex06_writer0059.bpmn,task,4
-ex06_writer0059.bpmn,property,4
-ex06_writer0059.bpmn,dataOutputAssociation,2
-ex06_writer0059.bpmn,process,1
-ex06_writer0059.bpmn,startEvent,1
-ex06_writer0059.bpmn,messageEventDefinition,1
-ex06_writer0059.bpmn,endEvent,1
-ex06_writer0059.bpmn,exclusiveGateway,1
-ex06_writer0060.bpmn,incoming,13
-ex06_writer0060.bpmn,outgoing,13
-ex06_writer0060.bpmn,sequenceFlow,13
-ex06_writer0060.bpmn,task,8
-ex06_writer0060.bpmn,targetRef,8
-ex06_writer0060.bpmn,dataInputAssociation,6
-ex06_writer0060.bpmn,sourceRef,6
-ex06_writer0060.bpmn,property,5
-ex06_writer0060.bpmn,dataStoreReference,5
-ex06_writer0060.bpmn,dataOutputAssociation,2
-ex06_writer0060.bpmn,exclusiveGateway,2
-ex06_writer0060.bpmn,process,1
-ex06_writer0060.bpmn,endEvent,1
-ex06_writer0060.bpmn,startEvent,1
-ex06_writer0061.bpmn,incoming,11
-ex06_writer0061.bpmn,outgoing,11
-ex06_writer0061.bpmn,sequenceFlow,11
-ex06_writer0061.bpmn,task,7
-ex06_writer0061.bpmn,targetRef,5
-ex06_writer0061.bpmn,dataObjectReference,4
-ex06_writer0061.bpmn,dataObject,4
-ex06_writer0061.bpmn,property,3
-ex06_writer0061.bpmn,dataInputAssociation,3
-ex06_writer0061.bpmn,sourceRef,3
-ex06_writer0061.bpmn,dataOutputAssociation,2
-ex06_writer0061.bpmn,process,1
-ex06_writer0061.bpmn,endEvent,1
-ex06_writer0061.bpmn,startEvent,1
-ex06_writer0061.bpmn,exclusiveGateway,1
-ex06_writer0062.bpmn,outgoing,13
-ex06_writer0062.bpmn,incoming,13
-ex06_writer0062.bpmn,sequenceFlow,13
-ex06_writer0062.bpmn,task,8
-ex06_writer0062.bpmn,targetRef,6
-ex06_writer0062.bpmn,dataOutputAssociation,5
-ex06_writer0062.bpmn,exclusiveGateway,2
-ex06_writer0062.bpmn,dataObjectReference,2
-ex06_writer0062.bpmn,dataObject,2
-ex06_writer0062.bpmn,process,1
-ex06_writer0062.bpmn,startEvent,1
-ex06_writer0062.bpmn,messageEventDefinition,1
-ex06_writer0062.bpmn,property,1
-ex06_writer0062.bpmn,dataInputAssociation,1
-ex06_writer0062.bpmn,sourceRef,1
-ex06_writer0062.bpmn,endEvent,1
-ex06_writer0062.bpmn,dataStoreReference,1
-ex06_writer0063.bpmn,incoming,13
-ex06_writer0063.bpmn,outgoing,13
-ex06_writer0063.bpmn,sequenceFlow,13
-ex06_writer0063.bpmn,targetRef,8
-ex06_writer0063.bpmn,task,7
-ex06_writer0063.bpmn,dataOutputAssociation,4
-ex06_writer0063.bpmn,dataInputAssociation,4
-ex06_writer0063.bpmn,sourceRef,4
-ex06_writer0063.bpmn,dataObjectReference,4
-ex06_writer0063.bpmn,dataObject,4
-ex06_writer0063.bpmn,exclusiveGateway,3
-ex06_writer0063.bpmn,property,2
-ex06_writer0063.bpmn,process,1
-ex06_writer0063.bpmn,endEvent,1
-ex06_writer0063.bpmn,startEvent,1
-ex06_writer0064.bpmn,flowNodeRef,7
-ex06_writer0064.bpmn,incoming,7
-ex06_writer0064.bpmn,outgoing,7
-ex06_writer0064.bpmn,sequenceFlow,7
-ex06_writer0064.bpmn,targetRef,6
-ex06_writer0064.bpmn,task,4
-ex06_writer0064.bpmn,dataOutputAssociation,4
-ex06_writer0064.bpmn,startEvent,3
-ex06_writer0064.bpmn,messageEventDefinition,3
-ex06_writer0064.bpmn,lane,2
-ex06_writer0064.bpmn,property,2
-ex06_writer0064.bpmn,dataInputAssociation,2
-ex06_writer0064.bpmn,sourceRef,2
-ex06_writer0064.bpmn,dataObjectReference,2
-ex06_writer0064.bpmn,dataObject,2
-ex06_writer0064.bpmn,process,1
-ex06_writer0064.bpmn,laneSet,1
-ex06_writer0064.bpmn,endEvent,1
-ex06_writer0066.bpmn,incoming,9
-ex06_writer0066.bpmn,outgoing,9
-ex06_writer0066.bpmn,sequenceFlow,9
-ex06_writer0066.bpmn,task,4
-ex06_writer0066.bpmn,targetRef,3
-ex06_writer0066.bpmn,startEvent,3
-ex06_writer0066.bpmn,dataObjectReference,3
-ex06_writer0066.bpmn,dataObject,3
-ex06_writer0066.bpmn,dataOutputAssociation,2
-ex06_writer0066.bpmn,exclusiveGateway,2
-ex06_writer0066.bpmn,process,1
-ex06_writer0066.bpmn,property,1
-ex06_writer0066.bpmn,dataInputAssociation,1
-ex06_writer0066.bpmn,sourceRef,1
-ex06_writer0066.bpmn,endEvent,1
-ex06_writer0067.bpmn,targetRef,11
-ex06_writer0067.bpmn,incoming,9
-ex06_writer0067.bpmn,outgoing,9
-ex06_writer0067.bpmn,sequenceFlow,9
-ex06_writer0067.bpmn,dataOutputAssociation,6
-ex06_writer0067.bpmn,dataObjectReference,6
-ex06_writer0067.bpmn,dataObject,6
-ex06_writer0067.bpmn,dataInputAssociation,5
-ex06_writer0067.bpmn,sourceRef,5
-ex06_writer0067.bpmn,messageEventDefinition,4
-ex06_writer0067.bpmn,task,3
-ex06_writer0067.bpmn,property,3
-ex06_writer0067.bpmn,startEvent,3
-ex06_writer0067.bpmn,exclusiveGateway,2
-ex06_writer0067.bpmn,process,1
-ex06_writer0067.bpmn,dataStoreReference,1
-ex06_writer0067.bpmn,endEvent,1
-ex06_writer0067.bpmn,intermediateThrowEvent,1
-ex06_writer0068.bpmn,incoming,13
-ex06_writer0068.bpmn,outgoing,13
-ex06_writer0068.bpmn,sequenceFlow,13
-ex06_writer0068.bpmn,targetRef,7
-ex06_writer0068.bpmn,dataOutputAssociation,5
-ex06_writer0068.bpmn,task,4
-ex06_writer0068.bpmn,intermediateCatchEvent,3
-ex06_writer0068.bpmn,messageEventDefinition,3
-ex06_writer0068.bpmn,process,2
-ex06_writer0068.bpmn,dataInputAssociation,2
-ex06_writer0068.bpmn,sourceRef,2
-ex06_writer0068.bpmn,exclusiveGateway,2
-ex06_writer0068.bpmn,dataObjectReference,2
-ex06_writer0068.bpmn,dataObject,2
-ex06_writer0068.bpmn,property,1
-ex06_writer0068.bpmn,startEvent,1
-ex06_writer0068.bpmn,eventBasedGateway,1
-ex06_writer0068.bpmn,dataStoreReference,1
-ex06_writer0068.bpmn,subProcess,1
-ex06_writer0069.bpmn,outgoing,11
-ex06_writer0069.bpmn,incoming,11
-ex06_writer0069.bpmn,sequenceFlow,11
-ex06_writer0069.bpmn,task,5
-ex06_writer0069.bpmn,targetRef,4
-ex06_writer0069.bpmn,exclusiveGateway,3
-ex06_writer0069.bpmn,dataInputAssociation,2
-ex06_writer0069.bpmn,sourceRef,2
-ex06_writer0069.bpmn,dataOutputAssociation,2
-ex06_writer0069.bpmn,dataObjectReference,2
-ex06_writer0069.bpmn,dataObject,2
-ex06_writer0069.bpmn,process,1
-ex06_writer0069.bpmn,startEvent,1
-ex06_writer0069.bpmn,messageEventDefinition,1
-ex06_writer0069.bpmn,endEvent,1
-ex06_writer0069.bpmn,property,1
-ex06_writer0070.bpmn,incoming,10
-ex06_writer0070.bpmn,outgoing,10
-ex06_writer0070.bpmn,sequenceFlow,10
-ex06_writer0070.bpmn,targetRef,8
-ex06_writer0070.bpmn,dataInputAssociation,5
-ex06_writer0070.bpmn,sourceRef,5
-ex06_writer0070.bpmn,task,4
-ex06_writer0070.bpmn,property,4
-ex06_writer0070.bpmn,dataObjectReference,4
-ex06_writer0070.bpmn,dataObject,4
-ex06_writer0070.bpmn,dataOutputAssociation,3
-ex06_writer0070.bpmn,exclusiveGateway,3
-ex06_writer0070.bpmn,process,1
-ex06_writer0070.bpmn,endEvent,1
-ex06_writer0070.bpmn,startEvent,1
-ex06_writer0071.bpmn,targetRef,13
-ex06_writer0071.bpmn,incoming,12
-ex06_writer0071.bpmn,outgoing,12
-ex06_writer0071.bpmn,sequenceFlow,12
-ex06_writer0071.bpmn,dataInputAssociation,8
-ex06_writer0071.bpmn,sourceRef,8
-ex06_writer0071.bpmn,task,7
-ex06_writer0071.bpmn,property,7
-ex06_writer0071.bpmn,dataOutputAssociation,5
-ex06_writer0071.bpmn,dataObjectReference,5
-ex06_writer0071.bpmn,dataObject,5
-ex06_writer0071.bpmn,exclusiveGateway,3
-ex06_writer0071.bpmn,process,1
-ex06_writer0071.bpmn,startEvent,1
-ex06_writer0072.bpmn,outgoing,10
-ex06_writer0072.bpmn,incoming,10
-ex06_writer0072.bpmn,sequenceFlow,10
-ex06_writer0072.bpmn,dataObjectReference,7
-ex06_writer0072.bpmn,dataObject,7
-ex06_writer0072.bpmn,task,6
-ex06_writer0072.bpmn,targetRef,2
-ex06_writer0072.bpmn,process,1
-ex06_writer0072.bpmn,startEvent,1
-ex06_writer0072.bpmn,dataOutputAssociation,1
-ex06_writer0072.bpmn,messageEventDefinition,1
-ex06_writer0072.bpmn,property,1
-ex06_writer0072.bpmn,dataInputAssociation,1
-ex06_writer0072.bpmn,sourceRef,1
-ex06_writer0072.bpmn,endEvent,1
-ex06_writer0072.bpmn,exclusiveGateway,1
-ex06_writer0073.bpmn,incoming,13
-ex06_writer0073.bpmn,outgoing,13
-ex06_writer0073.bpmn,sequenceFlow,13
-ex06_writer0073.bpmn,task,7
-ex06_writer0073.bpmn,targetRef,7
-ex06_writer0073.bpmn,dataOutputAssociation,4
-ex06_writer0073.bpmn,dataInputAssociation,3
-ex06_writer0073.bpmn,sourceRef,3
-ex06_writer0073.bpmn,dataObjectReference,3
-ex06_writer0073.bpmn,dataObject,3
-ex06_writer0073.bpmn,property,2
-ex06_writer0073.bpmn,exclusiveGateway,2
-ex06_writer0073.bpmn,process,1
-ex06_writer0073.bpmn,endEvent,1
-ex06_writer0073.bpmn,startEvent,1
-ex06_writer0073.bpmn,dataStoreReference,1
-ex06_writer0073.bpmn,parallelGateway,1
-ex06_writer0074.bpmn,outgoing,13
-ex06_writer0074.bpmn,incoming,13
-ex06_writer0074.bpmn,sequenceFlow,13
-ex06_writer0074.bpmn,task,4
-ex06_writer0074.bpmn,exclusiveGateway,3
-ex06_writer0074.bpmn,intermediateCatchEvent,3
-ex06_writer0074.bpmn,messageEventDefinition,3
-ex06_writer0074.bpmn,process,1
-ex06_writer0074.bpmn,startEvent,1
-ex06_writer0074.bpmn,endEvent,1
-ex06_writer0075.bpmn,incoming,12
-ex06_writer0075.bpmn,outgoing,12
-ex06_writer0075.bpmn,sequenceFlow,12
-ex06_writer0075.bpmn,task,7
-ex06_writer0075.bpmn,targetRef,3
-ex06_writer0075.bpmn,dataOutputAssociation,2
-ex06_writer0075.bpmn,exclusiveGateway,2
-ex06_writer0075.bpmn,process,1
-ex06_writer0075.bpmn,property,1
-ex06_writer0075.bpmn,dataInputAssociation,1
-ex06_writer0075.bpmn,sourceRef,1
-ex06_writer0075.bpmn,endEvent,1
-ex06_writer0075.bpmn,startEvent,1
-ex06_writer0075.bpmn,dataObjectReference,1
-ex06_writer0075.bpmn,dataObject,1
-ex06_writer0076.bpmn,incoming,10
-ex06_writer0076.bpmn,outgoing,10
-ex06_writer0076.bpmn,sequenceFlow,10
-ex06_writer0076.bpmn,task,5
-ex06_writer0076.bpmn,property,2
-ex06_writer0076.bpmn,dataInputAssociation,2
-ex06_writer0076.bpmn,sourceRef,2
-ex06_writer0076.bpmn,targetRef,2
-ex06_writer0076.bpmn,exclusiveGateway,2
-ex06_writer0076.bpmn,process,1
-ex06_writer0076.bpmn,endEvent,1
-ex06_writer0076.bpmn,startEvent,1
-ex06_writer0076.bpmn,dataStoreReference,1
-ex06_writer0076.bpmn,textAnnotation,1
-ex06_writer0076.bpmn,text,1
-ex06_writer0076.bpmn,association,1
-ex06_writer0077.bpmn,incoming,10
-ex06_writer0077.bpmn,outgoing,10
-ex06_writer0077.bpmn,sequenceFlow,10
-ex06_writer0077.bpmn,task,4
-ex06_writer0077.bpmn,targetRef,4
-ex06_writer0077.bpmn,dataOutputAssociation,3
-ex06_writer0077.bpmn,exclusiveGateway,3
-ex06_writer0077.bpmn,dataObjectReference,2
-ex06_writer0077.bpmn,dataObject,2
-ex06_writer0077.bpmn,process,1
-ex06_writer0077.bpmn,property,1
-ex06_writer0077.bpmn,dataInputAssociation,1
-ex06_writer0077.bpmn,sourceRef,1
-ex06_writer0077.bpmn,endEvent,1
-ex06_writer0077.bpmn,startEvent,1
-ex06_writer0077.bpmn,dataStoreReference,1
-ex06_writer0078.bpmn,incoming,9
-ex06_writer0078.bpmn,outgoing,9
-ex06_writer0078.bpmn,sequenceFlow,9
-ex06_writer0078.bpmn,task,4
-ex06_writer0078.bpmn,targetRef,2
-ex06_writer0078.bpmn,exclusiveGateway,2
-ex06_writer0078.bpmn,dataObjectReference,2
-ex06_writer0078.bpmn,dataObject,2
-ex06_writer0078.bpmn,process,1
-ex06_writer0078.bpmn,dataOutputAssociation,1
-ex06_writer0078.bpmn,endEvent,1
-ex06_writer0078.bpmn,startEvent,1
-ex06_writer0078.bpmn,property,1
-ex06_writer0078.bpmn,dataInputAssociation,1
-ex06_writer0078.bpmn,sourceRef,1
-ex06_writer0079.bpmn,outgoing,13
-ex06_writer0079.bpmn,incoming,13
-ex06_writer0079.bpmn,sequenceFlow,13
-ex06_writer0079.bpmn,task,7
-ex06_writer0079.bpmn,targetRef,4
-ex06_writer0079.bpmn,dataOutputAssociation,3
-ex06_writer0079.bpmn,exclusiveGateway,3
-ex06_writer0079.bpmn,dataObjectReference,3
-ex06_writer0079.bpmn,dataObject,3
-ex06_writer0079.bpmn,process,1
-ex06_writer0079.bpmn,startEvent,1
-ex06_writer0079.bpmn,messageEventDefinition,1
-ex06_writer0079.bpmn,property,1
-ex06_writer0079.bpmn,dataInputAssociation,1
-ex06_writer0079.bpmn,sourceRef,1
-ex06_writer0079.bpmn,dataStoreReference,1
-ex06_writer0079.bpmn,endEvent,1
-ex06_writer0081.bpmn,outgoing,12
-ex06_writer0081.bpmn,incoming,12
-ex06_writer0081.bpmn,sequenceFlow,12
-ex06_writer0081.bpmn,targetRef,8
-ex06_writer0081.bpmn,dataOutputAssociation,5
-ex06_writer0081.bpmn,task,4
-ex06_writer0081.bpmn,property,3
-ex06_writer0081.bpmn,dataInputAssociation,3
-ex06_writer0081.bpmn,sourceRef,3
-ex06_writer0081.bpmn,intermediateCatchEvent,3
-ex06_writer0081.bpmn,messageEventDefinition,3
-ex06_writer0081.bpmn,dataObjectReference,3
-ex06_writer0081.bpmn,dataObject,3
-ex06_writer0081.bpmn,exclusiveGateway,2
-ex06_writer0081.bpmn,process,1
-ex06_writer0081.bpmn,startEvent,1
-ex06_writer0081.bpmn,eventBasedGateway,1
-ex06_writer0083.bpmn,targetRef,16
-ex06_writer0083.bpmn,incoming,12
-ex06_writer0083.bpmn,outgoing,12
-ex06_writer0083.bpmn,sequenceFlow,12
-ex06_writer0083.bpmn,dataInputAssociation,8
-ex06_writer0083.bpmn,sourceRef,8
-ex06_writer0083.bpmn,dataOutputAssociation,8
-ex06_writer0083.bpmn,task,7
-ex06_writer0083.bpmn,property,7
-ex06_writer0083.bpmn,dataObjectReference,5
-ex06_writer0083.bpmn,dataObject,5
-ex06_writer0083.bpmn,exclusiveGateway,2
-ex06_writer0083.bpmn,process,1
-ex06_writer0083.bpmn,laneSet,1
-ex06_writer0083.bpmn,startEvent,1
-ex06_writer0083.bpmn,messageEventDefinition,1
-ex06_writer0083.bpmn,parallelGateway,1
-ex06_writer0084.bpmn,outgoing,9
-ex06_writer0084.bpmn,incoming,9
-ex06_writer0084.bpmn,sequenceFlow,9
-ex06_writer0084.bpmn,targetRef,8
-ex06_writer0084.bpmn,dataInputAssociation,6
-ex06_writer0084.bpmn,sourceRef,6
-ex06_writer0084.bpmn,property,5
-ex06_writer0084.bpmn,task,4
-ex06_writer0084.bpmn,dataObjectReference,3
-ex06_writer0084.bpmn,dataObject,3
-ex06_writer0084.bpmn,dataOutputAssociation,2
-ex06_writer0084.bpmn,parallelGateway,2
-ex06_writer0084.bpmn,process,1
-ex06_writer0084.bpmn,startEvent,1
-ex06_writer0084.bpmn,messageEventDefinition,1
-ex06_writer0084.bpmn,endEvent,1
-ex06_writer0085.bpmn,incoming,12
-ex06_writer0085.bpmn,outgoing,12
-ex06_writer0085.bpmn,targetRef,12
-ex06_writer0085.bpmn,sequenceFlow,12
-ex06_writer0085.bpmn,task,7
-ex06_writer0085.bpmn,dataOutputAssociation,6
-ex06_writer0085.bpmn,dataInputAssociation,6
-ex06_writer0085.bpmn,sourceRef,6
-ex06_writer0085.bpmn,property,4
-ex06_writer0085.bpmn,dataObjectReference,4
-ex06_writer0085.bpmn,dataObject,4
-ex06_writer0085.bpmn,exclusiveGateway,2
-ex06_writer0085.bpmn,process,1
-ex06_writer0085.bpmn,startEvent,1
-ex06_writer0085.bpmn,parallelGateway,1
-ex06_writer0086.bpmn,outgoing,13
-ex06_writer0086.bpmn,incoming,13
-ex06_writer0086.bpmn,sequenceFlow,13
-ex06_writer0086.bpmn,task,7
-ex06_writer0086.bpmn,targetRef,3
-ex06_writer0086.bpmn,exclusiveGateway,3
-ex06_writer0086.bpmn,dataOutputAssociation,2
-ex06_writer0086.bpmn,process,1
-ex06_writer0086.bpmn,startEvent,1
-ex06_writer0086.bpmn,messageEventDefinition,1
-ex06_writer0086.bpmn,endEvent,1
-ex06_writer0086.bpmn,property,1
-ex06_writer0086.bpmn,dataInputAssociation,1
-ex06_writer0086.bpmn,sourceRef,1
-ex06_writer0086.bpmn,dataObjectReference,1
-ex06_writer0086.bpmn,dataObject,1
-ex06_writer0087.bpmn,incoming,13
-ex06_writer0087.bpmn,outgoing,13
-ex06_writer0087.bpmn,sequenceFlow,13
-ex06_writer0087.bpmn,task,7
-ex06_writer0087.bpmn,targetRef,4
-ex06_writer0087.bpmn,exclusiveGateway,3
-ex06_writer0087.bpmn,dataOutputAssociation,2
-ex06_writer0087.bpmn,dataInputAssociation,2
-ex06_writer0087.bpmn,sourceRef,2
-ex06_writer0087.bpmn,dataObjectReference,2
-ex06_writer0087.bpmn,dataObject,2
-ex06_writer0087.bpmn,process,1
-ex06_writer0087.bpmn,property,1
-ex06_writer0087.bpmn,endEvent,1
-ex06_writer0087.bpmn,startEvent,1
-ex06_writer0088.bpmn,flowNodeRef,10
-ex06_writer0088.bpmn,incoming,9
-ex06_writer0088.bpmn,outgoing,9
-ex06_writer0088.bpmn,sequenceFlow,9
-ex06_writer0088.bpmn,targetRef,4
-ex06_writer0088.bpmn,messageEventDefinition,4
-ex06_writer0088.bpmn,task,3
-ex06_writer0088.bpmn,dataOutputAssociation,3
-ex06_writer0088.bpmn,startEvent,3
-ex06_writer0088.bpmn,lane,2
-ex06_writer0088.bpmn,exclusiveGateway,2
-ex06_writer0088.bpmn,process,1
-ex06_writer0088.bpmn,laneSet,1
-ex06_writer0088.bpmn,property,1
-ex06_writer0088.bpmn,dataInputAssociation,1
-ex06_writer0088.bpmn,sourceRef,1
-ex06_writer0088.bpmn,intermediateThrowEvent,1
-ex06_writer0088.bpmn,dataObjectReference,1
-ex06_writer0088.bpmn,dataObject,1
-ex06_writer0088.bpmn,dataStoreReference,1
-ex06_writer0088.bpmn,endEvent,1
-ex06_writer0089.bpmn,outgoing,11
-ex06_writer0089.bpmn,incoming,11
-ex06_writer0089.bpmn,sequenceFlow,11
-ex06_writer0089.bpmn,task,5
-ex06_writer0089.bpmn,exclusiveGateway,3
-ex06_writer0089.bpmn,process,2
-ex06_writer0089.bpmn,startEvent,1
-ex06_writer0089.bpmn,messageEventDefinition,1
-ex06_writer0089.bpmn,endEvent,1
-ex06_writer0090.bpmn,incoming,13
-ex06_writer0090.bpmn,outgoing,13
-ex06_writer0090.bpmn,sequenceFlow,13
-ex06_writer0090.bpmn,task,7
-ex06_writer0090.bpmn,exclusiveGateway,3
-ex06_writer0090.bpmn,process,1
-ex06_writer0090.bpmn,property,1
-ex06_writer0090.bpmn,dataInputAssociation,1
-ex06_writer0090.bpmn,sourceRef,1
-ex06_writer0090.bpmn,targetRef,1
-ex06_writer0090.bpmn,endEvent,1
-ex06_writer0090.bpmn,startEvent,1
-ex06_writer0090.bpmn,dataObjectReference,1
-ex06_writer0090.bpmn,dataObject,1
-ex06_writer0091.bpmn,incoming,12
-ex06_writer0091.bpmn,outgoing,12
-ex06_writer0091.bpmn,sequenceFlow,12
-ex06_writer0091.bpmn,task,7
-ex06_writer0091.bpmn,targetRef,5
-ex06_writer0091.bpmn,dataOutputAssociation,3
-ex06_writer0091.bpmn,dataObjectReference,3
-ex06_writer0091.bpmn,dataObject,3
-ex06_writer0091.bpmn,dataInputAssociation,2
-ex06_writer0091.bpmn,sourceRef,2
-ex06_writer0091.bpmn,exclusiveGateway,2
-ex06_writer0091.bpmn,process,1
-ex06_writer0091.bpmn,property,1
-ex06_writer0091.bpmn,endEvent,1
-ex06_writer0091.bpmn,startEvent,1
-ex06_writer0092.bpmn,incoming,12
-ex06_writer0092.bpmn,outgoing,12
-ex06_writer0092.bpmn,sequenceFlow,12
-ex06_writer0092.bpmn,targetRef,5
-ex06_writer0092.bpmn,task,4
-ex06_writer0092.bpmn,dataOutputAssociation,3
-ex06_writer0092.bpmn,dataObjectReference,3
-ex06_writer0092.bpmn,dataObject,3
-ex06_writer0092.bpmn,intermediateCatchEvent,3
-ex06_writer0092.bpmn,messageEventDefinition,3
-ex06_writer0092.bpmn,dataInputAssociation,2
-ex06_writer0092.bpmn,sourceRef,2
-ex06_writer0092.bpmn,exclusiveGateway,2
-ex06_writer0092.bpmn,process,1
-ex06_writer0092.bpmn,property,1
-ex06_writer0092.bpmn,eventBasedGateway,1
-ex06_writer0092.bpmn,startEvent,1
-ex06_writer0093.bpmn,outgoing,10
-ex06_writer0093.bpmn,incoming,10
-ex06_writer0093.bpmn,sequenceFlow,10
-ex06_writer0093.bpmn,targetRef,6
-ex06_writer0093.bpmn,task,4
-ex06_writer0093.bpmn,property,3
-ex06_writer0093.bpmn,dataInputAssociation,3
-ex06_writer0093.bpmn,sourceRef,3
-ex06_writer0093.bpmn,dataOutputAssociation,3
-ex06_writer0093.bpmn,exclusiveGateway,3
-ex06_writer0093.bpmn,dataObjectReference,2
-ex06_writer0093.bpmn,dataObject,2
-ex06_writer0093.bpmn,process,1
-ex06_writer0093.bpmn,startEvent,1
-ex06_writer0093.bpmn,messageEventDefinition,1
-ex06_writer0093.bpmn,endEvent,1
-ex06_writer0093.bpmn,dataStoreReference,1
-ex06_writer0094.bpmn,incoming,12
-ex06_writer0094.bpmn,outgoing,12
-ex06_writer0094.bpmn,sequenceFlow,12
-ex06_writer0094.bpmn,task,4
-ex06_writer0094.bpmn,intermediateCatchEvent,3
-ex06_writer0094.bpmn,messageEventDefinition,3
-ex06_writer0094.bpmn,dataOutputAssociation,2
-ex06_writer0094.bpmn,targetRef,2
-ex06_writer0094.bpmn,process,1
-ex06_writer0094.bpmn,eventBasedGateway,1
-ex06_writer0094.bpmn,dataObjectReference,1
-ex06_writer0094.bpmn,dataObject,1
-ex06_writer0094.bpmn,startEvent,1
-ex06_writer0094.bpmn,exclusiveGateway,1
-ex06_writer0094.bpmn,endEvent,1
-ex06_writer0095.bpmn,outgoing,11
-ex06_writer0095.bpmn,incoming,11
-ex06_writer0095.bpmn,sequenceFlow,11
-ex06_writer0095.bpmn,targetRef,10
-ex06_writer0095.bpmn,task,5
-ex06_writer0095.bpmn,dataInputAssociation,5
-ex06_writer0095.bpmn,sourceRef,5
-ex06_writer0095.bpmn,dataOutputAssociation,5
-ex06_writer0095.bpmn,property,4
-ex06_writer0095.bpmn,dataObjectReference,4
-ex06_writer0095.bpmn,dataObject,4
-ex06_writer0095.bpmn,exclusiveGateway,3
-ex06_writer0095.bpmn,startEvent,2
-ex06_writer0095.bpmn,messageEventDefinition,2
-ex06_writer0095.bpmn,process,1
-ex06_writer0095.bpmn,endEvent,1
-ex06_writer0095.bpmn,dataStoreReference,1
-ex06_writer0096.bpmn,incoming,10
-ex06_writer0096.bpmn,outgoing,10
-ex06_writer0096.bpmn,sequenceFlow,10
-ex06_writer0096.bpmn,task,7
-ex06_writer0096.bpmn,targetRef,4
-ex06_writer0096.bpmn,dataOutputAssociation,3
-ex06_writer0096.bpmn,dataObjectReference,2
-ex06_writer0096.bpmn,dataObject,2
-ex06_writer0096.bpmn,process,1
-ex06_writer0096.bpmn,property,1
-ex06_writer0096.bpmn,dataInputAssociation,1
-ex06_writer0096.bpmn,sourceRef,1
-ex06_writer0096.bpmn,startEvent,1
-ex06_writer0096.bpmn,exclusiveGateway,1
-ex06_writer0097.bpmn,outgoing,12
-ex06_writer0097.bpmn,sequenceFlow,12
-ex06_writer0097.bpmn,incoming,12
-ex06_writer0097.bpmn,targetRef,12
-ex06_writer0097.bpmn,dataOutputAssociation,7
-ex06_writer0097.bpmn,dataObjectReference,7
-ex06_writer0097.bpmn,dataObject,7
-ex06_writer0097.bpmn,dataInputAssociation,5
-ex06_writer0097.bpmn,sourceRef,5
-ex06_writer0097.bpmn,task,4
-ex06_writer0097.bpmn,property,4
-ex06_writer0097.bpmn,intermediateCatchEvent,3
-ex06_writer0097.bpmn,messageEventDefinition,3
-ex06_writer0097.bpmn,process,1
-ex06_writer0097.bpmn,startEvent,1
-ex06_writer0097.bpmn,endEvent,1
-ex06_writer0097.bpmn,eventBasedGateway,1
-ex06_writer0097.bpmn,exclusiveGateway,1
-ex06_writer0098.bpmn,targetRef,14
-ex06_writer0098.bpmn,incoming,13
-ex06_writer0098.bpmn,outgoing,13
-ex06_writer0098.bpmn,sequenceFlow,13
-ex06_writer0098.bpmn,dataOutputAssociation,9
-ex06_writer0098.bpmn,task,7
-ex06_writer0098.bpmn,dataInputAssociation,5
-ex06_writer0098.bpmn,sourceRef,5
-ex06_writer0098.bpmn,dataObjectReference,4
-ex06_writer0098.bpmn,dataObject,4
-ex06_writer0098.bpmn,property,3
-ex06_writer0098.bpmn,exclusiveGateway,3
-ex06_writer0098.bpmn,dataStoreReference,2
-ex06_writer0098.bpmn,process,1
-ex06_writer0098.bpmn,endEvent,1
-ex06_writer0098.bpmn,startEvent,1
-ex06_writer0099.bpmn,outgoing,13
-ex06_writer0099.bpmn,incoming,13
-ex06_writer0099.bpmn,sequenceFlow,13
-ex06_writer0099.bpmn,task,7
-ex06_writer0099.bpmn,targetRef,5
-ex06_writer0099.bpmn,dataInputAssociation,3
-ex06_writer0099.bpmn,sourceRef,3
-ex06_writer0099.bpmn,exclusiveGateway,3
-ex06_writer0099.bpmn,dataOutputAssociation,2
-ex06_writer0099.bpmn,dataObjectReference,2
-ex06_writer0099.bpmn,dataObject,2
-ex06_writer0099.bpmn,process,1
-ex06_writer0099.bpmn,startEvent,1
-ex06_writer0099.bpmn,messageEventDefinition,1
-ex06_writer0099.bpmn,property,1
-ex06_writer0099.bpmn,endEvent,1
-ex06_writer0099.bpmn,dataStoreReference,1
-ex06_writer0100.bpmn,outgoing,13
-ex06_writer0100.bpmn,incoming,13
-ex06_writer0100.bpmn,sequenceFlow,13
-ex06_writer0100.bpmn,targetRef,10
-ex06_writer0100.bpmn,task,7
-ex06_writer0100.bpmn,dataOutputAssociation,5
-ex06_writer0100.bpmn,dataInputAssociation,5
-ex06_writer0100.bpmn,sourceRef,5
-ex06_writer0100.bpmn,dataObjectReference,5
-ex06_writer0100.bpmn,dataObject,5
-ex06_writer0100.bpmn,property,3
-ex06_writer0100.bpmn,exclusiveGateway,3
-ex06_writer0100.bpmn,process,1
-ex06_writer0100.bpmn,startEvent,1
-ex06_writer0100.bpmn,messageEventDefinition,1
-ex06_writer0100.bpmn,endEvent,1
-ex06_writer0101.bpmn,incoming,10
-ex06_writer0101.bpmn,outgoing,10
-ex06_writer0101.bpmn,sequenceFlow,10
-ex06_writer0101.bpmn,flowNodeRef,9
-ex06_writer0101.bpmn,targetRef,7
-ex06_writer0101.bpmn,task,4
-ex06_writer0101.bpmn,property,4
-ex06_writer0101.bpmn,dataInputAssociation,4
-ex06_writer0101.bpmn,sourceRef,4
-ex06_writer0101.bpmn,dataOutputAssociation,3
-ex06_writer0101.bpmn,exclusiveGateway,3
-ex06_writer0101.bpmn,lane,2
-ex06_writer0101.bpmn,dataObjectReference,2
-ex06_writer0101.bpmn,dataObject,2
-ex06_writer0101.bpmn,process,1
-ex06_writer0101.bpmn,laneSet,1
-ex06_writer0101.bpmn,endEvent,1
-ex06_writer0101.bpmn,startEvent,1
-ex06_writer0101.bpmn,messageEventDefinition,1
-ex06_writer0102.bpmn,incoming,13
-ex06_writer0102.bpmn,outgoing,13
-ex06_writer0102.bpmn,sequenceFlow,13
-ex06_writer0102.bpmn,task,7
-ex06_writer0102.bpmn,targetRef,4
-ex06_writer0102.bpmn,dataOutputAssociation,3
-ex06_writer0102.bpmn,exclusiveGateway,3
-ex06_writer0102.bpmn,dataObjectReference,2
-ex06_writer0102.bpmn,dataObject,2
-ex06_writer0102.bpmn,process,1
-ex06_writer0102.bpmn,property,1
-ex06_writer0102.bpmn,dataInputAssociation,1
-ex06_writer0102.bpmn,sourceRef,1
-ex06_writer0102.bpmn,endEvent,1
-ex06_writer0102.bpmn,startEvent,1
-ex06_writer0103.bpmn,incoming,17
-ex06_writer0103.bpmn,outgoing,17
-ex06_writer0103.bpmn,sequenceFlow,17
-ex06_writer0103.bpmn,task,7
-ex06_writer0103.bpmn,targetRef,6
-ex06_writer0103.bpmn,dataObjectReference,5
-ex06_writer0103.bpmn,dataObject,5
-ex06_writer0103.bpmn,dataOutputAssociation,4
-ex06_writer0103.bpmn,property,2
-ex06_writer0103.bpmn,dataInputAssociation,2
-ex06_writer0103.bpmn,sourceRef,2
-ex06_writer0103.bpmn,exclusiveGateway,2
-ex06_writer0103.bpmn,process,1
-ex06_writer0103.bpmn,endEvent,1
-ex06_writer0103.bpmn,startEvent,1
-ex06_writer0103.bpmn,parallelGateway,1
-ex06_writer0104.bpmn,targetRef,12
-ex06_writer0104.bpmn,outgoing,10
-ex06_writer0104.bpmn,incoming,10
-ex06_writer0104.bpmn,sequenceFlow,10
-ex06_writer0104.bpmn,dataInputAssociation,7
-ex06_writer0104.bpmn,sourceRef,7
-ex06_writer0104.bpmn,task,5
-ex06_writer0104.bpmn,property,5
-ex06_writer0104.bpmn,dataOutputAssociation,5
-ex06_writer0104.bpmn,dataObjectReference,5
-ex06_writer0104.bpmn,dataObject,5
-ex06_writer0104.bpmn,exclusiveGateway,2
-ex06_writer0104.bpmn,process,1
-ex06_writer0104.bpmn,startEvent,1
-ex06_writer0104.bpmn,messageEventDefinition,1
-ex06_writer0104.bpmn,endEvent,1
-ex06_writer0104.bpmn,dataStoreReference,1
-ex06_writer0105.bpmn,outgoing,13
-ex06_writer0105.bpmn,incoming,13
-ex06_writer0105.bpmn,sequenceFlow,13
-ex06_writer0105.bpmn,task,7
-ex06_writer0105.bpmn,targetRef,3
-ex06_writer0105.bpmn,exclusiveGateway,3
-ex06_writer0105.bpmn,property,2
-ex06_writer0105.bpmn,dataInputAssociation,2
-ex06_writer0105.bpmn,sourceRef,2
-ex06_writer0105.bpmn,dataObjectReference,2
-ex06_writer0105.bpmn,dataObject,2
-ex06_writer0105.bpmn,process,1
-ex06_writer0105.bpmn,startEvent,1
-ex06_writer0105.bpmn,endEvent,1
-ex06_writer0105.bpmn,dataOutputAssociation,1
-ex06_writer0106.bpmn,targetRef,12
-ex06_writer0106.bpmn,outgoing,9
-ex06_writer0106.bpmn,incoming,9
-ex06_writer0106.bpmn,sequenceFlow,9
-ex06_writer0106.bpmn,dataOutputAssociation,7
-ex06_writer0106.bpmn,dataInputAssociation,5
-ex06_writer0106.bpmn,sourceRef,5
-ex06_writer0106.bpmn,task,4
-ex06_writer0106.bpmn,property,4
-ex06_writer0106.bpmn,dataObjectReference,4
-ex06_writer0106.bpmn,dataObject,4
-ex06_writer0106.bpmn,startEvent,3
-ex06_writer0106.bpmn,messageEventDefinition,3
-ex06_writer0106.bpmn,exclusiveGateway,2
-ex06_writer0106.bpmn,process,1
-ex06_writer0106.bpmn,endEvent,1
+File,Tag,Occurrences,Category
+ex06_writer0000.bpmn,incoming,9,Connecting Objects
+ex06_writer0000.bpmn,outgoing,9,Connecting Objects
+ex06_writer0000.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0000.bpmn,targetRef,6,Connecting Objects
+ex06_writer0000.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0000.bpmn,task,4,Flow Objects
+ex06_writer0000.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0000.bpmn,property,3,Uncategorized
+ex06_writer0000.bpmn,process,2,Uncategorized
+ex06_writer0000.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0000.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0000.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0000.bpmn,dataObject,2,Artifacts
+ex06_writer0000.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0000.bpmn,endEvent,1,Flow Objects
+ex06_writer0000.bpmn,startEvent,1,Flow Objects
+ex06_writer0001.bpmn,flowNodeRef,9,Uncategorized
+ex06_writer0001.bpmn,targetRef,9,Connecting Objects
+ex06_writer0001.bpmn,outgoing,8,Connecting Objects
+ex06_writer0001.bpmn,incoming,8,Connecting Objects
+ex06_writer0001.bpmn,sequenceFlow,8,Connecting Objects
+ex06_writer0001.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0001.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0001.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0001.bpmn,task,4,Flow Objects
+ex06_writer0001.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0001.bpmn,dataObject,4,Artifacts
+ex06_writer0001.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0001.bpmn,lane,3,Swim Lanes
+ex06_writer0001.bpmn,startEvent,3,Flow Objects
+ex06_writer0001.bpmn,property,2,Uncategorized
+ex06_writer0001.bpmn,process,1,Uncategorized
+ex06_writer0001.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0001.bpmn,laneSet,1,Swim Lanes
+ex06_writer0001.bpmn,endEvent,1,Flow Objects
+ex06_writer0001.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0002.bpmn,incoming,10,Connecting Objects
+ex06_writer0002.bpmn,outgoing,10,Connecting Objects
+ex06_writer0002.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0002.bpmn,task,4,Flow Objects
+ex06_writer0002.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0002.bpmn,targetRef,3,Connecting Objects
+ex06_writer0002.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0002.bpmn,process,1,Uncategorized
+ex06_writer0002.bpmn,property,1,Uncategorized
+ex06_writer0002.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0002.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0002.bpmn,endEvent,1,Flow Objects
+ex06_writer0002.bpmn,startEvent,1,Flow Objects
+ex06_writer0002.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0002.bpmn,dataObject,1,Artifacts
+ex06_writer0003.bpmn,incoming,12,Connecting Objects
+ex06_writer0003.bpmn,outgoing,12,Connecting Objects
+ex06_writer0003.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0003.bpmn,targetRef,9,Connecting Objects
+ex06_writer0003.bpmn,task,7,Flow Objects
+ex06_writer0003.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0003.bpmn,property,3,Uncategorized
+ex06_writer0003.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0003.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0003.bpmn,startEvent,3,Flow Objects
+ex06_writer0003.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0003.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0003.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0003.bpmn,dataObject,2,Artifacts
+ex06_writer0003.bpmn,process,1,Uncategorized
+ex06_writer0003.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0003.bpmn,endEvent,1,Flow Objects
+ex06_writer0005.bpmn,incoming,12,Connecting Objects
+ex06_writer0005.bpmn,outgoing,12,Connecting Objects
+ex06_writer0005.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0005.bpmn,targetRef,10,Connecting Objects
+ex06_writer0005.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0005.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0005.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0005.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0005.bpmn,task,4,Flow Objects
+ex06_writer0005.bpmn,dataObject,4,Artifacts
+ex06_writer0005.bpmn,property,3,Uncategorized
+ex06_writer0005.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0005.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0005.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0005.bpmn,process,1,Uncategorized
+ex06_writer0005.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0005.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0005.bpmn,startEvent,1,Flow Objects
+ex06_writer0006.bpmn,incoming,12,Connecting Objects
+ex06_writer0006.bpmn,outgoing,12,Connecting Objects
+ex06_writer0006.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0006.bpmn,task,7,Flow Objects
+ex06_writer0006.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0006.bpmn,process,1,Uncategorized
+ex06_writer0006.bpmn,startEvent,1,Flow Objects
+ex06_writer0007.bpmn,outgoing,13,Connecting Objects
+ex06_writer0007.bpmn,incoming,13,Connecting Objects
+ex06_writer0007.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0007.bpmn,flowNodeRef,12,Uncategorized
+ex06_writer0007.bpmn,targetRef,8,Connecting Objects
+ex06_writer0007.bpmn,task,7,Flow Objects
+ex06_writer0007.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0007.bpmn,property,2,Uncategorized
+ex06_writer0007.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0007.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0007.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0007.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0007.bpmn,dataObject,2,Artifacts
+ex06_writer0007.bpmn,process,1,Uncategorized
+ex06_writer0007.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0007.bpmn,laneSet,1,Swim Lanes
+ex06_writer0007.bpmn,lane,1,Swim Lanes
+ex06_writer0007.bpmn,startEvent,1,Flow Objects
+ex06_writer0007.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0007.bpmn,endEvent,1,Flow Objects
+ex06_writer0008.bpmn,incoming,13,Connecting Objects
+ex06_writer0008.bpmn,outgoing,13,Connecting Objects
+ex06_writer0008.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0008.bpmn,targetRef,6,Connecting Objects
+ex06_writer0008.bpmn,task,4,Flow Objects
+ex06_writer0008.bpmn,property,3,Uncategorized
+ex06_writer0008.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0008.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0008.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0008.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0008.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0008.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0008.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0008.bpmn,dataObject,2,Artifacts
+ex06_writer0008.bpmn,process,1,Uncategorized
+ex06_writer0008.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0008.bpmn,endEvent,1,Flow Objects
+ex06_writer0008.bpmn,startEvent,1,Flow Objects
+ex06_writer0008.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0009.bpmn,incoming,13,Connecting Objects
+ex06_writer0009.bpmn,outgoing,13,Connecting Objects
+ex06_writer0009.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0009.bpmn,task,7,Flow Objects
+ex06_writer0009.bpmn,targetRef,6,Connecting Objects
+ex06_writer0009.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0009.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0009.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0009.bpmn,dataObject,4,Artifacts
+ex06_writer0009.bpmn,property,3,Uncategorized
+ex06_writer0009.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0009.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0009.bpmn,process,1,Uncategorized
+ex06_writer0009.bpmn,endEvent,1,Flow Objects
+ex06_writer0009.bpmn,startEvent,1,Flow Objects
+ex06_writer0010.bpmn,incoming,12,Connecting Objects
+ex06_writer0010.bpmn,outgoing,12,Connecting Objects
+ex06_writer0010.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0010.bpmn,targetRef,9,Connecting Objects
+ex06_writer0010.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0010.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0010.bpmn,messageEventDefinition,4,Uncategorized
+ex06_writer0010.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0010.bpmn,property,3,Uncategorized
+ex06_writer0010.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0010.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0010.bpmn,dataObject,3,Artifacts
+ex06_writer0010.bpmn,task,2,Flow Objects
+ex06_writer0010.bpmn,process,1,Uncategorized
+ex06_writer0010.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0010.bpmn,endEvent,1,Flow Objects
+ex06_writer0010.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0010.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0010.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0010.bpmn,startEvent,1,Flow Objects
+ex06_writer0010.bpmn,intermediateThrowEvent,1,Flow Objects
+ex06_writer0011.bpmn,incoming,13,Connecting Objects
+ex06_writer0011.bpmn,outgoing,13,Connecting Objects
+ex06_writer0011.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0011.bpmn,task,7,Flow Objects
+ex06_writer0011.bpmn,targetRef,5,Connecting Objects
+ex06_writer0011.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0011.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0011.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0011.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0011.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0011.bpmn,dataObject,2,Artifacts
+ex06_writer0011.bpmn,process,1,Uncategorized
+ex06_writer0011.bpmn,property,1,Uncategorized
+ex06_writer0011.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0011.bpmn,endEvent,1,Flow Objects
+ex06_writer0011.bpmn,startEvent,1,Flow Objects
+ex06_writer0012.bpmn,incoming,12,Connecting Objects
+ex06_writer0012.bpmn,outgoing,12,Connecting Objects
+ex06_writer0012.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0012.bpmn,task,6,Flow Objects
+ex06_writer0012.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0012.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0012.bpmn,targetRef,3,Connecting Objects
+ex06_writer0012.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0012.bpmn,dataObject,2,Artifacts
+ex06_writer0012.bpmn,process,1,Uncategorized
+ex06_writer0012.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0012.bpmn,endEvent,1,Flow Objects
+ex06_writer0012.bpmn,startEvent,1,Flow Objects
+ex06_writer0013.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0013.bpmn,incoming,13,Connecting Objects
+ex06_writer0013.bpmn,outgoing,13,Connecting Objects
+ex06_writer0013.bpmn,task,7,Flow Objects
+ex06_writer0013.bpmn,targetRef,4,Connecting Objects
+ex06_writer0013.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0013.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0013.bpmn,process,2,Uncategorized
+ex06_writer0013.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0013.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0013.bpmn,property,1,Uncategorized
+ex06_writer0013.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0013.bpmn,laneSet,1,Swim Lanes
+ex06_writer0013.bpmn,endEvent,1,Flow Objects
+ex06_writer0013.bpmn,startEvent,1,Flow Objects
+ex06_writer0013.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0013.bpmn,dataObject,1,Artifacts
+ex06_writer0014.bpmn,outgoing,13,Connecting Objects
+ex06_writer0014.bpmn,incoming,13,Connecting Objects
+ex06_writer0014.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0014.bpmn,targetRef,12,Connecting Objects
+ex06_writer0014.bpmn,task,7,Flow Objects
+ex06_writer0014.bpmn,dataObjectReference,6,Uncategorized
+ex06_writer0014.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0014.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0014.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0014.bpmn,dataObject,6,Artifacts
+ex06_writer0014.bpmn,property,4,Uncategorized
+ex06_writer0014.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0014.bpmn,process,1,Uncategorized
+ex06_writer0014.bpmn,laneSet,1,Swim Lanes
+ex06_writer0014.bpmn,startEvent,1,Flow Objects
+ex06_writer0014.bpmn,endEvent,1,Flow Objects
+ex06_writer0016.bpmn,incoming,10,Connecting Objects
+ex06_writer0016.bpmn,outgoing,10,Connecting Objects
+ex06_writer0016.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0016.bpmn,task,4,Flow Objects
+ex06_writer0016.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0016.bpmn,targetRef,3,Connecting Objects
+ex06_writer0016.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0016.bpmn,process,1,Uncategorized
+ex06_writer0016.bpmn,property,1,Uncategorized
+ex06_writer0016.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0016.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0016.bpmn,endEvent,1,Flow Objects
+ex06_writer0016.bpmn,startEvent,1,Flow Objects
+ex06_writer0016.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0016.bpmn,dataObject,1,Artifacts
+ex06_writer0017.bpmn,incoming,13,Connecting Objects
+ex06_writer0017.bpmn,outgoing,13,Connecting Objects
+ex06_writer0017.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0017.bpmn,task,7,Flow Objects
+ex06_writer0017.bpmn,targetRef,5,Connecting Objects
+ex06_writer0017.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0017.bpmn,dataObject,4,Artifacts
+ex06_writer0017.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0017.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0017.bpmn,property,2,Uncategorized
+ex06_writer0017.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0017.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0017.bpmn,process,1,Uncategorized
+ex06_writer0017.bpmn,endEvent,1,Flow Objects
+ex06_writer0017.bpmn,startEvent,1,Flow Objects
+ex06_writer0019.bpmn,incoming,13,Connecting Objects
+ex06_writer0019.bpmn,outgoing,13,Connecting Objects
+ex06_writer0019.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0019.bpmn,targetRef,12,Connecting Objects
+ex06_writer0019.bpmn,task,7,Flow Objects
+ex06_writer0019.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0019.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0019.bpmn,dataObjectReference,6,Uncategorized
+ex06_writer0019.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0019.bpmn,dataObject,6,Artifacts
+ex06_writer0019.bpmn,property,4,Uncategorized
+ex06_writer0019.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0019.bpmn,process,1,Uncategorized
+ex06_writer0019.bpmn,endEvent,1,Flow Objects
+ex06_writer0019.bpmn,startEvent,1,Flow Objects
+ex06_writer0019.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0020.bpmn,incoming,10,Connecting Objects
+ex06_writer0020.bpmn,outgoing,10,Connecting Objects
+ex06_writer0020.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0020.bpmn,task,4,Flow Objects
+ex06_writer0020.bpmn,targetRef,4,Connecting Objects
+ex06_writer0020.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0020.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0020.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0020.bpmn,dataObject,3,Artifacts
+ex06_writer0020.bpmn,process,1,Uncategorized
+ex06_writer0020.bpmn,property,1,Uncategorized
+ex06_writer0020.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0020.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0020.bpmn,endEvent,1,Flow Objects
+ex06_writer0020.bpmn,startEvent,1,Flow Objects
+ex06_writer0020.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0021.bpmn,outgoing,13,Connecting Objects
+ex06_writer0021.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0021.bpmn,incoming,13,Connecting Objects
+ex06_writer0021.bpmn,task,4,Flow Objects
+ex06_writer0021.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0021.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0021.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0021.bpmn,process,1,Uncategorized
+ex06_writer0021.bpmn,startEvent,1,Flow Objects
+ex06_writer0021.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0021.bpmn,endEvent,1,Flow Objects
+ex06_writer0022.bpmn,outgoing,13,Connecting Objects
+ex06_writer0022.bpmn,incoming,13,Connecting Objects
+ex06_writer0022.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0022.bpmn,targetRef,7,Connecting Objects
+ex06_writer0022.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0022.bpmn,task,4,Flow Objects
+ex06_writer0022.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0022.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0022.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0022.bpmn,property,2,Uncategorized
+ex06_writer0022.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0022.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0022.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0022.bpmn,dataObject,2,Artifacts
+ex06_writer0022.bpmn,process,1,Uncategorized
+ex06_writer0022.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0022.bpmn,startEvent,1,Flow Objects
+ex06_writer0022.bpmn,endEvent,1,Flow Objects
+ex06_writer0023.bpmn,incoming,13,Connecting Objects
+ex06_writer0023.bpmn,outgoing,13,Connecting Objects
+ex06_writer0023.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0023.bpmn,task,7,Flow Objects
+ex06_writer0023.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0023.bpmn,targetRef,3,Connecting Objects
+ex06_writer0023.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0023.bpmn,process,1,Uncategorized
+ex06_writer0023.bpmn,property,1,Uncategorized
+ex06_writer0023.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0023.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0023.bpmn,endEvent,1,Flow Objects
+ex06_writer0023.bpmn,startEvent,1,Flow Objects
+ex06_writer0023.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0023.bpmn,dataObject,1,Artifacts
+ex06_writer0024.bpmn,flowNodeRef,10,Uncategorized
+ex06_writer0024.bpmn,incoming,9,Connecting Objects
+ex06_writer0024.bpmn,outgoing,9,Connecting Objects
+ex06_writer0024.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0024.bpmn,targetRef,5,Connecting Objects
+ex06_writer0024.bpmn,task,4,Flow Objects
+ex06_writer0024.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0024.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0024.bpmn,startEvent,3,Flow Objects
+ex06_writer0024.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0024.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0024.bpmn,eventBasedGateway,2,Flow Objects
+ex06_writer0024.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0024.bpmn,dataObject,2,Artifacts
+ex06_writer0024.bpmn,process,1,Uncategorized
+ex06_writer0024.bpmn,property,1,Uncategorized
+ex06_writer0024.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0024.bpmn,laneSet,1,Swim Lanes
+ex06_writer0024.bpmn,lane,1,Swim Lanes
+ex06_writer0024.bpmn,endEvent,1,Flow Objects
+ex06_writer0025.bpmn,incoming,12,Connecting Objects
+ex06_writer0025.bpmn,outgoing,12,Connecting Objects
+ex06_writer0025.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0025.bpmn,targetRef,11,Connecting Objects
+ex06_writer0025.bpmn,dataOutputAssociation,7,Uncategorized
+ex06_writer0025.bpmn,property,4,Uncategorized
+ex06_writer0025.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0025.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0025.bpmn,task,4,Flow Objects
+ex06_writer0025.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0025.bpmn,dataObject,4,Artifacts
+ex06_writer0025.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0025.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0025.bpmn,process,1,Uncategorized
+ex06_writer0025.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0025.bpmn,startEvent,1,Flow Objects
+ex06_writer0025.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0025.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0025.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0026.bpmn,incoming,13,Connecting Objects
+ex06_writer0026.bpmn,outgoing,13,Connecting Objects
+ex06_writer0026.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0026.bpmn,targetRef,8,Connecting Objects
+ex06_writer0026.bpmn,task,7,Flow Objects
+ex06_writer0026.bpmn,property,4,Uncategorized
+ex06_writer0026.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0026.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0026.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0026.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0026.bpmn,dataObject,4,Artifacts
+ex06_writer0026.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0026.bpmn,process,1,Uncategorized
+ex06_writer0026.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0026.bpmn,endEvent,1,Flow Objects
+ex06_writer0026.bpmn,startEvent,1,Flow Objects
+ex06_writer0027.bpmn,incoming,12,Connecting Objects
+ex06_writer0027.bpmn,outgoing,12,Connecting Objects
+ex06_writer0027.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0027.bpmn,task,4,Flow Objects
+ex06_writer0027.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0027.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0027.bpmn,targetRef,3,Connecting Objects
+ex06_writer0027.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0027.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0027.bpmn,process,1,Uncategorized
+ex06_writer0027.bpmn,property,1,Uncategorized
+ex06_writer0027.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0027.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0027.bpmn,startEvent,1,Flow Objects
+ex06_writer0027.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0027.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0027.bpmn,dataObject,1,Artifacts
+ex06_writer0028.bpmn,outgoing,10,Connecting Objects
+ex06_writer0028.bpmn,incoming,10,Connecting Objects
+ex06_writer0028.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0028.bpmn,task,5,Flow Objects
+ex06_writer0028.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0028.bpmn,targetRef,4,Connecting Objects
+ex06_writer0028.bpmn,dataObject,4,Artifacts
+ex06_writer0028.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0028.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0028.bpmn,process,1,Uncategorized
+ex06_writer0028.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0028.bpmn,property,1,Uncategorized
+ex06_writer0028.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0028.bpmn,startEvent,1,Flow Objects
+ex06_writer0028.bpmn,endEvent,1,Flow Objects
+ex06_writer0028.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0029.bpmn,outgoing,8,Connecting Objects
+ex06_writer0029.bpmn,targetRef,8,Connecting Objects
+ex06_writer0029.bpmn,incoming,8,Connecting Objects
+ex06_writer0029.bpmn,sequenceFlow,8,Connecting Objects
+ex06_writer0029.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0029.bpmn,task,4,Flow Objects
+ex06_writer0029.bpmn,property,3,Uncategorized
+ex06_writer0029.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0029.bpmn,startEvent,3,Flow Objects
+ex06_writer0029.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0029.bpmn,messageEventDefinition,2,Uncategorized
+ex06_writer0029.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0029.bpmn,dataObject,2,Artifacts
+ex06_writer0029.bpmn,process,1,Uncategorized
+ex06_writer0029.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0029.bpmn,endEvent,1,Flow Objects
+ex06_writer0029.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0030.bpmn,incoming,13,Connecting Objects
+ex06_writer0030.bpmn,outgoing,13,Connecting Objects
+ex06_writer0030.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0030.bpmn,targetRef,12,Connecting Objects
+ex06_writer0030.bpmn,task,7,Flow Objects
+ex06_writer0030.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0030.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0030.bpmn,dataObjectReference,6,Uncategorized
+ex06_writer0030.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0030.bpmn,dataObject,6,Artifacts
+ex06_writer0030.bpmn,property,4,Uncategorized
+ex06_writer0030.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0030.bpmn,process,1,Uncategorized
+ex06_writer0030.bpmn,endEvent,1,Flow Objects
+ex06_writer0030.bpmn,startEvent,1,Flow Objects
+ex06_writer0031.bpmn,outgoing,12,Connecting Objects
+ex06_writer0031.bpmn,incoming,12,Connecting Objects
+ex06_writer0031.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0031.bpmn,task,7,Flow Objects
+ex06_writer0031.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0031.bpmn,process,1,Uncategorized
+ex06_writer0031.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0031.bpmn,startEvent,1,Flow Objects
+ex06_writer0031.bpmn,endEvent,1,Flow Objects
+ex06_writer0032.bpmn,targetRef,14,Connecting Objects
+ex06_writer0032.bpmn,incoming,13,Connecting Objects
+ex06_writer0032.bpmn,outgoing,13,Connecting Objects
+ex06_writer0032.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0032.bpmn,property,7,Uncategorized
+ex06_writer0032.bpmn,dataInputAssociation,7,Uncategorized
+ex06_writer0032.bpmn,dataOutputAssociation,7,Uncategorized
+ex06_writer0032.bpmn,task,7,Flow Objects
+ex06_writer0032.bpmn,sourceRef,7,Connecting Objects
+ex06_writer0032.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0032.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0032.bpmn,dataObject,3,Artifacts
+ex06_writer0032.bpmn,process,1,Uncategorized
+ex06_writer0032.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0032.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0032.bpmn,laneSet,1,Swim Lanes
+ex06_writer0032.bpmn,endEvent,1,Flow Objects
+ex06_writer0032.bpmn,startEvent,1,Flow Objects
+ex06_writer0033.bpmn,incoming,10,Connecting Objects
+ex06_writer0033.bpmn,outgoing,10,Connecting Objects
+ex06_writer0033.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0033.bpmn,task,5,Flow Objects
+ex06_writer0033.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0033.bpmn,targetRef,4,Connecting Objects
+ex06_writer0033.bpmn,dataObject,4,Artifacts
+ex06_writer0033.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0033.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0033.bpmn,process,1,Uncategorized
+ex06_writer0033.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0033.bpmn,property,1,Uncategorized
+ex06_writer0033.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0033.bpmn,endEvent,1,Flow Objects
+ex06_writer0033.bpmn,startEvent,1,Flow Objects
+ex06_writer0033.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0034.bpmn,incoming,13,Connecting Objects
+ex06_writer0034.bpmn,outgoing,13,Connecting Objects
+ex06_writer0034.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0034.bpmn,task,7,Flow Objects
+ex06_writer0034.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0034.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0034.bpmn,targetRef,3,Connecting Objects
+ex06_writer0034.bpmn,dataObject,3,Artifacts
+ex06_writer0034.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0034.bpmn,process,1,Uncategorized
+ex06_writer0034.bpmn,endEvent,1,Flow Objects
+ex06_writer0034.bpmn,startEvent,1,Flow Objects
+ex06_writer0034.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0035.bpmn,incoming,13,Connecting Objects
+ex06_writer0035.bpmn,outgoing,13,Connecting Objects
+ex06_writer0035.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0035.bpmn,targetRef,11,Connecting Objects
+ex06_writer0035.bpmn,dataObjectReference,9,Uncategorized
+ex06_writer0035.bpmn,dataObject,9,Artifacts
+ex06_writer0035.bpmn,dataOutputAssociation,7,Uncategorized
+ex06_writer0035.bpmn,task,7,Flow Objects
+ex06_writer0035.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0035.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0035.bpmn,property,3,Uncategorized
+ex06_writer0035.bpmn,dataStoreReference,2,Uncategorized
+ex06_writer0035.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0035.bpmn,process,1,Uncategorized
+ex06_writer0035.bpmn,endEvent,1,Flow Objects
+ex06_writer0035.bpmn,startEvent,1,Flow Objects
+ex06_writer0035.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0036.bpmn,outgoing,10,Connecting Objects
+ex06_writer0036.bpmn,incoming,10,Connecting Objects
+ex06_writer0036.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0036.bpmn,targetRef,5,Connecting Objects
+ex06_writer0036.bpmn,task,4,Flow Objects
+ex06_writer0036.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0036.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0036.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0036.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0036.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0036.bpmn,dataObject,2,Artifacts
+ex06_writer0036.bpmn,process,1,Uncategorized
+ex06_writer0036.bpmn,property,1,Uncategorized
+ex06_writer0036.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0036.bpmn,startEvent,1,Flow Objects
+ex06_writer0036.bpmn,endEvent,1,Flow Objects
+ex06_writer0037.bpmn,incoming,12,Connecting Objects
+ex06_writer0037.bpmn,outgoing,12,Connecting Objects
+ex06_writer0037.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0037.bpmn,task,7,Flow Objects
+ex06_writer0037.bpmn,targetRef,7,Connecting Objects
+ex06_writer0037.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0037.bpmn,multiInstanceLoopCharacteristics,4,Uncategorized
+ex06_writer0037.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0037.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0037.bpmn,property,3,Uncategorized
+ex06_writer0037.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0037.bpmn,textAnnotation,3,Uncategorized
+ex06_writer0037.bpmn,text,3,Uncategorized
+ex06_writer0037.bpmn,association,3,Flow Objects
+ex06_writer0037.bpmn,dataObject,3,Artifacts
+ex06_writer0037.bpmn,parallelGateway,2,Flow Objects
+ex06_writer0037.bpmn,process,1,Uncategorized
+ex06_writer0037.bpmn,endEvent,1,Flow Objects
+ex06_writer0037.bpmn,startEvent,1,Flow Objects
+ex06_writer0038.bpmn,incoming,10,Connecting Objects
+ex06_writer0038.bpmn,outgoing,10,Connecting Objects
+ex06_writer0038.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0038.bpmn,targetRef,9,Connecting Objects
+ex06_writer0038.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0038.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0038.bpmn,property,4,Uncategorized
+ex06_writer0038.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0038.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0038.bpmn,dataObject,4,Artifacts
+ex06_writer0038.bpmn,task,3,Flow Objects
+ex06_writer0038.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0038.bpmn,messageEventDefinition,2,Uncategorized
+ex06_writer0038.bpmn,process,1,Uncategorized
+ex06_writer0038.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0038.bpmn,endEvent,1,Flow Objects
+ex06_writer0038.bpmn,startEvent,1,Flow Objects
+ex06_writer0038.bpmn,intermediateThrowEvent,1,Flow Objects
+ex06_writer0039.bpmn,incoming,9,Connecting Objects
+ex06_writer0039.bpmn,outgoing,9,Connecting Objects
+ex06_writer0039.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0039.bpmn,targetRef,7,Connecting Objects
+ex06_writer0039.bpmn,property,4,Uncategorized
+ex06_writer0039.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0039.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0039.bpmn,task,4,Flow Objects
+ex06_writer0039.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0039.bpmn,dataObject,4,Artifacts
+ex06_writer0039.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0039.bpmn,startEvent,3,Flow Objects
+ex06_writer0039.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0039.bpmn,process,1,Uncategorized
+ex06_writer0039.bpmn,endEvent,1,Flow Objects
+ex06_writer0040.bpmn,outgoing,10,Connecting Objects
+ex06_writer0040.bpmn,incoming,10,Connecting Objects
+ex06_writer0040.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0040.bpmn,targetRef,5,Connecting Objects
+ex06_writer0040.bpmn,task,4,Flow Objects
+ex06_writer0040.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0040.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0040.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0040.bpmn,dataObject,3,Artifacts
+ex06_writer0040.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0040.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0040.bpmn,process,1,Uncategorized
+ex06_writer0040.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0040.bpmn,property,1,Uncategorized
+ex06_writer0040.bpmn,startEvent,1,Flow Objects
+ex06_writer0040.bpmn,endEvent,1,Flow Objects
+ex06_writer0041.bpmn,incoming,13,Connecting Objects
+ex06_writer0041.bpmn,outgoing,13,Connecting Objects
+ex06_writer0041.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0041.bpmn,task,4,Flow Objects
+ex06_writer0041.bpmn,targetRef,4,Connecting Objects
+ex06_writer0041.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0041.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0041.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0041.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0041.bpmn,process,1,Uncategorized
+ex06_writer0041.bpmn,property,1,Uncategorized
+ex06_writer0041.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0041.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0041.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0041.bpmn,endEvent,1,Flow Objects
+ex06_writer0041.bpmn,startEvent,1,Flow Objects
+ex06_writer0041.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0041.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0041.bpmn,dataObject,1,Artifacts
+ex06_writer0042.bpmn,incoming,12,Connecting Objects
+ex06_writer0042.bpmn,outgoing,12,Connecting Objects
+ex06_writer0042.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0042.bpmn,targetRef,10,Connecting Objects
+ex06_writer0042.bpmn,dataInputAssociation,7,Uncategorized
+ex06_writer0042.bpmn,task,7,Flow Objects
+ex06_writer0042.bpmn,sourceRef,7,Connecting Objects
+ex06_writer0042.bpmn,property,5,Uncategorized
+ex06_writer0042.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0042.bpmn,dataObject,5,Artifacts
+ex06_writer0042.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0042.bpmn,startEvent,3,Flow Objects
+ex06_writer0042.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0042.bpmn,process,1,Uncategorized
+ex06_writer0042.bpmn,endEvent,1,Flow Objects
+ex06_writer0043.bpmn,incoming,10,Connecting Objects
+ex06_writer0043.bpmn,outgoing,10,Connecting Objects
+ex06_writer0043.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0043.bpmn,targetRef,7,Connecting Objects
+ex06_writer0043.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0043.bpmn,task,4,Flow Objects
+ex06_writer0043.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0043.bpmn,property,3,Uncategorized
+ex06_writer0043.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0043.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0043.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0043.bpmn,dataObject,3,Artifacts
+ex06_writer0043.bpmn,process,1,Uncategorized
+ex06_writer0043.bpmn,endEvent,1,Flow Objects
+ex06_writer0043.bpmn,startEvent,1,Flow Objects
+ex06_writer0044.bpmn,outgoing,13,Connecting Objects
+ex06_writer0044.bpmn,incoming,13,Connecting Objects
+ex06_writer0044.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0044.bpmn,task,4,Flow Objects
+ex06_writer0044.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0044.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0044.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0044.bpmn,process,1,Uncategorized
+ex06_writer0044.bpmn,laneSet,1,Swim Lanes
+ex06_writer0044.bpmn,startEvent,1,Flow Objects
+ex06_writer0044.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0044.bpmn,endEvent,1,Flow Objects
+ex06_writer0045.bpmn,incoming,13,Connecting Objects
+ex06_writer0045.bpmn,outgoing,13,Connecting Objects
+ex06_writer0045.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0045.bpmn,targetRef,9,Connecting Objects
+ex06_writer0045.bpmn,task,7,Flow Objects
+ex06_writer0045.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0045.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0045.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0045.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0045.bpmn,dataObject,4,Artifacts
+ex06_writer0045.bpmn,property,3,Uncategorized
+ex06_writer0045.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0045.bpmn,process,1,Uncategorized
+ex06_writer0045.bpmn,endEvent,1,Flow Objects
+ex06_writer0045.bpmn,startEvent,1,Flow Objects
+ex06_writer0047.bpmn,outgoing,10,Connecting Objects
+ex06_writer0047.bpmn,incoming,10,Connecting Objects
+ex06_writer0047.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0047.bpmn,targetRef,9,Connecting Objects
+ex06_writer0047.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0047.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0047.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0047.bpmn,dataObject,5,Artifacts
+ex06_writer0047.bpmn,property,4,Uncategorized
+ex06_writer0047.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0047.bpmn,task,4,Flow Objects
+ex06_writer0047.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0047.bpmn,process,1,Uncategorized
+ex06_writer0047.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0047.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0047.bpmn,startEvent,1,Flow Objects
+ex06_writer0047.bpmn,endEvent,1,Flow Objects
+ex06_writer0048.bpmn,incoming,10,Connecting Objects
+ex06_writer0048.bpmn,outgoing,10,Connecting Objects
+ex06_writer0048.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0048.bpmn,targetRef,8,Connecting Objects
+ex06_writer0048.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0048.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0048.bpmn,property,4,Uncategorized
+ex06_writer0048.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0048.bpmn,task,4,Flow Objects
+ex06_writer0048.bpmn,dataObject,4,Artifacts
+ex06_writer0048.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0048.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0048.bpmn,process,1,Uncategorized
+ex06_writer0048.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0048.bpmn,endEvent,1,Flow Objects
+ex06_writer0048.bpmn,startEvent,1,Flow Objects
+ex06_writer0049.bpmn,incoming,10,Connecting Objects
+ex06_writer0049.bpmn,outgoing,10,Connecting Objects
+ex06_writer0049.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0049.bpmn,targetRef,5,Connecting Objects
+ex06_writer0049.bpmn,task,4,Flow Objects
+ex06_writer0049.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0049.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0049.bpmn,property,2,Uncategorized
+ex06_writer0049.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0049.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0049.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0049.bpmn,dataObject,2,Artifacts
+ex06_writer0049.bpmn,process,1,Uncategorized
+ex06_writer0049.bpmn,endEvent,1,Flow Objects
+ex06_writer0049.bpmn,startEvent,1,Flow Objects
+ex06_writer0050.bpmn,targetRef,10,Connecting Objects
+ex06_writer0050.bpmn,outgoing,9,Connecting Objects
+ex06_writer0050.bpmn,incoming,9,Connecting Objects
+ex06_writer0050.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0050.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0050.bpmn,dataObjectReference,6,Uncategorized
+ex06_writer0050.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0050.bpmn,dataObject,6,Artifacts
+ex06_writer0050.bpmn,property,4,Uncategorized
+ex06_writer0050.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0050.bpmn,task,4,Flow Objects
+ex06_writer0050.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0050.bpmn,process,1,Uncategorized
+ex06_writer0050.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0050.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0050.bpmn,startEvent,1,Flow Objects
+ex06_writer0050.bpmn,endEvent,1,Flow Objects
+ex06_writer0052.bpmn,incoming,9,Connecting Objects
+ex06_writer0052.bpmn,outgoing,9,Connecting Objects
+ex06_writer0052.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0052.bpmn,task,4,Flow Objects
+ex06_writer0052.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0052.bpmn,targetRef,2,Connecting Objects
+ex06_writer0052.bpmn,process,1,Uncategorized
+ex06_writer0052.bpmn,dataOutputAssociation,1,Uncategorized
+ex06_writer0052.bpmn,property,1,Uncategorized
+ex06_writer0052.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0052.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0052.bpmn,endEvent,1,Flow Objects
+ex06_writer0052.bpmn,startEvent,1,Flow Objects
+ex06_writer0052.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0052.bpmn,dataObject,1,Artifacts
+ex06_writer0053.bpmn,outgoing,9,Connecting Objects
+ex06_writer0053.bpmn,targetRef,9,Connecting Objects
+ex06_writer0053.bpmn,incoming,9,Connecting Objects
+ex06_writer0053.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0053.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0053.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0053.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0053.bpmn,task,4,Flow Objects
+ex06_writer0053.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0053.bpmn,dataObject,4,Artifacts
+ex06_writer0053.bpmn,property,3,Uncategorized
+ex06_writer0053.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0053.bpmn,process,1,Uncategorized
+ex06_writer0053.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0053.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0053.bpmn,startEvent,1,Flow Objects
+ex06_writer0053.bpmn,endEvent,1,Flow Objects
+ex06_writer0054.bpmn,incoming,12,Connecting Objects
+ex06_writer0054.bpmn,outgoing,12,Connecting Objects
+ex06_writer0054.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0054.bpmn,task,7,Flow Objects
+ex06_writer0054.bpmn,targetRef,3,Connecting Objects
+ex06_writer0054.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0054.bpmn,parallelGateway,2,Flow Objects
+ex06_writer0054.bpmn,process,1,Uncategorized
+ex06_writer0054.bpmn,property,1,Uncategorized
+ex06_writer0054.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0054.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0054.bpmn,endEvent,1,Flow Objects
+ex06_writer0054.bpmn,startEvent,1,Flow Objects
+ex06_writer0054.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0054.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0054.bpmn,dataObject,1,Artifacts
+ex06_writer0055.bpmn,incoming,10,Connecting Objects
+ex06_writer0055.bpmn,outgoing,10,Connecting Objects
+ex06_writer0055.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0055.bpmn,task,4,Flow Objects
+ex06_writer0055.bpmn,targetRef,4,Connecting Objects
+ex06_writer0055.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0055.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0055.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0055.bpmn,dataObject,2,Artifacts
+ex06_writer0055.bpmn,process,1,Uncategorized
+ex06_writer0055.bpmn,property,1,Uncategorized
+ex06_writer0055.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0055.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0055.bpmn,endEvent,1,Flow Objects
+ex06_writer0055.bpmn,startEvent,1,Flow Objects
+ex06_writer0055.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0056.bpmn,outgoing,13,Connecting Objects
+ex06_writer0056.bpmn,incoming,13,Connecting Objects
+ex06_writer0056.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0056.bpmn,task,7,Flow Objects
+ex06_writer0056.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0056.bpmn,process,1,Uncategorized
+ex06_writer0056.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0056.bpmn,startEvent,1,Flow Objects
+ex06_writer0056.bpmn,endEvent,1,Flow Objects
+ex06_writer0058.bpmn,outgoing,13,Connecting Objects
+ex06_writer0058.bpmn,incoming,13,Connecting Objects
+ex06_writer0058.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0058.bpmn,task,7,Flow Objects
+ex06_writer0058.bpmn,targetRef,5,Connecting Objects
+ex06_writer0058.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0058.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0058.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0058.bpmn,property,2,Uncategorized
+ex06_writer0058.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0058.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0058.bpmn,dataObject,2,Artifacts
+ex06_writer0058.bpmn,process,1,Uncategorized
+ex06_writer0058.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0058.bpmn,startEvent,1,Flow Objects
+ex06_writer0058.bpmn,endEvent,1,Flow Objects
+ex06_writer0059.bpmn,outgoing,8,Connecting Objects
+ex06_writer0059.bpmn,incoming,8,Connecting Objects
+ex06_writer0059.bpmn,targetRef,8,Connecting Objects
+ex06_writer0059.bpmn,sequenceFlow,8,Connecting Objects
+ex06_writer0059.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0059.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0059.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0059.bpmn,dataObject,5,Artifacts
+ex06_writer0059.bpmn,property,4,Uncategorized
+ex06_writer0059.bpmn,task,4,Flow Objects
+ex06_writer0059.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0059.bpmn,process,1,Uncategorized
+ex06_writer0059.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0059.bpmn,startEvent,1,Flow Objects
+ex06_writer0059.bpmn,endEvent,1,Flow Objects
+ex06_writer0059.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0060.bpmn,incoming,13,Connecting Objects
+ex06_writer0060.bpmn,outgoing,13,Connecting Objects
+ex06_writer0060.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0060.bpmn,task,8,Flow Objects
+ex06_writer0060.bpmn,targetRef,8,Connecting Objects
+ex06_writer0060.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0060.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0060.bpmn,property,5,Uncategorized
+ex06_writer0060.bpmn,dataStoreReference,5,Uncategorized
+ex06_writer0060.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0060.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0060.bpmn,process,1,Uncategorized
+ex06_writer0060.bpmn,endEvent,1,Flow Objects
+ex06_writer0060.bpmn,startEvent,1,Flow Objects
+ex06_writer0061.bpmn,incoming,11,Connecting Objects
+ex06_writer0061.bpmn,outgoing,11,Connecting Objects
+ex06_writer0061.bpmn,sequenceFlow,11,Connecting Objects
+ex06_writer0061.bpmn,task,7,Flow Objects
+ex06_writer0061.bpmn,targetRef,5,Connecting Objects
+ex06_writer0061.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0061.bpmn,dataObject,4,Artifacts
+ex06_writer0061.bpmn,property,3,Uncategorized
+ex06_writer0061.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0061.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0061.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0061.bpmn,process,1,Uncategorized
+ex06_writer0061.bpmn,endEvent,1,Flow Objects
+ex06_writer0061.bpmn,startEvent,1,Flow Objects
+ex06_writer0061.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0062.bpmn,outgoing,13,Connecting Objects
+ex06_writer0062.bpmn,incoming,13,Connecting Objects
+ex06_writer0062.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0062.bpmn,task,8,Flow Objects
+ex06_writer0062.bpmn,targetRef,6,Connecting Objects
+ex06_writer0062.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0062.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0062.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0062.bpmn,dataObject,2,Artifacts
+ex06_writer0062.bpmn,process,1,Uncategorized
+ex06_writer0062.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0062.bpmn,property,1,Uncategorized
+ex06_writer0062.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0062.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0062.bpmn,startEvent,1,Flow Objects
+ex06_writer0062.bpmn,endEvent,1,Flow Objects
+ex06_writer0062.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0063.bpmn,incoming,13,Connecting Objects
+ex06_writer0063.bpmn,outgoing,13,Connecting Objects
+ex06_writer0063.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0063.bpmn,targetRef,8,Connecting Objects
+ex06_writer0063.bpmn,task,7,Flow Objects
+ex06_writer0063.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0063.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0063.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0063.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0063.bpmn,dataObject,4,Artifacts
+ex06_writer0063.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0063.bpmn,property,2,Uncategorized
+ex06_writer0063.bpmn,process,1,Uncategorized
+ex06_writer0063.bpmn,endEvent,1,Flow Objects
+ex06_writer0063.bpmn,startEvent,1,Flow Objects
+ex06_writer0064.bpmn,flowNodeRef,7,Uncategorized
+ex06_writer0064.bpmn,incoming,7,Connecting Objects
+ex06_writer0064.bpmn,outgoing,7,Connecting Objects
+ex06_writer0064.bpmn,sequenceFlow,7,Connecting Objects
+ex06_writer0064.bpmn,targetRef,6,Connecting Objects
+ex06_writer0064.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0064.bpmn,task,4,Flow Objects
+ex06_writer0064.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0064.bpmn,startEvent,3,Flow Objects
+ex06_writer0064.bpmn,property,2,Uncategorized
+ex06_writer0064.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0064.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0064.bpmn,lane,2,Swim Lanes
+ex06_writer0064.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0064.bpmn,dataObject,2,Artifacts
+ex06_writer0064.bpmn,process,1,Uncategorized
+ex06_writer0064.bpmn,laneSet,1,Swim Lanes
+ex06_writer0064.bpmn,endEvent,1,Flow Objects
+ex06_writer0066.bpmn,incoming,9,Connecting Objects
+ex06_writer0066.bpmn,outgoing,9,Connecting Objects
+ex06_writer0066.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0066.bpmn,task,4,Flow Objects
+ex06_writer0066.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0066.bpmn,startEvent,3,Flow Objects
+ex06_writer0066.bpmn,targetRef,3,Connecting Objects
+ex06_writer0066.bpmn,dataObject,3,Artifacts
+ex06_writer0066.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0066.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0066.bpmn,process,1,Uncategorized
+ex06_writer0066.bpmn,property,1,Uncategorized
+ex06_writer0066.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0066.bpmn,endEvent,1,Flow Objects
+ex06_writer0066.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0067.bpmn,targetRef,11,Connecting Objects
+ex06_writer0067.bpmn,incoming,9,Connecting Objects
+ex06_writer0067.bpmn,outgoing,9,Connecting Objects
+ex06_writer0067.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0067.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0067.bpmn,dataObjectReference,6,Uncategorized
+ex06_writer0067.bpmn,dataObject,6,Artifacts
+ex06_writer0067.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0067.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0067.bpmn,messageEventDefinition,4,Uncategorized
+ex06_writer0067.bpmn,property,3,Uncategorized
+ex06_writer0067.bpmn,task,3,Flow Objects
+ex06_writer0067.bpmn,startEvent,3,Flow Objects
+ex06_writer0067.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0067.bpmn,process,1,Uncategorized
+ex06_writer0067.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0067.bpmn,endEvent,1,Flow Objects
+ex06_writer0067.bpmn,intermediateThrowEvent,1,Flow Objects
+ex06_writer0068.bpmn,incoming,13,Connecting Objects
+ex06_writer0068.bpmn,outgoing,13,Connecting Objects
+ex06_writer0068.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0068.bpmn,targetRef,7,Connecting Objects
+ex06_writer0068.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0068.bpmn,task,4,Flow Objects
+ex06_writer0068.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0068.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0068.bpmn,process,2,Uncategorized
+ex06_writer0068.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0068.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0068.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0068.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0068.bpmn,dataObject,2,Artifacts
+ex06_writer0068.bpmn,property,1,Uncategorized
+ex06_writer0068.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0068.bpmn,startEvent,1,Flow Objects
+ex06_writer0068.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0068.bpmn,subProcess,1,Flow Objects
+ex06_writer0069.bpmn,outgoing,11,Connecting Objects
+ex06_writer0069.bpmn,incoming,11,Connecting Objects
+ex06_writer0069.bpmn,sequenceFlow,11,Connecting Objects
+ex06_writer0069.bpmn,task,5,Flow Objects
+ex06_writer0069.bpmn,targetRef,4,Connecting Objects
+ex06_writer0069.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0069.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0069.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0069.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0069.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0069.bpmn,dataObject,2,Artifacts
+ex06_writer0069.bpmn,process,1,Uncategorized
+ex06_writer0069.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0069.bpmn,property,1,Uncategorized
+ex06_writer0069.bpmn,startEvent,1,Flow Objects
+ex06_writer0069.bpmn,endEvent,1,Flow Objects
+ex06_writer0070.bpmn,incoming,10,Connecting Objects
+ex06_writer0070.bpmn,outgoing,10,Connecting Objects
+ex06_writer0070.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0070.bpmn,targetRef,8,Connecting Objects
+ex06_writer0070.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0070.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0070.bpmn,property,4,Uncategorized
+ex06_writer0070.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0070.bpmn,task,4,Flow Objects
+ex06_writer0070.bpmn,dataObject,4,Artifacts
+ex06_writer0070.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0070.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0070.bpmn,process,1,Uncategorized
+ex06_writer0070.bpmn,endEvent,1,Flow Objects
+ex06_writer0070.bpmn,startEvent,1,Flow Objects
+ex06_writer0071.bpmn,targetRef,13,Connecting Objects
+ex06_writer0071.bpmn,incoming,12,Connecting Objects
+ex06_writer0071.bpmn,outgoing,12,Connecting Objects
+ex06_writer0071.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0071.bpmn,dataInputAssociation,8,Uncategorized
+ex06_writer0071.bpmn,sourceRef,8,Connecting Objects
+ex06_writer0071.bpmn,property,7,Uncategorized
+ex06_writer0071.bpmn,task,7,Flow Objects
+ex06_writer0071.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0071.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0071.bpmn,dataObject,5,Artifacts
+ex06_writer0071.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0071.bpmn,process,1,Uncategorized
+ex06_writer0071.bpmn,startEvent,1,Flow Objects
+ex06_writer0072.bpmn,outgoing,10,Connecting Objects
+ex06_writer0072.bpmn,incoming,10,Connecting Objects
+ex06_writer0072.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0072.bpmn,dataObjectReference,7,Uncategorized
+ex06_writer0072.bpmn,dataObject,7,Artifacts
+ex06_writer0072.bpmn,task,6,Flow Objects
+ex06_writer0072.bpmn,targetRef,2,Connecting Objects
+ex06_writer0072.bpmn,process,1,Uncategorized
+ex06_writer0072.bpmn,dataOutputAssociation,1,Uncategorized
+ex06_writer0072.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0072.bpmn,property,1,Uncategorized
+ex06_writer0072.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0072.bpmn,startEvent,1,Flow Objects
+ex06_writer0072.bpmn,endEvent,1,Flow Objects
+ex06_writer0072.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0072.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0073.bpmn,incoming,13,Connecting Objects
+ex06_writer0073.bpmn,outgoing,13,Connecting Objects
+ex06_writer0073.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0073.bpmn,task,7,Flow Objects
+ex06_writer0073.bpmn,targetRef,7,Connecting Objects
+ex06_writer0073.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0073.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0073.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0073.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0073.bpmn,dataObject,3,Artifacts
+ex06_writer0073.bpmn,property,2,Uncategorized
+ex06_writer0073.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0073.bpmn,process,1,Uncategorized
+ex06_writer0073.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0073.bpmn,endEvent,1,Flow Objects
+ex06_writer0073.bpmn,startEvent,1,Flow Objects
+ex06_writer0073.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0074.bpmn,outgoing,13,Connecting Objects
+ex06_writer0074.bpmn,incoming,13,Connecting Objects
+ex06_writer0074.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0074.bpmn,task,4,Flow Objects
+ex06_writer0074.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0074.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0074.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0074.bpmn,process,1,Uncategorized
+ex06_writer0074.bpmn,startEvent,1,Flow Objects
+ex06_writer0074.bpmn,endEvent,1,Flow Objects
+ex06_writer0075.bpmn,incoming,12,Connecting Objects
+ex06_writer0075.bpmn,outgoing,12,Connecting Objects
+ex06_writer0075.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0075.bpmn,task,7,Flow Objects
+ex06_writer0075.bpmn,targetRef,3,Connecting Objects
+ex06_writer0075.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0075.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0075.bpmn,process,1,Uncategorized
+ex06_writer0075.bpmn,property,1,Uncategorized
+ex06_writer0075.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0075.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0075.bpmn,endEvent,1,Flow Objects
+ex06_writer0075.bpmn,startEvent,1,Flow Objects
+ex06_writer0075.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0075.bpmn,dataObject,1,Artifacts
+ex06_writer0076.bpmn,incoming,10,Connecting Objects
+ex06_writer0076.bpmn,outgoing,10,Connecting Objects
+ex06_writer0076.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0076.bpmn,task,5,Flow Objects
+ex06_writer0076.bpmn,property,2,Uncategorized
+ex06_writer0076.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0076.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0076.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0076.bpmn,targetRef,2,Connecting Objects
+ex06_writer0076.bpmn,process,1,Uncategorized
+ex06_writer0076.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0076.bpmn,textAnnotation,1,Uncategorized
+ex06_writer0076.bpmn,text,1,Uncategorized
+ex06_writer0076.bpmn,endEvent,1,Flow Objects
+ex06_writer0076.bpmn,startEvent,1,Flow Objects
+ex06_writer0076.bpmn,association,1,Flow Objects
+ex06_writer0077.bpmn,incoming,10,Connecting Objects
+ex06_writer0077.bpmn,outgoing,10,Connecting Objects
+ex06_writer0077.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0077.bpmn,task,4,Flow Objects
+ex06_writer0077.bpmn,targetRef,4,Connecting Objects
+ex06_writer0077.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0077.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0077.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0077.bpmn,dataObject,2,Artifacts
+ex06_writer0077.bpmn,process,1,Uncategorized
+ex06_writer0077.bpmn,property,1,Uncategorized
+ex06_writer0077.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0077.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0077.bpmn,endEvent,1,Flow Objects
+ex06_writer0077.bpmn,startEvent,1,Flow Objects
+ex06_writer0077.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0078.bpmn,incoming,9,Connecting Objects
+ex06_writer0078.bpmn,outgoing,9,Connecting Objects
+ex06_writer0078.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0078.bpmn,task,4,Flow Objects
+ex06_writer0078.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0078.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0078.bpmn,targetRef,2,Connecting Objects
+ex06_writer0078.bpmn,dataObject,2,Artifacts
+ex06_writer0078.bpmn,process,1,Uncategorized
+ex06_writer0078.bpmn,dataOutputAssociation,1,Uncategorized
+ex06_writer0078.bpmn,property,1,Uncategorized
+ex06_writer0078.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0078.bpmn,endEvent,1,Flow Objects
+ex06_writer0078.bpmn,startEvent,1,Flow Objects
+ex06_writer0078.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0079.bpmn,outgoing,13,Connecting Objects
+ex06_writer0079.bpmn,incoming,13,Connecting Objects
+ex06_writer0079.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0079.bpmn,task,7,Flow Objects
+ex06_writer0079.bpmn,targetRef,4,Connecting Objects
+ex06_writer0079.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0079.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0079.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0079.bpmn,dataObject,3,Artifacts
+ex06_writer0079.bpmn,process,1,Uncategorized
+ex06_writer0079.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0079.bpmn,property,1,Uncategorized
+ex06_writer0079.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0079.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0079.bpmn,startEvent,1,Flow Objects
+ex06_writer0079.bpmn,endEvent,1,Flow Objects
+ex06_writer0079.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0081.bpmn,outgoing,12,Connecting Objects
+ex06_writer0081.bpmn,incoming,12,Connecting Objects
+ex06_writer0081.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0081.bpmn,targetRef,8,Connecting Objects
+ex06_writer0081.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0081.bpmn,task,4,Flow Objects
+ex06_writer0081.bpmn,property,3,Uncategorized
+ex06_writer0081.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0081.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0081.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0081.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0081.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0081.bpmn,dataObject,3,Artifacts
+ex06_writer0081.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0081.bpmn,process,1,Uncategorized
+ex06_writer0081.bpmn,startEvent,1,Flow Objects
+ex06_writer0081.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0083.bpmn,targetRef,16,Connecting Objects
+ex06_writer0083.bpmn,incoming,12,Connecting Objects
+ex06_writer0083.bpmn,outgoing,12,Connecting Objects
+ex06_writer0083.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0083.bpmn,dataInputAssociation,8,Uncategorized
+ex06_writer0083.bpmn,dataOutputAssociation,8,Uncategorized
+ex06_writer0083.bpmn,sourceRef,8,Connecting Objects
+ex06_writer0083.bpmn,property,7,Uncategorized
+ex06_writer0083.bpmn,task,7,Flow Objects
+ex06_writer0083.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0083.bpmn,dataObject,5,Artifacts
+ex06_writer0083.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0083.bpmn,process,1,Uncategorized
+ex06_writer0083.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0083.bpmn,laneSet,1,Swim Lanes
+ex06_writer0083.bpmn,startEvent,1,Flow Objects
+ex06_writer0083.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0084.bpmn,outgoing,9,Connecting Objects
+ex06_writer0084.bpmn,incoming,9,Connecting Objects
+ex06_writer0084.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0084.bpmn,targetRef,8,Connecting Objects
+ex06_writer0084.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0084.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0084.bpmn,property,5,Uncategorized
+ex06_writer0084.bpmn,task,4,Flow Objects
+ex06_writer0084.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0084.bpmn,dataObject,3,Artifacts
+ex06_writer0084.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0084.bpmn,parallelGateway,2,Flow Objects
+ex06_writer0084.bpmn,process,1,Uncategorized
+ex06_writer0084.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0084.bpmn,startEvent,1,Flow Objects
+ex06_writer0084.bpmn,endEvent,1,Flow Objects
+ex06_writer0085.bpmn,incoming,12,Connecting Objects
+ex06_writer0085.bpmn,outgoing,12,Connecting Objects
+ex06_writer0085.bpmn,targetRef,12,Connecting Objects
+ex06_writer0085.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0085.bpmn,task,7,Flow Objects
+ex06_writer0085.bpmn,dataOutputAssociation,6,Uncategorized
+ex06_writer0085.bpmn,dataInputAssociation,6,Uncategorized
+ex06_writer0085.bpmn,sourceRef,6,Connecting Objects
+ex06_writer0085.bpmn,property,4,Uncategorized
+ex06_writer0085.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0085.bpmn,dataObject,4,Artifacts
+ex06_writer0085.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0085.bpmn,process,1,Uncategorized
+ex06_writer0085.bpmn,startEvent,1,Flow Objects
+ex06_writer0085.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0086.bpmn,outgoing,13,Connecting Objects
+ex06_writer0086.bpmn,incoming,13,Connecting Objects
+ex06_writer0086.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0086.bpmn,task,7,Flow Objects
+ex06_writer0086.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0086.bpmn,targetRef,3,Connecting Objects
+ex06_writer0086.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0086.bpmn,process,1,Uncategorized
+ex06_writer0086.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0086.bpmn,property,1,Uncategorized
+ex06_writer0086.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0086.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0086.bpmn,startEvent,1,Flow Objects
+ex06_writer0086.bpmn,endEvent,1,Flow Objects
+ex06_writer0086.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0086.bpmn,dataObject,1,Artifacts
+ex06_writer0087.bpmn,incoming,13,Connecting Objects
+ex06_writer0087.bpmn,outgoing,13,Connecting Objects
+ex06_writer0087.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0087.bpmn,task,7,Flow Objects
+ex06_writer0087.bpmn,targetRef,4,Connecting Objects
+ex06_writer0087.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0087.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0087.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0087.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0087.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0087.bpmn,dataObject,2,Artifacts
+ex06_writer0087.bpmn,process,1,Uncategorized
+ex06_writer0087.bpmn,property,1,Uncategorized
+ex06_writer0087.bpmn,endEvent,1,Flow Objects
+ex06_writer0087.bpmn,startEvent,1,Flow Objects
+ex06_writer0088.bpmn,flowNodeRef,10,Uncategorized
+ex06_writer0088.bpmn,incoming,9,Connecting Objects
+ex06_writer0088.bpmn,outgoing,9,Connecting Objects
+ex06_writer0088.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0088.bpmn,messageEventDefinition,4,Uncategorized
+ex06_writer0088.bpmn,targetRef,4,Connecting Objects
+ex06_writer0088.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0088.bpmn,task,3,Flow Objects
+ex06_writer0088.bpmn,startEvent,3,Flow Objects
+ex06_writer0088.bpmn,lane,2,Swim Lanes
+ex06_writer0088.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0088.bpmn,process,1,Uncategorized
+ex06_writer0088.bpmn,property,1,Uncategorized
+ex06_writer0088.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0088.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0088.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0088.bpmn,laneSet,1,Swim Lanes
+ex06_writer0088.bpmn,intermediateThrowEvent,1,Flow Objects
+ex06_writer0088.bpmn,endEvent,1,Flow Objects
+ex06_writer0088.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0088.bpmn,dataObject,1,Artifacts
+ex06_writer0089.bpmn,outgoing,11,Connecting Objects
+ex06_writer0089.bpmn,incoming,11,Connecting Objects
+ex06_writer0089.bpmn,sequenceFlow,11,Connecting Objects
+ex06_writer0089.bpmn,task,5,Flow Objects
+ex06_writer0089.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0089.bpmn,process,2,Uncategorized
+ex06_writer0089.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0089.bpmn,startEvent,1,Flow Objects
+ex06_writer0089.bpmn,endEvent,1,Flow Objects
+ex06_writer0090.bpmn,incoming,13,Connecting Objects
+ex06_writer0090.bpmn,outgoing,13,Connecting Objects
+ex06_writer0090.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0090.bpmn,task,7,Flow Objects
+ex06_writer0090.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0090.bpmn,process,1,Uncategorized
+ex06_writer0090.bpmn,property,1,Uncategorized
+ex06_writer0090.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0090.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0090.bpmn,endEvent,1,Flow Objects
+ex06_writer0090.bpmn,startEvent,1,Flow Objects
+ex06_writer0090.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0090.bpmn,targetRef,1,Connecting Objects
+ex06_writer0090.bpmn,dataObject,1,Artifacts
+ex06_writer0091.bpmn,incoming,12,Connecting Objects
+ex06_writer0091.bpmn,outgoing,12,Connecting Objects
+ex06_writer0091.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0091.bpmn,task,7,Flow Objects
+ex06_writer0091.bpmn,targetRef,5,Connecting Objects
+ex06_writer0091.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0091.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0091.bpmn,dataObject,3,Artifacts
+ex06_writer0091.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0091.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0091.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0091.bpmn,process,1,Uncategorized
+ex06_writer0091.bpmn,property,1,Uncategorized
+ex06_writer0091.bpmn,endEvent,1,Flow Objects
+ex06_writer0091.bpmn,startEvent,1,Flow Objects
+ex06_writer0092.bpmn,incoming,12,Connecting Objects
+ex06_writer0092.bpmn,outgoing,12,Connecting Objects
+ex06_writer0092.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0092.bpmn,targetRef,5,Connecting Objects
+ex06_writer0092.bpmn,task,4,Flow Objects
+ex06_writer0092.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0092.bpmn,dataObjectReference,3,Uncategorized
+ex06_writer0092.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0092.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0092.bpmn,dataObject,3,Artifacts
+ex06_writer0092.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0092.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0092.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0092.bpmn,process,1,Uncategorized
+ex06_writer0092.bpmn,property,1,Uncategorized
+ex06_writer0092.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0092.bpmn,startEvent,1,Flow Objects
+ex06_writer0093.bpmn,outgoing,10,Connecting Objects
+ex06_writer0093.bpmn,incoming,10,Connecting Objects
+ex06_writer0093.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0093.bpmn,targetRef,6,Connecting Objects
+ex06_writer0093.bpmn,task,4,Flow Objects
+ex06_writer0093.bpmn,property,3,Uncategorized
+ex06_writer0093.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0093.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0093.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0093.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0093.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0093.bpmn,dataObject,2,Artifacts
+ex06_writer0093.bpmn,process,1,Uncategorized
+ex06_writer0093.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0093.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0093.bpmn,startEvent,1,Flow Objects
+ex06_writer0093.bpmn,endEvent,1,Flow Objects
+ex06_writer0094.bpmn,incoming,12,Connecting Objects
+ex06_writer0094.bpmn,outgoing,12,Connecting Objects
+ex06_writer0094.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0094.bpmn,task,4,Flow Objects
+ex06_writer0094.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0094.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0094.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0094.bpmn,targetRef,2,Connecting Objects
+ex06_writer0094.bpmn,process,1,Uncategorized
+ex06_writer0094.bpmn,dataObjectReference,1,Uncategorized
+ex06_writer0094.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0094.bpmn,startEvent,1,Flow Objects
+ex06_writer0094.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0094.bpmn,endEvent,1,Flow Objects
+ex06_writer0094.bpmn,dataObject,1,Artifacts
+ex06_writer0095.bpmn,outgoing,11,Connecting Objects
+ex06_writer0095.bpmn,incoming,11,Connecting Objects
+ex06_writer0095.bpmn,sequenceFlow,11,Connecting Objects
+ex06_writer0095.bpmn,targetRef,10,Connecting Objects
+ex06_writer0095.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0095.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0095.bpmn,task,5,Flow Objects
+ex06_writer0095.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0095.bpmn,property,4,Uncategorized
+ex06_writer0095.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0095.bpmn,dataObject,4,Artifacts
+ex06_writer0095.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0095.bpmn,messageEventDefinition,2,Uncategorized
+ex06_writer0095.bpmn,startEvent,2,Flow Objects
+ex06_writer0095.bpmn,process,1,Uncategorized
+ex06_writer0095.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0095.bpmn,endEvent,1,Flow Objects
+ex06_writer0096.bpmn,incoming,10,Connecting Objects
+ex06_writer0096.bpmn,outgoing,10,Connecting Objects
+ex06_writer0096.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0096.bpmn,task,7,Flow Objects
+ex06_writer0096.bpmn,targetRef,4,Connecting Objects
+ex06_writer0096.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0096.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0096.bpmn,dataObject,2,Artifacts
+ex06_writer0096.bpmn,process,1,Uncategorized
+ex06_writer0096.bpmn,property,1,Uncategorized
+ex06_writer0096.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0096.bpmn,startEvent,1,Flow Objects
+ex06_writer0096.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0096.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0097.bpmn,outgoing,12,Connecting Objects
+ex06_writer0097.bpmn,sequenceFlow,12,Connecting Objects
+ex06_writer0097.bpmn,incoming,12,Connecting Objects
+ex06_writer0097.bpmn,targetRef,12,Connecting Objects
+ex06_writer0097.bpmn,dataOutputAssociation,7,Uncategorized
+ex06_writer0097.bpmn,dataObjectReference,7,Uncategorized
+ex06_writer0097.bpmn,dataObject,7,Artifacts
+ex06_writer0097.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0097.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0097.bpmn,property,4,Uncategorized
+ex06_writer0097.bpmn,task,4,Flow Objects
+ex06_writer0097.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0097.bpmn,intermediateCatchEvent,3,Flow Objects
+ex06_writer0097.bpmn,process,1,Uncategorized
+ex06_writer0097.bpmn,startEvent,1,Flow Objects
+ex06_writer0097.bpmn,endEvent,1,Flow Objects
+ex06_writer0097.bpmn,eventBasedGateway,1,Flow Objects
+ex06_writer0097.bpmn,exclusiveGateway,1,Flow Objects
+ex06_writer0098.bpmn,targetRef,14,Connecting Objects
+ex06_writer0098.bpmn,incoming,13,Connecting Objects
+ex06_writer0098.bpmn,outgoing,13,Connecting Objects
+ex06_writer0098.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0098.bpmn,dataOutputAssociation,9,Uncategorized
+ex06_writer0098.bpmn,task,7,Flow Objects
+ex06_writer0098.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0098.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0098.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0098.bpmn,dataObject,4,Artifacts
+ex06_writer0098.bpmn,property,3,Uncategorized
+ex06_writer0098.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0098.bpmn,dataStoreReference,2,Uncategorized
+ex06_writer0098.bpmn,process,1,Uncategorized
+ex06_writer0098.bpmn,endEvent,1,Flow Objects
+ex06_writer0098.bpmn,startEvent,1,Flow Objects
+ex06_writer0099.bpmn,outgoing,13,Connecting Objects
+ex06_writer0099.bpmn,incoming,13,Connecting Objects
+ex06_writer0099.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0099.bpmn,task,7,Flow Objects
+ex06_writer0099.bpmn,targetRef,5,Connecting Objects
+ex06_writer0099.bpmn,dataInputAssociation,3,Uncategorized
+ex06_writer0099.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0099.bpmn,sourceRef,3,Connecting Objects
+ex06_writer0099.bpmn,dataOutputAssociation,2,Uncategorized
+ex06_writer0099.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0099.bpmn,dataObject,2,Artifacts
+ex06_writer0099.bpmn,process,1,Uncategorized
+ex06_writer0099.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0099.bpmn,property,1,Uncategorized
+ex06_writer0099.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0099.bpmn,startEvent,1,Flow Objects
+ex06_writer0099.bpmn,endEvent,1,Flow Objects
+ex06_writer0100.bpmn,outgoing,13,Connecting Objects
+ex06_writer0100.bpmn,incoming,13,Connecting Objects
+ex06_writer0100.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0100.bpmn,targetRef,10,Connecting Objects
+ex06_writer0100.bpmn,task,7,Flow Objects
+ex06_writer0100.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0100.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0100.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0100.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0100.bpmn,dataObject,5,Artifacts
+ex06_writer0100.bpmn,property,3,Uncategorized
+ex06_writer0100.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0100.bpmn,process,1,Uncategorized
+ex06_writer0100.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0100.bpmn,startEvent,1,Flow Objects
+ex06_writer0100.bpmn,endEvent,1,Flow Objects
+ex06_writer0101.bpmn,incoming,10,Connecting Objects
+ex06_writer0101.bpmn,outgoing,10,Connecting Objects
+ex06_writer0101.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0101.bpmn,flowNodeRef,9,Uncategorized
+ex06_writer0101.bpmn,targetRef,7,Connecting Objects
+ex06_writer0101.bpmn,property,4,Uncategorized
+ex06_writer0101.bpmn,dataInputAssociation,4,Uncategorized
+ex06_writer0101.bpmn,task,4,Flow Objects
+ex06_writer0101.bpmn,sourceRef,4,Connecting Objects
+ex06_writer0101.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0101.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0101.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0101.bpmn,lane,2,Swim Lanes
+ex06_writer0101.bpmn,dataObject,2,Artifacts
+ex06_writer0101.bpmn,process,1,Uncategorized
+ex06_writer0101.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0101.bpmn,laneSet,1,Swim Lanes
+ex06_writer0101.bpmn,endEvent,1,Flow Objects
+ex06_writer0101.bpmn,startEvent,1,Flow Objects
+ex06_writer0102.bpmn,incoming,13,Connecting Objects
+ex06_writer0102.bpmn,outgoing,13,Connecting Objects
+ex06_writer0102.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0102.bpmn,task,7,Flow Objects
+ex06_writer0102.bpmn,targetRef,4,Connecting Objects
+ex06_writer0102.bpmn,dataOutputAssociation,3,Uncategorized
+ex06_writer0102.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0102.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0102.bpmn,dataObject,2,Artifacts
+ex06_writer0102.bpmn,process,1,Uncategorized
+ex06_writer0102.bpmn,property,1,Uncategorized
+ex06_writer0102.bpmn,dataInputAssociation,1,Uncategorized
+ex06_writer0102.bpmn,endEvent,1,Flow Objects
+ex06_writer0102.bpmn,startEvent,1,Flow Objects
+ex06_writer0102.bpmn,sourceRef,1,Connecting Objects
+ex06_writer0103.bpmn,incoming,17,Connecting Objects
+ex06_writer0103.bpmn,outgoing,17,Connecting Objects
+ex06_writer0103.bpmn,sequenceFlow,17,Connecting Objects
+ex06_writer0103.bpmn,task,7,Flow Objects
+ex06_writer0103.bpmn,targetRef,6,Connecting Objects
+ex06_writer0103.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0103.bpmn,dataObject,5,Artifacts
+ex06_writer0103.bpmn,dataOutputAssociation,4,Uncategorized
+ex06_writer0103.bpmn,property,2,Uncategorized
+ex06_writer0103.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0103.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0103.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0103.bpmn,process,1,Uncategorized
+ex06_writer0103.bpmn,endEvent,1,Flow Objects
+ex06_writer0103.bpmn,startEvent,1,Flow Objects
+ex06_writer0103.bpmn,parallelGateway,1,Flow Objects
+ex06_writer0104.bpmn,targetRef,12,Connecting Objects
+ex06_writer0104.bpmn,outgoing,10,Connecting Objects
+ex06_writer0104.bpmn,incoming,10,Connecting Objects
+ex06_writer0104.bpmn,sequenceFlow,10,Connecting Objects
+ex06_writer0104.bpmn,dataInputAssociation,7,Uncategorized
+ex06_writer0104.bpmn,sourceRef,7,Connecting Objects
+ex06_writer0104.bpmn,property,5,Uncategorized
+ex06_writer0104.bpmn,dataOutputAssociation,5,Uncategorized
+ex06_writer0104.bpmn,dataObjectReference,5,Uncategorized
+ex06_writer0104.bpmn,task,5,Flow Objects
+ex06_writer0104.bpmn,dataObject,5,Artifacts
+ex06_writer0104.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0104.bpmn,process,1,Uncategorized
+ex06_writer0104.bpmn,messageEventDefinition,1,Uncategorized
+ex06_writer0104.bpmn,dataStoreReference,1,Uncategorized
+ex06_writer0104.bpmn,startEvent,1,Flow Objects
+ex06_writer0104.bpmn,endEvent,1,Flow Objects
+ex06_writer0105.bpmn,outgoing,13,Connecting Objects
+ex06_writer0105.bpmn,incoming,13,Connecting Objects
+ex06_writer0105.bpmn,sequenceFlow,13,Connecting Objects
+ex06_writer0105.bpmn,task,7,Flow Objects
+ex06_writer0105.bpmn,exclusiveGateway,3,Flow Objects
+ex06_writer0105.bpmn,targetRef,3,Connecting Objects
+ex06_writer0105.bpmn,property,2,Uncategorized
+ex06_writer0105.bpmn,dataInputAssociation,2,Uncategorized
+ex06_writer0105.bpmn,dataObjectReference,2,Uncategorized
+ex06_writer0105.bpmn,sourceRef,2,Connecting Objects
+ex06_writer0105.bpmn,dataObject,2,Artifacts
+ex06_writer0105.bpmn,process,1,Uncategorized
+ex06_writer0105.bpmn,dataOutputAssociation,1,Uncategorized
+ex06_writer0105.bpmn,startEvent,1,Flow Objects
+ex06_writer0105.bpmn,endEvent,1,Flow Objects
+ex06_writer0106.bpmn,targetRef,12,Connecting Objects
+ex06_writer0106.bpmn,outgoing,9,Connecting Objects
+ex06_writer0106.bpmn,incoming,9,Connecting Objects
+ex06_writer0106.bpmn,sequenceFlow,9,Connecting Objects
+ex06_writer0106.bpmn,dataOutputAssociation,7,Uncategorized
+ex06_writer0106.bpmn,dataInputAssociation,5,Uncategorized
+ex06_writer0106.bpmn,sourceRef,5,Connecting Objects
+ex06_writer0106.bpmn,property,4,Uncategorized
+ex06_writer0106.bpmn,dataObjectReference,4,Uncategorized
+ex06_writer0106.bpmn,task,4,Flow Objects
+ex06_writer0106.bpmn,dataObject,4,Artifacts
+ex06_writer0106.bpmn,messageEventDefinition,3,Uncategorized
+ex06_writer0106.bpmn,startEvent,3,Flow Objects
+ex06_writer0106.bpmn,exclusiveGateway,2,Flow Objects
+ex06_writer0106.bpmn,process,1,Uncategorized
+ex06_writer0106.bpmn,endEvent,1,Flow Objects
