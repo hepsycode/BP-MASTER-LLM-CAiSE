@@ -1,0 +1,6 @@
+event	SequenceFlow targetRef SET
+event	UserTask incoming ADD
+event	UserTask incoming ADD
+event	EndEvent name SET
+event	UserTask name SET
+event	SequenceFlow sourceRef SET

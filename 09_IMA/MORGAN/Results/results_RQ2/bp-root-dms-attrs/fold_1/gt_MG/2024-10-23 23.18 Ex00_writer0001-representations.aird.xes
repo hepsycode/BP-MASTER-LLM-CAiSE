@@ -1,0 +1,2 @@
+event	StartEvent outgoing	ADD
+event	StartEvent name SET

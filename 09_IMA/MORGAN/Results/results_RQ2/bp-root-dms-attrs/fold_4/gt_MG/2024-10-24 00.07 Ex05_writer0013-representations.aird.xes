@@ -1,0 +1,11 @@
+event	SequenceFlow sourceRef SET
+event	Lane flowNodeRefs ADD
+event	SequenceFlow targetRef SET
+event	Process flowElements ADD
+event	UserTask incoming ADD
+event	ExtensionAttributeValue value SET
+event	Lane flowNodeRefs ADD
+event	DataStore name SET
+event	SequenceFlow sourceRef SET
+event	Association targetRef SETevent	Process flowElements ADD
+event	Lane extensionValues ADD

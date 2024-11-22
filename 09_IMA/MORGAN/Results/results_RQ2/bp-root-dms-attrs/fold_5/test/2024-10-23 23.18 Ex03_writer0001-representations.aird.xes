@@ -1,0 +1,4 @@
+event	UserTask outgoing ADD
+event	SendTask incoming ADD
+event	SequenceFlow targetRef SET
+event	SequenceFlow sourceRef SET
