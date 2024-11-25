@@ -13,8 +13,8 @@ PARSED_DATA = "/test_xes_generated/"
 REC_DST = "recommendations/"
 
 # crossfold paths
-XES_TRAIN_SRC = "Datasets/Dataset_D2_MS/"
-CROSS_ROOT_STD = "Results/results_RQ2/bp-root-dms-class/"
+XES_TRAIN_SRC = "Datasets/Dataset_D2/"
+CROSS_ROOT_STD = "Results/results_RQ2/bp-root-d2-class/"
 RESULTS_CROSS_FOLD = "Results/"
 
 XES_TRAIN_CROSS_SRC = '/train/'
