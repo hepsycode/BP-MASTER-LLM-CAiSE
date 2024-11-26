@@ -1,0 +1,2 @@
+event ParallelGateway name SET
+event SequenceFlow sourceRef SET

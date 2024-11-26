@@ -1,0 +1,4 @@
+event	UserTask outgoing ADD
+event	Association sourceRef SET
+event	UserTask incoming ADD
+event	Lane flowNodeRefs ADD

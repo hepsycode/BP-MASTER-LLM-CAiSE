@@ -1,0 +1,7 @@
+event	SequenceFlow sourceRef SET
+event	EndEvent incoming ADD
+event	ExclusiveGateway incoming ADD
+event	UserTask name SET
+event	UserTask incoming ADD
+event	UserTask outgoing ADD
+event	UserTask incoming ADD

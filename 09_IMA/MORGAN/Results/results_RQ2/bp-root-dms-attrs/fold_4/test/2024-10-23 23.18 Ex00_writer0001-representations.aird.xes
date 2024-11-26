@@ -1,0 +1,9 @@
+event	SequenceFlow sourceRef SET
+event	UserTask outgoing ADD
+event	SequenceFlow targetRef SET
+event	LaneSet	lanes ADD
+event	Lane flowNodeRefs ADDevent	StartEvent name SET
+event	ExclusiveGateway incoming ADD
+event	UserTask incoming ADD
+event	UserTask incoming ADD
+event	UserTask outgoing ADD
