@@ -1,0 +1,12 @@
+filename,word_combination,occurrences_dir1,occurrences_dir2,hallucination_ratio
+Ex00,event,100,74,0.74
+Ex01,event,91,87,0.956043956
+Ex02,event,128,65,0.5078125
+Ex03,event,278,77,0.276978417
+Ex04,event,193,130,0.67357513
+Ex05,event,205,81,0.395121951
+Ex06,event,110,65,0.590909091
+Ex07,event,145,106,0.731034483
+Ex08,event,156,71,0.455128205
+Ex09,event,178,63,0.353932584
+Ex10,event,164,90,0.548780488
