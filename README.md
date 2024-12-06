@@ -3,7 +3,7 @@
 This repository presents our proposed approach and the corresponding replication package. The core concept involves integrating a Modeling Event Recorder (MER) framework within thre "BPMN Designer" Modeling System Environment. This framework captures and traces designer activities and modeling steps. Subsequently, it injects these events into Intelligent Modeling Assistants (IMAs), enabling the generation of personalized suggestions for BPMN modeling actions most relevant to each designer. The software architecture is shown in the Figure below.
 
 <p align="center">
-<img src="img/BPMN-Extended-scaled.png" width="711" height="700">
+<img src="img/BPMN-Extended-scaled.png" width="711" height="251">
 </p>
 
 The repository is organized as follows:
