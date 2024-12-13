@@ -11,7 +11,7 @@ The repository is organized as follows:
 1. **01-02-03 BPMN Designer** contains the BPMN Designer Graphical Modeling Workbench with the Modeling Event Recorder (MER).
 4. **04 Trace Parser**: This folder contains the results of parsing the MER tracing files for each BPMN model;
 5. **05-06-07 (a)(b) LLM Synthetic Dataset**: This folder contains two sub-folders for trace and model generation as follows:
-    - **D2 Trace Synthetic Dataset**: This contains the prompt schemas used and the results of the queries made to the considered LLMs from real and synthetic BPMN models;
-	- **D2 Trace Synthetic Dataset**: This contains the prompt schemas used and the results of the queries made to the considered LLMs for generating synthetic BPMN models;
+	- **D2 Trace Synthetic Dataset**: This contains the prompt schemas used and the results of the queries made to the considered LLMs from real and synthetic BPMN models;
+	- **D2 Model Synthetic Dataset**: This contains the prompt schemas used and the results of the queries made to the considered LLMs for generating synthetic BPMN models;
 6. **08 Trace Quality Checker**: This folder contains the Python code for extracting metrics related to the correctness, diversity, and hallucination of synthetic traces, along with the corresponding Jamovi projects for statistical analyses in the results_RQ1 folder for BPMN Designer;
 8. **09 IMA**: This folder contains MORGAN, the recommender system used in this work, with two folders containing the results related to RQ2 and RQ3 for BPMN Designer.
