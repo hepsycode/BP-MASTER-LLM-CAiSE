@@ -75,7 +75,7 @@ qgram_4_GPT4o = T_GPT4o{1:end,22:22}
 qgram_4_GPT4 = T_GPT4{1:end,22:22}
 qgram_4_GPT35 = T_GPT35{1:end,22:22}
 qgram_4_LLAMA3 = T_LLAMA3{1:end,22:22}
-qgram_4_MISTRAL = T_MISTRAL{1:end,22:22}
+
 
 % Cosine
 % cosine_1 = T{1:end,9:9}
@@ -85,7 +85,6 @@ cosine_4_GPT4o = T_GPT4o{1:end,10:10}
 cosine_4_GPT4 = T_GPT4{1:end,10:10}
 cosine_4_GPT35 = T_GPT35{1:end,10:10}
 cosine_4_LLAMA3 = T_LLAMA3{1:end,10:10}
-cosine_4_MISTRAL = T_MISTRAL{1:end,10:10}
 
 % Levenshtein
 figure
@@ -93,8 +92,8 @@ set(gca,'xaxisLocation','top')
 % setappdata(gcf, 'SubplotDefaultAxesLocation', [0, 0, 1, 1]);
 subplot(2,4,1,'align');
 % boxplot([Levenshtein_Sim_LLAMA3,Levenshtein_Sim_GPT35,Levenshtein_Sim_GPT4,Levenshtein_Sim_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [Levenshtein_Sim_MISTRAL,Levenshtein_Sim_LLAMA3,Levenshtein_Sim_GPT35,Levenshtein_Sim_GPT4,Levenshtein_Sim_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [Levenshtein_Sim_LLAMA3,Levenshtein_Sim_GPT35,Levenshtein_Sim_GPT4,Levenshtein_Sim_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 %pos = get(gcf, 'Position');
@@ -102,7 +101,7 @@ vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Levenshtein');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1]);
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -116,14 +115,14 @@ grid on
 % LCS Similarity
 subplot(2,4,2,'align');
 % boxplot([LCS_Sim_LLAMA3,LCS_Sim_GPT35,LCS_Sim_GPT4,LCS_Sim_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [LCS_Sim_MISTRAL,LCS_Sim_LLAMA3,LCS_Sim_GPT35,LCS_Sim_GPT4,LCS_Sim_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [LCS_Sim_LLAMA3,LCS_Sim_GPT35,LCS_Sim_GPT4,LCS_Sim_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('LCS');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -144,14 +143,14 @@ grid on
 % Overlap Similarity
 subplot(2,4,3,'align');
 % boxplot([Jaro_Winkler_Sim_LLAMA3,Jaro_Winkler_Sim_GPT35,Jaro_Winkler_Sim_GPT4,Jaro_Winkler_Sim_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [Overlap_MISTRAL,Overlap_LLAMA3,Overlap_GPT35,Overlap_GPT4,Overlap_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [Overlap_LLAMA3,Overlap_GPT35,Overlap_GPT4,Overlap_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Overlap');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -165,14 +164,14 @@ grid on
 % Jaro-Winkler Similarity
 subplot(2,4,4,'align');
 % boxplot([Jaro_Winkler_Sim_LLAMA3,Jaro_Winkler_Sim_GPT35,Jaro_Winkler_Sim_GPT4,Jaro_Winkler_Sim_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [Jaro_Winkler_Sim_MISTRAL,Jaro_Winkler_Sim_LLAMA3,Jaro_Winkler_Sim_GPT35,Jaro_Winkler_Sim_GPT4,Jaro_Winkler_Sim_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [Jaro_Winkler_Sim_LLAMA3,Jaro_Winkler_Sim_GPT35,Jaro_Winkler_Sim_GPT4,Jaro_Winkler_Sim_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Jaro-Winkler');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -186,14 +185,14 @@ grid on
 % Jaccard Similarity
 subplot(2,4,5,'align');
 % boxplot([jaccard_4_LLAMA3,jaccard_4_GPT35,jaccard_4_GPT4,jaccard_4_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [jaccard_4_MISTRAL,jaccard_4_LLAMA3,jaccard_4_GPT35,jaccard_4_GPT4,jaccard_4_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [jaccard_4_LLAMA3,jaccard_4_GPT35,jaccard_4_GPT4,jaccard_4_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Jaccard');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -207,14 +206,14 @@ grid on
 % Sorensen-Dice Similarity
 subplot(2,4,6,'align');
 % boxplot([sorensen_dice_4_LLAMA3,sorensen_dice_4_GPT35,sorensen_dice_4_GPT4,sorensen_dice_4_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [sorensen_dice_4_MISTRAL,sorensen_dice_4_LLAMA3,sorensen_dice_4_GPT35,sorensen_dice_4_GPT4,sorensen_dice_4_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [sorensen_dice_4_LLAMA3,sorensen_dice_4_GPT35,sorensen_dice_4_GPT4,sorensen_dice_4_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Dice');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -228,14 +227,14 @@ grid on
 % Q-Gram Similarity
 subplot(2,4,7,'align');
 % boxplot([qgram_4_LLAMA3,qgram_4_GPT35,qgram_4_GPT4,qgram_4_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [qgram_4_MISTRAL,qgram_4_LLAMA3,qgram_4_GPT35,qgram_4_GPT4,qgram_4_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [qgram_4_LLAMA3,qgram_4_GPT35,qgram_4_GPT4,qgram_4_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Q-Gram');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
@@ -249,14 +248,14 @@ grid on
 % Cosine Similarity
 subplot(2,4,8,'align');
 % boxplot([cosine_4_LLAMA3,cosine_4_GPT35,cosine_4_GPT4,cosine_4_GPT4o],'Labels',{'LLama3','GPT3.5','GPT4','GPT4o'},'Whisker',0.5)
-MPG = [cosine_4_MISTRAL,cosine_4_LLAMA3,cosine_4_GPT35,cosine_4_GPT4,cosine_4_GPT4o];
-Origin = {'Mistral','LLama3','GPT-3.5','GPT-4','GPT-4o'}
+MPG = [cosine_4_LLAMA3,cosine_4_GPT35,cosine_4_GPT4,cosine_4_GPT4o];
+Origin = {'LLama3','GPT-3.5','GPT-4','GPT-4o'}
 Origin = cellstr(Origin);
 vs = violinplot(MPG, Origin);
 set(gca,'fontsize',12)
 title('Cosine');
 xtickangle(45)
-xlim([0 6]);
+xlim([0 5]);
 ylim([0 1])
 yticks([0 0.25 0.5 0.75 1])
 set(findobj(gca,'type','line'),'linew',2);
